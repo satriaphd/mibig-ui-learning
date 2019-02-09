@@ -1,0 +1,88 @@
+<div class="container">
+
+  <div class="page-header">
+    <h1>MIBiG
+      <small>Repository of Known and Experimentally Verified Biosynthetic Gene Clusters</small>
+    </h1>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 well well-sm">
+      <a href="#!/query" class="fake-button">
+        <h3><i class="fa fa-search"></i> &nbsp; Search</h3>
+        for a specific BGC or compounds of interest
+      </a>
+    </div>
+    <div class="col-md-4 well well-sm">
+      <a href="#!/browse" class="fake-button">
+        <h3><i class="fa fa-compass"></i> &nbsp; Browse</h3>
+        the repository (<strong>ver {{$ctrl.version}}</strong>, {{$ctrl.totalBGC}} entries)
+      </a>
+    </div>
+    <div class="col-md-4 well well-sm">
+      <a href="#!/submit" class="fake-button">
+        <h3><i class="fa fa-paper-plane"></i> &nbsp; Submit</h3>
+        or update a BGC record
+      </a>
+    </div>
+  </div>
+
+  <div class="row">
+    <p>
+      The <strong>Minimum Information about a Biosynthetic Gene cluster (MIBiG)</strong> specification [<a href="#">ref</a>] provides a robust community standard for
+      annotations and metadata on biosynthetic gene clusters and their molecular products. MIBiG is a Genomic Standards Consortium project that builds on the Minimum Information about any Sequence (MIxS) framework [<a href="https://press3.mcs.anl.gov/gensc/mixs/">link</a>].
+    </p>
+
+    <p>
+      MIBiG will facilitate the standardized deposition and retrieval of biosynthetic gene cluster data as well as the development
+      of comprehensive comparative analysis tools. It will empower next-generation research on the biosynthesis, chemistry
+      and ecology of broad classes of societally relevant bioactive secondary metabolites, guided by robust experimental
+      evidence and rich metadata components.
+    </p>
+  </div>
+
+  <div class="row" style="margin: 2em 0;">
+    <img src='components/pages/start/MIBiG_figure_online_600.jpg' class="img-responsive center-block">
+  </div>
+
+  <div class="row">
+    <p>
+      The JSON specifications of the MIBiG <a href="mibig_schema.json" target="_blank">schema</a> and <a href="mibig_options.json" target="_blank">options</a> are freely available for download and can be used to validate MIBiG data from other sources.
+      <br /> Also, a tarball with all MIBiG entries in raw JSON format is available for <a href="download.html" target="_blank">download</a>.<br><br>      
+    </p>
+  </div>
+
+  <div class="row">
+    <p>
+      To get an idea of what kind of information is included in MIBiG entries, please have a look at the visualized entries for
+      <a href="repository/BGC0000055/index.html#cluster-1" target="_blank">erythromycin</a>,
+      <a href="repository/BGC0000194/index.html#cluster-1" target="_blank">actinorhodin</a>,
+      <a href="repository/BGC0000315/index.html#cluster-1" target="_blank">calcium-dependent antibiotic</a>,
+      <a href="repository/BGC0000529/index.html#cluster-1" target="_blank">microbisporicin</a> and 
+      <a href="repository/BGC0000669/index.html#cluster-1" target="_blank">marneral</a>.
+      They can be downloaded in JSON format by clicking the corresponding button (down-pointing arrow) at the top right of their page.
+    </p>
+  </div>
+
+  <div class="row">
+    <p>          
+      <a href="https://standardsingenomics.biomedcentral.com/articles/10.1186/s40793-018-0318-y" target="_blank">Here</a> you can find a Standard Operating Procedure (published in <i>Standards in Genomic Sciences</i>), which provides a detailed workflow/tutorial on submitting an entry to MIBiG. This includes a <a href="https://www.youtube.com/watch?v=CWeNbYmIm-c" target="_blank">video tutorial</a>, which explains the procedure in detail.
+    </p>
+  </div>
+
+  <div class="row">
+    <h3>Cite us</h3>
+    If you found MIBiG useful, please consider citing our work:
+  </div>
+
+  <div class="row">
+    <ul class="mibig-ref-list">
+      <li>
+        <a href="#">Minimum information about a biosynthetic gene cluster</a>: M.H. Medema, R. Kottmann, P. Yilmaz, M. Cummings, R. Bretling, E. Takano, F.O. Glöckner, et. al.
+        <br />
+        <strong>Nature Chemical Biology</strong> (2015) doi:10.1038/nchembio.1890
+      </li>
+    </ul>
+  </div>
+
+</div>

@@ -1,0 +1,29 @@
+<html ng-app="mibig">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <title>MIBiG: Minimum Information about a Biosynthetic Gene cluster</title>
+        <link rel="icon" type="image/png" href="assets/favicon.ico">
+
+        <script src="assets/js/angular.min.js"></script>
+        <script src="assets/js/angular-ui-router.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.min.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    </head>
+    <body>
+        <mibig-header></mibig-header>
+        <div ui-view></div ui-view>
+        <mibig-footer></mibig-footer>
+    </body>
+    <script src="./index.js"></script>
+    <script src="./routes.js"></script>
+    <script src="./services/system.service.js"></script>
+    <script src="./components/header/header.component.js"></script>
+    <script src="./components/footer/footer.component.js"></script>
+    <script src="./components/pages/start/start.component.js"></script>
+</html>
