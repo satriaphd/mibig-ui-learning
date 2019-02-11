@@ -3,5 +3,8 @@ App.component('mibigStart', {
     bindings: {
         version: '<',
         totalBGC: '<',
+    },
+    controller: function() {        
+        console.log(this.version);
     }
 })

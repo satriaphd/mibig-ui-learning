@@ -1,0 +1,60 @@
+<div class="container">
+
+    <div class="page-header">
+        <h1>MIBiG Repository</h1>
+    </div>
+
+    <div class="row" style="margin-left: 3em;">
+        This repository contains all complete and partial entries as of August 6th, 2018.
+        <br />
+        <table st-table="$ctrl.bgcList" class="table table-striped">
+            <thead>
+                <tr>
+                    <th st-sort="general_params.mibig_accession" st-sort-default="true" st-skip-natural="true">MIBiG accession</th>
+                    <th>Full/partial MIBiG info</th>
+                    <th>Main product</th>
+                    <th>Biosynthetic class</th>
+                    <th>Loci</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="row in $ctrl.bgcList">
+                <td>
+                    <a href="#!/bgc/{{row.general_params.mibig_accession}}">{{row.general_params.mibig_accession}}</a>
+                </td>
+                <td>
+                    {{row.general_params.loci.complete === 'complete'?'Full':'Partial'}}
+                </td>
+                <td>
+                    <ul>
+                        <li ng-repeat="compound in row.general_params.compounds">
+                            {{compound.compound}}
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    {{row.general_params.biosyn_class.join('/')}}
+                </td>
+                <td>
+                    <ul>
+                        <li ng-repeat="nucl in row.general_params.loci.nucl_acc">
+                            <a href="https://www.ncbi.nlm.nih.gov/nuccore/{{nucl.Accession}}">
+                                {{nucl.Accession}}
+                            </a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <div st-pagination="" st-items-by-page="itemsByPage" st-displayed-pages="25"></div>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+
+</div>
