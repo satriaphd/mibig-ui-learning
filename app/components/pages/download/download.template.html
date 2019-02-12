@@ -1,0 +1,26 @@
+<div class="container">
+
+    <div class="page-header">
+        <h1>Download <small>MIBiG data</small></h1>
+    </div>
+
+    <div class="row">
+        <p>
+            MIBiG data are available for download in several formats.
+            The MIBiG annotations/metadata themselves are available in JSON format, while the sequences of the biosynthetic gene clusters are available in GBK format.
+            A FASTA file with amino acid sequence translations of all genes from MIBiG entries is also available;
+            this can, e.g., be used for BLAST searches to identify homologues of a query gene within any of the experimentally characterized gene clusters. 
+        </p>
+    </div>
+
+    <div class="row"></div>
+    <div ng-repeat="release in $ctrl.bundles.releases" class="row" style="margin-left: 3em;">
+        <div class="row" style="margin-top: 1em;">
+            <strong>Version {{release.version}} ({{release.date | date : 'd MMMM yyyy'}})</strong>
+            <div ng-repeat="path in $ctrl.bundles.file_paths">
+                <div>{{path.description}} [<a href="{{path.path_pre + release.version + path.path_post}}">download</a>]</div>
+            </div>
+        </div>
+    </div>
+
+</div>

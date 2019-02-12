@@ -5,6 +5,9 @@ App.component('mibigStart', {
         totalBGC: '<',
     },
     controller: function() {        
-        console.log(this.version);
+        var ctrl = this;
+        ctrl.$onInit = (function() {
+            // ...
+        });
     }
 })

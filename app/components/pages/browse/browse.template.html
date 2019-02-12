@@ -4,7 +4,7 @@
         <h1>MIBiG Repository</h1>
     </div>
 
-    <div class="row" style="margin-left: 3em;">
+    <div class="row">
         This repository contains all complete and partial entries as of August 6th, 2018.
         <br />
         <table st-table="$ctrl.bgcList" class="table table-striped">
@@ -20,7 +20,7 @@
             <tbody>
             <tr ng-repeat="row in $ctrl.bgcList">
                 <td>
-                    <a href="#!/bgc/{{row.general_params.mibig_accession}}">{{row.general_params.mibig_accession}}</a>
+                    <a href="https://mibig.secondarymetabolites.org/repository/{{row.general_params.mibig_accession}}">{{row.general_params.mibig_accession}}</a>
                 </td>
                 <td>
                     {{row.general_params.loci.complete === 'complete'?'Full':'Partial'}}
