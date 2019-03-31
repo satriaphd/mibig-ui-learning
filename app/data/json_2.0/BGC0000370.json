@@ -1,0 +1,259 @@
+{
+    "personal": {
+        "submitter_name": "Jonathan Walton",
+        "submitter_institution": "Michigan State University",
+        "submitter_email": "walton@msu.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000370",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:8672886",
+            "pubmed:11860263",
+            "pubmed:23865912",
+            "pubmed:16839576"
+        ],
+        "loci": {
+            "complete": "incomplete",
+            "nucl_acc": [
+                {
+                    "accession": "M98024.2"
+                },
+                {
+                    "accession": "L48797.1"
+                },
+                {
+                    "accession": "U73650.1"
+                },
+                {
+                    "accession": "X92391.1"
+                },
+                {
+                    "accession": "AF038874.1"
+                },
+                {
+                    "accession": "AF157629.1"
+                },
+                {
+                    "accession": "AF169478.1"
+                },
+                {
+                    "accession": "KC866372.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "HC-toxin",
+                "chem_synonyms": [
+                    "HC Toxin",
+                    "Cyclo(aoe-pro-ala-ala)",
+                    "HC-Toxin",
+                    "Cyclo(2-amino-8-oxo-9,10-epoxydecanoic acid-prolyl-alanyl-alanine)",
+                    "83209-65-8",
+                    "AC1L32W5",
+                    "SCHEMBL4741062",
+                    "CHEBI:48028",
+                    "(3S,6R,9S,12R)-6,9-dimethyl-3-[6-(oxiran-2-yl)-6-oxohexyl]-1,4,7,10-tetrazabicyclo[10.3.0]pentadecane-2,5,8,11-tetrone",
+                    ""
+                ],
+                "pubchem_id": 107864,
+                "chem_act": [
+                    "Inhibitor"
+                ],
+                "chem_target": [
+                    "histonedeacetylaseRPD3-class"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "2-amino-9,10-epoxi-8-oxodecanoic acid",
+                        "moiety_subcluster": [
+                            "u73650",
+                            "af157629",
+                            "kc866372"
+                        ]
+                    }
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 436.232,
+                "molecular_formula": "C21H32N4O6",
+                "chem_struct": "C[C@@H]1C(=O)N[C@H](C(=O)N2CCC[C@@H]2C(=O)N[C@H](C(=O)N1)C)CCCCCC(=O)C3CO3"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "HTS1",
+                    "gene_startpos": 936,
+                    "gene_endpos": 16592,
+                    "gene_id": "AAA33023.2",
+                    "gene_annotation": "HC-toxin synthetase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "loss of HC-toxin and virulence"
+                },
+                {
+                    "gene_name": "TOXA",
+                    "gene_startpos": 754,
+                    "gene_endpos": 2616,
+                    "gene_id": "AAB36607.1",
+                    "gene_annotation": "cyclic peptide efflux pump",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": "unknown"
+                },
+                {
+                    "gene_name": "TOXC",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "AAC62818.1",
+                    "gene_annotation": "fatty acid synthase beta subunit",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "loss of HC-toxin and virulence"
+                },
+                {
+                    "gene_name": "TOXD",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "CAA63129.1",
+                    "gene_annotation": "putative short chain alcohol dehydrogenase",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "no phenotype detected"
+                },
+                {
+                    "gene_name": "TOXE",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "AAD13811.1",
+                    "gene_annotation": "transcription factor",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Other"
+                    ],
+                    "mut_pheno": "loss of expression of other genes in pathway; loss of HC-toxin; loss of virulence"
+                },
+                {
+                    "gene_name": "TOXF",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "AAD45321.1",
+                    "gene_annotation": "putative branched chain amino acid aminotransferase",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "loss of HC-toxin and virulence"
+                },
+                {
+                    "gene_name": "TOXG",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "AAD47837.1",
+                    "gene_annotation": "alanine racemase",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "loss of HC-toxin isoforms containing D-Ala; partial loss of virulence"
+                },
+                {
+                    "gene_name": "TOXH",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "AGR67369.1",
+                    "gene_annotation": "fatty acid synthases alpha subunit",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": "unknown"
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Unknown",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Macrolactamization",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AAA33023.2",
+                    "nrps_module": [
+                        {
+                            "module_nr": "1",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Other",
+                                "evidence_a_spec": "Activity assay",
+                                "epimerized": true,
+                                "other_spec": "Proline"
+                            },
+                            "cdom_subtype": "DCL",
+                            "nrps_mod_doms": "Other",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "2",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Other",
+                                "evidence_a_spec": "Activity assay",
+                                "epimerized": false,
+                                "other_spec": "Alanine"
+                            },
+                            "cdom_subtype": "DCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "3",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Other",
+                                "evidence_a_spec": "Activity assay",
+                                "epimerized": false,
+                                "other_spec": "D-alanine"
+                            },
+                            "cdom_subtype": "DCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "4",
+                            "a_substr_spec": {
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "DCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "embargo": true,
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

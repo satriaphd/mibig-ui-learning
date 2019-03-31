@@ -1,0 +1,406 @@
+{
+    "personal": {
+        "submitter_name": "Guohui Pan",
+        "submitter_institution": "The Scripps Research Institute",
+        "submitter_email": "gpan@scripps.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000224",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:16305230",
+            "pubmed:19620242",
+            "pubmed:20926388"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "AF525490.2"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "fredericamycin A",
+                "chem_synonyms": [
+                    "Status: 404",
+                    "Code: PUGREST.NotFound",
+                    "Message: No synonyms found for the given CID(s)",
+                    ""
+                ],
+                "pubchem_id": 5384075,
+                "chem_act": [
+                    "Antibacterial",
+                    "Antifungal",
+                    "Cytotoxic",
+                    "Inhibitor",
+                    "Other"
+                ],
+                "other_chem_act": "antitumor",
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 539.122,
+                "molecular_formula": "C30H21NO9",
+                "chem_struct": "C/C=C/C=C/C1=CC2=CC3=C(C(=C2C(=O)N1)O)C4(CC3)C(=O)C5=C(C6=C(C(=C5C4=O)O)C(=O)C(=CC6=O)OC)O"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "fdmC",
+                    "gene_startpos": 4971,
+                    "gene_endpos": 5771,
+                    "gene_id": "AAQ08912.1",
+                    "gene_annotation": "putative 3-ketoacyl-ACP reductase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Reduction",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "fdmT",
+                    "gene_startpos": 5782,
+                    "gene_endpos": 7263,
+                    "gene_id": "AAQ08913.1",
+                    "gene_annotation": "putative peptide transporter",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "fdmD",
+                    "gene_startpos": 7420,
+                    "gene_endpos": 7740,
+                    "gene_id": "AAQ08914.1",
+                    "gene_annotation": "putative polyketide cyclase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "fdmE",
+                    "gene_startpos": 7804,
+                    "gene_endpos": 8229,
+                    "gene_id": "AAQ08915.1",
+                    "gene_annotation": "putative polyketide cyclase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "fdmF",
+                    "gene_startpos": 8226,
+                    "gene_endpos": 9491,
+                    "gene_id": "AAQ08916.1",
+                    "gene_annotation": "3-ketoacyl-ACP synthase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "fdmG",
+                    "gene_startpos": 9488,
+                    "gene_endpos": 10699,
+                    "gene_id": "AAQ08917.1",
+                    "gene_annotation": "chain length factor",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "fdmH",
+                    "gene_startpos": 10764,
+                    "gene_endpos": 11018,
+                    "gene_id": "AAQ08918.1",
+                    "gene_annotation": "ACP",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "fdmI",
+                    "gene_startpos": 11020,
+                    "gene_endpos": 11487,
+                    "gene_id": "AAQ08919.1",
+                    "gene_annotation": "putative polyketide cyclase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "fdmJ",
+                    "gene_startpos": 11484,
+                    "gene_endpos": 11807,
+                    "gene_id": "AAQ08920.1",
+                    "gene_annotation": "putative monooxygenase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "fdmK",
+                    "gene_startpos": 11825,
+                    "gene_endpos": 12259,
+                    "gene_id": "AAQ08921.1",
+                    "gene_annotation": "putative oxygenase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "fdmL",
+                    "gene_startpos": 12333,
+                    "gene_endpos": 13073,
+                    "gene_id": "AAQ08922.1",
+                    "gene_annotation": "putative monooxygenase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "fdmM",
+                    "gene_startpos": 13111,
+                    "gene_endpos": 13560,
+                    "gene_id": "AAQ08923.1",
+                    "gene_annotation": "putative monooxygenase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Hydroxylation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "loss of FDM A production"
+                },
+                {
+                    "gene_name": "fdmM1",
+                    "gene_startpos": 13801,
+                    "gene_endpos": 14265,
+                    "gene_id": "AAQ08924.1",
+                    "gene_annotation": "putative monooxygenase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Hydroxylation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "loss of FDM A production"
+                },
+                {
+                    "gene_name": "fdmN",
+                    "gene_startpos": 14322,
+                    "gene_endpos": 15383,
+                    "gene_id": "AAQ08925.1",
+                    "gene_annotation": "putative o-methyltransferase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "fdmO",
+                    "gene_startpos": 15497,
+                    "gene_endpos": 16246,
+                    "gene_id": "AAQ08926.1",
+                    "gene_annotation": "putative 3-ketoacyl-ACP reductase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Reduction",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "fdmP",
+                    "gene_startpos": 16248,
+                    "gene_endpos": 16559,
+                    "gene_id": "AAQ08927.1",
+                    "gene_annotation": "putative monooxygenase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "fdmQ",
+                    "gene_startpos": 16559,
+                    "gene_endpos": 16876,
+                    "gene_id": "AAQ08928.1",
+                    "gene_annotation": "putative monooxygenase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "fdmS",
+                    "gene_startpos": 17040,
+                    "gene_endpos": 18041,
+                    "gene_id": "AAQ08929.1",
+                    "gene_annotation": "putative 3-keto-acyl-ACP synthase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "fdmT1",
+                    "gene_startpos": 18122,
+                    "gene_endpos": 19153,
+                    "gene_id": "AAQ08930.1",
+                    "gene_annotation": "putative membrane transporter",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "fdmR",
+                    "gene_startpos": 19310,
+                    "gene_endpos": 19741,
+                    "gene_id": "AAQ08931.2",
+                    "gene_annotation": "transcriptional regulator",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "fdmU",
+                    "gene_startpos": 19943,
+                    "gene_endpos": 20368,
+                    "gene_id": "AAQ08932.2",
+                    "gene_annotation": "unknown",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "fdmV",
+                    "gene_startpos": 20468,
+                    "gene_endpos": 22336,
+                    "gene_id": "AAQ08933.1",
+                    "gene_annotation": "asparagine synthetase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Amination",
+                    "evidence_genefunction": [
+                        "Activity assay",
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "loss of FDM A production"
+                },
+                {
+                    "gene_name": "fdmR1",
+                    "gene_startpos": 22401,
+                    "gene_endpos": 24236,
+                    "gene_id": "AAQ08934.1",
+                    "gene_annotation": "regulatory protein",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Other in vivo study"
+                    ],
+                    "mut_pheno": "loss of FDMs production"
+                },
+                {
+                    "gene_name": "fdmT2",
+                    "gene_startpos": 24472,
+                    "gene_endpos": 26067,
+                    "gene_id": "AAQ08935.1",
+                    "gene_annotation": "putative membrane transporter",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "fdmW",
+                    "gene_startpos": 26150,
+                    "gene_endpos": 26629,
+                    "gene_id": "AAQ08936.1",
+                    "gene_annotation": "holo-ACP synthase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay",
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "reduction of FDMs production"
+                },
+                {
+                    "gene_name": "fdmR2",
+                    "gene_startpos": 26869,
+                    "gene_endpos": 27381,
+                    "gene_id": "AAQ08937.1",
+                    "gene_annotation": "transcriptional regulator",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "fdmX",
+                    "gene_startpos": 27689,
+                    "gene_endpos": 28906,
+                    "gene_id": "AAQ08938.1",
+                    "gene_annotation": "transposase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "fdmT3",
+                    "gene_startpos": 28988,
+                    "gene_endpos": 30565,
+                    "gene_id": "AAQ08939.1",
+                    "gene_annotation": "putative membrane transporter",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Cyclic",
+            "pks_subclass": [
+                "Type II"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "pks_genes": [
+                "aaq08916.1"
+            ],
+            "ketide_length": 15,
+            "cyclases": [
+                "AAQ08915.1",
+                "AAQ08914.1"
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

@@ -1,0 +1,513 @@
+{
+    "personal": {
+        "submitter_name": "Eric J. N. Helfrich",
+        "submitter_institution": "Institute of Microbiology, Eidgen\u00c3\u00b6ssische Technische Hochschule (ETH) Zurich, Piel lab",
+        "submitter_email": "ehelfrich@ethz.ch"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001092",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:23850282"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "CP003468.1",
+                    "start_coord": 131663,
+                    "end_coord": 174447
+                },
+                {
+                    "accession": "CP003468.1",
+                    "start_coord": 229187,
+                    "end_coord": 259134
+                }
+            ],
+            "conn_comp_cluster": [
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "diaphorin",
+                "chem_synonyms": [],
+                "chem_struct": "C[C@@H]1[C@H](C)C(C[C@@](C(O)C(NC(O)[C@@H]2C[C@@H](O)C(C)(C)[C@@H](CC(O)CO)O2)=O)(OC)O1)=C",
+                "molecular_formula": "C22H39NO9",
+                "mol_mass": 484.2517,
+                "mass_ion_type": "[M+H]+",
+                "chem_act": [
+                    "Cytotoxic"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "dipR",
+                    "gene_startpos": 131663,
+                    "gene_endpos": 132943,
+                    "gene_id": "AGS06821.1",
+                    "gene_annotation": "polyketide beta-ketoacyl:acyl carrier protein synthase, PedM-like protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipQ",
+                    "gene_startpos": 132948,
+                    "gene_endpos": 134072,
+                    "gene_id": "AGS06822.1",
+                    "gene_annotation": "flavin-dependent oxygenase, PedJ-like protein",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipP",
+                    "gene_startpos": 134072,
+                    "gene_endpos": 149572,
+                    "gene_id": "AGS06823.1",
+                    "gene_annotation": "type I polyketide synthase, PedI-like protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipO",
+                    "gene_startpos": 149589,
+                    "gene_endpos": 160181,
+                    "gene_id": "AGS06824.1",
+                    "gene_annotation": "mixed type I polyketide synthase/non-ribosomal peptide synthetase, PedH-like protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipN",
+                    "gene_startpos": 160200,
+                    "gene_endpos": 161501,
+                    "gene_id": "AGS06825.1",
+                    "gene_annotation": "flavin-containing monooxygenase, PedG-like protein",
+                    "gene_function": "Activation / processing",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipM",
+                    "gene_startpos": 161619,
+                    "gene_endpos": 162515,
+                    "gene_id": "AGS06826.1",
+                    "gene_annotation": "methyltransferase type 11, PedE-like protein",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipL",
+                    "gene_startpos": 162761,
+                    "gene_endpos": 164119,
+                    "gene_id": "AGS06827.1",
+                    "gene_annotation": "putative FMN-dependent oxidoreductase, PedB-like protein",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Reduction",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipK",
+                    "gene_startpos": 164363,
+                    "gene_endpos": 165544,
+                    "gene_id": "AGS06828.1",
+                    "gene_annotation": "ABC transporter substrate-binding protein, LivK-like protein",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipJ",
+                    "gene_startpos": 165576,
+                    "gene_endpos": 166439,
+                    "gene_id": "AGS06829.1",
+                    "gene_annotation": "ABC transporter permease protein, LivH-like protein",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipI",
+                    "gene_startpos": 166436,
+                    "gene_endpos": 167392,
+                    "gene_id": "AGS06830.1",
+                    "gene_annotation": "ABC transporter permease protein, LivM-like protein",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipH",
+                    "gene_startpos": 167389,
+                    "gene_endpos": 168105,
+                    "gene_id": "AGS06831.1",
+                    "gene_annotation": "ABC transporter ATP-binding protein, LivG-like protein",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipG",
+                    "gene_startpos": 168110,
+                    "gene_endpos": 168799,
+                    "gene_id": "AGS06832.1",
+                    "gene_annotation": "ABC transporter ATP-binding protein, LivF-like protein",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipF",
+                    "gene_startpos": 168859,
+                    "gene_endpos": 169101,
+                    "gene_id": "AGS06833.1",
+                    "gene_annotation": "acyl carrier protein, PedN-like protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipE",
+                    "gene_startpos": 169098,
+                    "gene_endpos": 170381,
+                    "gene_id": "AGS06834.1",
+                    "gene_annotation": "acetyl-S-AcpK beta-ketothioester polyketide intermediate transferase, PedP-like protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipC",
+                    "gene_startpos": 170474,
+                    "gene_endpos": 171496,
+                    "gene_id": "AGS06835.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipC",
+                    "gene_startpos": 171576,
+                    "gene_endpos": 172331,
+                    "gene_id": "AGS06836.1",
+                    "gene_annotation": "polyketide biosynthesis enoyl-CoA hydratase, PedL-like protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipB",
+                    "gene_startpos": 172421,
+                    "gene_endpos": 173089,
+                    "gene_id": "AGS06837.1",
+                    "gene_annotation": "4'-phosphopantetheinyl transferase, EntD-like protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipA",
+                    "gene_startpos": 173371,
+                    "gene_endpos": 174447,
+                    "gene_id": "AGS06838.1",
+                    "gene_annotation": "malonyl CoA-acyl carrier protein transacylase, FabD-like protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipS",
+                    "gene_startpos": 229187,
+                    "gene_endpos": 230284,
+                    "gene_id": "AGS06886.1",
+                    "gene_annotation": "polyketide biosynthesis acyltransferase-like protein, PedC-like protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "dipT",
+                    "gene_startpos": 230695,
+                    "gene_endpos": 257754,
+                    "gene_id": "AGS06887.1",
+                    "gene_annotation": "mixed type I polyketide synthase/non-ribosomal peptide synthetase, PedF-like protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Trans-AT type I"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "trans_at": [
+                "ags06838.1 ags06886.1"
+            ],
+            "pks_te_type": "Type I",
+            "pks_release_type": "Unknown",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AGS06823.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "0",
+                            "pks_domains": [
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Acetyl-CoA",
+                            "evidence_at_spec": "Sequence-based prediction",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "1",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "2",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "Other"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "3",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "Other"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AGS06887.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "10",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Dehydratase"
+                            ],
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "13",
+                            "pks_domains": [
+                                "Ketoreductase"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "4",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Non-elongating"
+                        },
+                        {
+                            "module_nr": "6",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "7",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "8",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "Pyran synthase"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "9",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AGS06824.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "10",
+                            "pks_domains": [
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "11",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "12",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Other",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AGS06887.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "5",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Glycine",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

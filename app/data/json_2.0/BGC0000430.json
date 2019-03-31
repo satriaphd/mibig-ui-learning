@@ -1,0 +1,167 @@
+{
+    "personal": {
+        "submitter_name": "David Fewer",
+        "submitter_institution": "University of Helsinki",
+        "submitter_email": "david.fewer@helsinki.fi"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000430",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:19691450"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "CP007203.2",
+                    "start_coord": 4953880,
+                    "end_coord": 4975880
+                }
+            ],
+            "conn_comp_cluster": [
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "spumigin E",
+                "chem_synonyms": [
+                    "SPUMIGIN E",
+                    "CHEMBL2147471",
+                    "BDBM50044092",
+                    ""
+                ],
+                "pubchem_id": 71449303,
+                "chem_act": [
+                    "Inhibitor"
+                ],
+                "chem_target": [
+                    "Trypsin"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "(2S,4S)-4-methylproline",
+                        "moiety_subcluster": [
+                            "nsp_49220",
+                            "nsp_49210",
+                            "nsp_49200"
+                        ]
+                    }
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 610.311,
+                "molecular_formula": "C31H42N6O7",
+                "chem_struct": "C[C@H]1C[C@H](N(C1)C(=O)[C@@H](CCC2=CC=C(C=C2)O)NC(=O)[C@@H](CC3=CC=C(C=C3)O)O)C(=O)NC(CCCN=C(N)N)C=O"
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "nsp_49250",
+                        "nsp_49230",
+                        "nsp_49220",
+                        "nsp_49210",
+                        "nsp_49200",
+                        "nsp_49190"
+                    ],
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ]
+        },
+        "polyketide": {
+            "pks_te_type": "None",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AHJ31217.1",
+                    "pks_module": [
+                        {
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_domains": [
+                                "CoA-ligase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "module_nr": "0",
+                            "at_substr_spec": "Other",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_skip_iter": "Neither",
+                            "evidence_at_spec": "Activity assay"
+                        }
+                    ]
+                }
+            ],
+            "pks_thioesterase": [],
+            "starter_unit": "Other",
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_release_type": "Other"
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "Unknown",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Reductive release",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AHJ31215.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "1",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Homotyrosine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "2",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Other",
+                                "evidence_a_spec": "Activity assay",
+                                "epimerized": false,
+                                "other_spec": "Proline"
+                            },
+                            "cdom_subtype": "DCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "3",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Other",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false,
+                                "other_spec": "Argininal"
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "Other",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

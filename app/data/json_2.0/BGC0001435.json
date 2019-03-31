@@ -1,0 +1,78 @@
+{
+    "personal": {
+        "submitter_name": "Pablo Cruz Morales",
+        "submitter_institution": "University of Queensland/Langebio-CINVESTAV",
+        "submitter_email": "cruzmoralesp@gmail.com"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001435",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:24519911",
+            "pubmed:24706593"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "KF954512.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Heterologous expression"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "ikarugamycin",
+                "chem_synonyms": [
+                    "Ikarugamycin",
+                    "36531-78-9",
+                    ""
+                ],
+                "pubchem_id": 101647494,
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ],
+                "chem_act": [
+                    "Antibacterial",
+                    "Antifungal"
+                ],
+                "mol_mass": 478.283,
+                "molecular_formula": "C29H38N2O4",
+                "chem_struct": "CC[C@@H]1[C@@H](C[C@H]2[C@H]1C=C[C@H]3[C@@H]2C[C@@H]\\4[C@@H]3C/C=C/C(=O)NCCC[C@H]5C(=O)C(=C(/C=C4)O)C(=O)N5)C"
+            }
+        ],
+        "genes": {},
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Cyclic",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "pks_genes": [
+                "ajd77023.1"
+            ],
+            "nr_iterations": 6,
+            "iterative_subtype": "Partially reducing",
+            "pks_te_type": "Type I",
+            "pks_release_type": "Hydrolysis"
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "Type I",
+            "nrps_thioesterase": [
+                "ajd77023.1"
+            ],
+            "nrps_release_type": "Hydrolysis"
+        }
+    },
+    "comments": "Please note that I was  not involved in the studies on the mechanism and genes involved in the biosynthesis of Ikarugamycin, I am submitting this entry as part of study on the evolution of polycyclic tetramate macromalctams.",
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

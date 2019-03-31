@@ -1,0 +1,310 @@
+{
+    "personal": {
+        "submitter_name": "Eric J. N. Helfrich",
+        "submitter_institution": "Institute of Microbiology, Eidgen\u00c3\u00b6ssische Technische Hochschule (ETH) Zurich, Piel lab",
+        "submitter_email": "ehelfrich@ethz.ch"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001105",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:15520376",
+            "pubmed:24476823",
+            "pubmed:20464003",
+            "pubmed:15958059",
+            "doi:10.1016/S0040-4020(01)86585-6",
+            "doi:10.1016/S0040-4020(99)00841-8",
+            "doi:10.1021/ja00222a068"
+        ],
+        "loci": {
+            "complete": "incomplete",
+            "nucl_acc": [
+                {
+                    "accession": "AY688304.2"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "Onnamide A",
+                "chem_synonyms": [
+                    "Onnamide",
+                    "CHEMBL446341",
+                    "SCHEMBL1230496",
+                    ""
+                ],
+                "pubchem_id": 10373128,
+                "evidence_struct": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "chem_act": [
+                    "Cytotoxic"
+                ],
+                "chem_target": [
+                    "inhibitionofproteinbiosynthesiscausedbybindingtotheribosome.Thismechanismcausesaribotoxicstressresponseandultimatelyapoptosis."
+                ],
+                "mol_mass": 793.447,
+                "molecular_formula": "C39H63N5O12",
+                "chem_struct": "C[C@H]1[C@H](O[C@](CC1=C)([C@@H](C(=O)N[C@@H]2[C@@H]3[C@@H]([C@H](C([C@H](O3)C[C@@H](CCC/C=C/C=C/C=C/C(=O)N[C@@H](CCCN=C(N)N)C(=O)O)O)(C)C)OC)OCO2)O)OC)C"
+            }
+        ],
+        "genes": {},
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Trans-AT type I"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "trans_at": [
+                "none"
+            ],
+            "pks_te_type": "Type I",
+            "pks_release_type": "Hydrolysis",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AAV97870.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "0",
+                            "pks_domains": [
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "Other"
+                            ],
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_other_mod_dom": "GNAT"
+                        },
+                        {
+                            "module_nr": "1",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "2",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "Other"
+                            ],
+                            "pks_mod_skip_iter": "Neither",
+                            "pks_other_mod_dom": "2x Crotonase / Enoyl-CoA dehydratase"
+                        },
+                        {
+                            "module_nr": "3",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AAV97877.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "10",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "11",
+                            "pks_domains": [
+                                "Ketosynthase"
+                            ],
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Non-elongating"
+                        },
+                        {
+                            "module_nr": "4",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Non-elongating"
+                        },
+                        {
+                            "module_nr": "6",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "7",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "8",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_doms": [
+                                "Pyran synthase"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "9",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "no accession available",
+                    "pks_module": [
+                        {
+                            "module_nr": "11",
+                            "pks_domains": [
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Non-elongating"
+                        },
+                        {
+                            "module_nr": "12",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "13",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Hydrolysis",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AAV97877.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "5",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Glycine",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "nrps_gene": "n.a.",
+                    "nrps_module": [
+                        {
+                            "module_nr": "14",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Arginine",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "comments": "The gene cluster encodes for all onnamides, theopederins and pseudoonnamides.",
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

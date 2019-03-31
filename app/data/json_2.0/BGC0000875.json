@@ -1,0 +1,379 @@
+{
+    "personal": {
+        "submitter_name": "Leonard Kaysser",
+        "submitter_institution": "Eberhard Karls University Tuebingen",
+        "submitter_email": "leonard.kaysser@uni-tuebingen.de"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000875",
+        "biosyn_class": [
+            "Other"
+        ],
+        "publications": [
+            "pubmed:19351877",
+            "pubmed:20039253",
+            "pubmed:19351877",
+            "pubmed:20157116",
+            "pubmed:20418426",
+            "pubmed:20578003",
+            "pubmed:16060385",
+            "pubmed:23912167"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "FJ490409.1"
+                },
+                {
+                    "accession": "HM051054.1"
+                },
+                {
+                    "accession": "GU323955.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Enzymatic assays"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "Caprazamycin",
+                "chem_synonyms": [
+                    "AC1O5BJ1",
+                    "1-O-[1-[[(6S)-2-[(R)-[(3R,4S,5R)-5-(aminomethyl)-3,4-dihydroxyoxolan-2-yl]oxy-[(3S,4R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl]-5-methoxycarbonyl-1,4-dimethyl-3-oxo-1,4-diazepan-6-yl]oxy]-1-oxohexadecan-3-yl] 5-O-(3,4,5-trimethoxy-6-methyloxan-2-yl) 3-methylpentanedioate",
+                    "O1-[1-[2-[[(1S,6S)-2-[(R)-[(3R,4S,5R)-5-(aminomethyl)-3,4-dihydroxy-tetrahydrofuran-2-yl]oxy-[(3S,4R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methyl]-5-methoxycarbonyl-1,4-dimethyl-3-oxo-1,4-diazepan-6-yl]oxy]-2-oxo-ethyl]tetradecyl] O5-(3,4,5-trimethoxy-6-methyl-tetrahydropyran-2-yl) 3-methylpentanedioate",
+                    ""
+                ],
+                "pubchem_id": 6481472,
+                "chem_act": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_target": [
+                    "translocaseI"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 1159.6,
+                "molecular_formula": "C54H89N5O22",
+                "chem_struct": "CCCCCCCCCCCCCC(CC(=O)O[C@H]1CN(C(C(=O)N(C1C(=O)OC)C)[C@H](C2[C@H]([C@H](C(O2)N3C=CC(=O)NC3=O)O)O)OC4[C@@H]([C@@H]([C@H](O4)CN)O)O)C)OC(=O)CC(C)CC(=O)OC5C(C(C(C(O5)C)OC)OC)OC"
+            },
+            {
+                "compound": "Caprazamycin aglycon",
+                "chem_synonyms": [],
+                "chem_struct": "O[C@@H]([C@H]1O)[C@@H](CN)O[C@H]1O[C@H](C2[C@@H](O)[C@@H](O)[C@H](N3C=CC(NC3=O)=O)O2)[C@H]4C(N(C)[C@H](C(O)=O)[C@@H](OC(CC(CCCCCCCCCCCCCC)OC(C[C@@H](CC(O)=O)C)=O)=O)CN4C)=O",
+                "molecular_formula": "C45H73N5O18",
+                "mol_mass": 971.5,
+                "mass_ion_type": "M+",
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_target": [
+                    "translocaseI"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "cpz4",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ADF80705.1",
+                    "gene_annotation": "arylsulfate sulfotransferase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Sulfation",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "cpz9",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63617.1",
+                    "gene_annotation": "AraC family transcriptional regulator",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz10",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63618.1",
+                    "gene_annotation": "beta-hydroxylase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz11",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63619.1",
+                    "gene_annotation": "SAM-dependent methyltransferase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz12",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63620.1",
+                    "gene_annotation": "TmrB-like kinase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz13",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63621.1",
+                    "gene_annotation": "amino-cyclopropyl transferase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz14",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63622.1",
+                    "gene_annotation": "transaldolase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz15",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63623.1",
+                    "gene_annotation": "Fe(II)-dependent UMP dioxygenase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz16",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63624.1",
+                    "gene_annotation": "nucleotidyltransferase",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz17",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63625.1",
+                    "gene_annotation": "glycosyltransferase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz18",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63626.1",
+                    "gene_annotation": "aminotransferase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz19",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63627.1",
+                    "gene_annotation": "pyrimidine-nucleoside phosphorylase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz20",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63628.1",
+                    "gene_annotation": "acyl-CoA synthase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz21",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63629.1",
+                    "gene_annotation": "acyltransferase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "cpz22",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63630.1",
+                    "gene_annotation": "ABC multidrug resistance transporter",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz23",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63631.1",
+                    "gene_annotation": "acyltransferase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz24",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63632.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz25",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63633.1",
+                    "gene_annotation": "acyl-CoA dehydrogenase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz26",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63634.1",
+                    "gene_annotation": "SAM-dependent methyltransferase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz27",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63635.1",
+                    "gene_annotation": "TmrB-like kinase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz28",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63636.1",
+                    "gene_annotation": "sugar O-methyltransferase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz29",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63637.1",
+                    "gene_annotation": "sugar O-methyltransferase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz30",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63638.1",
+                    "gene_annotation": "sugar O-methyltransferase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "cpz31",
+                    "gene_startpos": 0,
+                    "gene_endpos": 0,
+                    "gene_id": "ACQ63639.1",
+                    "gene_annotation": "rhamnosyltransferase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Glycosylation",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }
+            ]
+        },
+        "saccharide": {
+            "saccharide_subclass": "hybrid/tailoring",
+            "gt_genes": [
+                {
+                    "gt_gene": "ACQ63639.1",
+                    "gt_specificity": "L-rhamnose",
+                    "evidence_gt_spec": "Other"
+                },
+                {
+                    "gt_gene": "ACQ63625.1",
+                    "gt_specificity": "Unknown"
+                }
+            ]
+        },
+        "other": {
+            "other_subclass": "Nucleoside"
+        }
+    },
+    "comments": "Caprazamycins are a mixture of derivatives containing different fatty acyl chain lengths, saturation and branching. Non-glycosylated and sulfated derivatives can be found in the extracts too.",
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

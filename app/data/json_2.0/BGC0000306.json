@@ -1,0 +1,253 @@
+{
+    "personal": {
+        "submitter_name": "Neha Garg",
+        "submitter_institution": "University of California at San Diego",
+        "submitter_email": "negarg@ucsd.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000306",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:21999343"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "ABYX02000001.1",
+                    "start_coord": 6273710,
+                    "end_coord": 6304320
+                }
+            ],
+            "conn_comp_cluster": [
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "Arylomycin",
+                "chem_synonyms": [
+                    "Arylomycin C16",
+                    "CHEMBL1784531",
+                    "SCHEMBL14234622",
+                    "BDBM50441139",
+                    ""
+                ],
+                "pubchem_id": 54586211,
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_target": [
+                    "typeIsignalpeptidases"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 880.495,
+                "molecular_formula": "C46H68N6O11",
+                "chem_struct": "CCCCCCCCCCCCCCCC(=O)N(C)[C@H](CO)C(=O)N[C@H](C)C(=O)NCC(=O)N(C)[C@H]1C2=CC(=C(C=C2)O)C3=C(C=CC(=C3)C[C@H](NC(=O)[C@@H](NC1=O)C)C(=O)O)O"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 6273710,
+                    "gene_endpos": 6284167,
+                    "gene_id": "EWS95122.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 6284796,
+                    "gene_endpos": 6285965,
+                    "gene_id": "EWS95123.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 6286024,
+                    "gene_endpos": 6298917,
+                    "gene_id": "EWS95124.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 6298943,
+                    "gene_endpos": 6299164,
+                    "gene_id": "EWS95125.1",
+                    "gene_annotation": "MbtH domain-containing protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 6299212,
+                    "gene_endpos": 6300276,
+                    "gene_id": "EWS95126.1",
+                    "gene_annotation": "4-hydroxyphenylpyruvate dioxygenase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 6300273,
+                    "gene_endpos": 6301388,
+                    "gene_id": "EWS95127.1",
+                    "gene_annotation": "L-lactate oxidase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 6301381,
+                    "gene_endpos": 6302730,
+                    "gene_id": "EWS95128.1",
+                    "gene_annotation": "GntR family transcriptional regulator",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 6302792,
+                    "gene_endpos": 6303664,
+                    "gene_id": "EWS95129.1",
+                    "gene_annotation": "heme ABC exporter, ATP-binding protein CcmA",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 6303697,
+                    "gene_endpos": 6304320,
+                    "gene_id": "EWS95130.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Other lipopeptide",
+            "lipid_moiety": "10-methylundecanoic acid",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "Unknown",
+            "nrps_thioesterase": [
+                "ssig_05823"
+            ],
+            "nrps_release_type": "Hydrolysis",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "EWS95122.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "1",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Serine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": true
+                            },
+                            "cdom_subtype": "Starter",
+                            "nrps_mod_doms": "Methylation",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "2",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Alanine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": true
+                            },
+                            "cdom_subtype": "Other",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "nrps_gene": "EWS95124.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "2",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Glycine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "Unknown",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "3",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "4-Hydroxyphenylglycine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "Methylation",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "4",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Alanine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "5",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Tyrosine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

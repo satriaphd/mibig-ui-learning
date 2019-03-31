@@ -1,0 +1,133 @@
+{
+    "personal": {
+        "submitter_name": "Hyung-Jin Kwon",
+        "submitter_institution": "Myongji University",
+        "submitter_email": "hjink@mju.ac.kr"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000065",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:20662933",
+            "pubmed:25336658"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "GU300145.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "galbonolide A",
+                "chem_synonyms": [
+                    "Rustmicin",
+                    "Galbonolide",
+                    "Galbonolide A",
+                    "100227-57-4",
+                    "Erythronolide A, 6,7,10,11,12,20-hexadehydro-6-demethyl-9-deoxo-3,5,11,12-tetradeoxy-4,17-dihydroxy-6-O-methyl-3-oxo-",
+                    "AC1O5PP2",
+                    "(3R,7Z,9S,12E,14S)-14-ethyl-5-hydroxy-5-(hydroxymethyl)-7-methoxy-3,9,13-trimethyl-11-methylene-1-oxacyclotetradeca-7,12-diene-2,4-dione",
+                    "(3R,7Z,9S,12E,14S)-14-ethyl-5-hydroxy-5-(hydroxymethyl)-7-methoxy-3,9,13-trimethyl-11-methylidene-1-oxacyclotetradeca-7,12-diene-2,4-dione",
+                    ""
+                ],
+                "pubchem_id": 6438453,
+                "chem_act": [
+                    "Antifungal"
+                ],
+                "chem_target": [
+                    "inositolphosphoceramidesynthase"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety_subcluster": []
+                    }
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 380.22,
+                "molecular_formula": "C21H32O6",
+                "chem_struct": "CC[C@H]1/C(=C/C(=C)C[C@@H](/C=C(/CC(C(=O)[C@H](C(=O)O1)C)(CO)O)\\OC)C)/C"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "galA",
+                    "gene_id": "ADE22340.1",
+                    "gene_annotation": "standing alone acyltransferase working with iterative type I PKS, GalB",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "galB",
+                    "gene_id": "ADE22339.1",
+                    "gene_annotation": "iterative type I PKS (highly reducing type)",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "no production of galbonolides"
+                },
+                {
+                    "gene_name": "galC",
+                    "gene_id": "ADE22338.1",
+                    "gene_annotation": "KS fold with no cysteine catalytic residue; a partner of GalB",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "no galbonbolide production"
+                },
+                {
+                    "gene_name": "galD",
+                    "gene_id": "ADE22337.1",
+                    "gene_annotation": "cytochrome P450-type monooxygenase",
+                    "gene_function": "Activation / processing",
+                    "mut_pheno": "production of galbonolide C",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                },
+                {
+                    "gene_name": "galE",
+                    "gene_id": "ADE22336.1",
+                    "gene_annotation": "Rieske domain protein",
+                    "gene_function": "Activation / processing",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Macrolide",
+            "lin_cycl_pk": "Cyclic",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "starter_unit": "Propionyl-CoA",
+            "pks_genes": [
+                "ade22339.1"
+            ],
+            "nr_iterations": 6,
+            "iterative_subtype": "Highly reducing",
+            "iter_cycl_type": "Other",
+            "pks_te_type": "None",
+            "pks_release_type": "Macrolactonization"
+        }
+    },
+    "comments": "GalABC is proposed as a novel type of PKS: bacterial highly-reducing type iterative PKS incorporating methylmalonyl-CoA with highly programmed \u00ce\u00b2-keto group modifications, a discrete AT, and no distinctive releasing domain. \\n",
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

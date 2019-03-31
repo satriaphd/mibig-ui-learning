@@ -1,0 +1,127 @@
+{
+    "personal": {
+        "submitter_name": "Yuta Tsunematsu",
+        "submitter_institution": "University of Shizuoka",
+        "submitter_email": "tsunematsu@u-shizuoka-ken.ac.jp"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000959",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:17369821",
+            "pubmed:20828130"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "BN001305.1",
+                    "start_coord": 383588,
+                    "end_coord": 417319
+                }
+            ],
+            "conn_comp_cluster": [
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Other"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "aspyridone A",
+                "chem_synonyms": [
+                    "Aspyridone A",
+                    "3-(2,4-Dimethyl-hexanoyl)-4-hydroxy-5-(4-hydroxy-phenyl)-1H-pyridin-2-one",
+                    "3-[(2S,4S)-2,4-dimethylhexanoyl]-4-hydroxy-5-(4-hydroxyphenyl)pyridin-2(1H)-one",
+                    "CHEBI:64704",
+                    ""
+                ],
+                "pubchem_id": 54710080,
+                "chem_act": [
+                    "Cytotoxic"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety_subcluster": []
+                    }
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 329.163,
+                "molecular_formula": "C19H23NO4",
+                "chem_struct": "CC[C@H](C)C[C@H](C)C(=O)C1=C(C(=CNC1=O)C2=CC=C(C=C2)O)O"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "apdC",
+                    "gene_id": "ANIA_08409",
+                    "gene_annotation": "enoylreductase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Heterologous expression",
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "apdA",
+                    "gene_id": "ANIA_08411",
+                    "gene_annotation": "PKS-NRPS hybrid",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Heterologous expression",
+                        "Other in vivo study",
+                        "Activity assay"
+                    ]
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "pks_genes": [
+                "ania_08412"
+            ],
+            "nr_iterations": 3,
+            "iterative_subtype": "Highly reducing",
+            "pks_te_type": "None",
+            "pks_release_type": "Unknown"
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "ANIA_08412",
+                    "nrps_module": [
+                        {
+                            "module_nr": "1",
+                            "a_substr_spec": {
+                                "aa_type": "Multiple (promiscuous)",
+                                "a_multiple_spec": "L-tyrosin; L-phenylalanine; L-tryptophan; L-4-fluorophenylalanine ",
+                                "evidence_a_spec": "Activity assay"
+                            },
+                            "cdom_subtype": "Unknown",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ],
+            "nrps_te_type": "None",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Unknown"
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

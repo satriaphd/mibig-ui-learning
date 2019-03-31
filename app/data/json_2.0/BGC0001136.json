@@ -1,0 +1,181 @@
+{
+    "personal": {
+        "submitter_name": "Russell Cox",
+        "submitter_institution": "Institut f\u00c3\u00bcr Organische Chemie, Leibniz Universit\u00c3\u00a4t Hannover",
+        "submitter_email": "russell.cox@oci.uni-hannover.de"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001136",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:21899331"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "HM243222.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Heterologous expression"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "desmethylbassianin",
+                "chem_synonyms": [],
+                "chem_struct": "OC1=CC=C(C2=CN(O)C(C(C(/C=C/C=C/C=C/[C@H](C)CC)=O)=C2O)=O)C=C1",
+                "molecular_formula": "C22H23NO5",
+                "mol_mass": 381.1576,
+                "mass_ion_type": "M+",
+                "chem_act": [
+                    "Unknown"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "2-pyridone",
+                        "moiety_subcluster": [
+                            "dmbs",
+                            "dmbc",
+                            "dmba"
+                        ]
+                    }
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "dmbS",
+                    "gene_startpos": 1,
+                    "gene_endpos": 4176,
+                    "gene_id": "DMBS",
+                    "gene_annotation": "PKS-NRPS",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "dmbC",
+                    "gene_startpos": 1,
+                    "gene_endpos": 389,
+                    "gene_id": "DMBC",
+                    "gene_annotation": "ER",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ],
+                    "mut_pheno": "loss of PKS fidelity"
+                },
+                {
+                    "gene_name": "dmbB",
+                    "gene_startpos": 1,
+                    "gene_endpos": 539,
+                    "gene_id": "DMBB",
+                    "gene_annotation": "P450",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ],
+                    "mut_pheno": "pre-DMB-B"
+                },
+                {
+                    "gene_name": "dmbA",
+                    "gene_startpos": 1,
+                    "gene_endpos": 508,
+                    "gene_id": "DMBA",
+                    "gene_annotation": "P450",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ],
+                    "mut_pheno": "pre-DMB-A"
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "pks_genes": [],
+            "nr_iterations": 5,
+            "iterative_subtype": "Highly reducing",
+            "iter_cycl_type": "Other",
+            "pks_te_type": "None",
+            "pks_release_type": "Other",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "DMBS",
+                    "pks_module": [
+                        {
+                            "module_nr": "1",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Methyltransferase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Multiple (promiscuous)",
+                            "evidence_at_spec": "None",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Iterated",
+                            "pks_evidence_skip_iter": "Structure-based inference",
+                            "at_multiple_spec": [
+                                "Malonyl-CoA",
+                                "Acetyl-CoA"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Other",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "DMBS",
+                    "nrps_module": [
+                        {
+                            "module_nr": "2",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Tyrosine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "Other",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Non-elongating"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

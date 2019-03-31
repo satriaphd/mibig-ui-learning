@@ -1,0 +1,226 @@
+{
+    "personal": {
+        "submitter_name": "Andreas Bechthold",
+        "submitter_institution": "Albert-Ludwigs-Universit\u00c3\u00a4t Freiburg",
+        "submitter_email": "andreas.bechthold@pharmazie.uni-freiburg.de"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000239",
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ],
+        "publications": [
+            "pubmed:9933932",
+            "pubmed:2358402",
+            "pubmed:10397496",
+            "pubmed:9621686",
+            "pubmed:22454092",
+            "pubmed:20583594",
+            "pubmed:18537830",
+            "pubmed:17786405",
+            "pubmed:15123249",
+            "pubmed:2358402",
+            "pubmed:16283688",
+            "pubmed:16039521",
+            "pubmed:19352642",
+            "pubmed:25581707",
+            "pubmed:21513888",
+            "pubmed:11755402",
+            "pubmed:15977274",
+            "pubmed:15515090"
+        ],
+        "loci": {
+            "complete": "incomplete",
+            "nucl_acc": [
+                {
+                    "accession": "AF080235.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "Landomycin A",
+                "chem_synonyms": [
+                    "NSC639187",
+                    "AC1L7WSP",
+                    "AC1Q5B9U",
+                    "(6r)-1,6,11-trihydroxy-3-methyl-7,12-dioxo-5,6,7,12-tetrahydrotetraphen-8-yl 2,6-dideoxy-4-o-{2,6-dideoxy-3-o-[5-({2,6-dideoxy-4-o-[2,6-dideoxy-3-o-(5-hydroxy-6-methyltetrahydro-2h-pyran-2-yl)hexopyranosyl]hexopyranosyl}oxy)-6-methyltetrahydro-2h-pyran-2-yl]hexopyranosyl}hexopyranoside",
+                    "CHEMBL411784",
+                    "130432-93-8",
+                    "NSC-639187",
+                    "NCI60_013009",
+                    "(6R)-1,6,11-trihydroxy-8-[4-hydroxy-5-[5-hydroxy-4-[5-[4-hydroxy-5-[5-hydroxy-4-(5-hydroxy-6-methyloxan-2-yl)oxy-6-methyloxan-2-yl]oxy-6-methyloxan-2-yl]oxy-6-methyloxan-2-yl]oxy-6-methyloxan-2-yl]oxy-6-methyloxan-2-yl]oxy-3-methyl-5,6-dihydrobenzo[a]anthracene-7,12-dione",
+                    ""
+                ],
+                "pubchem_id": 368342,
+                "chebi_id": 70064,
+                "chemspider_id": 8164333,
+                "chem_act": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_target": [
+                    "inhibitionofDNAsynthesisorinterferenceofcellularprocessescriticaltoDNAsynthesis"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 1086.467,
+                "molecular_formula": "C55H74O22",
+                "chem_struct": "CC1C(CCC(O1)OC2CC(OC(C2O)C)OC3C(OC(CC3O)OC4CCC(OC4C)OC5CC(OC(C5O)C)OC6C(OC(CC6O)OC7=C8C(=C(C=C7)O)C(=O)C9=C(C8=O)[C@@H](CC1=CC(=CC(=C19)O)C)O)C)C)O"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "LanM2",
+                    "gene_id": "AAD13541.1",
+                    "gene_annotation": "Dehydratase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Dehydration",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "LanZ5",
+                    "gene_id": "AAD13564.1",
+                    "gene_annotation": "bifunctional oxygenase-dehydratase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Dehydration",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "LanV ",
+                    "gene_id": "AAD13552.1",
+                    "gene_annotation": "bifunctional reductase + aromatase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Reduction",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "LanE",
+                    "gene_id": "AAD13534.1",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "LanK",
+                    "gene_id": "AAD13556.1",
+                    "gene_annotation": "TetR-like regulatory protein",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "mut_pheno": "decreased production of Landomycin"
+                },
+                {
+                    "gene_name": "LanGT3",
+                    "gene_id": "AAD13559.1",
+                    "gene_annotation": "D-olivosyltransferase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Production of Landomycin E"
+                },
+                {
+                    "gene_name": "LanGT1",
+                    "gene_id": "AAD13555.1",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ],
+                    "mut_pheno": "Landomycin I (tetrasaccharide)"
+                },
+                {
+                    "gene_name": "LanGT2",
+                    "gene_id": "AAD13553.1",
+                    "gene_annotation": "D-olivose-transferase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "LanGT4",
+                    "gene_id": "AAD13562.1",
+                    "gene_annotation": "L-rhodinosyltransferase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Production of Landomycin B (five sugars)"
+                },
+                {
+                    "gene_name": "LanZ2",
+                    "gene_id": "AAD13560.1",
+                    "gene_annotation": " impacts the formation of the sugar side chain",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "different sugar lenght "
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Angucycline",
+            "lin_cycl_pk": "Cyclic",
+            "pks_subclass": [
+                "Type II"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "pks_genes": [
+                "aad13536.1",
+                "aad13538.1"
+            ],
+            "ketide_length": 10,
+            "cyclases": [
+                "AAD13535.1",
+                "AAD13540.1",
+                "AAD13552.1"
+            ]
+        },
+        "saccharide": {
+            "saccharide_subclass": "hybrid/tailoring",
+            "gt_genes": [
+                {
+                    "gt_gene": "AAD13555.1",
+                    "gt_specificity": "D-olivose",
+                    "evidence_gt_spec": "Other"
+                },
+                {
+                    "gt_gene": "AAD13553.1",
+                    "gt_specificity": "D-olivose",
+                    "evidence_gt_spec": "Other"
+                },
+                {
+                    "gt_gene": "AAD13559.1",
+                    "gt_specificity": "D-olivose",
+                    "evidence_gt_spec": "Other"
+                },
+                {
+                    "gt_gene": "AAD13562.1",
+                    "gt_specificity": "L-rhodinose",
+                    "evidence_gt_spec": "Other"
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

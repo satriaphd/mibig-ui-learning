@@ -1,0 +1,344 @@
+{
+    "personal": {
+        "submitter_name": "Arnold J.M. Driessen",
+        "submitter_institution": "University of Groningen",
+        "submitter_email": "a.j.m.driessen@rug.nl"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000405",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:1368505",
+            "pubmed:2129535",
+            "pubmed:7597101",
+            "pubmed:11180058",
+            "pubmed:17548217",
+            "pubmed:20851974",
+            "pubmed:18820685"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "EF601124.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Enzymatic assays"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "delta-(L-alpha-aminoadipyl)-L-cysteine-D-valine",
+                "chem_synonyms": [
+                    "acv"
+                ],
+                "chebi_id": 58572,
+                "chem_act": [
+                    "Other"
+                ],
+                "other_chem_act": "none",
+                "evidence_struct": [
+                    "Other"
+                ]
+            },
+            {
+                "compound": "isopenicillin N",
+                "chem_synonyms": [
+                    "ipn"
+                ],
+                "chebi_id": 18165,
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_target": [
+                    "cellwallsynthesis"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            },
+            {
+                "compound": "Benzylpenicillin",
+                "chem_synonyms": [
+                    "penicillin g"
+                ],
+                "chebi_id": 51765,
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_target": [
+                    "cellwallbiosynthesis"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            },
+            {
+                "compound": "Phenoxymethylpenicillin ",
+                "chem_synonyms": [
+                    "penicillin v"
+                ],
+                "chembl_id": 615,
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_target": [
+                    "cellwallbiosynthesis"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "pcbab",
+                        "pcbc",
+                        "pende"
+                    ],
+                    "evidence_operon": "RNAseq"
+                }
+            ],
+            "gene": [
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 1,
+                    "gene_endpos": 1659,
+                    "gene_id": "ABR12607.1",
+                    "gene_annotation": "isoamyl alcohol oxidase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 4468,
+                    "gene_endpos": 5130,
+                    "gene_id": "ABR12608.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 5821,
+                    "gene_endpos": 7011,
+                    "gene_id": "ABR12609.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 7456,
+                    "gene_endpos": 8991,
+                    "gene_id": "ABR12610.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 9836,
+                    "gene_endpos": 12187,
+                    "gene_id": "ABR12611.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 14735,
+                    "gene_endpos": 15622,
+                    "gene_id": "ABR12612.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 16080,
+                    "gene_endpos": 17960,
+                    "gene_id": "ABR12613.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "pcbAB",
+                    "gene_startpos": 18585,
+                    "gene_endpos": 20930,
+                    "gene_id": "ABR12614.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "pcbAB",
+                    "gene_startpos": 18585,
+                    "gene_endpos": 37052,
+                    "gene_id": "ABR12615.1",
+                    "gene_annotation": "ACV synthetase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "mut_pheno": "no penicillin production"
+                },
+                {
+                    "gene_name": "pcbC",
+                    "gene_startpos": 38068,
+                    "gene_endpos": 39063,
+                    "gene_id": "ABR12616.1",
+                    "gene_annotation": "IPN synthase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "mut_pheno": "accumulation of ACV tripeptide"
+                },
+                {
+                    "gene_name": "penDE",
+                    "gene_startpos": 40561,
+                    "gene_endpos": 41835,
+                    "gene_id": "ABR12617.1",
+                    "gene_annotation": "IPN:acyltransferase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Other",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "mut_pheno": "accumulation of isopenicillin N"
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 42849,
+                    "gene_endpos": 43628,
+                    "gene_id": "ABR12618.1",
+                    "gene_annotation": "probable oxidoreductase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 44942,
+                    "gene_endpos": 46297,
+                    "gene_id": "ABR12619.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 49317,
+                    "gene_endpos": 49781,
+                    "gene_id": "ABR12620.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "erg25",
+                    "gene_startpos": 50291,
+                    "gene_endpos": 50914,
+                    "gene_id": "ABR12621.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "erg25",
+                    "gene_startpos": 56117,
+                    "gene_endpos": 57262,
+                    "gene_id": "ABR12622.1",
+                    "gene_annotation": "C4-methylsterol oxidase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Beta-lactam",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Macrolactamization",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "ABR12615.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "0",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "2-Amino-adipic-acid",
+                                "evidence_a_spec": "Activity assay",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "Unknown",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "1",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Cysteine",
+                                "evidence_a_spec": "Activity assay",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "DCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "2",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Valine",
+                                "evidence_a_spec": "Activity assay",
+                                "epimerized": true
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

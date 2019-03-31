@@ -1,0 +1,118 @@
+{
+    "personal": {
+        "submitter_name": "Jonathan Walton",
+        "submitter_institution": "Michigan State University",
+        "submitter_email": "walton@msu.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000046",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:19737099"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "FJ977165.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "depudecin",
+                "chem_synonyms": [
+                    "139508-73-9",
+                    "CBChromo1_000044",
+                    "AC1O5Q7V",
+                    "SCHEMBL5312269",
+                    "(1R)-1-[(2S,3S)-3-[(E)-2-[(3S)-3-[(1R)-1-hydroxyethyl]oxiran-2-yl]ethenyl]oxiran-2-yl]prop-2-en-1-ol",
+                    "Oxiranemethanol, alpha-ethenyl-3-(2-(3-(1-hydroxyethyl)oxiranyl)ethenyl)-, (2S-(2R*(E(2R*(S*),3R*)),3R*(S*)))-",
+                    ""
+                ],
+                "pubchem_id": 6438725,
+                "chebi_id": 64143,
+                "chemspider_id": 21169370,
+                "chem_act": [
+                    "Inhibitor"
+                ],
+                "chem_target": [
+                    "Histonedeacetylase(HDAC)"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 212.105,
+                "molecular_formula": "C11H16O4",
+                "chem_struct": "C[C@H]([C@H]1C(O1)/C=C/[C@H]2[C@@H](O2)[C@@H](C=C)O)O"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "DEP2",
+                    "gene_id": "ACZ57545.1",
+                    "gene_annotation": "Monooxygenase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Monooxygenation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "No depudecin production, but production of epoxide-containing metabolite of slightly higher retention factor."
+                },
+                {
+                    "gene_name": "DEP4",
+                    "gene_id": "ACZ57547.1",
+                    "gene_annotation": "Monooxygenase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Monooxygenation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "No depudecin production, but production of a trace of an epoxide-containing compound of the same Rf as native depudecin."
+                },
+                {
+                    "gene_name": "DEP5",
+                    "gene_id": "ACZ57548.1",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "No depudecin production"
+                },
+                {
+                    "gene_name": "DEP6",
+                    "gene_id": "ACZ57549.1",
+                    "gene_annotation": "Transcription factor",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "No depudecin production"
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "pks_genes": [
+                "acz57548.1"
+            ],
+            "nr_iterations": 6,
+            "iterative_subtype": "Partially reducing",
+            "pks_te_type": "None",
+            "pks_release_type": "Hydrolysis"
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

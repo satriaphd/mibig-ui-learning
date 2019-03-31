@@ -1,0 +1,180 @@
+{
+    "personal": {
+        "submitter_name": "Yuta Tsunematsu",
+        "submitter_institution": "University of Shizuoka",
+        "submitter_email": "tsunematsu@u-shizuoka-ken.ac.jp"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001121",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:19666480",
+            "pubmed:20174687"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "BN001302.1",
+                    "start_coord": 214879,
+                    "end_coord": 224786
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "orsellinic acid",
+                "chem_synonyms": [
+                    "Orsellinic acid",
+                    "2,4-Dihydroxy-6-methylbenzoic acid",
+                    "480-64-8",
+                    "o-Orsellinic acid",
+                    "Orsellic acid",
+                    "Orcinolcarboxylic acid",
+                    "4,6-Dihydroxy-o-toluic acid",
+                    "2,4-dihydroxy-6-methyl-benzoic acid",
+                    "UNII-11XLA0494B",
+                    "Benzoic acid, 2,4-dihydroxy-6-methyl-",
+                    "CHEBI:32807",
+                    "AMKYESDOVDKZKV-UHFFFAOYSA-N",
+                    "11XLA0494B",
+                    "Orsellinate",
+                    "4,6-Dihydroxy-2-methylbenzoic acid",
+                    "2,4-Dihydroxy-6-methyl benzoic acid",
+                    "AK-77256",
+                    "2,4-Dihydroxy-6-methylbenzenecarboxylic acid",
+                    "o-Orsellinic acid monohydrate, 98%",
+                    "2,4-Dihydroxy-6-methylbenzoic acid hydrate",
+                    "Orsellinsaeure",
+                    "Spectrum_000594",
+                    "ACMC-20a2aq",
+                    "SpecPlus_000120",
+                    "AC1Q5TGB",
+                    "Spectrum2_000305",
+                    "Spectrum3_001284",
+                    "Spectrum4_001598",
+                    "Spectrum5_000316",
+                    "6-Methyl- -resorcylic acid",
+                    "BSPBio_002887",
+                    "KBioGR_002216",
+                    "KBioSS_001074",
+                    "SPECTRUM300001",
+                    "DivK1c_006216",
+                    "SCHEMBL522294",
+                    "SPBio_000270",
+                    "AC1L28Z2",
+                    "CHEMBL457583",
+                    "MEGxm0_000096",
+                    "CTK1D5882",
+                    "KBio1_001160",
+                    "KBio2_001074",
+                    "KBio2_003642",
+                    "KBio2_006210",
+                    "KBio3_002107",
+                    "KS-00000MNK",
+                    "6-Methyl-.beta.-resorcylic acid",
+                    "DTXSID20197385",
+                    "MolPort-001-739-322",
+                    "ZINC901157",
+                    ".beta.-Resorcylic acid, 6-methyl-",
+                    "6587AB",
+                    "ANW-53904",
+                    "BBL103122",
+                    "BDBM50104645",
+                    "CCG-38582",
+                    "DT1737",
+                    "LMPK13010001",
+                    "MFCD16661187",
+                    "STL556932",
+                    "AKOS000349074",
+                    "FCH1121380",
+                    "MCULE-3047851108",
+                    "SDCCGMLS-0066472.P001",
+                    "NCGC00095565-01",
+                    "NCGC00095565-02",
+                    "4CN-3035",
+                    "AJ-24339",
+                    "AN-45187",
+                    "DS-17030",
+                    "KB-17581",
+                    "SC-91572",
+                    "AX8066935",
+                    "TC-142649",
+                    "AM20040543",
+                    "BB 0218020",
+                    "FT-0693806",
+                    "ST24038664",
+                    "C01839",
+                    "480D648",
+                    "SR-05000002400",
+                    "SR-05000002400-1",
+                    "6X7",
+                    ""
+                ],
+                "pubchem_id": 68072,
+                "chemspider_id": 61385,
+                "chem_act": [
+                    "Unknown"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 168.042,
+                "molecular_formula": "C8H8O4",
+                "chem_struct": "CC1=CC(=CC(=C1C(=O)O)O)O"
+            }
+        ],
+        "genes": {},
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Cyclic",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "pks_genes": [
+                "an7909",
+                "xp_681178"
+            ],
+            "nr_iterations": 3,
+            "iterative_subtype": "Non-reducing",
+            "iter_cycl_type": "C2-C7 first",
+            "pks_te_type": "Unknown",
+            "pks_release_type": "Hydrolysis",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AN7909",
+                    "pks_module": [
+                        {
+                            "module_nr": "1",
+                            "pks_domains": [
+                                "ACP transacylase",
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Product Template domain",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "None",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Iterated",
+                            "pks_evidence_skip_iter": "Sequence-based prediction"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

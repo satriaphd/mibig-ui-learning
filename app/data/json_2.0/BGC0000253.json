@@ -1,0 +1,118 @@
+{
+    "personal": {
+        "submitter_name": "Carmen M\u00c3\u00a9ndez",
+        "submitter_institution": "University of Oviedo",
+        "submitter_email": "cmendezf@uniovi.es"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000253",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:15368568",
+            "pubmed:18988223"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "AJ632203.2"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "oviedomycin",
+                "chem_synonyms": [
+                    "Oviedomycin",
+                    "AC1NT3UI",
+                    "SCHEMBL1007479",
+                    "4,6,8-trihydroxy-3-methylbenzo[a]anthracene-1,2,7,12-tetrone",
+                    ""
+                ],
+                "pubchem_id": 5323531,
+                "chem_act": [
+                    "Cytotoxic"
+                ],
+                "chem_target": [
+                    "unknown"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 350.043,
+                "molecular_formula": "C19H10O7",
+                "chem_struct": "CC1=C(C2=CC(=C3C(=C2C(=O)C1=O)C(=O)C4=C(C3=O)C(=CC=C4)O)O)O"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "ovmK",
+                    "gene_id": "CAG14966.1",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": "loss of oviedomycin production"
+                },
+                {
+                    "gene_name": "ovmOI",
+                    "gene_id": "CAG14963.1",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Hydroxylation",
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "ovmOII",
+                    "gene_id": "CAG14970.1",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Hydroxylation",
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "ovmOIII",
+                    "gene_id": "CAG14971.1",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Hydroxylation",
+                    "evidence_genefunction": [
+                        "Other in vivo study",
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Angucycline",
+            "lin_cycl_pk": "Cyclic",
+            "pks_subclass": [
+                "Type II"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "pks_genes": [
+                "cag14965.1",
+                "cag14967.1"
+            ],
+            "ketide_length": 10,
+            "cyclases": [
+                "CAG14964.1",
+                "CAG14969.1"
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

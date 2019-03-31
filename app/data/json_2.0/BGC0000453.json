@@ -1,0 +1,101 @@
+{
+    "personal": {
+        "submitter_name": "Yi-Qiang Cheng",
+        "submitter_institution": "University of North Texas Health Science Center",
+        "submitter_email": "yiqiang.cheng@unthsc.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000453",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:16511823"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "DQ174261.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "Valinomycin",
+                "chem_synonyms": [],
+                "chem_struct": "CC1C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)O1)C(C)C)C(C)C)C(C)C)C)C(C)C)C(C)C)C(C)C)C)C(C)C)C(C)C)C(C)C",
+                "molecular_formula": "C54H90N6O18",
+                "mol_mass": 1111.5,
+                "mass_ion_type": "Other",
+                "chem_act": [
+                    "Antibacterial",
+                    "Antifungal",
+                    "Cytotoxic",
+                    "Other"
+                ],
+                "other_chem_act": "Antiviral",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "D-alpha-hydroxyisovaleric acid",
+                        "moiety_subcluster": [
+                            "aba59547.1"
+                        ]
+                    }
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "vlm1",
+                        "vlm2"
+                    ],
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ],
+            "gene": [
+                {
+                    "gene_name": "76884874",
+                    "gene_startpos": 19526,
+                    "gene_endpos": 29812,
+                    "gene_id": "ABA59547.1",
+                    "gene_annotation": "NRPS",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "No longer produces valinomycin"
+                },
+                {
+                    "gene_name": "76884875",
+                    "gene_startpos": 29835,
+                    "gene_endpos": 37802,
+                    "gene_id": "ABA59548.1",
+                    "gene_annotation": "NRPS",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "No longer produces valinomycin"
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Cyclic depsipeptide",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Type II",
+            "nrps_release_type": "Unknown"
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

@@ -1,0 +1,87 @@
+{
+    "personal": {
+        "submitter_email": "juan-pablo.gomez-escribano@jic.ac.uk",
+        "submitter_name": "Juan Pablo Gomez-Escribano",
+        "submitter_institution": "John Innes Centre; Norwich Research Park; Norwich; NR4 7UH; UK"
+    },
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "accession": "HE983629.1",
+                    "start_coord": 1377,
+                    "end_coord": 18956
+                }
+            ],
+            "complete": "complete",
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Heterologous expression"
+            ]
+        },
+        "compounds": [
+            {
+                "chemspider_id": 26365309,
+                "mol_mass": 823.056,
+                "chem_struct": "C[CH]1CCN2[CH]1C(=O)N[CH](C(=O)N[CH](/C(=N/[CH](C(=O)N[CH]([CH](C)c3ccccc3)C(=O)N[CH](CC(=O)OC)c4nccs4)C(C)(C)C)/NCC2=O)C(C)(C)C)C(C)C",
+                "chem_synonyms": [],
+                "chem_target": [
+                    "Bacterialribosome"
+                ],
+                "compound": "Bottromycin A2",
+                "molecular_formula": "C42H62N8O7S",
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {},
+        "mibig_accession": "BGC0000468",
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": [
+            "pubmed:19115340",
+            "pubmed:6337880",
+            "pubmed:7014241",
+            "doi:10.1039/C2SC21183A"
+        ],
+        "ripp": {
+            "ripp_subclass": "Bottromycin",
+            "precursor_loci": [
+                {
+                    "foll_pept_len": 35,
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Lactam",
+                            "AA_pos_1": 1,
+                            "AA_pos_2": 4
+                        }
+                    ],
+                    "core_pept_aa": [
+                        "GPVVVFDC"
+                    ],
+                    "gene_id": [
+                        "bmbc",
+                        "ccm09443.1"
+                    ],
+                    "lead_pept_len": 1,
+                    "peptidase": [
+                        "bmbk",
+                        "ccm09452.1",
+                        "bmbg",
+                        "ccm09447.1",
+                        "bmbh",
+                        "ccm09448.1"
+                    ]
+                }
+            ],
+            "lin_cycl_ripp": "Cyclic"
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

@@ -1,0 +1,129 @@
+{
+    "personal": {
+        "submitter_name": "Helge Bode",
+        "submitter_institution": "Goethe Universit\u00c3\u00a4t Frankfurt",
+        "submitter_email": "h.bode@bio.uni-frankfurt.de"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000465",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:19682255",
+            "pubmed:19598185",
+            "pubmed:18491867"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "FN667742.1",
+                    "start_coord": 2235579,
+                    "end_coord": 2245621
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "Xenortide A",
+                "chem_synonyms": [
+                    "(S)-N,4-dimethyl-2-(methylamino)-N-((S)-1-oxo-1-(phenethylamino)-3-phenylpropan-2-yl)pentanamide",
+                    "mL-mF-PEA",
+                    "CHEMBL486084",
+                    ""
+                ],
+                "pubchem_id": 24900168,
+                "chem_act": [
+                    "Cytotoxic"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 409.273,
+                "molecular_formula": "C25H35N3O2",
+                "chem_struct": "CC(C)C[C@@H](C(=O)N(C)[C@@H](CC1=CC=CC=C1)C(=O)NCCC2=CC=CC=C2)NC"
+            },
+            {
+                "compound": "Xenortide B",
+                "chem_synonyms": [
+                    "(S)-N-((S)-1-((2-(1H-indol-3-yl)ethyl)amino)-1-oxo-3-phenylpropan-2-yl)-N,4-dimethyl-2-(methylamino)pentanamide",
+                    "mL-mF-TRA",
+                    "CHEMBL486287",
+                    ""
+                ],
+                "pubchem_id": 24900169,
+                "chem_act": [
+                    "Cytotoxic"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 448.284,
+                "molecular_formula": "C27H36N4O2",
+                "chem_struct": "CC(C)C[C@@H](C(=O)N(C)[C@@H](CC1=CC=CC=C1)C(=O)NCCC2=CNC3=CC=CC=C32)NC"
+            },
+            {
+                "compound": "Xenortide C",
+                "chem_synonyms": [],
+                "chem_struct": "CN[C@@H](C(C)C)C(N([C@H](C(NCCC1=CC=CC=C1)=O)CC2=CC=CC=C2)C)=O",
+                "molecular_formula": "C24H34N3O2",
+                "mol_mass": 396.2642,
+                "mass_ion_type": "[M+H]+",
+                "chem_act": [
+                    "Unknown"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            },
+            {
+                "compound": "Xenortide D",
+                "chem_synonyms": [],
+                "chem_struct": "CN[C@@H](C(C)C)C(N([C@H](C(NCCC1=CNC2=C1C=CC=C2)=O)CC3=CC=CC=C3)C)=O",
+                "molecular_formula": "C26H35N4O2",
+                "mol_mass": 435.2755,
+                "mass_ion_type": "[M+H]+",
+                "chem_act": [
+                    "Unknown"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "xndA",
+                    "gene_id": "XNC1_2299",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "xndB",
+                    "gene_id": "XNC1_2300",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Loss of all xenortide production"
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Unknown"
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

@@ -1,0 +1,63 @@
+<div class="container-fluid">
+    <h2>
+        {{$ctrl.title}}
+    </h2>
+
+    <style>
+        .hidden {
+            display: none;
+        }
+        a.active {
+            text-decoration: underline;
+            color: red;
+        }
+    </style>
+    <div style="display: flex;">
+        <div style="margin: 1em;">
+            <a href ng-click="$ctrl.page=1" ng-class="$ctrl.page==1? 'active':''"><h4>Loci</h4></a>
+        </div>
+        <div style="margin: 1em;">
+            <a href ng-click="$ctrl.page=2" ng-class="$ctrl.page==2? 'active':''"><h4>Compounds</h4></a>
+        </div>
+        <div style="margin: 1em;">
+            <a href ng-click="$ctrl.page=3" ng-class="$ctrl.page==3? 'active':''"><h4>Details</h4></a>
+        </div>
+    </div>
+    <div ng-class="$ctrl.page==1? '':'hidden'">
+        <ul ng-repeat="loci in $ctrl.bgcSeq.loci">
+            <li>
+                <h3>Loci {{$index + 1}}: {{loci.nucl_acc}} <span ng-if="loci.start_pos">({{loci.start_pos}}-{{loci.end_pos}})</span></h3>
+                <mibig-arrower arrower="{{$ctrl.arrower_jsons[$index]}}">
+                </mibig-arrower>
+            </li>
+        </ul>
+    </div>
+    <div ng-class="$ctrl.page==2? '':'hidden'">
+        <ul ng-repeat="compound in $ctrl.bgcAnnot.general_params.compounds">
+            <li>
+                <h3>Compound {{$index + 1}}: {{compound.compound}}</h3>
+                <div ng-if="compound.chem_struct">
+                    <mibig-smiles smiles="{{compound.chem_struct}}"></mibig-smiles>
+                </div>
+                <div ng-if="compound.pubchem_id">
+                    PubChem: {{compound.pubchem_id}}
+                </div>
+                <div ng-if="compound.chebi_id">
+                    ChEBI: {{compound.chebi_id}}
+                </div>
+                <div ng-if="compound.chembl_id">
+                    ChEMBL: {{compound.chembl_id}}
+                </div>
+                <div ng-if="compound.chemspider_id">
+                    ChemSpider: {{compound.chemspider_id}}
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div ng-class="$ctrl.page==3? '':'hidden'">
+        <h3>Annotation</h3>
+        <json-formatter json="$ctrl.bgcAnnot" open="1"></json-formatter>
+        <h3>Sequence</h3>
+        <json-formatter json="$ctrl.bgcSeq" open="1"></json-formatter>
+    </div>
+</div>

@@ -1,0 +1,165 @@
+{
+    "personal": {
+        "submitter_name": "R. Cameron Coates",
+        "submitter_institution": "DOE Joint Genome Institute",
+        "submitter_email": "rccoates@lbl.gov"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001160",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:24475038",
+            "pubmed:21531827",
+            "pubmed:25063658",
+            "pubmed:22991895"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "CP000951.1",
+                    "start_coord": 1205897,
+                    "end_coord": 1214059
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "1-nonadecene",
+                "chem_synonyms": [
+                    "1-NONADECENE",
+                    "Nonadecene",
+                    "18435-45-5",
+                    "Nonadec-1-ene",
+                    "UNII-41F44CP2NI",
+                    "41F44CP2NI",
+                    "NHLUYCJZUXOUBX-UHFFFAOYSA-N",
+                    "EINECS 242-313-7",
+                    "EINECS 248-442-5",
+                    "NSC 77135",
+                    "ACMC-1CQEX",
+                    "AI3-36475",
+                    "AC1L1GP4",
+                    "AC1Q2W3W",
+                    "27400-77-7",
+                    "DTXSID0066377",
+                    "CHEBI:64503",
+                    "CTK0H9496",
+                    "NSC77135",
+                    "ANW-23194",
+                    "LMFA11000322",
+                    "NSC-77135",
+                    "ZINC85599377",
+                    "AKOS028108410",
+                    "RTR-008505",
+                    "ACM27400777",
+                    "CC-04916",
+                    "DB-044527",
+                    "TR-008505",
+                    "FT-0608162",
+                    "S0349",
+                    "C-28212",
+                    "J-011814",
+                    "I14-60910",
+                    ""
+                ],
+                "pubchem_id": 29075,
+                "chem_act": [
+                    "Unknown"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 266.297,
+                "molecular_formula": "C19H38",
+                "chem_struct": "CCCCCCCCCCCCCCCCCC=C"
+            },
+            {
+                "compound": "(14Z)-1,14-Nonadecadiene",
+                "chem_synonyms": [
+                    "(14z)-nonadeca-1",
+                    "14-diene"
+                ],
+                "chemspider_id": 28184646,
+                "chem_act": [
+                    "Unknown"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "yp_001734428"
+                    ],
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ],
+            "gene": [
+                {
+                    "gene_name": "6056266",
+                    "gene_startpos": 1214059,
+                    "gene_endpos": 1205897,
+                    "gene_id": "ACA99172.1",
+                    "gene_annotation": "polyketide synthase",
+                    "gene_function": "Activation / processing",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Loss of production of 1-nonadecene and 1,14-nonadecadiene"
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "pks_te_type": "Type I",
+            "pks_release_type": "Other",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ACA99172",
+                    "pks_module": [
+                        {
+                            "module_nr": "1",
+                            "pks_domains": [
+                                "CoA-ligase",
+                                "Thiolation (ACP/PCP)",
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Sulfotransferase",
+                                "Thioesterase"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "Other"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "comments": "The thioester release mechanism of this pathway involves a release via hydrolysis and decarboxylation which was not an option for this submission.",
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

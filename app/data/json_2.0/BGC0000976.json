@@ -1,0 +1,572 @@
+{
+    "personal": {
+        "submitter_name": "Nathan Moss",
+        "submitter_institution": "Scripps Institution of Oceanography",
+        "submitter_email": "namoss@ucsd.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000976",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:15332855",
+            "pubmed:10482399",
+            "pubmed:10496976",
+            "pubmed:9443933",
+            "pubmed:7565634",
+            "pubmed:16834357",
+            "pubmed:17928301",
+            "pubmed:19835378",
+            "pubmed:20660778",
+            "pubmed:21387490",
+            "pubmed:21357626",
+            "pubmed:22103656",
+            "pubmed:22991895"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "HQ696500.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Enzymatic assays",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "Curacin A",
+                "chem_synonyms": [
+                    "Curacin B",
+                    "Curacin C",
+                    "155233-30-0",
+                    "AC1O5QLM",
+                    "SCHEMBL14363315",
+                    "(1R-(1alpha(R*(1Z,5E,7E,11R*)),2alpha))-4,5-Dihydro-4-(11-methoxy-8-methyl-1,5,7,13-tetradecatetraenyl)-2-(2-methylcyclopropyl)thiazole",
+                    "4,5-Dihydro-4-(11-methoxy-8-methyl-1,5,7,13-tetradecatetraenyl)-2-(2-methylcyclopropyl)thiazole (1R-(1alpha(R*(1Z,5E,7E,11R*)),2alpha))-",
+                    "(4R)-4-[(1Z,5E,7E,11R)-11-methoxy-8-methyltetradeca-1,5,7,13-tetraenyl]-2-[(2S)-2-methylcyclopropyl]-4,5-dihydro-1,3-thiazole",
+                    "Thiazole, 4,5-dihydro-4-(11-methoxy-8-methyl-1,5,7,13-tetradecatetraenyl)-2-(2-methylcyclopropyl)-, (1R-(1alpha(R*(1Z,5E,7E,11R*)),2alpha))-",
+                    ""
+                ],
+                "pubchem_id": 6438908,
+                "chebi_id": 3961,
+                "chembl_id": 89138,
+                "chemspider_id": 4445239,
+                "chem_act": [
+                    "Other"
+                ],
+                "other_chem_act": "anti-tubulin",
+                "chem_target": [
+                    "Colchicinesiteoftubulin"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "terminal olefin",
+                        "moiety_subcluster": [
+                            "aee88277.1"
+                        ]
+                    },
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "cyclopropyl ring",
+                        "moiety_subcluster": [
+                            "aee88289.1",
+                            "aee88288.1",
+                            "aee88287.1",
+                            "aee88286.1",
+                            "aee88285.1",
+                            "aee88284.1"
+                        ]
+                    }
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 373.244,
+                "molecular_formula": "C23H35NOS",
+                "chem_struct": "C[C@H]1CC1C2=N[C@@H](CS2)/C=C\\CC/C=C/C=C(\\C)/CC[C@H](CC=C)OC"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 1,
+                    "gene_endpos": 1011,
+                    "gene_id": "AEE88276.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 1426,
+                    "gene_endpos": 8061,
+                    "gene_id": "AEE88277.1",
+                    "gene_annotation": "CurM",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 8064,
+                    "gene_endpos": 13934,
+                    "gene_id": "AEE88278.1",
+                    "gene_annotation": "CurL",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 14019,
+                    "gene_endpos": 20717,
+                    "gene_id": "AEE88279.1",
+                    "gene_annotation": "CurK",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 20776,
+                    "gene_endpos": 27672,
+                    "gene_id": "AEE88280.1",
+                    "gene_annotation": "CurJ",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 27740,
+                    "gene_endpos": 32710,
+                    "gene_id": "AEE88281.1",
+                    "gene_annotation": "CurI",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 32710,
+                    "gene_endpos": 39309,
+                    "gene_id": "AEE88282.1",
+                    "gene_annotation": "CurH",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 39318,
+                    "gene_endpos": 44069,
+                    "gene_id": "AEE88283.1",
+                    "gene_annotation": "CurG",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 44157,
+                    "gene_endpos": 53744,
+                    "gene_id": "AEE88284.1",
+                    "gene_annotation": "CurF",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 53732,
+                    "gene_endpos": 54496,
+                    "gene_id": "AEE88285.1",
+                    "gene_annotation": "CurE",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Dehydration",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 54753,
+                    "gene_endpos": 56012,
+                    "gene_id": "AEE88286.1",
+                    "gene_annotation": "CurD",
+                    "gene_function": "Other enzymatic",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 56017,
+                    "gene_endpos": 57243,
+                    "gene_id": "AEE88287.1",
+                    "gene_annotation": "CurC",
+                    "gene_function": "Other enzymatic",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 57295,
+                    "gene_endpos": 57534,
+                    "gene_id": "AEE88288.1",
+                    "gene_annotation": "CurB",
+                    "gene_function": "Activation / processing",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 57553,
+                    "gene_endpos": 64488,
+                    "gene_id": "AEE88289.1",
+                    "gene_annotation": "CurA",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 65046,
+                    "gene_endpos": 65189,
+                    "gene_id": "AEE88290.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "pks_te_type": "Other",
+            "pks_thioesterase": [
+                "aee88277.1"
+            ],
+            "pks_release_type": "Other",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AEE88289.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "0",
+                            "pks_domains": [
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Activity assay",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "1",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Activity assay",
+                            "pks_mod_doms": [
+                                "Other"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEE88288.1",
+                    "pks_module": [
+                        {
+                            "pks_domains": [
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEE88287.1",
+                    "pks_module": [
+                        {
+                            "pks_domains": [
+                                "Ketosynthase"
+                            ],
+                            "pks_mod_doms": [
+                                "Beta-branching"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEE88285.1",
+                    "pks_module": [
+                        {
+                            "pks_domains": [
+                                "Enoylreductase"
+                            ],
+                            "pks_mod_doms": [
+                                "Other"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEE88284.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "2",
+                            "pks_domains": [
+                                "Enoylreductase"
+                            ],
+                            "pks_mod_doms": [
+                                "Other"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "3",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEE88283.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "5",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEE88282.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "6",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEE88281.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "7",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEE88280.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "8",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEE88279.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "9",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEE88278.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "10",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AEE88277.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "11",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Activity assay",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Unknown",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AEE88284.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "4",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Cysteine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "Other",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "comments": "Thioesterase results in decarboxylation and desulfonation of the compound. ",
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

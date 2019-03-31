@@ -1,0 +1,108 @@
+{
+    "personal": {
+        "submitter_name": "Yi-Qiang Cheng",
+        "submitter_institution": "University of North Texas Health Science Center",
+        "submitter_email": "yiqiang.cheng@unthsc.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000993",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:17400765",
+            "pubmed:19549597",
+            "pubmed:21183645",
+            "pubmed:21183648",
+            "pubmed:24553401"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "EF210776.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "FK228",
+                "chem_synonyms": [
+                    "depsipeptide",
+                    "romidepsin"
+                ],
+                "chem_struct": "CC=C1C(=O)NC(C(=O)OC2CC(=O)NC(C(=O)NC(CSSCCC=C2)C(=O)N1)C(C)C)C(C)C",
+                "molecular_formula": "C24H36N4O6S2",
+                "mol_mass": 540.2,
+                "mass_ion_type": "Other",
+                "chem_act": [
+                    "Antifungal",
+                    "Cytotoxic",
+                    "Inhibitor"
+                ],
+                "chem_target": [
+                    "Histonedeacetylases"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "Disulfide bond",
+                        "moiety_subcluster": [
+                            "abp57753"
+                        ]
+                    }
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "abp57745",
+                        "abp57746",
+                        "abp57747",
+                        "abp57748",
+                        "abp57749",
+                        "abp57750",
+                        "abp57751",
+                        "abp57752",
+                        "abp57753",
+                        "abp57754"
+                    ],
+                    "evidence_operon": "Other"
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Macrolide",
+            "lin_cycl_pk": "Cyclic",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "pks_te_type": "Type II",
+            "pks_thioesterase": [
+                "abp57754"
+            ],
+            "pks_release_type": "Macrolactamization"
+        },
+        "nrp": {
+            "subclass": "Cyclic depsipeptide",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Type II",
+            "nrps_release_type": "Macrolactamization"
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

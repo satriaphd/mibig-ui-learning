@@ -1,0 +1,216 @@
+{
+    "personal": {
+        "submitter_name": "Prof. Dr. Jos Raaijmakers",
+        "submitter_institution": "NIOO-KNAW",
+        "submitter_email": "j.raaijmakers@nioo.knaw.nl"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000389",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:17993540",
+            "pubmed:17241198",
+            "pubmed:22792073",
+            "pubmed:19447950",
+            "pubmed:14660362"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "EU199081.2",
+                    "start_coord": 11695,
+                    "end_coord": 35942
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "massetolide A",
+                "chem_synonyms": [],
+                "chembl_id": 500573,
+                "chem_act": [
+                    "Antifungal",
+                    "Surfactant"
+                ],
+                "chem_target": [
+                    "membrane"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "massA",
+                    "gene_id": "ABH06367",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay",
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": "loss of massetolide A production"
+                },
+                {
+                    "gene_name": "massB",
+                    "gene_id": "ABH06368",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay",
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": "loss of massetolide A production"
+                },
+                {
+                    "gene_name": "massC",
+                    "gene_id": "ABH06369",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay",
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": "loss of massetolide A production"
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Cyclic depsipeptide",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "ABH06367",
+                    "nrps_module": [
+                        {
+                            "module_nr": "A1",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Leucine",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "A2",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Glutamate",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "Dual",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "nrps_gene": "ABH06368",
+                    "nrps_module": [
+                        {
+                            "module_nr": "B1",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Threonine",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "Dual",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "B2",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Isoleucine",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "Dual",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "B3",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Leucine",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "Dual",
+                            "nrps_mod_doms": "None"
+                        },
+                        {
+                            "module_nr": "B4",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Serine",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "Dual",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "nrps_gene": "ABH06369",
+                    "nrps_module": [
+                        {
+                            "module_nr": "B5",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Leucine",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "Dual",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "B6",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Serine",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "Dual",
+                            "nrps_mod_doms": "None"
+                        },
+                        {
+                            "module_nr": "B7",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Isoleucine",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "Dual",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ],
+            "nrps_te_type": "Unknown",
+            "nrps_thioesterase": [
+                "abh06369"
+            ],
+            "nrps_release_type": "Unknown"
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

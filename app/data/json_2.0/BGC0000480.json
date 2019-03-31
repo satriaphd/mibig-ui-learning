@@ -1,0 +1,111 @@
+{
+    "personal": {
+        "submitter_name": "Mohamed Donia",
+        "submitter_institution": "Princeton University",
+        "submitter_email": "donia@princeton.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000480",
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": [
+            "pubmed:18425112"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "EU290741.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "tenuecyclamide A",
+                "chem_synonyms": [
+                    "Tenuecyclamide A",
+                    "tenuecyclamide B",
+                    "CHEMBL517650",
+                    "SCHEMBL13249761",
+                    ""
+                ],
+                "pubchem_id": 24762151,
+                "chem_act": [
+                    "Unknown"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 460.099,
+                "molecular_formula": "C19H20N6O4S2",
+                "chem_struct": "C[C@H]1C2=NC(=C(O2)C)C(=O)NC(C3=NC(=CS3)C(=O)NC(C4=NC(=CS4)C(=O)N1)C)C"
+            },
+            {
+                "compound": "tenuecyclamide C",
+                "chem_synonyms": [
+                    "Tenuecyclamide C",
+                    "CHEMBL518880",
+                    "SCHEMBL13249759",
+                    "(11S,18S)-18,21-Dimethyl-11-[2-(methylthio)ethyl]8,5:15,12-dinitrilo-3,10,17,22-tetraaza-6,13-dithia-20-oxabicyclo[17.2.1]docosa-1(21),7,14,19(22)-tetrene-2,9,16-trione",
+                    ""
+                ],
+                "pubchem_id": 10720367,
+                "chem_act": [
+                    "Unknown"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 506.086,
+                "molecular_formula": "C20H22N6O4S3",
+                "chem_struct": "C[C@H]1C2=NC(=C(O2)C)C(=O)NCC3=NC(=CS3)C(=O)N[C@H](C4=NC(=CS4)C(=O)N1)CCSC"
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "aca04480.1",
+                        "aca04481.1",
+                        "aca04482.1",
+                        "aca04483.1",
+                        "aca04484.1",
+                        "aca04485.1",
+                        "aca04486.1"
+                    ],
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ]
+        },
+        "ripp": {
+            "ripp_subclass": "Cyanobactin",
+            "lin_cycl_ripp": "Cyclic",
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "aca04484.1"
+                    ],
+                    "core_pept_aa": [
+                        "ATGCMC",
+                        "ATACAC"
+                    ],
+                    "lead_pept_len": 42,
+                    "foll_pept_len": -1,
+                    "cleavage_recogn_site": [
+                        "GVGAS",
+                        "AYD",
+                        "GAGAS",
+                        "AYE"
+                    ],
+                    "peptidase": []
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

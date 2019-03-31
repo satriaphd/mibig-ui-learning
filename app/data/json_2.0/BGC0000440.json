@@ -1,0 +1,628 @@
+{
+    "personal": {
+        "submitter_name": "Stefano Donadio",
+        "submitter_institution": "Naicons Srl",
+        "submitter_email": "sdonadio@naicons.com"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000440",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:14702401",
+            "pubmed:15113000",
+            "pubmed:16007453",
+            "pubmed:17009278",
+            "pubmed:17044690",
+            "pubmed:25358800"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "AJ605139.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Enzymatic assays",
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "teicoplanin",
+                "chem_synonyms": [
+                    "Status: 404",
+                    "Code: PUGREST.NotFound",
+                    "Message: No synonyms found for the given CID(s)",
+                    ""
+                ],
+                "pubchem_id": 16162959,
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_target": [
+                    "lipidII"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "3,5-Dihydroxy-phenylglycine",
+                        "moiety_subcluster": [
+                            "cae53371.1,cae53372.1,cae53373.1,cae53374.1"
+                        ]
+                    }
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 1197.22,
+                "molecular_formula": "C58H45Cl2N7O18",
+                "chem_struct": "C1[C@@H]2C(=O)N[C@@H](C3=CC(=CC(=C3)O)OC4=C(C=CC(=C4)[C@H](C(=O)N2)N)O)C(=O)N[C@@H]5C6=CC(=C(C(=C6)OC7=C(C=C(C=C7)[C@H]([C@H]8C(=O)NC(C9=CC(=CC(=C9C2=C(C=CC(=C2)[C@H](C(=O)N8)NC5=O)O)O)O)C(=O)O)O)Cl)O)OC2=C(C=C1C=C2)Cl"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "tcp1",
+                    "gene_startpos": 10677,
+                    "gene_endpos": 12020,
+                    "gene_id": "CAE53342.1",
+                    "gene_annotation": "murF-like protein",
+                    "gene_function": "Resistance/immunity",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "tcp2",
+                    "gene_startpos": 12042,
+                    "gene_endpos": 13259,
+                    "gene_id": "CAE53343.1",
+                    "gene_annotation": "VanH protein",
+                    "gene_function": "Resistance/immunity",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "tcp3",
+                    "gene_startpos": 13252,
+                    "gene_endpos": 14289,
+                    "gene_id": "CAE53344.1",
+                    "gene_annotation": "VanA protein",
+                    "gene_function": "Resistance/immunity",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "tcp4",
+                    "gene_startpos": 14289,
+                    "gene_endpos": 14897,
+                    "gene_id": "CAE53345.1",
+                    "gene_annotation": "VanX protein",
+                    "gene_function": "Resistance/immunity",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "tcp5",
+                    "gene_startpos": 15659,
+                    "gene_endpos": 16198,
+                    "gene_id": "CAE53346.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp6",
+                    "gene_startpos": 16311,
+                    "gene_endpos": 17402,
+                    "gene_id": "CAE53347.1",
+                    "gene_annotation": "transmamebrane sensor kinase",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp7",
+                    "gene_startpos": 17410,
+                    "gene_endpos": 18090,
+                    "gene_id": "CAE53348.1",
+                    "gene_annotation": "response regulator",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp8",
+                    "gene_startpos": 18949,
+                    "gene_endpos": 20130,
+                    "gene_id": "CAE53349.1",
+                    "gene_annotation": "GtfA protein",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Glycosylation",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "tcp9",
+                    "gene_startpos": 20622,
+                    "gene_endpos": 26852,
+                    "gene_id": "CAE53350.1",
+                    "gene_annotation": "non-ribosomal peptide synthetase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp10",
+                    "gene_startpos": 26849,
+                    "gene_endpos": 30034,
+                    "gene_id": "CAE53351.1",
+                    "gene_annotation": "non-ribosomal peptide synthetase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp11",
+                    "gene_startpos": 30078,
+                    "gene_endpos": 42281,
+                    "gene_id": "CAE53352.1",
+                    "gene_annotation": "non-ribosomal peptide synthetase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp12",
+                    "gene_startpos": 42301,
+                    "gene_endpos": 47898,
+                    "gene_id": "CAE53353.1",
+                    "gene_annotation": "non-ribosomal peptide synthetase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp13",
+                    "gene_startpos": 47911,
+                    "gene_endpos": 48120,
+                    "gene_id": "CAE53354.1",
+                    "gene_annotation": "MbtH-like short polypeptide",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp14",
+                    "gene_startpos": 48426,
+                    "gene_endpos": 49247,
+                    "gene_id": "CAE53355.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Hydrolysis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "tcp15",
+                    "gene_startpos": 49293,
+                    "gene_endpos": 51074,
+                    "gene_id": "CAE53356.1",
+                    "gene_annotation": "putative mannosyltransferase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Glycosylation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp16",
+                    "gene_startpos": 51368,
+                    "gene_endpos": 53314,
+                    "gene_id": "CAE53357.1",
+                    "gene_annotation": "ABC transporter",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp17",
+                    "gene_startpos": 53401,
+                    "gene_endpos": 53610,
+                    "gene_id": "CAE53358.1",
+                    "gene_annotation": "MbtH-like short polypeptide",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp18",
+                    "gene_startpos": 53721,
+                    "gene_endpos": 54896,
+                    "gene_id": "CAE53359.1",
+                    "gene_annotation": "OxyA protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp19",
+                    "gene_startpos": 54919,
+                    "gene_endpos": 56073,
+                    "gene_id": "CAE53360.1",
+                    "gene_annotation": "Oxy protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp20",
+                    "gene_startpos": 56063,
+                    "gene_endpos": 57259,
+                    "gene_id": "CAE53361.1",
+                    "gene_annotation": "OxyB protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "tcp21",
+                    "gene_startpos": 57509,
+                    "gene_endpos": 59029,
+                    "gene_id": "CAE53362.1",
+                    "gene_annotation": "halogenase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Halogenation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp22",
+                    "gene_startpos": 59191,
+                    "gene_endpos": 60369,
+                    "gene_id": "CAE53363.1",
+                    "gene_annotation": "OxyC protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp23",
+                    "gene_startpos": 60486,
+                    "gene_endpos": 61712,
+                    "gene_id": "CAE53364.1",
+                    "gene_annotation": "GtfB protein",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Glycosylation",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "tcp24",
+                    "gene_startpos": 61858,
+                    "gene_endpos": 62829,
+                    "gene_id": "CAE53365.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp25",
+                    "gene_startpos": 62973,
+                    "gene_endpos": 64565,
+                    "gene_id": "CAE53366.1",
+                    "gene_annotation": "putative non-haem hydroxylase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Hydroxylation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp26",
+                    "gene_startpos": 64782,
+                    "gene_endpos": 66578,
+                    "gene_id": "CAE53367.1",
+                    "gene_annotation": "acyl-CoA ligase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Acylation",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "tcp27",
+                    "gene_startpos": 66949,
+                    "gene_endpos": 68004,
+                    "gene_id": "CAE53368.1",
+                    "gene_annotation": "phospho-2-dehydro-3-deoxyheptonate aldolase, AroA type",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp28",
+                    "gene_startpos": 68771,
+                    "gene_endpos": 69760,
+                    "gene_id": "CAE53369.1",
+                    "gene_annotation": "transcriptional regulator, StrR family",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "tcp29",
+                    "gene_startpos": 70502,
+                    "gene_endpos": 72880,
+                    "gene_id": "CAE53370.1",
+                    "gene_annotation": "transcriptional regulator, LuxR family",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "tcp30",
+                    "gene_startpos": 73061,
+                    "gene_endpos": 74182,
+                    "gene_id": "CAE53371.1",
+                    "gene_annotation": "DpgA protein",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp31",
+                    "gene_startpos": 74179,
+                    "gene_endpos": 74844,
+                    "gene_id": "CAE53372.1",
+                    "gene_annotation": "DpgB protein",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp32",
+                    "gene_startpos": 74841,
+                    "gene_endpos": 76142,
+                    "gene_id": "CAE53373.1",
+                    "gene_annotation": "DpgC protein",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp33",
+                    "gene_startpos": 76171,
+                    "gene_endpos": 76977,
+                    "gene_id": "CAE53374.1",
+                    "gene_annotation": "DpgD protein",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp34",
+                    "gene_startpos": 77016,
+                    "gene_endpos": 78377,
+                    "gene_id": "CAE53375.1",
+                    "gene_annotation": "membrane ion antiporter",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp35",
+                    "gene_startpos": 78374,
+                    "gene_endpos": 78970,
+                    "gene_id": "CAE53376.1",
+                    "gene_annotation": "putative GTP cyclohydrolase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp36",
+                    "gene_startpos": 79108,
+                    "gene_endpos": 80205,
+                    "gene_id": "CAE53377.1",
+                    "gene_annotation": "HpgT aminotransferase",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp37",
+                    "gene_startpos": 80291,
+                    "gene_endpos": 81346,
+                    "gene_id": "CAE53378.1",
+                    "gene_annotation": "HmaS protein",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp38",
+                    "gene_startpos": 81343,
+                    "gene_endpos": 82437,
+                    "gene_id": "CAE53379.1",
+                    "gene_annotation": "Hmo protein",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "tcp39",
+                    "gene_startpos": 82573,
+                    "gene_endpos": 83325,
+                    "gene_id": "CAE53380.1",
+                    "gene_annotation": "thioesterase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Glycopeptide",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "Type I",
+            "nrps_thioesterase": [
+                "cae53353.1"
+            ],
+            "nrps_release_type": "Hydrolysis",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "CAE53350.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "1",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Other",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "epimerized": true,
+                                "other_spec": "Hydroxyphenylglycine"
+                            },
+                            "cdom_subtype": "Unknown",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "2",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Tyrosine",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "epimerized": true
+                            },
+                            "cdom_subtype": "Other",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "nrps_gene": "CAE53351.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "3",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Other",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "epimerized": false,
+                                "other_spec": "3,5-Dihydroxyphenylglycine"
+                            },
+                            "cdom_subtype": "Other",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "nrps_gene": "CAE53352.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "4",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Other",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "epimerized": true,
+                                "other_spec": "Hydroxyphenylglycine"
+                            },
+                            "cdom_subtype": "Other",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "5",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Other",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "epimerized": true,
+                                "other_spec": "Hydroxyphenylglycine"
+                            },
+                            "cdom_subtype": "Other",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "6",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Tyrosine",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "Other",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "nrps_gene": "CAE53353.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "7",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Other",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "epimerized": false,
+                                "other_spec": "3,5-Dihydroxyphenylglycine"
+                            },
+                            "cdom_subtype": "Other",
+                            "nrps_mod_doms": "Other",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

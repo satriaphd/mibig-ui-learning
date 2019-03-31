@@ -1,0 +1,359 @@
+{
+    "personal": {
+        "submitter_name": "Daniel Krug",
+        "submitter_institution": "HIPS",
+        "submitter_email": "daniel.krug@helmholtz-hzi.de"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000153",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:10320771"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "AJ421825.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "Stigmatellin A",
+                "chem_synonyms": [],
+                "chem_struct": "O(C)C1=CC(=C(O)C2OC(CC[C@H](C)[C@@H]([C@H](C)[C@@H](/C=C/C=C/C(/C)=C/C)OC)OC)=C(C)C(=O)C1=2)OC",
+                "molecular_formula": "C30H42O7",
+                "mol_mass": 515.3003,
+                "mass_ion_type": "[M+H]+",
+                "chem_act": [
+                    "Antifungal"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "stiA",
+                    "gene_id": "CAD19085.1",
+                    "gene_annotation": "StiA protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "stiB",
+                    "gene_id": "CAD19086.1",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "stiC",
+                    "gene_id": "CAD19087.1",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "stiD",
+                    "gene_id": "CAD19088.1",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "stiE",
+                    "gene_id": "CAD19088.1",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "stiF",
+                    "gene_id": "CAD19089.1",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "stiG",
+                    "gene_id": "CAD19090.1",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "stiH",
+                    "gene_id": "CAD19091.1",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "stiJ",
+                    "gene_id": "ctg1_orf00029",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "stiK",
+                    "gene_id": "CAD19094.1",
+                    "gene_annotation": "methyl transferase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "stiL",
+                    "gene_id": "CAD19095.1",
+                    "gene_annotation": "cytochrome P450 dependent monooxygenase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "loss of production"
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "CAD19085.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "1",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CAD19086.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "2",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CAD19087.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "3",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CAD19088.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "4",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CAD19088.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "5",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CAD19089.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "6",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CAD19090.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "7",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CAD19091.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "8",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Iterated",
+                            "pks_evidence_skip_iter": "Structure-based inference"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "CAD19092.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "9",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Iterated",
+                            "pks_evidence_skip_iter": "Structure-based inference"
+                        }
+                    ]
+                }
+            ],
+            "pks_te_type": "None",
+            "pks_thioesterase": [],
+            "pks_release_type": "Other"
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_genes": [],
+            "nrps_te_type": "None",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Other"
+        }
+    },
+    "embargo": false,
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

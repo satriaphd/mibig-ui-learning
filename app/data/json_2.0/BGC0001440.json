@@ -1,0 +1,208 @@
+{
+    "personal": {
+        "submitter_name": "Leonard Kaysser",
+        "submitter_institution": "University of Tuebingen",
+        "submitter_email": "leonard.kaysser@pharm.uni-tuebingen.de"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001440",
+        "biosyn_class": [
+            "Other"
+        ],
+        "publications": [
+            "pubmed:28452105",
+            "pubmed:25769015"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "KY249117.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Enzymatic assays"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "cystargolide A",
+                "chem_synonyms": [
+                    "Cystargolide A",
+                    ""
+                ],
+                "pubchem_id": 122204527,
+                "evidence_struct": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "chem_act": [
+                    "Inhibitor"
+                ],
+                "chem_target": [
+                    "20Sproteasome"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "beta-lactone",
+                        "moiety_subcluster": []
+                    }
+                ],
+                "mol_mass": 370.21,
+                "molecular_formula": "C18H30N2O6",
+                "chem_struct": "CC[C@@H](C)[C@@H](C(=O)O)NC(=O)[C@H](C(C)C)NC(=O)[C@H]1[C@@H](C(=O)O1)C(C)C"
+            },
+            {
+                "compound": "cystargolide B",
+                "chem_synonyms": [
+                    "Cystargolide B",
+                    ""
+                ],
+                "pubchem_id": 122204528,
+                "evidence_struct": [
+                    "NMR",
+                    "Mass spectrometry"
+                ],
+                "chem_act": [
+                    "Inhibitor"
+                ],
+                "chem_target": [
+                    "20Sproteasome"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "beta-lactone",
+                        "moiety_subcluster": []
+                    }
+                ],
+                "mol_mass": 356.195,
+                "molecular_formula": "C17H28N2O6",
+                "chem_struct": "CC(C)[C@H]1[C@@H](OC1=O)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](C(C)C)C(=O)O"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "cysA",
+                    "gene_startpos": 1,
+                    "gene_endpos": 861,
+                    "gene_id": "ARO49558.1",
+                    "gene_annotation": "alpha/beta hydrolase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cysA",
+                    "gene_startpos": 925,
+                    "gene_endpos": 2577,
+                    "gene_id": "ARO49559.1",
+                    "gene_annotation": "2-IPM synthase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "cysB",
+                    "gene_startpos": 2574,
+                    "gene_endpos": 4013,
+                    "gene_id": "ARO49560.1",
+                    "gene_annotation": "MFS transporter",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cysC",
+                    "gene_startpos": 4010,
+                    "gene_endpos": 5188,
+                    "gene_id": "ARO49561.1",
+                    "gene_annotation": "AMP-dependent synthetase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cysD",
+                    "gene_startpos": 5185,
+                    "gene_endpos": 6186,
+                    "gene_id": "ARO49562.1",
+                    "gene_annotation": "ATP-dependent carboxylate-amide ligase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "abolished production"
+                },
+                {
+                    "gene_name": "cysE",
+                    "gene_startpos": 6203,
+                    "gene_endpos": 7018,
+                    "gene_id": "ARO49563.1",
+                    "gene_annotation": "methylesterase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cysF",
+                    "gene_startpos": 7011,
+                    "gene_endpos": 8486,
+                    "gene_id": "ARO49564.1",
+                    "gene_annotation": "AMP-dependent synthetase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cysG",
+                    "gene_startpos": 8544,
+                    "gene_endpos": 9230,
+                    "gene_id": "ARO49565.1",
+                    "gene_annotation": "SAM-dependent methyltransferase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "abolished production"
+                },
+                {
+                    "gene_name": "cysH",
+                    "gene_startpos": 9431,
+                    "gene_endpos": 10360,
+                    "gene_id": "ARO49566.1",
+                    "gene_annotation": "LysR family transcription regulator",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 12743,
+                    "gene_endpos": 13771,
+                    "gene_id": "ARO49567.1",
+                    "gene_annotation": "3-oxoacyl-ACP synthase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                }
+            ]
+        },
+        "other": {
+            "other_subclass": "Other"
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

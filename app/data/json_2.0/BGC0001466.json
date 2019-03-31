@@ -1,0 +1,80 @@
+{
+    "personal": {
+        "submitter_name": "Yang Hai",
+        "submitter_institution": "UCLA",
+        "submitter_email": "YANGHAI62@UCLA.EDU"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001466",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "doi:10.1021/jacs.7b13350"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "MG837519.1"
+                },
+                {
+                    "accession": "MG837518.1"
+                },
+                {
+                    "accession": "MG837520.1"
+                },
+                {
+                    "accession": "MG837521.1"
+                },
+                {
+                    "accession": "MG837522.1"
+                },
+                {
+                    "accession": "MG837523.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction",
+                "Heterologous expression"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "Wortmanamide",
+                "chem_synonyms": [],
+                "chem_struct": "OC(CCCCNC(/C=C/CCCCCCCC/C=C/C[C@H](O)C)=O)=O",
+                "mol_mass": 366.2635,
+                "mass_ion_type": "[M-H]-",
+                "evidence_struct": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "Chemical derivatization"
+                ],
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ],
+        "genes": {},
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "pks_genes": [
+                "mg837519.1"
+            ],
+            "nr_iterations": 7,
+            "iterative_subtype": "Highly reducing",
+            "pks_te_type": "None",
+            "pks_release_type": "Other"
+        }
+    },
+    "comments": "The corresponding author for this entry should be both Yang Hai and Prof. Yi Tang, (yitang@ucla.edu)",
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

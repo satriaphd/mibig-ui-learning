@@ -1,0 +1,962 @@
+{
+    "metadata": {
+        "mibig_accession": "BGC0000102",
+        "source_datetime": "2019-03-28T00:16:28+01:00",
+        "created": "2019-03-28T00:59:15+01:00",
+        "pfam_version": "32.0"
+    },
+    "loci": [
+        {
+            "nucl_acc": "AB089954.2",
+            "start_pos": 1,
+            "end_pos": 58343,
+            "genes": [
+                {
+                    "strand": -1,
+                    "not_from_gbk": false,
+                    "name": "mycF",
+                    "id": "BAC57022.1",
+                    "annotation": "methyltransferase",
+                    "aa_seq": "MSPSTGVELYLDLLKRTVSNFIYQDATHVAGLITEAAFVEEARESGEDYPTVAHTMIGMKRLNNLQHCVESALRDGVPGDVLETGVWRGGACIFARGILKAYDVRDRTVWVADSFQGFPKITDDDHPMDAEMNLHQYNEAVDLPTSLATVQRNFSRYGLLDDQVRFLPGWFKDTMPTAPFERLAVLRMDGDSYGATMDVLTHAYPRLSPGGFAIIDDYCIPACREAVHEYRDRHGISDEIVEIDRQGVYWRSLGLTFPVHCRRSGRSGPTTGACHHTTGSSSGPRSNIPSLHRSCVSGIPSRI",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "TylF",
+                            "model_start": 2,
+                            "model_end": 255,
+                            "seq_start": 8,
+                            "seq_end": 251,
+                            "bitscore": 322.6
+                        }
+                    ],
+                    "start_pos": 1,
+                    "end_pos": 910
+                },
+                {
+                    "strand": 1,
+                    "not_from_gbk": false,
+                    "name": "mycCI",
+                    "id": "BAC57023.2",
+                    "annotation": "cytochrome P450",
+                    "aa_seq": "MDRTCAWALPEQYAEFRQRATLVPAKVWDGSPTWLVSRYEHVRALLVDPRVTVDPTRQPRLSEADGDGDGFRSMLMLDPPEHTRLRRMFISAFSVRQVETMRPEIEKIVDGILDRLLALEPPVDILTHLALPMSTQVICHLLGVPYEDREFFQERSELASRPNDDRSMPALIELVEYLDGLVRTKTAHPDTGLLGTAVTERLLKGEITHQELVNNAVLLLAAGHETSANQVTLSVLTLLRHPETAAELREQPELMPNAVDELLRYHSIADGLRRAATADIVLGDHTIRAGDGLIILLSSANHDGNTFGAEATFDIHRPARHHVAFGYGPHQCLGQNLARLEMEVTLGKLFRRVPALRLAQEPDALRVRQGSPIFGIDELLVEW",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "p450",
+                            "model_start": 42,
+                            "model_end": 432,
+                            "seq_start": 29,
+                            "seq_end": 352,
+                            "bitscore": 103.0
+                        }
+                    ],
+                    "start_pos": 1490,
+                    "end_pos": 2641
+                },
+                {
+                    "strand": 1,
+                    "not_from_gbk": false,
+                    "name": "mycCII",
+                    "id": "BAC57024.1",
+                    "annotation": "ferredxin",
+                    "aa_seq": "MRIVLDAERCVGAGQCEATAPELFTQGDDGLGLVRDRPVTPELLGPAREAVDRCPVRAIRIESSVRTGWARGAG",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "Fer4_15",
+                            "model_start": 1,
+                            "model_end": 66,
+                            "seq_start": 3,
+                            "seq_end": 61,
+                            "bitscore": 47.4
+                        }
+                    ],
+                    "start_pos": 2662,
+                    "end_pos": 2886
+                },
+                {
+                    "strand": 1,
+                    "not_from_gbk": false,
+                    "name": "mydI",
+                    "id": "BAC57025.1",
+                    "annotation": "4-ketoreductase",
+                    "aa_seq": "MTRDRWANRSVVVTGALGFIGSHFVEELAARGADVLGLYRSEHRAVRDELSAHDRVRLLPVDLLDERRLRQVFEHEASGAQTIVHCAALDGNAAYKRAHSAEILDANLRVASNLLNCVRDFGVEDVTVLSSAEAYCGPTASPAREDDARCRTVRSGENGYVLSKLITEILAEQYRRQYGFGVHLVRPANVYGPRDSFDGPASRVIPAMIARAESGGEIEIWGDGQQTRSFVYVTDLVRAALALVETGKFHSLNVTTDETVSMLDLARVVFSVTGRTARIHHKPAQPVGAPGAVLDTTRMREVVDYTPRTLREGLEETVRWYRHRIGR",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "Epimerase",
+                            "model_start": 1,
+                            "model_end": 230,
+                            "seq_start": 11,
+                            "seq_end": 248,
+                            "bitscore": 173.0
+                        },
+                        {
+                            "name": "NAD_binding_10",
+                            "model_start": 163,
+                            "model_end": 180,
+                            "seq_start": 255,
+                            "seq_end": 272,
+                            "bitscore": -1.9
+                        }
+                    ],
+                    "start_pos": 2883,
+                    "end_pos": 3866
+                },
+                {
+                    "strand": 1,
+                    "not_from_gbk": false,
+                    "name": "mycE",
+                    "id": "BAC57026.1",
+                    "annotation": "methyltransferase",
+                    "aa_seq": "MTAQTEFDEATVQDVVRLAGGHDSELRELTQKYDPAMISRLLVAEILSRCPPPSNDTPVLVELAIVHGSERFRHFLRVVRDSPIRPVGADEGFVGMLVEYELTELLRELFGVTHERPAGVRGTKLFPYLTDDEEAVEQIGTYLLAAQQGTEAVLAGCGSRKPDLSELSSRYFTPKFGFLHWFTPHYDRHFRDYRNQQVRVLEIGVGGYKHPEWGGGSLRMWKSFFPRGQIYGLDIMDKSHVDELRIRTIQGDQNDAEFLDRIARRYGPFDIVIDDGSHINAHVRTSFAALFPHVRPGGLYVIEDMWTAYWPGFGGQADPQECSGTSLGLLKSLIDAIQHQELPSDPNRSPGYVDRNIVGLHVYHNVAFVEKGRNDEGGIPTWIPRDFESLVQASSGGAT",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "MycE_N",
+                            "model_start": 2,
+                            "model_end": 109,
+                            "seq_start": 13,
+                            "seq_end": 120,
+                            "bitscore": 72.2
+                        },
+                        {
+                            "name": "Methyltransf_24",
+                            "model_start": 50,
+                            "model_end": 105,
+                            "seq_start": 245,
+                            "seq_end": 304,
+                            "bitscore": 24.4
+                        }
+                    ],
+                    "start_pos": 3887,
+                    "end_pos": 5086
+                },
+                {
+                    "strand": 1,
+                    "not_from_gbk": false,
+                    "name": "mycD",
+                    "id": "BAC57027.1",
+                    "annotation": "glycosyltransferase",
+                    "aa_seq": "MRIALLTIGSRGDVQPFIALGVGLRARGHDVILGAPEGLKHLVERAGLTYRPTPGDPDGFFTMPEVVDSLRRSPYLRDLLKALPAVPEEYDQQVVDEIAAAGQGADAVVYAPLTIAAAYGRSDVPWAAANWWPNTRTWRFPAVESGQRRLGPLSPLYHLFTHARAAREEWAWRRPEVDGYRRRQGLEPFGGRSPFLRLGRERPYLYPFSPSVLPKPRDWPARAHVTGYWFWDQDWQPTRELVDFLADGPAPVAADVRQHLAVHRREQVLEYAIAAARAAGRRIVVVDGPDVPPSDDVLRLHDVDYRWLFPRTAAVVHHGGFGTTAEVVRAGRPHVVVPVFADHPFWARRLTEIGVAAPAVDFRTLTREALVASTVKAVREDSLGARAARLGEAVRRERGVENACQVVESWIDNSSRTLTG",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "Glyco_transf_28",
+                            "model_start": 1,
+                            "model_end": 57,
+                            "seq_start": 3,
+                            "seq_end": 69,
+                            "bitscore": 48.9
+                        },
+                        {
+                            "name": "UDPGT",
+                            "model_start": 339,
+                            "model_end": 409,
+                            "seq_start": 310,
+                            "seq_end": 382,
+                            "bitscore": 24.9
+                        }
+                    ],
+                    "start_pos": 5181,
+                    "end_pos": 6443
+                },
+                {
+                    "strand": 1,
+                    "not_from_gbk": false,
+                    "name": "mycAI",
+                    "id": "BAC57028.1",
+                    "annotation": "protomycinolide IV synthase 1",
+                    "aa_seq": "MVVPSVTAAPESVALVGMSCRLPGASGVEEFWDLLTEGRDAVARQPDGSWRAALAETGTFDAGFFGMSPRQAAAADPQQRLVLELGWEALEHAGVVPATLAGSRTGVFVGVTADDYATSLWRTGTTPDGYTVPGLNRSMIANRLSYLLELRGPSFVVDSAQSSSLVAVHLACESLLRGESDAAIVAGVSLISTPESTAAMASLGALSPDGRCYTFDARANGYVRGEGGAAVVLKRLSDALVDGDRVHAVILGGAVNNDGGGPGLLAPDRAAQEEVLRRAYDRSGVGPAQVTYVELHGTGTPVGDPVEAAALGAVFGADRRADDPLHVGSVKSNIGHLEGAAGITGLLKAVLCVREGVLPPTLNHQTPNPGIPLAQLRLRVQTTVQRWPDRADEGRRIAAVSSFGMGGTNAHLVLAQAPERAVRPAVSPTTELPAVPWVLSARSEAALRGQAERLREHLDRHPDLRPLDVGFSLATSRDVFPHRSVRFADGEPVAAGSGRLAEGRVAWVFPGQGAQWTGMAAASLTESPVFAARLTECAAAVTPFVDWSLLDVLRAVPGSPRLDRDDVVQPACFAVMVSLAELWRSWGVVPEAVVGHSQGEIAAAVVAGAISLEDGARIVALRSQLLTRELHGLGGMVSVGLPVAETERLLTRWSGRLHLAVVNGPNATVVAGDGDALDELVTECERRQARVRRVAVEYASHSPHVERIRDELMTALRPVTPQPSAVAFYSTADVGITDGERLDAGYWYRNLRQPVRFADTLRQMSTDGYTSFVELSAHPMLVTALEEILAQETTAALCVTGSLRRDEGGLGRMLASAAEGWAHGLPVDWRKVFAGTGAERVELPTYAFQRQRYWAPDAERTAVPPAAVDAPVRPAASPPEQATPAQATTQQTYDLLRTVLETVATVQGLPSAETVDPDLTFKEQGLESYAAVEFRNRLRARVGLSLPATLVYDFPTPTAVAGFLGDQLHPRESQLVTVTPALVDDEPIAIVGMGCRFPGGVSSPEDLWDVVASGVDAVSPFPVDRGWDLESLFDGDPDRAGTTYCREGGFLDDAAGFDAGFFGVSPREAVAMDPQQRLLLEGVVEGVGAGGFSSAGVRGSRTGVYAGVMNQEYGPRLYESAEEHRGYLLTGTAASVVSGRVSYVLGLEGPAVTVDTACSSSLVALHLAVQALRSGECDVALAGGVTVMATPGIFVEFSRQGGLAVDGRCKAYSDSADGTGWSEGVGVVVVQRLSDAVAAGRRVLAVVRGSAVNQDGASNGLTAPSGSSQQRVIRAALASARLSVGDVDVVEGHGTGTRLDPIEAQALLATYGRRGGGRSLLLGSVKSNIGHAQAAAGVAGVVKMVLAMERGVVPASLHVRCAVFACQDWSSGAVEVVGEACAWPETGRPRRAAVSSFGVSGTNAHVILEQAPPVVPDASSSAGAPVSAVSDADSSSVSVPWVLSARSEWGLRASAGRLEAALSGPLSGSGSGSGVVSGVDVGWSLGGRSVFGWRGVSLSGVGRLGVLAGGGVGSGVVVGSGRVASGGVVFVFPGQGAQWVGMARGLLGESGVFSEAFDEVGGVVQGLVDWPVRGTACREVGRGDLGRVDVVQPLSFVVMVALARLSRSSGVVPPGWVGHSQGEIAAAVVSGALSVEEGARVVVGRSRVIGARLAGGGAMVWVGASVGVVEGLLGGLGGGLEVAVVNGPGQVVVAGDGGWGGGVVGAGVGGWGVRARLLPVGYGSHCGLVDVVRDELLGVLGEVRGGSSVIPFYSSVDVGVVDGGVLDGGYWFRNLRLRVRFGEVVRRLVGDGFSSFVEVSAHPVLVGAIEDVLGEVGGGVGFVCGGFVAVGVDGGLGRMVVSAAEGWVRGLPVQWRRVPVLAGGRQVGLPTYPFQHDRYWLAPAPRTAVAAGATAADGAAAGVGWRYRVGWKALPVPTPGRLHGRWLVVHGHATGGVDQLSGVVADILTRHGATTEHLTIDPAEPGVLAERLGALAAAGEPVRGVVSLLDLDGTLLLVQAMGRAGLDARIRAVTTGAVAVSSDEVPSSEGAALWAFGRVAALELPDRWAGLIDLPVQADARALERLAGALTSEEENQLAVRASGLYTRRIIRTAGRARKEWRPRGTVLVTGGTGALGARVARWLADHGAEHLVLVSRRGAQATGAAELVAGLERTGVRVTVAACDVADRDGAGRPAGGAPTAGGLPHRWRARRPDGGPAHSRGSGCGVPAERLAATHLHDLTAHRDLDAFVLFSSIVGSWGNAGQAAYAAANAALDALAEQRRSAGLPATSIAWGLWAGAGMADGAGEQTFTRRGVRAMDPDDGIAALRQALDSGDTCVTVADVDWPSMVRTHANPAAARLFEEIPEARQALADRAAEQSAERPSDLARRLTGLTAADRRRLLLDLIGAQAAVILRQDSGWTIPPDSAFRASGFDSLTALELRNRLNAATGLTLPSTVVFDHPSPVALADFLLDAVLPRSGGADGVVEVAAAPDEPIAVIGVGCRYPGGVATPEQLWDLLLTERDAIGPLPTDRGWNIDDIFDPEPGRVGRTYCREGGFLHDAADFDAAFFGISPREALAMDPQQRLILETSWEALERAGIDPRSLRGSRTGVYTGMTHQEYAARLHEMPEEYEGHLLTGTSGSVASGRVSYVLGLEGPAVTVDTACSSSLVAIHLAVQALRAGECDLALAGGVTVMATRDCSWSSPASGASPRRPVQGVLRQADGTGWSEGAGVITLARLSDAVRDGRHILALIRGPRSTRTVPATGSPRRTGRHSSASSRLALANAGLTPPEVDAVEAHGTGTRLGDPIEAGALLATYGQGRPVDQPVRLGTLKSNIGHTQAAAGVAGMIKMVLALRHGVLPATLHATEPSPHIDWNAGAVSLLTERTDWPDNPRPRRAAVSAFGISGTNAHIILEQAPEPTVPSERSERAAGPRLSVVPWPLSGRSEPALRAQAARLRDFLDDGADPVDVGFSLATTRSRLDHRAVVLLDGETAPTEALHALVSGDAGRAVLSGTPRDTALAFLFTGQGSQRLGMADGIRREFPPFAEALAEIAAEMDTRLDQPLLSVMFAEPGSATATLIDRTEYAQPALFAVEVALFRLFESWGVRPDVLLGHSVGEIAAAHVAGVMDLEHACRLVAARGRLMQRMPADGAMIAIRLPEERVREQLHDLGRHVSVAAVNGPESVVVSGAGHVVRSLADQLTAEGHRVRRLNVSHAFHSPHVDEVLEEFRKAAAEVRYGRPLVPVVSNVTGRVATEDELGSAEYWVRHLREPVRFHDGIRTLLDRGATTLVELGPDGVLCGLAAQCLDPDRDEVALVPALHRTSGEVRSLVAAAATVHVRGHDVDWNGFFAETGARRVDLPTYAFQRQRYWASVSPPGSDQTAAVRFGLNAADHPLLGGALSVAGSEDLIFTGRLSLAAQPWIAGHRVGERAAARYAFLEVASRAGRAVGGDRVRDLQIEAPLVVPDRGAVQVQVVLTGGDEPDGRQVRVFARPEGSTAPWTRHATGNGDAAGGSGRRPGVGALVAPEGAVPLDVGDLYRRFAAQHLEYDGVFTGVRELWRRADEVFAEVRLPDGAEVEAAAFGVHPALLDAALQPWLAGDFVSRPADSVHLPFAWQGMQVHTSGAAALRVRIRRAGESAVSMQAVAVDGAPVCSLDALVLRPTTVRSLRRTVGPALLPLHHLRWREREPGQAPGTPLTFLGPTGAERYVGEAVTVHQDLTALRAVGQRGAPPPRAVLAAFGSPHRTAEAVRAVAAAALDLVQRWLADDRHQDSRLVLVTERAVAADDHEDVPDLAGAAVWGLVRSAQSEHPGRFALIDHDGTEQSRALLPAAVALGCAQLALRQGTVRVPALAALPPTESGADTRLAPDGTVLVTGAAGALGALVVRHLVAEHGVRRLLLLSRHGREAAGMAELAEDLAQRGVTVTVLACDVADRTGLAAALDAVPDEHPLTAVVHAAGVLDDAMVTGLTADRLDEVLRPKVDAALHLHELTADRKLAAFVLFSAAAGLLGNPGQASYAAANTVLDALAHHRRANGLPATSLAWGVLGGPNGMAANLNAAHLRRLARYGIAPLDGDEARSLLDRALRTDRALLVPLRLTRVDARQDPADVPEILRPLVVPVVADGGGRSPATGPNSLEAFRAQLAELDDGTRGEHLLDLVRRQVAEVLGHDRADVVDPKRPFQDLGFDSLLAVELRNRLQAATGLPLPATLGFDHPTPQTVVDHLAESLLSRPEGDPGEQALTGLDAVARALTKLGDEDIRRVVVRRRLAELLATVAGAEPDLANGGGTGAGVDDGHDDTALVERLSGASDEDLLAFIDEQI",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "ketoacyl-synt",
+                            "model_start": 2,
+                            "model_end": 253,
+                            "seq_start": 11,
+                            "seq_end": 239,
+                            "bitscore": 248.9
+                        },
+                        {
+                            "name": "Ketoacyl-synt_C",
+                            "model_start": 1,
+                            "model_end": 116,
+                            "seq_start": 247,
+                            "seq_end": 363,
+                            "bitscore": 136.3
+                        },
+                        {
+                            "name": "KAsynt_C_assoc",
+                            "model_start": 1,
+                            "model_end": 109,
+                            "seq_start": 367,
+                            "seq_end": 484,
+                            "bitscore": 70.4
+                        },
+                        {
+                            "name": "Acyl_transf_1",
+                            "model_start": 2,
+                            "model_end": 305,
+                            "seq_start": 507,
+                            "seq_end": 813,
+                            "bitscore": 273.4
+                        },
+                        {
+                            "name": "PP-binding",
+                            "model_start": 2,
+                            "model_end": 67,
+                            "seq_start": 898,
+                            "seq_end": 964,
+                            "bitscore": 33.1
+                        },
+                        {
+                            "name": "ketoacyl-synt",
+                            "model_start": 2,
+                            "model_end": 253,
+                            "seq_start": 986,
+                            "seq_end": 1236,
+                            "bitscore": 282.9
+                        },
+                        {
+                            "name": "Ketoacyl-synt_C",
+                            "model_start": 1,
+                            "model_end": 117,
+                            "seq_start": 1244,
+                            "seq_end": 1359,
+                            "bitscore": 129.1
+                        },
+                        {
+                            "name": "KAsynt_C_assoc",
+                            "model_start": 8,
+                            "model_end": 83,
+                            "seq_start": 1369,
+                            "seq_end": 1460,
+                            "bitscore": 39.1
+                        },
+                        {
+                            "name": "Acyl_transf_1",
+                            "model_start": 1,
+                            "model_end": 280,
+                            "seq_start": 1529,
+                            "seq_end": 1814,
+                            "bitscore": 158.0
+                        },
+                        {
+                            "name": "KR",
+                            "model_start": 6,
+                            "model_end": 27,
+                            "seq_start": 1934,
+                            "seq_end": 1955,
+                            "bitscore": -0.1
+                        },
+                        {
+                            "name": "KR",
+                            "model_start": 1,
+                            "model_end": 67,
+                            "seq_start": 2105,
+                            "seq_end": 2171,
+                            "bitscore": 64.9
+                        },
+                        {
+                            "name": "KR",
+                            "model_start": 115,
+                            "model_end": 179,
+                            "seq_start": 2214,
+                            "seq_end": 2278,
+                            "bitscore": 80.5
+                        },
+                        {
+                            "name": "PP-binding",
+                            "model_start": 18,
+                            "model_end": 67,
+                            "seq_start": 2403,
+                            "seq_end": 2452,
+                            "bitscore": 38.9
+                        },
+                        {
+                            "name": "ketoacyl-synt",
+                            "model_start": 2,
+                            "model_end": 253,
+                            "seq_start": 2475,
+                            "seq_end": 2724,
+                            "bitscore": 274.1
+                        },
+                        {
+                            "name": "Ketoacyl-synt_C",
+                            "model_start": 2,
+                            "model_end": 117,
+                            "seq_start": 2733,
+                            "seq_end": 2849,
+                            "bitscore": 109.8
+                        },
+                        {
+                            "name": "KAsynt_C_assoc",
+                            "model_start": 1,
+                            "model_end": 111,
+                            "seq_start": 2852,
+                            "seq_end": 2970,
+                            "bitscore": 57.3
+                        },
+                        {
+                            "name": "Acyl_transf_1",
+                            "model_start": 2,
+                            "model_end": 318,
+                            "seq_start": 3006,
+                            "seq_end": 3327,
+                            "bitscore": 192.2
+                        },
+                        {
+                            "name": "PS-DH",
+                            "model_start": 1,
+                            "model_end": 296,
+                            "seq_start": 3378,
+                            "seq_end": 3653,
+                            "bitscore": 154.1
+                        },
+                        {
+                            "name": "KR",
+                            "model_start": 1,
+                            "model_end": 178,
+                            "seq_start": 3855,
+                            "seq_end": 4032,
+                            "bitscore": 190.9
+                        },
+                        {
+                            "name": "PP-binding",
+                            "model_start": 2,
+                            "model_end": 67,
+                            "seq_start": 4144,
+                            "seq_end": 4210,
+                            "bitscore": 49.0
+                        }
+                    ],
+                    "start_pos": 6720,
+                    "end_pos": 19643
+                },
+                {
+                    "strand": 1,
+                    "not_from_gbk": false,
+                    "name": "mycAII",
+                    "id": "BAC57029.1",
+                    "annotation": "protomycinolide IV synthase 2",
+                    "aa_seq": "MTATANRMREYLQRMTVELHGARQRLRHLEQQAREPIAIVGMSCRLPGGVSTPEQLWHLVDSGTDAISPFPTDRGWDLAALYDPDPNRRGTVYSREAGFLHDCAGFDPEFFGLSPREALAMDPQQRLLLETSWEAIEEAGIEPTSVRGSRTGVYLGVMYHDYGERLREIPEGMEGYLVNGSAGSIASGRVAYTLGLEGPAVTVDTACSSSLVATHLAVQALRRQECDLALAGGATVLATPRMLIDFARLRGLAPDGRCKAFAEAADGTSFADGVGVVLLERLSDAVERGHRVLAVIRGTAVNQDGTTNGLTAPSGRAQQRVIQRALADADLGPDQIDAVEAHGTGTRLGDPIEAQALLATYGTSHPADRPLRLGSLKSNIGHTQAAAGVAGLMKMVLAMRHGRLPRTLHVDQPSSRVDWSAGHVSLLTDPVTWPRLPGTPRRAAVSSFGASGTNAHLVLEEEPETPVAVETRPAPETAWTVSGRSDAALRPGARLHEQVSVRGSVPVTARARALARARSPFAHRAVVLGRSEDELLDGLAALADGGGLPDRLVDRPDVDLAVERTADGKRKVCLLFTGQGSQYAGAGRQLHDSYPDFAEALDDVVAAFEPHLEQSLRDVMFAAPGTTRAMLLDRTEYTQPALFALGVALARPPRPLGGLRPHALLGHSGGELAAHVAGVFTLDDAAALVAARGRLMRQLPEGGAMVAIGASEEEIVATLAGRETRLALAAVNGPTATVVSGDEEAVLELAGIWRDRGRRTKRLNVRHAFHSPHLDAILAPFEAAAREVGYRSPTVAVVSNVTGAYAGDELATPDYWVRHVRQPVRFHDGLRSVADAGVDLFLELGPGGPLSAMAREALPDAVALPLLRRDRDEVSTTCRAVATAYVHGAGVELAALHGDGPVIADGLPTYPFQRTRFWLAEPPPAPVQPAEVGMDPAAHPLLAAATDLPDAEGTVSTGLLRVRDHPWLADHTVAGRIVLPGTALLDLASAGRARIVELTHQAPLVLPPEGAVKVRVRLGAADHAGLRTVRIDSCPTTGTSGWTRHATAVVAEPSPDPSGEPVGGDLGGAWPPVGAVPVDMTGAYEELAAGIGYGPAFHGLHGVWRRADELFAEVTLPDGLSAVGWHVAHPALLDAMLHPIAVSEHVTEAAGRLPFSWAEVRLTGGGTSTLRVRIAPAGPDSVTVTAADPDGRVVLSADQLTLRRVDPAQLASDRTDPSLHRVEWTPATTDGAAETRWSVVGGAPALRDAAPGGAYPDLFADGDDAPCVVVEIVGEGSLPQAAHQVGHRALTLVQRWLVEETGDRRLVVLTHGAVDTGHGLTDPAAAVAWGLVRAAQTEHPGRFVLVDLDDDDRSRRALSRILADDIGQVAIRSGVAHVPRLVPVTVAAADEPWDPDGTVLITGGTGALGRAVARHVVQRHGVRHLLLAGRQGREAPGVAELVETLTADGTTVEVASCDVTDRAAVERLLTAVPADRPVVAVVHAAGVLADAVVSAQDGDRLDAVLAPKVDAAVHLHDLTRDLPLARFVLFSSAAGVLGSAGQAAYASANAFLDALASWRRSRGLPAVSLAWGPWESGMAATLDQRSVARLRIAESCPCARRRRSTSSTWPCALAGRTPSCYPCDSTRPTVGPLRRARPGPCPTRSGAGTPPASPPGGGSGRPRFGLVERLAHAPRSERLSTLQKLVRAETAGVLGHPDAGEQLDQNFHALGFDSLTAIEFRNRLNQATGVRLPATLIFDYPTLAALAEHLESELPRAPEPGVTDVAGVLDVLDAVRRNLATSLTDGESRARVAESLRTLLADLAEPAAVPGDETRDAGSVRDRLRSASDDELFQLLDSDFRTH",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "Docking",
+                            "model_start": 5,
+                            "model_end": 25,
+                            "seq_start": 7,
+                            "seq_end": 27,
+                            "bitscore": 23.3
+                        },
+                        {
+                            "name": "ketoacyl-synt",
+                            "model_start": 2,
+                            "model_end": 253,
+                            "seq_start": 35,
+                            "seq_end": 285,
+                            "bitscore": 296.0
+                        },
+                        {
+                            "name": "Ketoacyl-synt_C",
+                            "model_start": 1,
+                            "model_end": 117,
+                            "seq_start": 293,
+                            "seq_end": 410,
+                            "bitscore": 150.1
+                        },
+                        {
+                            "name": "KAsynt_C_assoc",
+                            "model_start": 1,
+                            "model_end": 109,
+                            "seq_start": 413,
+                            "seq_end": 525,
+                            "bitscore": 39.8
+                        },
+                        {
+                            "name": "Acyl_transf_1",
+                            "model_start": 3,
+                            "model_end": 314,
+                            "seq_start": 575,
+                            "seq_end": 886,
+                            "bitscore": 157.1
+                        },
+                        {
+                            "name": "PS-DH",
+                            "model_start": 1,
+                            "model_end": 296,
+                            "seq_start": 939,
+                            "seq_end": 1210,
+                            "bitscore": 151.9
+                        },
+                        {
+                            "name": "KR",
+                            "model_start": 16,
+                            "model_end": 76,
+                            "seq_start": 1293,
+                            "seq_end": 1362,
+                            "bitscore": -1.5
+                        },
+                        {
+                            "name": "KR",
+                            "model_start": 1,
+                            "model_end": 179,
+                            "seq_start": 1397,
+                            "seq_end": 1575,
+                            "bitscore": 200.2
+                        },
+                        {
+                            "name": "PP-binding",
+                            "model_start": 3,
+                            "model_end": 67,
+                            "seq_start": 1686,
+                            "seq_end": 1750,
+                            "bitscore": 55.0
+                        }
+                    ],
+                    "start_pos": 19662,
+                    "end_pos": 25193
+                },
+                {
+                    "strand": 1,
+                    "not_from_gbk": false,
+                    "name": "mycAIII",
+                    "id": "BAC57030.1",
+                    "annotation": "protomycinolide IV synthase 3",
+                    "aa_seq": "MTANNEEKLREYLRRALADLHEARAQVHRLTEEAHEPVAIVGMGCRFPGGVETPEQLWELVASGTDAISPFPTDRHWDVDGIFDPEPGRAGRTYCREGGFLVDAPGFDAGFFGVSPREAVAMDPQQRLLLEVSWEALERAGFDPLALRGSRTGVYAGVMHHDYGLNHSFDEETGGFLGIGTAGSVVSGRVSYVLGLEGPAVTVDTACSSSLVALHLAVQALRSGECDVALAGGVTVMATPGIFVEFSRQGGLAVDGRCKAYSDSADGTGWSEGVGVLVVQRLSDAVAAGRRVLAVVRGSAVNQDGASNGLTAPSGPSQQRVIRAALASARLSVGDVDVVEGHGTGTRLGDPIEAQALLATYGCRGGGRSLLLGSVKSNIGHAQAAAGVAGVVKMVLAMERGVVPASLHVGVPSSHVDWSSGAVEVVGEACAWPETGRPRRAAVSSFGVSGTNAHVILEQAPVADAASFVVVPVSVASGADSSGGVAPVSDVSDAGSSSVAVPWVLSARSEWGLRAAAGRLEAALSGPLSGSGSGSGAVSGVDVGWSLGGRSVFGWRGVSLSGVGGLGVLAGGGVGSGVVVGSGRVASGGVVFVFPGQGAQWVGMARGLLAESEVFSEAFDEVGGVVQGLVDWPVRATACGESGGGHLGRVDVVQPLSFVVMVALAGLWRSWGVVPHGWVGHSQGEIAAAVVSGALSVEEGARVVVGRSRVIGARLAGGGAMVSVGASVGVVEGLLGGLGGGLEVAVVNGPGQVVVAGDVGGVEGLLVRCGEVGVRARLLPVGYGSHCGLVDVVRDELLSVLGEVRAGESVIPFYSSVDVGVVDGGVLDGGYWFRNLRLRVRFGEVVRRLVGDGFSSFVEVSAHPVLVGAIEDVWGEVGGGVGSCVVGSLRRGDGGLGRMVVSAAEGWVRGLPVQWRRVPVLGGGRQVGLPTYPFQHDRYWLAPTTPATDPRPQQDDLRYRVRWQPVRMERTARLTGRWVLLLPDRLPATDRDIADRVARTMANAGADVDEIVVDATTVSGESLEASLVGAAGVLSALALVEEEHPEFPILPVGLAATLTLLRSLAVAGAPLWTLTRNAVAALPGEVPHLAGAQVWALGRVAALELPSPWGGLIDLPTEPNQQVLKRLVGVLAQNAEDQVAVRNPAAYGRRLVPAPAVREESSWQPQGTVVVVGDTGAPEIERMIHRLRDEGVEVVDADRDTLGTVLAEHASITVVVAPPAVPVAPLAETTLAGFAATVEAKTGDARWLERLPDTPALQAVILFSSVSGVWGGVGQAGYAAGCAYLDALAERLRAGGVSATSIAWTPWEGTSGADVVSRGGVVPLDAERALDVLFRALRSGRSETVIADIDWDLFLPSFTMARPTVLFDEIPEVRQLREAGAERPETPRVDSAFSRSLIGLAPADQRRMVDDLLATHIAAVLGESSFAVDAERAFRDIGFTSVSAVDLRNRLGAATGLTLPASLVFDYPNPQALVDYLLAELTNQSAEQEDVRPTEKVDEPIAIVGMGCRFPGGVSSPEDLWDVVASGVDAVSPFPVDRGWDLESLFDGDPDRAGTTYCREGGFLDDVAGFDAGFFGVSPREAVAMDPQQRLLLEVSWEALERAGHDPRELRGSRTGVYMGTNGQHYLPLLRDSEEDFDGYFGTGNSASLMSGRISYVLGLEGPAVTVDTACSSSLVALHLAVQALRSGECDLALVGGATVMATPDVLTEFSRQRALSADGRCKAFSDAADGFGASEGVGVLVVQRLSDAVAAGRRVLAVVRGSAVNQDGASNGLTAPSGPSQQRVIRAALASARLSVGDVDVVEGHGTGTRLGDPIEAQALLATYGRRGGGWPLLLGSVKSNIGHAQAAAGVAGVVKMVLAMERGVVPASLHVGVPSSHVDWSSGAVEVVGEACAWPETGRPRRAAVSSFGMSGTNAHVILEHVATEQPAADPEPSVSVGDSDSVVPWVLSARSEWGLRAAAGRLEAALSGPLSGSGSGSGAVSGVDVGWSLGGRSVFGWRGVSLSGVGGLGVLAGGGVGSGVVVGSGRVASGGVVFVFPGQGAQWVGMARGLLAESEVFSEAFDEVGGVVQGLVDWPVRATACGESGGGDLGRVDVVQPLSFVVMVALAGLWRSWGVVPQAVVGHSQGEIAAAVVSGAWSVEEGARVVVGRSRVSGARLAGGGAMVSVGASVGVVEGLLGGLGGGLEVAVVNGPGQVVVAGDVGGVEGLLVRCGEVGVRARLLPVGYGSHCGLVDVVRDELLSVLGEVRAGESVIPFYSSVDVGVVDGGVLDGGYWFRNLRLRVRFGEVVRRLVGDGFSSFVEVSAHPVLVGAIEDVLGEVGGGVGSCVVGSLRRGDGGLGRMVVSAAEGWVRGLPVQWRRVPVLGGGRQVGLPTYPFQHDRYWYTGPSRRGDLTSAGLAEANHPLLAAAVDLPDDHGLVFTGRLSRASVPWLADHALLGVSVLPGTAFVEMALWAGRRAGFGQLEELTLTTPLPLPESGAQLLVRIDTVDGSGDRTITFHSRVPGDDGSERWTKHAQGTLVTPTGSARDQAEWKYPDGPDLSVEEFYTRLAERGYHYGPVFRGLRGVRRAGEDVFAEVALPQEADGSRFGLHPALLDAAVQAMGLGGFFPDDGQIRVPFSVRGVRLHTTGVERLRVRVSRSAEDAVRVDCVDEQGRPVCEIDSLVVRAIDTDQLVEDARTPVGELLYRVDWPLLTVGPAQPPKHCAVVGDDPYGLAAVLGDQGVTCDVHPDVAAFTIRSVTMPDVVVATLPASTDPDVPAVRDVANRALDLAQWWLSVATDAEAARLVVVTSGAVATQRGEPLRDPAAAAAWGLLRSAQAEDPGRLVLLDVAGQRPDGAALLAALASGKPQLALRDGNLRVPRLTRTETGDALLPPAGTSAWRLAVGENATLADLCLEPADTATVSLLPGQVRIAVRAAGLIFRDTLIALGVYPDQAAMGAEGAGVIVEVGPEVAGLAVGDRVFGLWDRALATHVVVDHRTVVAMPSGWSFAEAATVPAVFLSAYYALKHLARAVPGQSILVHAAAGGVGMAALQLARHLGLEVYGTASPGKWDVLRDQGFDDRHIANSRTLDFADRFLDASGGRGVDIVLNSLAGGFVDASLRLLPRGGRFLELGKTDVRDADRIAAEQPGVTYRAFELMEAGPDLLGEMLRELLVLFDTGVLRPLPLFAHDIRHARDAFRTLSQGRHVGKLVLTMPATIDPGGTVMITGGTGNVGGVLARHLVERVRRYGTCRSSSRQGPAAPGVDDLVAELADLGATVTVHAGDVADRAEVERLVAAVPAEHPLTAVVHAAGTLDDGMIPSLDQEQVGRVLRPKADGALYLHELTRGSALSAFVLFSSVAAVLGGPGQGSYAAANGFLDAFAQNRSAAGLPTVSLSWGLLAGAARMTAHVDQDALRRRMSRGGILPLSGRDLTALFDAALAGTEAHQVPVRIDPSAIPDDAGVSPLLRGLAAGRPARAVASEPVDVRSLVERLTGMPEEAQQTLLENLVRTHAAAVLGYDGPDAIQGDTAFMEIGVDSLAAVDVRNRLAAATGLRLAASTDFDHPTPVVLAGHLRAQLGLETRTVPLVGELERLTEALGSTSLVDIDPDDRREIAARFTALHARWLEMQQAEKPAKDTELTVDDIDAADDDAIFAYLDDRLSDS",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "Docking",
+                            "model_start": 2,
+                            "model_end": 24,
+                            "seq_start": 5,
+                            "seq_end": 27,
+                            "bitscore": 35.6
+                        },
+                        {
+                            "name": "ketoacyl-synt",
+                            "model_start": 2,
+                            "model_end": 253,
+                            "seq_start": 36,
+                            "seq_end": 285,
+                            "bitscore": 305.2
+                        },
+                        {
+                            "name": "Ketoacyl-synt_C",
+                            "model_start": 1,
+                            "model_end": 117,
+                            "seq_start": 293,
+                            "seq_end": 409,
+                            "bitscore": 137.0
+                        },
+                        {
+                            "name": "KAsynt_C_assoc",
+                            "model_start": 1,
+                            "model_end": 82,
+                            "seq_start": 412,
+                            "seq_end": 521,
+                            "bitscore": 38.6
+                        },
+                        {
+                            "name": "Acyl_transf_1",
+                            "model_start": 1,
+                            "model_end": 300,
+                            "seq_start": 591,
+                            "seq_end": 895,
+                            "bitscore": 190.8
+                        },
+                        {
+                            "name": "KR",
+                            "model_start": 65,
+                            "model_end": 179,
+                            "seq_start": 1199,
+                            "seq_end": 1308,
+                            "bitscore": 64.2
+                        },
+                        {
+                            "name": "PP-binding",
+                            "model_start": 2,
+                            "model_end": 67,
+                            "seq_start": 1412,
+                            "seq_end": 1477,
+                            "bitscore": 38.8
+                        },
+                        {
+                            "name": "ketoacyl-synt",
+                            "model_start": 2,
+                            "model_end": 253,
+                            "seq_start": 1499,
+                            "seq_end": 1749,
+                            "bitscore": 308.7
+                        },
+                        {
+                            "name": "Ketoacyl-synt_C",
+                            "model_start": 1,
+                            "model_end": 117,
+                            "seq_start": 1757,
+                            "seq_end": 1873,
+                            "bitscore": 139.2
+                        },
+                        {
+                            "name": "KAsynt_C_assoc",
+                            "model_start": 1,
+                            "model_end": 83,
+                            "seq_start": 1876,
+                            "seq_end": 1967,
+                            "bitscore": 48.0
+                        },
+                        {
+                            "name": "Acyl_transf_1",
+                            "model_start": 1,
+                            "model_end": 300,
+                            "seq_start": 2036,
+                            "seq_end": 2340,
+                            "bitscore": 192.6
+                        },
+                        {
+                            "name": "PS-DH",
+                            "model_start": 1,
+                            "model_end": 294,
+                            "seq_start": 2405,
+                            "seq_end": 2674,
+                            "bitscore": 187.0
+                        },
+                        {
+                            "name": "ADH_N",
+                            "model_start": 1,
+                            "model_end": 60,
+                            "seq_start": 2911,
+                            "seq_end": 2966,
+                            "bitscore": 26.2
+                        },
+                        {
+                            "name": "ADH_zinc_N_2",
+                            "model_start": 5,
+                            "model_end": 133,
+                            "seq_start": 3067,
+                            "seq_end": 3197,
+                            "bitscore": 59.4
+                        },
+                        {
+                            "name": "KR",
+                            "model_start": 1,
+                            "model_end": 179,
+                            "seq_start": 3207,
+                            "seq_end": 3386,
+                            "bitscore": 169.8
+                        },
+                        {
+                            "name": "PP-binding",
+                            "model_start": 3,
+                            "model_end": 24,
+                            "seq_start": 3471,
+                            "seq_end": 3489,
+                            "bitscore": -2.4
+                        },
+                        {
+                            "name": "PP-binding",
+                            "model_start": 2,
+                            "model_end": 67,
+                            "seq_start": 3493,
+                            "seq_end": 3559,
+                            "bitscore": 33.3
+                        }
+                    ],
+                    "start_pos": 25213,
+                    "end_pos": 36162
+                },
+                {
+                    "strand": 1,
+                    "not_from_gbk": false,
+                    "name": "mycAIV",
+                    "id": "BAC57031.1",
+                    "annotation": "protomycinolide IV synthase 4",
+                    "aa_seq": "MADEQKLREYLKRSTRELHQTTERLRELEERAYEPIAIVGMGCRFPGGVSSPEDLWDVVASGVDAVSPFPVDRGWDLESLFDGDPDRAGTTYCREGGFLDDVAGFDAGFFGVSPREAVAMDPQQRLLLEVSWEALERAGFDPLALRGSRTGVYVGAWHGGYADDIAEPSAELEAQLLTGGVVSFTSGRISYVLGLEGPAVTVDTACSSSLVALHLAVQALRSGECDLALAGAATIMATPELFVRFSRQRALSADGRCKAFSDAADGFGASEGVGVLVVQRLSDAVAAGRRVLAVVRGSAVNQDGASNGLTAPSGPSQQRVIRAALASARLSVGDVDVVEGHGTGTRLGDPIEAQALLATYGRRGGGRSLLLGSVKSNIGHAQAAAGVAGVVKMVLAIERGVVPASLHVGVPSSHVDWSSGAVEVVGEACAWPETGRPRRAAVSSFGVSGTNAHVILEQAPVADAASSGGVAPVSAFADADSSSVSVPWVLSARSEWGLRAAAGRLEAALSGPLSGSGSGSGSGAVSGVDVGWSLGGRSVFGWRGVSLSGVGGLGVLAGGGVGSGVVVGSGRVASGGVVFVFPGQGAQWVGMARGLLAESEVFSEAFDEVGGVVQGLVDWPVRATACGESGGGDLGRVDVVQPLSFVVMVALAGLWRSWGVVPHGWVGHSQGEIAAAVVSGALSVEEGARVVVGRSRVIGARLAGGGAMVSVGASVGVVEGLLGGLGGGLEVAVVNGPGQVVVAGDVGWGGGVVGACGEVGVRARLLRVGYGSHCGLVDVVRDELLSVLGEVRAGESVIPFYSSVDVGVVDGGVLDGGYWFRNLRLRVRFGQVVRAVGGWMGVSSFVEVSAHPVLVGAIEDVLGEVGGGVGSCVVGSLRRGPWWMERMVVSAAEGWVRGLPVQWRRVPVLGGGRQVGLPTYPFQHDRYWLAPAPASRTRVETDATVAGGVGWRYRVGWKALPVPTPGRLHGRWLVVHGHVTGGVDHLSGVVADILTRHGATTEHLTIDDLDQPDLAALADGLDGAAGLVSLLDAAGLLVLTQAAASTPGTRLWAVTSGAVAVSPTESPSVTGAQVWGLGRCLALELPKLWDGLVDLPAAELDDRTGGRLASVLAGKSGEDQVALRSAGAFARRLLPMASGGGAAYRPRGTVLVTGGLGVLGGHLARWLADNGAHDLVLTGRRGEATPGAGELAADLRRRGVEVTIAACDVADREALAALLEAHRRVFHAAGVAHSRPALDTGVDLLEQVLVGKVRGASYLDELTRPLDLDAFVLYASGAGVWGSGGQSAYAAANAALDALAEQRRSAGLPATSIAWGLWAGAGMAGEEGTGYLEDLGVRPMDPEAALAALAEAVGGRAACVTVADIDWTRFAPRFTVFRPSPLLADLPGLPQTVTTPDSDESDFTARLVRATPDERRELLLDLVCSFAAMVLGHSGPEAVDVDVALRDLGFGSATAVDFANRLGARIGVKLPATLVFDHPTAAAVATYLEERLAPEQAGRDPEEDRVRRLLQAVPLTRPAGVRPSRPTAGARWRPAGILGGGGQHRSDPARRTRCVGGNRLGGRPDDLDAEALISLAMRQSDR",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "Docking",
+                            "model_start": 1,
+                            "model_end": 26,
+                            "seq_start": 2,
+                            "seq_end": 27,
+                            "bitscore": 36.1
+                        },
+                        {
+                            "name": "ketoacyl-synt",
+                            "model_start": 2,
+                            "model_end": 253,
+                            "seq_start": 34,
+                            "seq_end": 284,
+                            "bitscore": 303.5
+                        },
+                        {
+                            "name": "Ketoacyl-synt_C",
+                            "model_start": 1,
+                            "model_end": 117,
+                            "seq_start": 292,
+                            "seq_end": 408,
+                            "bitscore": 138.8
+                        },
+                        {
+                            "name": "KAsynt_C_assoc",
+                            "model_start": 1,
+                            "model_end": 83,
+                            "seq_start": 411,
+                            "seq_end": 507,
+                            "bitscore": 45.1
+                        },
+                        {
+                            "name": "Acyl_transf_1",
+                            "model_start": 1,
+                            "model_end": 297,
+                            "seq_start": 578,
+                            "seq_end": 880,
+                            "bitscore": 181.4
+                        },
+                        {
+                            "name": "KR",
+                            "model_start": 5,
+                            "model_end": 27,
+                            "seq_start": 979,
+                            "seq_end": 1001,
+                            "bitscore": 2.9
+                        },
+                        {
+                            "name": "KR",
+                            "model_start": 1,
+                            "model_end": 179,
+                            "seq_start": 1148,
+                            "seq_end": 1319,
+                            "bitscore": 180.5
+                        },
+                        {
+                            "name": "PP-binding",
+                            "model_start": 3,
+                            "model_end": 67,
+                            "seq_start": 1423,
+                            "seq_end": 1488,
+                            "bitscore": 36.9
+                        }
+                    ],
+                    "start_pos": 36207,
+                    "end_pos": 40955
+                },
+                {
+                    "strand": 1,
+                    "not_from_gbk": false,
+                    "name": "mycAV",
+                    "id": "BAC57032.1",
+                    "annotation": "protomycinolide IV synthase 5",
+                    "aa_seq": "MTTTSPDRLLEALRSALKEGDRLRSQLRQMTEAQTEPIAIIGMACRYPGGADTPDELWNVVAAGRDAVGPFPTDRGWDLDRICHPDPDVPGTTYCREGGFVYDAAEFDAAFFGISPREATAMDPQQRLLLEVSWEALEDAALDPLSVRGTRTGVFVGAAHQDYVTEADQVPEGTEGYLLTGTTDAVLSGRLSYVFGLEGPAVTVATACSSSLVALHLAVQSLRRGECGMALAGGVSVSVTPAAFVEFARQRGLAPDGRCKSFADAADGTGWAEGVGVVVLEPLTVALRHNRRVLAVVRGSAGEPGRRQNGLTAPNGLAHEKVIRAALADARLGAEQVDAVEAHGTGTRLGDPIEAEALLATYGQGRPEGRPLWLGSVKSNIGHAQAAAGIGGVIKMVQAMRHGVLPKTLHVDAPSRHVAWSSGQVRLLTETVPWPAGGEPRRAGVSAFGVSGTNAHVILEHLPPEERTGPDTPERERTACRGYRSCPGSCRPAPSRVRAQAARWRAQLDRADPPRLVDVGFSLATTRAPLSHRSVLLCGDPAELLDAVAEGREHPAVVRGTPERTDRLGFLFTGQGAQRAGMARELYASLPVFTQAFDEVVDLLDGHLDRPLKTVLFAEAGTASVELLDRTGHAQPALFAVEVALFRTLETWGLRPSVVLGHSLGELAAAYAAGVLDLADACALVAARGRLMQALPEVGAMAAVEATEEELRDLLARCDGEVSLAAVNGPGSTVVSGTATAVDEVVTRLVALGRRTRALNVSHAFHSACMDDALAELREVAAAITYHPPRIPVASNILGRLVTGPELGTADYWVRHARQTVRFDACVRAAHRRGVRTFVELGPDPVLAGMAARCLTDPQVSFTPALRRDRSECGQLMHAVATAYVRGAAVDWPRVFDGTAARRVELPTYPFQRRRYWLGRAGAAGHAVLAEALPLAGSDETVVTGRLSLAALPWLADHVVAGRILFPGTGFVDLALHAGGRVGYPRLRDLTLHAPLVLDPAQTVRVQVRITPGAGGQDGAAVAVYARADEDGWTCHASGGLESRASAEFDLRRWPPPDAVPVDITGLYGALAERGYDFGAAFRGLRAAWRRGDELFGEVVLPEPASVDARRYALHPALLDGALHTVGAAAPSGAAAPSEAARPLLLPFAWSACSCQPPGASGLRVRIDTSVPGSISVQLADLAGDPVAAAESLVLRPASGDRVGVTGGTSEHDDALFELDWATTTAVGPTPVAGEWMVLGAGAGTGTDLQPTGPVGTGLAGAGVPVRPLPDLAEATGTPPLVLLDCVGEPGAATPQRVRATLARALAVVRRWLVEPRWSGSRLMVVTAGAVAAGCDEDVSDLAGAAVWGLLRSAQAEHPGRFTLVDVDRTPQSWALLPTLVGHPETQFALRAGQLRVPRLVRLAGSAEPAAGPLFDVAGTVLVTGGTGTLGALVARHLVAAHGIRRLVLVSRRGSRAPGADELVAELSAAGPAVEVVAADVAERDEVARVLAAVDRAGPLTGVVHTAGVLDDGTVLTLTPQRLERVLRAKADAAWHLHELTRDRPSTAFVTFSSAAGLLGNAGQGNYAAANTFLDALVAHRRSLGLAGVSVAWGRWERTSAMTAGLGAVELARQARDGFRPLSDEQGLALFDAAVAAGRPLVAALPMRVTALRDETGTVPPILTRLAPPSPAVVAPAADEGGRSGNLDLAGLDPAARRRALLDLVRGRTAVVLGHHAAEEVEVDRPFLEVGFDSLMATQLRNALAAATGWQLPSTVVFDQPTPRELAEYLDELGPPVSRAGATGGSAGAVGPTGEDSIGVLFRRAVRDGRRDQGFDLLHAAAALRPQFDEASELAGAPEPVRLADGPGAIRLACVPAPMGMGGAHQYARFAERFRAVRPVLAVPMPGFSAKEPLPASPEAAVEVLAGQLRPLAESGPLVLVGYSSGGVFANAAAHRLEQLGCRVAGLVLLDTYQPDTTAIANFISPMLDGLFEREGSFGPFTTARLTGMARYARLLDRCAVGEPDVPVLFVRPGKLFVLDGQPQPDDDTWRASWRRMDTVREVPGNHFTMLEDEVAATAEVVESWIAGLR",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "PikAIV_N",
+                            "model_start": 1,
+                            "model_end": 30,
+                            "seq_start": 4,
+                            "seq_end": 33,
+                            "bitscore": 31.4
+                        },
+                        {
+                            "name": "ketoacyl-synt",
+                            "model_start": 2,
+                            "model_end": 252,
+                            "seq_start": 36,
+                            "seq_end": 285,
+                            "bitscore": 301.9
+                        },
+                        {
+                            "name": "Ketoacyl-synt_C",
+                            "model_start": 1,
+                            "model_end": 117,
+                            "seq_start": 294,
+                            "seq_end": 411,
+                            "bitscore": 132.4
+                        },
+                        {
+                            "name": "KAsynt_C_assoc",
+                            "model_start": 1,
+                            "model_end": 56,
+                            "seq_start": 414,
+                            "seq_end": 472,
+                            "bitscore": 39.6
+                        },
+                        {
+                            "name": "Acyl_transf_1",
+                            "model_start": 2,
+                            "model_end": 300,
+                            "seq_start": 570,
+                            "seq_end": 872,
+                            "bitscore": 205.0
+                        },
+                        {
+                            "name": "PS-DH",
+                            "model_start": 1,
+                            "model_end": 293,
+                            "seq_start": 926,
+                            "seq_end": 1200,
+                            "bitscore": 184.7
+                        },
+                        {
+                            "name": "KR",
+                            "model_start": 1,
+                            "model_end": 179,
+                            "seq_start": 1419,
+                            "seq_end": 1597,
+                            "bitscore": 199.4
+                        },
+                        {
+                            "name": "PP-binding",
+                            "model_start": 8,
+                            "model_end": 67,
+                            "seq_start": 1710,
+                            "seq_end": 1770,
+                            "bitscore": 48.4
+                        },
+                        {
+                            "name": "Thioesterase",
+                            "model_start": 6,
+                            "model_end": 108,
+                            "seq_start": 1857,
+                            "seq_end": 1958,
+                            "bitscore": 69.6
+                        },
+                        {
+                            "name": "Thioesterase",
+                            "model_start": 191,
+                            "model_end": 229,
+                            "seq_start": 2027,
+                            "seq_end": 2064,
+                            "bitscore": 9.5
+                        }
+                    ],
+                    "start_pos": 40998,
+                    "end_pos": 47210
+                },
+                {
+                    "strand": -1,
+                    "not_from_gbk": false,
+                    "name": "mydD",
+                    "id": "BAC57033.1",
+                    "annotation": "transaminase",
+                    "aa_seq": "MTLVASSADALSATTPTVPFLDVGAAYHELRDEIDAACRRVLASGWYLLGPEIEAFEAEFAAYCGSGYCVAVNSGCDALELALRGLGIGPGDEVVVPSHTFVASWLAVTATGATPVPVEPDAHRPTIAAELVEAAITPRTRAILPVHLYGEPADLDALHDVADRHGLHVVEDAAQAVGARYRGRRIGAAPGVVAFSFYPGKNLGAFGDGGAVVTDDPQLAARVRLLRNYGSARKYEHEMQGRNSRLDEIQAAVLRVKLPHLDRWNRRRAAVAQRYLTGLAGCPGIRLPQPPRDTDPAWHLFVVRAARREDLRRHLARAGIDTLVHYPVPVHRSGAYASTPLPPGGLPRAERLADEVLSLPIGPHLGTAHVDRVIEVVRAWAG",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "DegT_DnrJ_EryC1",
+                            "model_start": 3,
+                            "model_end": 361,
+                            "seq_start": 31,
+                            "seq_end": 378,
+                            "bitscore": 422.4
+                        }
+                    ],
+                    "start_pos": 47300,
+                    "end_pos": 48448
+                },
+                {
+                    "strand": -1,
+                    "not_from_gbk": false,
+                    "name": "mydF",
+                    "id": "BAC57034.1",
+                    "annotation": "reductase",
+                    "aa_seq": "MGPRTSALSSSITTCTRPHADLTAATDDLRHRLTAVVGLTEPDAATVAAPLVRLAVIFGNRPFTLLEQARDELRVDRPAFRRLLDIFSQVPELRTAVESGPAGKYWRNTVLPLERRCAVEAALRHEPVFPRIVGLYPGLTCMFRCHFCVRVTGARYEASLLDSGTALLASVIDELPRDNPDATYLSGGLEPLTNPKVGTLASRAAARGQRVTIYTNAFALTDQTLRHQPGLWDLHAVRVSLYGLDDEEYEATTGKRKAFERVRANLRHFQKLRAERGSPVRLGMTYLVLPGRAARLLDLVDFIADLNEAAPDRPIDFLNVREDYSSRPDGALSPDERAELRDSLGRFEARALDRAPTLSIDFGYALESMRMGMDAEMIRIRPETMRPSAHPQIAVQVDLRGDVYLYREAGFPDLAGADRYIAGRIGPDTSLAEVVRNFVASGRRIAAQPGDEYFMDGFDQAVTARLNQLTTDRADGWGDARGFLR",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "Radical_SAM",
+                            "model_start": 6,
+                            "model_end": 158,
+                            "seq_start": 140,
+                            "seq_end": 295,
+                            "bitscore": 29.1
+                        }
+                    ],
+                    "start_pos": 48423,
+                    "end_pos": 49880
+                },
+                {
+                    "strand": -1,
+                    "not_from_gbk": false,
+                    "name": "mydE",
+                    "id": "BAC57035.1",
+                    "annotation": "4-dehydratase",
+                    "aa_seq": "MKRNIDDLALFGGREAFLQTLHVGRPGAVDRARFFDRLSWALDNQWLTNQGPLTREFEDRIADRVGVRHCLATCNATVALQLLMRATELTGEVIVPSMTFAATAHAAQWLGLRPVFCDLDPRTGCLDPERVRAAITPRPSAIVGVHLFGRPCAVEELQRIADEHTIPLFFDAAHAFGCTAKGRPIGGFGTAEVFSFHATKVVNSFEGGAIVTDDDGLAARVRALHNFGFGLVADNPGGGTNAKMSEASAAMGLTSLDAFEQVVAHNQRTYELYRAELARLPGLQTITFDPEERHNYQYVVVEIDPAVAGLHRDLLITLLRSENVVAQPYFSPPVHQQQPYRSGPRVSLPHTERLAGRVMALPTGPTVSQEDVRRVCNIVRLAVSHGPEITRRCQQLRSTPPRHPESRQRDDSTETDKANGTPDLRTQLVDHDLHATAR",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "DegT_DnrJ_EryC1",
+                            "model_start": 5,
+                            "model_end": 361,
+                            "seq_start": 33,
+                            "seq_end": 380,
+                            "bitscore": 363.5
+                        }
+                    ],
+                    "start_pos": 49819,
+                    "end_pos": 51135
+                },
+                {
+                    "strand": -1,
+                    "not_from_gbk": false,
+                    "name": "mydG",
+                    "id": "BAC57036.1",
+                    "annotation": "N, N-dimethyltransferase",
+                    "aa_seq": "MYESDHAAVYDLFYQGRGKDYATEATEVAQLIRARNPGADTLLDVACGTGTHAHDFAKEFSQVEGLELAPDMIAVARRRLPDTPLHQGDMRDFRLDRRFGAVVCMFSSIGYLPTTADLDAALASFARHLDPGGVVVVEPWWFPESFHDGWVSADAVHGEARSVVRLSHSTRVGRATRMEVHFVVADARNGPRHFTDTHLITLFHRHEYESAFVRAGLPVEYLPGGPSGRGLFVGVAPREAS",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "Methyltransf_25",
+                            "model_start": 2,
+                            "model_end": 97,
+                            "seq_start": 43,
+                            "seq_end": 133,
+                            "bitscore": 60.9
+                        },
+                        {
+                            "name": "Methyltransf_25",
+                            "model_start": 43,
+                            "model_end": 70,
+                            "seq_start": 175,
+                            "seq_end": 202,
+                            "bitscore": 2.2
+                        }
+                    ],
+                    "start_pos": 51220,
+                    "end_pos": 51945
+                },
+                {
+                    "strand": -1,
+                    "not_from_gbk": false,
+                    "name": "mycB",
+                    "id": "BAC57037.1",
+                    "annotation": "glycosyltransferase",
+                    "aa_seq": "MRVLLTSFAHNTHYHGLVPLAWALRSAGHEVRVASQPALAETITESGLTAVPVGTDHLIVQTRIQMAGEPRPTHPAFQFHEARTGAFDWEDALGLDTLLTAFYYAVVNNDAMIDDMVSFARSWRPDLVLWEPTTYAGPVAARASGAAHARVLWCPDVVGSARRKFLALQEQEHPARREDPLAEWLTWTLARYGCTFAEEVTVGQWTVDPTPPSLRLPTGLPTLGMRYVPYNGRSVVPDWLRTPPRRPRVCLTLGVSAREVLGGDGVSVADLVNGLADLDIELVATLDTAQREELGRLPENVRLVDFVPMHVLLPTCSSIVHHGGAGTYATAVNYGVPQVMVAELWDAPVKARAVEKLGAGVFVPPAELTTDRVREAVERTLTEPSFAQAAAARPPCRLAEPSPAALVPQLELLTAQHRGTDRTTGPAR",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "DUF1205",
+                            "model_start": 1,
+                            "model_end": 95,
+                            "seq_start": 207,
+                            "seq_end": 302,
+                            "bitscore": 100.4
+                        }
+                    ],
+                    "start_pos": 51975,
+                    "end_pos": 53261
+                },
+                {
+                    "strand": -1,
+                    "not_from_gbk": false,
+                    "name": "mydC",
+                    "id": "BAC57038.1",
+                    "annotation": "tautomerase",
+                    "aa_seq": "MTSDEQGGSPVLSPPPLRTPPESADDSRLGQHLLTARGLQWLHGANGDAYALLLRGHHDDPYPYHDLVRRRGPLYQSPVGSWVTADTTWRPTVLTDPSFGMARYDGTPAEPQVLPFRAAPRSAGSGRTTPDCDRSGSRGWDRPRSMPGRPIWNRRTARCSRRLTDRFDLVADLPWPAVTTVTAGQLGLPDHQHDPFARTCRDLARIPDSLLTAQQLSVVRAAQAALVDLTALLDRMPHADADRGAVALLLAVIAVPAAVNLIANARLALAAEPDQWSLVRGAPELAADVVRETLRLDPPIQVEARVTHRETLLAGRELPAGAHVVALVGATGRDPRRYADPDRFDLRREVTAAPLALRGDLHTAPVAPLVTAQAEAGLRALAERLPRPRTGTVLRPRRTSVTRGPLAVPISA",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "p450",
+                            "model_start": 325,
+                            "model_end": 387,
+                            "seq_start": 287,
+                            "seq_end": 348,
+                            "bitscore": 37.7
+                        }
+                    ],
+                    "start_pos": 53286,
+                    "end_pos": 54524
+                },
+                {
+                    "strand": 1,
+                    "not_from_gbk": false,
+                    "name": "mydA",
+                    "id": "BAC57039.1",
+                    "annotation": "dTDP-glucose synthase",
+                    "aa_seq": "MRGVLLAGGTGSRLWPITQAVSKQLMPVFDKPMIYYPLSTLIMAGVREIMVVTTPEDQPQFTRLLGDGQQWGLSLSYGVQPRPEGIAQAFVIARDFLDGGPAALILGDNIFHGVGLGRKLRGHTNPEGGEIFGYPVADPSAYGVVEFDESGRVLSIEEKPTRPKSRYVVPGLYFYDADVVEIASQLKPSDRGELEITAVNNEYLRRGQLTLTLLDRGTAWLDTGTFGDLVQAGEYVRVIEERQGFKIGCVEEAAWRAGFLSDDELRELAVPLLRTAYGEYLLRLLDWKGESSA",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "NTP_transferase",
+                            "model_start": 2,
+                            "model_end": 243,
+                            "seq_start": 3,
+                            "seq_end": 234,
+                            "bitscore": 207.7
+                        }
+                    ],
+                    "start_pos": 55080,
+                    "end_pos": 55961
+                },
+                {
+                    "strand": 1,
+                    "not_from_gbk": false,
+                    "name": "mydH",
+                    "id": "BAC57040.1",
+                    "annotation": "dTDP-4-keto, 6-deoxyglucose-3-epimerase",
+                    "aa_seq": "MRIRSLSIDGAWEVTPRQHGDPRGVFLEWYRFDLLAHGVGHPLRFGQANLSVSARGVIRGIHFTDVPPGQAKYVTCVRGAVLDVVVDVRVGSPTFGRWEAVRLDDTERRAVYLAEGLGHGFCALTDDATVTYLCSTTHDPQAERQLHPLDPMLGIEWPDGPRLLSARDENAPDLGQLRNEGVLPTYQACVEYVESLRSVHPERPGETGRQGSVPVAGPPARTSASWLTPDRRA",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "dTDP_sugar_isom",
+                            "model_start": 2,
+                            "model_end": 167,
+                            "seq_start": 6,
+                            "seq_end": 174,
+                            "bitscore": 196.0
+                        }
+                    ],
+                    "start_pos": 55958,
+                    "end_pos": 56659
+                },
+                {
+                    "strand": -1,
+                    "not_from_gbk": false,
+                    "name": "mydB",
+                    "id": "BAC57041.1",
+                    "annotation": "dTDP-glucose-4,6-dehydratase",
+                    "aa_seq": "MRVLVTGGAGFIGSHFVRQLLAGAYQRWHGAQTIVLDKLTYAGNLANLAPVAHHPDLTFTQGDVCDRELVENLMRGVDLVVHFAAESHVDRSIAAADAFVRTNVQGTHTLLDAAVRAGVERFVHVSTDEVYGSIEEGSWTEEQPLAPNSPYAASKAGSDLLALAFHRTHGLPVCVTRCSNNYGPYQYPEKLIPLFTTNLLDGLPVPLYGDGRNQRDWLHVDDHCHGIDLVATGGVPGEVYHIGGGTELSNADLTAHLLDLCGADELSVRRVADRPGHDLRYSLDISKISRELGYTPRVSFAEGLADTVDWYRNNRAWWEPLKVQPVPAPAADGHALTPDGRG",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "GDP_Man_Dehyd",
+                            "model_start": 1,
+                            "model_end": 332,
+                            "seq_start": 4,
+                            "seq_end": 307,
+                            "bitscore": 281.3
+                        }
+                    ],
+                    "start_pos": 56637,
+                    "end_pos": 57665
+                },
+                {
+                    "strand": 1,
+                    "not_from_gbk": false,
+                    "id": "BAC57042.1",
+                    "annotation": "hypothetical protein",
+                    "aa_seq": "MAELPAGASSGSAQAHGRRANRRSYHDGALVDGYVDDPYHRVRRAVAARLMVDDVLGGGPVLELGCGPCSMLDPAELPVPLVVADMAEAALGAARAAAGQALPVCLDATRGLPFRAGSFAGLLTGELIEHVYDPVALLRECHRVLAPGGLLVLTTPNLATVQDRLAFLAGRAPRQVDP",
+                    "translation_from_gbk": true,
+                    "pfam_hits": [
+                        {
+                            "name": "Methyltransf_11",
+                            "model_start": 1,
+                            "model_end": 96,
+                            "seq_start": 62,
+                            "seq_end": 153,
+                            "bitscore": 50.4
+                        }
+                    ],
+                    "start_pos": 57811,
+                    "end_pos": 58343
+                }
+            ],
+            "seq": "GGATCCGGCTGGGGATTCCCGAGACGCAGCTGCGGTGGAGCGAAGGGATGTTGCTGCGTGGCCCACTCGAGCTGCCGGTCGTGTGGTGACAGGCGCCGGTGGTCGGGCCGGATCGACCCGACCGCCGGCAGTGGACCGGGAACGTCAGGCCGAGCGACCGCCAGTAGACACCCTGCCGGTCGATCTCGACGATCTCGTCGGAGATGCCGTGCCGGTCACGGTACTCGTGGACGGCCTCCCGGCAGGCGGGGATGCAGTAGTCGTCGATGATCGCGAAACCGCCGGGGGACAGTCTCGGGTAGGCGTGGGTGAGCACGTCCATGGTGGCGCCGTAGGAGTCGCCGTCCATCCGGAGTACCGCGAGCCGTTCGAACGGCGCGGTGGGCATGGTGTCCTTGAACCAGCCGGGCAGGAACCGCACCTGGTCGTCGAGGAGACCGTAGCGGCTGAAGTTCCGCTGGACGGTAGCCAGGCTGGTCGGCAGATCGACCGCCTCGTTGTACTGGTGGAGGTTCATCTCCGCGTCCATCGGGTGGTCGTCGTCGGTGATCTTCGGGAAGCCCTGGAACGAGTCGGCGACCCACACCGTCCGGTCACGGACGTCGTACGCCTTGAGGATGCCGCGGGCGAAGATGCAGGCCCCGCCCCGCCAGACGCCGGTCTCCAGCACGTCGCCGGGAACGCCGTCCCGCAGGGCGCTTTCGACGCAGTGTTGGAGGTTGTTCAGCCGTTTCATTCCGATCATGGTGTGCGCCACGGTCGGATAATCCTCGCCCGACTCCCTGGCCTCTTCGACGAACGCGGCCTCGGTGATCAGGCCGGCCACGTGAGTGGCGTCCTGGTAGATGAAGTTCGAGACCGTTCTCTTCAGCAGGTCCAGGTAGAGTTCCACTCCGGTCGACGGGCTCATGGGCAGAAATACCTCCTTGCCTGGTGGGCGACTCAGGCTGCGGCCGTTGCCCTGTTGCGTCCGGGTTGACCGGGGACACGACTCCGGTCCTGGATGCGCTGAACCCCGAGAAACATCACCGCATCGGTTTCGCAGCCACGTTGTCTGCACAGCTCAGCGGCGACACTCGACGAGTTTCGGGAACATCGCAGGATGTGTCCGTCTATTCGTCGCCGTGTCGGGCATCACGCGAGCCTACCCCGGGGCCGAGGTGGTCGTCCAACGGTGGGGGCGTTTCTTCAAACATGTTTCAACATATTGACATATCCCAATGCAGTGTTGTATGCGGATGCGGGTGGCGATGGACGTCTTAGTCCTGTCTGCGTACAGGGCGTTCTCCGGTTGAGATCACACACCCGGGTGTGATCCAAACCACACTGTTGCTATGTGATTCCTGTCGATGCAATACTTCCCGTCAGAATTCCTGCGGCAACACCCCTGCCGGCCTTGCCATGCGTTCGACTGTCCTCTAAGGAGCGGTCATTGAGCCAGGATGATACTGAGCTGTCTGACGATGGGCAGAAGATGGTGGTCTGGCCCATGGACCGCACCTGCGCATGGGCGCTCCCCGAGCAGTACGCCGAATTCCGCCAGCGGGCCACATTGGTTCCCGCGAAGGTCTGGGACGGCTCGCCCACCTGGTTGGTCAGCAGATACGAGCACGTCCGGGCTCTGCTGGTCGACCCTCGGGTGACCGTGGACCCGACCCGACAACCTCGTCTGTCCGAGGCGGATGGTGACGGCGACGGCTTCCGTTCCATGCTGATGCTGGACCCTCCGGAACACACCAGGCTGAGACGGATGTTCATTTCCGCGTTCTCCGTCCGGCAGGTGGAAACCATGCGTCCGGAGATCGAGAAGATCGTCGACGGCATCCTGGACCGGTTGCTCGCCCTCGAACCACCGGTGGACATTCTCACGCACCTGGCGCTCCCGATGTCCACCCAGGTCATCTGCCATCTGCTGGGAGTTCCGTACGAGGACCGGGAATTCTTCCAGGAACGCAGCGAACTGGCGAGCCGACCGAACGACGACCGCTCCATGCCGGCCCTGATCGAACTGGTCGAGTACCTTGACGGCCTGGTGCGCACGAAGACCGCACACCCCGACACGGGCCTGCTCGGAACAGCGGTCACCGAACGGCTACTCAAGGGCGAAATCACCCATCAGGAGCTCGTCAACAACGCCGTTCTCCTGCTCGCGGCCGGTCACGAGACCAGCGCCAACCAGGTCACGCTGAGCGTACTCACGCTGCTGCGCCATCCGGAAACGGCCGCTGAACTGCGCGAACAGCCGGAACTCATGCCGAATGCGGTAGACGAGCTACTGCGTTACCATTCCATAGCTGACGGGCTACGCCGCGCCGCCACCGCAGACATCGTACTGGGCGACCACACCATTCGCGCCGGTGACGGCCTGATAATTCTGCTGTCCTCGGCCAACCACGACGGGAACACGTTCGGTGCCGAGGCGACCTTCGACATCCACCGTCCGGCCCGACACCATGTCGCCTTCGGTTACGGCCCGCACCAGTGCCTCGGGCAGAACCTCGCGCGCCTTGAAATGGAGGTGACGCTGGGGAAACTGTTCAGACGGGTGCCCGCGCTGCGCCTCGCCCAGGAGCCGGACGCCCTACGGGTTCGGCAGGGCTCGCCGATCTTCGGCATCGACGAGCTGCTGGTCGAGTGGTGACGGACGAATGGGGGTGCGGTATGCGGATAGTCCTGGACGCCGAACGCTGCGTGGGCGCCGGCCAGTGCGAGGCGACGGCTCCGGAGTTGTTCACCCAGGGTGACGACGGTCTCGGCCTGGTGCGGGACCGGCCAGTGACACCGGAACTGCTGGGGCCGGCCAGGGAGGCCGTCGACCGCTGCCCGGTGCGCGCCATCCGGATCGAGTCCTCGGTCCGGACCGGGTGGGCCCGGGGTGCCGGATGACACGGGACAGGTGGGCCAACAGGAGTGTCGTCGTCACCGGCGCTCTCGGGTTCATCGGCTCGCACTTCGTCGAGGAACTCGCCGCCCGTGGCGCGGACGTCCTCGGTCTGTACCGCAGTGAGCACCGGGCTGTGCGGGACGAACTGTCGGCGCACGACCGCGTGCGGCTGCTCCCGGTGGACCTGCTCGACGAGCGGCGGTTGCGGCAGGTGTTCGAGCACGAGGCGTCCGGGGCACAGACCATCGTCCACTGCGCGGCCCTGGACGGGAACGCCGCCTACAAGCGCGCCCACTCGGCCGAGATCCTCGACGCGAACCTACGCGTCGCGTCGAACCTCCTGAACTGCGTCCGGGACTTCGGCGTCGAGGACGTGACGGTGCTCAGCTCCGCCGAGGCGTACTGCGGGCCGACAGCGTCTCCGGCGCGCGAGGACGACGCCCGGTGCCGGACGGTGCGGTCCGGGGAGAACGGTTACGTCCTGTCGAAGCTCATCACCGAGATCCTGGCCGAGCAGTACCGCAGGCAGTACGGGTTCGGCGTCCACCTGGTCAGACCGGCCAACGTGTACGGCCCGCGCGACAGCTTCGACGGACCCGCCAGCCGGGTGATCCCTGCCATGATCGCCAGAGCCGAATCCGGCGGGGAGATCGAGATCTGGGGCGACGGGCAACAGACCCGGTCGTTCGTCTACGTCACCGACCTGGTCCGGGCCGCCCTCGCTCTCGTCGAGACCGGGAAGTTCCACTCGCTCAACGTCACGACCGACGAGACCGTCTCGATGCTCGACCTGGCCAGGGTCGTCTTCTCCGTGACCGGCCGGACCGCGCGTATCCACCACAAACCCGCCCAGCCGGTGGGTGCCCCCGGTGCCGTACTCGACACCACCCGGATGCGTGAGGTCGTCGACTACACGCCCCGGACCCTGCGGGAGGGCCTGGAAGAGACCGTGCGGTGGTACCGCCACCGGATCGGACGTTGAACCAGAAGCGGAGGCAGTCCATGACCGCACAGACCGAATTCGACGAGGCCACCGTCCAGGACGTGGTCCGGTTGGCCGGGGGGCACGACTCCGAACTGCGGGAGCTGACCCAGAAGTACGACCCGGCGATGATCTCCCGGCTGCTGGTCGCGGAGATCCTCTCCCGCTGCCCACCACCGTCCAACGACACTCCCGTGCTGGTGGAACTCGCCATCGTGCACGGGAGCGAGCGTTTCCGGCACTTTCTGCGGGTCGTGCGGGACAGTCCGATCCGGCCGGTCGGGGCGGACGAGGGCTTCGTGGGCATGCTCGTCGAGTACGAACTCACCGAACTGCTCCGGGAACTGTTCGGGGTGACCCACGAACGGCCCGCCGGCGTACGGGGAACGAAGCTCTTCCCGTACCTGACCGACGACGAGGAGGCAGTCGAGCAGATCGGCACGTACCTGCTCGCCGCCCAGCAGGGCACCGAGGCGGTACTGGCCGGATGCGGCTCGCGCAAGCCCGACCTCAGCGAACTCTCCTCGCGCTACTTCACCCCCAAGTTCGGGTTCCTGCACTGGTTCACGCCGCACTACGACCGCCACTTCCGCGACTACCGCAACCAGCAGGTGCGGGTGTTGGAGATCGGTGTCGGAGGCTACAAACACCCGGAGTGGGGCGGCGGCTCACTCCGGATGTGGAAGAGCTTCTTTCCCCGGGGGCAGATCTACGGCCTCGACATCATGGACAAGTCGCACGTCGACGAGCTGCGGATCAGGACCATCCAGGGCGACCAGAACGACGCGGAGTTCCTCGACCGGATCGCCCGCCGGTACGGGCCGTTCGACATCGTCATCGACGACGGTAGCCACATCAACGCCCACGTGCGGACGTCGTTCGCGGCGCTCTTCCCCCACGTCCGCCCCGGTGGTCTGTACGTGATCGAGGACATGTGGACCGCCTACTGGCCCGGGTTCGGGGGCCAGGCGGACCCGCAGGAGTGTTCCGGGACCAGCCTCGGGCTGCTCAAGAGCCTGATCGACGCCATCCAGCATCAGGAACTGCCGTCGGACCCGAACCGGTCGCCCGGCTACGTCGACCGGAACATCGTCGGCCTGCACGTCTACCACAACGTCGCGTTCGTGGAGAAGGGACGGAACGACGAGGGCGGCATCCCGACCTGGATACCCCGCGACTTCGAAAGCCTCGTGCAGGCCTCCTCCGGAGGCGCGACATGAGCTCCTCCCGGCCGCCGGGAGCCGGCGTCGTTCGTGGAGGTCGTGGACGCGGACCGGCGGACCGCCCTGCGGTCCACGACCGATCGGAGCTGCCATGCGGATAGCACTGCTGACCATCGGGTCCCGCGGCGACGTGCAGCCGTTCATCGCGCTCGGCGTCGGGCTGCGGGCGCGGGGACACGACGTGATCCTCGGCGCGCCGGAAGGACTGAAACACCTCGTGGAGAGGGCGGGACTGACCTACCGCCCCACGCCGGGCGACCCCGACGGCTTCTTCACCATGCCCGAGGTCGTCGACTCGCTGCGTCGCAGCCCGTACCTCCGGGACCTGCTGAAGGCCCTGCCAGCGGTGCCGGAGGAGTACGACCAGCAGGTCGTCGACGAGATCGCCGCCGCCGGCCAGGGCGCGGACGCGGTGGTGTACGCCCCGCTGACGATCGCCGCGGCCTACGGCCGGTCCGACGTGCCCTGGGCGGCGGCCAACTGGTGGCCGAACACCCGTACCTGGCGATTCCCGGCGGTGGAGTCCGGCCAACGACGGCTGGGACCCCTGAGCCCGCTCTACCACCTCTTCACCCACGCTCGGGCGGCCCGGGAGGAGTGGGCCTGGCGGCGACCGGAGGTCGACGGGTATCGCAGGCGCCAGGGGCTGGAACCCTTCGGCGGACGGTCGCCCTTCCTCCGGCTCGGCCGGGAACGGCCGTACCTCTACCCCTTCAGCCCCAGCGTGCTGCCGAAACCACGGGACTGGCCGGCGCGGGCGCACGTCACCGGCTACTGGTTCTGGGACCAGGACTGGCAACCCACCCGTGAACTGGTCGACTTCCTGGCCGACGGTCCGGCGCCGGTCGCCGCTGACGTTCGGCAGCACCTGGCGGTACACCGCCGTGAGCAGGTGCTGGAGTACGCGATCGCCGCGGCGAGGGCAGCCGGCCGACGCATCGTCGTGGTCGACGGGCCCGACGTGCCGCCCTCCGACGACGTGCTGCGCCTGCACGACGTGGACTACCGCTGGTTGTTCCCGCGTACCGCGGCGGTCGTCCATCACGGCGGGTTCGGCACCACCGCCGAGGTGGTCCGGGCCGGCCGACCGCACGTCGTCGTGCCGGTCTTCGCCGACCACCCGTTCTGGGCGCGCCGGCTGACGGAGATCGGTGTGGCGGCCCCGGCCGTCGACTTCCGGACCCTGACCCGGGAGGCGCTGGTCGCCAGCACCGTCAAGGCCGTGCGGGAAGACAGCCTCGGCGCGCGGGCGGCCCGCCTGGGCGAAGCGGTGCGGCGGGAACGCGGCGTGGAGAACGCCTGCCAGGTGGTCGAGAGCTGGATCGACAACAGTTCCAGGACGCTCACCGGGTAGCCGGGGGCGGCGAGCCGGACGACTCGCTCGCCGCCAGCGGCCCGGCGCCAGAACCATGGCGAGCCGCCCGCCGGGCCGCTCGCCGTGCGCCCGACCAGCCACCGACGTACCGATGTCACGACCCTGGTCCGAGGTAGGACGCGGACCGCGGCCATCTGGGCCAGCCGCACGCCGAGCTTGATGCCGCACGGGGGGGCCGGCGGCGCGGTCCGGACGTCGCCGTGGCCGACGCCCTGCTCTGCCTCTGCCGGCCGTGTTGAATCTGGAGAGTGAGACGTGGTAGTGCCTTCCGTCACCGCCGCCCCTGAAAGCGTGGCCCTCGTCGGCATGTCCTGCCGGCTGCCGGGCGCCTCCGGAGTGGAGGAGTTCTGGGATCTACTGACCGAGGGACGCGACGCGGTGGCGCGGCAGCCGGACGGCAGTTGGCGCGCCGCCCTGGCCGAGACCGGAACCTTCGACGCCGGTTTCTTCGGGATGTCACCACGACAGGCCGCCGCCGCCGACCCGCAGCAGCGGCTGGTGCTCGAACTGGGCTGGGAGGCGCTGGAGCACGCCGGTGTCGTCCCGGCCACGCTCGCCGGCAGCCGGACGGGGGTGTTCGTCGGGGTCACCGCCGACGACTACGCGACCTCCCTGTGGCGTACCGGAACCACCCCGGACGGCTACACGGTGCCCGGTCTCAACCGGAGCATGATCGCCAACCGTCTCTCCTACCTCCTGGAACTACGCGGACCCAGCTTCGTGGTGGACAGCGCCCAGTCCTCCTCGCTGGTGGCGGTGCACCTGGCCTGCGAGAGCCTGCTCCGTGGAGAGAGCGACGCCGCGATCGTGGCCGGCGTCAGCCTCATCTCGACCCCGGAGAGCACCGCCGCGATGGCGAGCCTGGGTGCCCTCTCCCCGGACGGCCGGTGCTACACCTTCGACGCCCGGGCCAACGGGTACGTGCGCGGCGAGGGCGGGGCGGCAGTCGTCCTCAAACGACTCAGCGACGCGCTCGTCGACGGCGACCGGGTGCACGCGGTGATCCTCGGGGGCGCGGTCAACAACGACGGTGGTGGCCCCGGGCTCCTCGCTCCGGACCGGGCGGCACAGGAGGAGGTGCTCCGCCGGGCGTACGACCGCTCGGGCGTCGGCCCCGCCCAGGTGACCTACGTCGAACTGCACGGCACCGGCACGCCGGTCGGTGATCCGGTCGAGGCGGCGGCCCTCGGCGCGGTGTTCGGTGCGGACCGGCGTGCCGACGACCCGCTGCACGTCGGCTCGGTGAAGAGCAACATCGGTCACCTGGAAGGCGCGGCCGGGATCACCGGCCTGCTCAAGGCGGTCCTCTGCGTCCGGGAGGGCGTGCTACCGCCGACTCTGAACCACCAGACCCCCAACCCCGGGATACCGCTCGCACAGCTACGGTTGCGGGTCCAGACCACGGTCCAACGGTGGCCGGACCGGGCCGACGAGGGCCGGCGCATCGCCGCGGTCTCGTCGTTCGGGATGGGCGGTACGAACGCCCACCTCGTGCTGGCCCAGGCCCCGGAGCGGGCCGTCCGACCGGCGGTCTCTCCCACGACCGAACTGCCGGCGGTGCCGTGGGTGCTCTCGGCCCGGTCGGAGGCCGCCCTGCGCGGACAGGCCGAGCGGCTCCGGGAACACCTCGACCGGCACCCGGACCTGCGTCCGCTCGACGTCGGTTTCTCCCTCGCCACCTCGCGCGACGTCTTCCCGCACCGGTCGGTCCGGTTCGCCGACGGCGAGCCGGTCGCCGCCGGGTCGGGCCGCCTGGCCGAGGGACGGGTGGCGTGGGTGTTTCCCGGACAGGGCGCCCAGTGGACGGGGATGGCCGCCGCCTCCCTGACGGAGTCACCCGTCTTCGCCGCCCGCCTGACCGAGTGTGCGGCCGCCGTGACGCCGTTCGTCGACTGGTCCCTGCTGGACGTGCTGCGGGCCGTACCCGGCTCGCCCCGCCTCGACCGGGACGACGTGGTGCAGCCAGCCTGCTTCGCCGTCATGGTGTCACTGGCCGAGCTCTGGCGGTCCTGGGGTGTGGTACCGGAGGCCGTCGTCGGTCACTCCCAGGGCGAGATCGCCGCAGCCGTCGTCGCCGGGGCGATCTCCCTCGAGGACGGCGCCCGGATCGTGGCCCTGCGGTCGCAGTTGTTGACCAGGGAGTTGCACGGCCTCGGCGGCATGGTGTCGGTCGGTCTTCCGGTCGCCGAGACCGAACGGCTCCTCACCCGATGGTCCGGCCGACTGCACCTCGCCGTCGTCAACGGGCCGAACGCCACGGTCGTGGCCGGAGACGGCGACGCGCTGGACGAGCTGGTCACCGAATGCGAGCGACGACAGGCACGGGTCCGGCGGGTAGCCGTCGAATACGCCTCCCACTCACCGCACGTCGAACGGATCCGTGACGAGCTGATGACCGCGCTGCGTCCCGTGACGCCGCAGCCGTCCGCCGTCGCGTTCTACTCGACCGCCGACGTCGGGATCACCGACGGCGAGCGGCTCGACGCCGGGTACTGGTACCGCAACCTGCGCCAACCCGTGCGGTTCGCCGACACGCTCCGTCAGATGTCGACCGACGGCTACACGTCGTTCGTCGAACTCTCGGCCCACCCGATGCTGGTGACGGCCCTGGAGGAGATCCTGGCGCAGGAAACCACGGCGGCACTCTGCGTCACCGGGTCGCTGCGCCGGGACGAGGGCGGCCTGGGCCGCATGCTGGCCTCGGCCGCCGAGGGATGGGCGCACGGCCTGCCGGTGGACTGGCGGAAGGTGTTCGCCGGTACGGGGGCCGAGCGCGTCGAGCTGCCGACGTATGCCTTCCAACGGCAACGGTACTGGGCACCGGACGCCGAGCGGACGGCCGTGCCACCGGCAGCCGTCGACGCTCCGGTGCGACCGGCCGCGAGTCCGCCGGAGCAGGCCACGCCGGCACAGGCCACCACGCAGCAGACGTACGACCTGCTCCGGACCGTCCTCGAGACCGTCGCCACCGTCCAGGGCCTGCCCTCCGCCGAGACGGTCGACCCCGACCTGACCTTCAAGGAGCAGGGACTGGAGTCGTACGCCGCAGTGGAGTTCCGGAACCGGCTCCGCGCGCGTGTCGGTCTGTCCCTGCCCGCCACCCTCGTCTACGACTTCCCGACGCCGACGGCGGTGGCCGGCTTCCTCGGCGACCAGTTGCACCCCCGCGAATCGCAGCTGGTGACCGTGACCCCGGCCCTGGTGGACGACGAGCCGATCGCGATCGTGGGGATGGGTTGTCGTTTTCCGGGTGGGGTTTCCTCGCCGGAGGATTTGTGGGATGTGGTGGCGTCGGGGGTGGACGCGGTGTCGCCGTTTCCGGTGGATCGTGGTTGGGATCTGGAGTCGTTGTTCGACGGGGATCCGGATCGGGCGGGTACGACGTATTGCCGGGAGGGTGGGTTCCTGGACGATGCGGCGGGTTTCGATGCGGGGTTTTTTGGTGTGTCGCCGCGTGAGGCTGTGGCGATGGATCCGCAGCAGCGGTTGTTGTTGGAGGGTGTCGTGGAGGGCGTTGGAGCGGGCGGGTTTTCATCCGCTGGCGTGCGTGGGAGCCGTACCGGTGTCTACGCGGGCGTGATGAACCAGGAATACGGGCCACGGTTGTACGAGTCTGCCGAGGAGCACCGCGGATATCTGCTGACCGGGACGGCTGCCAGTGTTGTTTCTGGTCGGGTGTCTTATGTGTTGGGTTTGGAGGGGCCGGCGGTGACGGTGGACACGGCGTGTTCGTCGTCGTTGGTGGCGTTGCATCTGGCGGTGCAGGCGTTGCGGTCTGGTGAGTGTGATGTGGCGTTGGCTGGTGGGGTGACGGTGATGGCCACGCCGGGGATTTTTGTGGAGTTTTCGCGGCAGGGTGGGTTGGCCGTGGATGGTCGGTGTAAGGCGTATTCGGATTCGGCTGATGGTACGGGTTGGTCCGAGGGTGTGGGTGTGGTGGTGGTGCAGCGGTTGTCGGATGCGGTGGCTGCTGGTCGTCGGGTGTTGGCGGTGGTGCGGGGTTCGGCGGTCAATCAGGATGGTGCGTCGAATGGTTTGACGGCGCCGAGTGGCTCGTCGCAGCAGCGGGTGATTCGGGCGGCGTTGGCGTCTGCGCGTTTGTCGGTGGGTGATGTGGATGTGGTGGAGGGGCATGGGACGGGGACGCGGTTGGATCCGATTGAGGCGCAGGCGTTGTTGGCGACGTATGGGCGTCGTGGTGGTGGTCGGTCTTTGTTGTTGGGGTCGGTGAAGTCGAATATTGGTCATGCTCAGGCTGCTGCCGGGGTGGCTGGGGTGGTGAAGATGGTGTTGGCGATGGAGCGTGGGGTGGTGCCGGCTTCGTTGCATGTCAGGTGTGCCGTCTTCGCATGTCAGGATTGGTCGTCGGGTGCGGTGGAGGTGGTGGGGGAGGCGTGTGCGTGGCCGGAGACGGGTCGGCCGCGTCGGGCGGCGGTGTCGTCGTTCGGGGTTAGCGGTACGAACGCGCACGTGATTCTGGAGCAGGCTCCGCCGGTTGTTCCGGACGCTAGTTCTTCTGCTGGGGCTCCGGTGTCGGCTGTTTCGGATGCCGATTCTTCTTCTGTTTCTGTGCCGTGGGTGTTGTCGGCGCGGTCGGAGTGGGGTTTGCGGGCGTCGGCGGGTCGTTTGGAGGCGGCGCTTTCTGGTCCGCTTTCGGGTTCCGGTTCTGGTTCGGGTGTTGTTTCGGGTGTGGATGTAGGGTGGTCGTTGGGGGGTCGTTCGGTGTTTGGGTGGCGTGGGGTGTCGTTGTCGGGTGTAGGTAGGTTGGGTGTGTTGGCGGGGGGTGGTGTGGGTTCTGGGGTGGTGGTGGGTTCGGGGCGTGTAGCGTCGGGTGGTGTGGTGTTTGTGTTTCCGGGTCAGGGGGCGCAGTGGGTGGGGATGGCTCGGGGTTTGTTGGGGGAGTCGGGGGTGTTTTCGGAGGCGTTCGATGAGGTTGGTGGGGTGGTGCAGGGGTTGGTGGATTGGCCGGTGCGAGGCACGGCGTGTCGTGAGGTGGGTCGGGGTGATTTGGGGCGGGTTGATGTCGTGCAGCCGTTGTCGTTTGTCGTGATGGTGGCGTTGGCGCGGTTGTCGCGTTCGTCGGGTGTGGTGCCGCCAGGGTGGGTGGGTCATTCGCAGGGGGAGATCGCGGCGGCGGTGGTGTCGGGGGCGTTGTCGGTGGAGGAGGGGGCGCGGGTGGTGGTGGGTCGGTCGCGTGTGATTGGGGCACGGTTGGCGGGTGGTGGGGCGATGGTGTGGGTGGGGGCGTCGGTGGGTGTGGTGGAGGGGTTGTTGGGGGGTTTGGGGGGTGGTTTGGAGGTGGCGGTGGTTAATGGTCCGGGGCAGGTGGTGGTGGCGGGGGATGGTGGGTGGGGTGGAGGGGTTGTTGGTGCGGGTGTGGGGGGGTGGGGGGTTCGGGCGCGGTTGTTGCCGGTGGGTTATGGGTCGCATTGTGGGTTGGTGGATGTGGTGCGTGATGAGTTGCTCGGTGTGTTGGGGGAGGTTCGGGGCGGGTCGTCGGTGATTCCGTTTTATTCGTCTGTGGATGTGGGTGTGGTGGATGGTGGGGTTTTGGATGGGGGGTATTGGTTTAGGAATTTGCGGTTGCGGGTGCGTTTTGGGGAGGTGGTGCGTCGGTTGGTGGGTGATGGGTTTTCGTCGTTTGTGGAGGTGTCGGCGCATCCGGTGTTGGTGGGGGCGATTGAGGATGTGTTGGGGGAGGTGGGGGGTGGTGTGGGGTTCGTGTGTGGTGGGTTCGTTGCCGTCGGGGTGGATGGTGGGTTGGGGCGGATGGTGGTGAGTGCGGCTGAGGGTTGGGTTCGTGGGTTGCCGGTGCAGTGGCGGCGGGTTCCGGTGTTGGCGGGTGGCCGGCAGGTGGGGTTGCCGACGTATCCGTTCCAGCACGACCGGTACTGGCTCGCTCCTGCTCCTCGCACGGCGGTGGCGGCCGGCGCGACGGCGGCGGATGGTGCGGCGGCCGGTGTGGGCTGGCGGTATCGGGTGGGGTGGAAGGCTCTGCCGGTGCCGACGCCGGGTCGTCTGCACGGTCGTTGGCTCGTCGTCCACGGTCATGCCACCGGCGGTGTCGACCAGCTCTCCGGTGTCGTCGCCGACATCCTGACCCGGCACGGCGCCACCACCGAACACCTCACCATCGATCCCGCCGAGCCCGGCGTACTCGCCGAGCGACTCGGCGCTCTCGCAGCAGCCGGTGAGCCCGTCCGTGGTGTGGTGTCACTGCTGGACCTCGACGGCACGCTGCTGTTGGTCCAAGCGATGGGACGGGCTGGGCTCGACGCCCGGATCAGGGCCGTCACCACGGGTGCGGTCGCGGTCTCCTCCGACGAGGTGCCCTCCTCCGAGGGCGCTGCCCTCTGGGCTTTCGGCCGGGTGGCCGCGCTCGAACTCCCCGACCGTTGGGCGGGCCTGATCGATCTTCCGGTACAGGCCGACGCACGAGCGTTGGAACGCCTGGCGGGCGCGCTCACCAGCGAGGAAGAGAACCAGCTCGCCGTCCGCGCTTCCGGCCTCTACACGAGACGGATCATCCGGACCGCCGGCCGGGCCCGGAAGGAATGGCGGCCGCGCGGCACCGTGCTGGTCACCGGTGGCACGGGCGCACTCGGCGCCCGGGTCGCCCGCTGGCTGGCCGACCACGGCGCCGAACACCTCGTGCTGGTCAGCCGGCGGGGCGCGCAGGCCACCGGGGCCGCCGAGCTCGTCGCCGGCCTGGAACGAACCGGAGTGAGGGTGACCGTGGCCGCCTGTGACGTCGCCGACCGCGACGGCGCTGGCCGCCCTGCTGGAGGCGCACCCACCGCAGGCGGTCTTCCACACCGCTGGCGTGCTCGCCGACCGGACGGTGGACCTGCTCACTCCCGAGGATCTGGCTGCGGCGTACCGGCCGAACGGCTCGCCGCCACCCACCTGCACGACCTCACCGCCCACCGTGACCTCGACGCCTTCGTTCTTTTCTCGTCGATCGTCGGTAGCTGGGGCAACGCCGGTCAGGCAGCCTACGCCGCCGCCAACGCCGCCCTGGACGCGCTCGCCGAACAGCGCAGGTCAGCCGGCCTGCCGGCCACCTCGATCGCCTGGGGACTGTGGGCCGGAGCCGGCATGGCCGACGGCGCCGGTGAGCAGACCTTCACCCGTCGGGGGGTGCGGGCCATGGACCCGGACGACGGGATCGCGGCGCTGCGGCAGGCCCTCGACAGTGGTGACACCTGCGTGACCGTCGCGGACGTGGACTGGCCGAGCATGGTGCGCACGCACGCCAACCCGGCGGCGGCCCGCCTGTTCGAGGAGATCCCGGAAGCCCGCCAGGCCCTGGCGGACCGGGCCGCCGAACAGTCGGCCGAGCGCCCCTCCGACCTGGCCCGCCGGCTGACCGGACTCACCGCCGCCGACCGCCGCCGACTCCTGCTGGACCTGATCGGCGCGCAGGCGGCGGTGATCCTGCGTCAGGACAGCGGGTGGACCATCCCGCCCGACTCGGCGTTCCGCGCCTCCGGCTTCGACTCCCTCACCGCCCTGGAACTGCGCAACCGGCTGAACGCCGCGACCGGTCTGACCCTCCCGTCGACCGTCGTGTTCGACCACCCCAGTCCCGTCGCACTGGCCGACTTCCTGCTCGACGCCGTACTGCCCCGATCGGGCGGTGCCGATGGGGTGGTCGAGGTCGCCGCCGCACCGGACGAGCCCATCGCGGTCATCGGCGTCGGGTGCCGCTACCCGGGAGGTGTGGCCACGCCGGAGCAACTGTGGGATCTGCTCCTGACCGAACGGGACGCCATCGGGCCGCTCCCGACCGACCGTGGCTGGAACATCGACGACATCTTCGATCCGGAACCGGGCCGCGTCGGGCGGACGTACTGCCGGGAGGGCGGGTTCCTGCACGACGCCGCCGACTTCGACGCCGCCTTCTTCGGCATCTCGCCTCGTGAGGCGCTCGCGATGGACCCACAACAGCGGCTCATCCTGGAGACGTCGTGGGAGGCGCTCGAGCGTGCCGGGATCGACCCACGGTCGTTGCGGGGCAGCCGGACCGGCGTCTACACGGGCATGACCCACCAGGAATACGCCGCCCGGCTGCACGAGATGCCCGAGGAGTACGAGGGACACCTGCTGACCGGCACCTCCGGCAGTGTCGCCTCCGGCCGGGTGTCCTACGTACTCGGGTTGGAAGGGCCGGCCGTCACCGTCGACACCGCCTGCTCGTCGTCGCTGGTCGCGATACACCTGGCGGTCCAGGCGCTCCGGGCCGGGGAGTGCGACCTGGCCCTGGCCGGCGGCGTGACCGTGATGGCGACGCGGGACTGTTCGTGGAGTTCTCCCGCCAGCGGGGCCTCGCCCCGACGGCCGGTGCAAGGCGTTCTCCGCCAGGCGGACGGTACGGGCTGGTCCGAGGGAGCCGGAGTGATCACCCTGGCCCGACTGTCCGACGCCGTACGGGACGGTCGGCACATCTTGGCGCTGATCCGGGGACCGCGATCAACCAGGACGGTGCCAGCAACGGGCTCACCGCGCCGAACGGGTCGGCACAGCAGCGCGTCATCCCGGCTCGCGCTGGCCAACGCGGGACTCACCCCGCCCGAGGTCGACGCGGTGGAGGCGCACGGCACGGGTACCCGGCTCGGCGATCCGATCGAGGCGGGTGCGCTGCTGGCCACGTACGGCCAGGGCCGGCCGGTGGACCAGCCGGTCCGGTTGGGCACGCTCAAGTCGAACATCGGGCACACCCAGGCGGCGGCGGGTGTGGCCGGAATGATCAAGATGGTTCTCGCGCTGCGGCACGGCGTACTGCCGGCGACCCTGCACGCCACCGAGCCATCACCGCACATCGACTGGAACGCCGGGGCGGTCTCCCTGCTGACCGAGCGGACCGACTGGCCGGACAACCCCCGTCCGCGCCGGGCGGCCGTGTCGGCTTTCGGAATCAGTGGAACGAACGCCCACATCATTCTCGAGCAGGCCCCGGAGCCGACGGTCCCGTCCGAGCGGTCCGAGCGGGCAGCCGGGCCACGGCTGTCGGTCGTCCCCTGGCCGCTGTCCGGGCGATCCGAGCCGGCGCTGCGGGCACAGGCCGCCCGGCTCCGCGACTTCCTCGACGACGGCGCGGATCCGGTGGACGTCGGGTTCTCCCTGGCCACGACGCGCAGCCGTTTGGACCACCGGGCCGTCGTACTGCTCGACGGGGAGACGGCGCCGACCGAGGCGTTGCACGCGCTCGTGTCGGGGGATGCCGGTCGGGCAGTGCTGTCGGGTACGCCACGGGACACCGCCCTCGCCTTCCTCTTCACCGGTCAGGGCAGCCAGCGGCTCGGCATGGCCGACGGGATCCGGCGCGAGTTCCCGCCCTTCGCCGAGGCGCTGGCGGAGATCGCGGCCGAGATGGACACGCGCCTCGACCAGCCGTTGCTGTCGGTGATGTTCGCCGAGCCCGGCTCGGCGACCGCCACGCTGATCGACCGCACCGAGTACGCGCAGCCGGCGCTCTTCGCGGTCGAGGTGGCGCTGTTCCGGCTCTTCGAGTCGTGGGGCGTCCGACCCGACGTGCTCCTCGGCCACTCCGTCGGTGAGATCGCCGCCGCCCACGTCGCCGGGGTGATGGACCTGGAACACGCCTGCCGGTTGGTCGCCGCGCGGGGGCGGTTGATGCAGCGGATGCCGGCCGACGGGGCGATGATCGCGATACGCCTCCCCGAGGAACGGGTCCGCGAGCAGCTCCACGACCTGGGACGTCACGTGTCCGTGGCGGCGGTCAACGGGCCGGAGTCCGTGGTGGTCTCCGGTGCCGGGCACGTGGTGCGGTCGCTGGCCGACCAGTTGACCGCGGAGGGCCACCGCGTCCGGCGGCTCAACGTCAGCCACGCCTTCCACTCCCCGCACGTGGACGAGGTGCTCGAGGAGTTCCGCAAGGCAGCGGCCGAGGTGCGGTACGGGCGACCGCTCGTCCCGGTGGTCTCCAACGTCACCGGCCGCGTCGCCACCGAGGACGAACTCGGCTCGGCCGAGTACTGGGTCCGGCACCTGCGGGAGCCGGTCCGGTTCCACGACGGGATCCGTACGCTCCTCGACCGGGGCGCCACCACGCTCGTGGAGTTGGGTCCGGACGGGGTGCTCTGCGGGCTCGCCGCCCAGTGCCTCGACCCGGACCGCGACGAGGTGGCCCTGGTGCCGGCTCTGCACCGCACGTCGGGCGAGGTCCGGTCGCTGGTCGCGGCGGCCGCCACCGTCCACGTGCGGGGCCACGACGTCGACTGGAACGGCTTCTTCGCCGAGACCGGTGCCCGCCGTGTCGACCTGCCCACCTACGCCTTCCAACGGCAGCGTTACTGGGCGTCGGTTTCCCCGCCCGGGTCGGACCAGACCGCGGCGGTCCGGTTCGGTCTGAACGCCGCTGACCATCCGCTGCTCGGCGGCGCCCTGTCGGTGGCGGGCTCGGAGGACCTGATCTTCACCGGGCGACTTTCCCTGGCGGCGCAGCCCTGGATCGCCGGCCACCGGGTGGGCGAACGTGCTGCTGCCCGGTACGCGTTCCTGGAGGTCGCGTCCCGGGCCGGGCGGGCGGTCGGCGGTGACCGGGTGCGGGACCTCCAGATCGAGGCGCCGCTGGTGGTCCCGGACCGGGGTGCCGTGCAGGTGCAGGTCGTCCTGACCGGCGGGGACGAGCCGGACGGCCGGCAGGTCCGGGTCTTCGCCCGGCCGGAGGGGTCCACCGCGCCGTGGACCCGGCACGCCACCGGGAACGGTGACGCTGCCGGTGGATCCGGACGTCGACCCGGGGTGGGCGCGCTCGTGGCGCCCGAGGGGGCGGTGCCGCTGGACGTCGGCGACCTGTACCGCCGGTTCGCCGCACAGCACCTGGAGTACGACGGCGTCTTCACCGGCGTCCGCGAACTGTGGCGCCGGGCCGACGAGGTCTTCGCCGAGGTGCGGCTGCCCGACGGGGCGGAGGTGGAAGCGGCGGCGTTCGGCGTACACCCGGCGCTGCTGGACGCGGCGCTGCAGCCCTGGCTGGCCGGCGATTTCGTCTCCCGACCGGCCGACTCGGTGCACCTGCCGTTCGCCTGGCAGGGGATGCAGGTGCACACGTCCGGTGCCGCCGCGCTGCGGGTGCGGATCCGCCGGGCGGGGGAGTCGGCGGTGTCGATGCAGGCCGTCGCGGTGGACGGTGCGCCGGTCTGTTCCCTCGACGCGCTCGTGCTGCGCCCCACCACCGTCCGGTCGCTCCGGCGGACGGTGGGGCCGGCCCTGCTCCCGCTGCACCACCTGCGCTGGCGGGAGCGGGAACCGGGCCAGGCACCGGGCACGCCGCTGACGTTCCTCGGTCCGACCGGCGCGGAACGGTACGTCGGCGAGGCGGTCACCGTCCACCAGGACCTGACCGCGCTGCGCGCCGTCGGGCAACGAGGCGCCCCGCCACCACGGGCGGTGCTGGCCGCGTTCGGATCACCGCACCGTACCGCCGAGGCGGTCCGCGCCGTCGCCGCTGCGGCGTTGGACCTGGTCCAGCGGTGGCTGGCCGACGACCGGCACCAGGACAGCCGGCTCGTGCTGGTCACCGAACGGGCGGTGGCCGCCGACGACCACGAGGACGTGCCGGACCTCGCCGGCGCCGCTGTCTGGGGGCTGGTCCGCTCGGCGCAGTCCGAACACCCCGGGCGGTTCGCGCTGATCGACCATGACGGGACGGAGCAGTCCCGCGCTCTCCTGCCGGCGGCCGTCGCGCTCGGCTGCGCGCAACTGGCGCTGCGCCAGGGCACGGTACGGGTGCCGGCGCTGGCGGCCCTGCCACCCACGGAGAGCGGGGCCGACACACGCCTCGCCCCGGACGGCACGGTGCTGGTGACCGGTGCCGCCGGCGCGCTCGGCGCGCTCGTCGTCCGGCACCTGGTGGCCGAGCACGGCGTACGCCGGCTGCTGCTGCTGTCCCGCCACGGCCGCGAGGCCGCCGGGATGGCCGAGCTGGCGGAGGACCTCGCCCAGCGCGGCGTCACCGTCACGGTGCTCGCCTGCGACGTCGCCGACCGGACCGGGCTCGCCGCGGCACTGGACGCGGTACCGGACGAGCACCCGCTGACCGCAGTGGTCCACGCGGCGGGTGTGCTCGACGACGCCATGGTCACCGGCCTGACCGCCGACCGGCTCGACGAGGTGCTGCGTCCCAAGGTCGACGCCGCCCTGCACCTGCACGAGCTGACCGCGGACCGGAAGCTCGCGGCGTTCGTGCTCTTCTCCGCCGCGGCCGGCCTGCTCGGCAACCCGGGGCAGGCGAGCTACGCGGCGGCCAACACGGTGCTGGACGCCCTCGCCCACCACCGTCGGGCCAACGGTCTGCCGGCGACCTCCCTGGCCTGGGGGGTGCTCGGTGGACCGAACGGGATGGCCGCGAACCTGAACGCCGCCCACCTGCGGCGGCTGGCCCGGTACGGCATCGCCCCCCTCGACGGCGACGAGGCTCGGAGCCTGCTCGACCGGGCGCTGCGCACCGACCGGGCGCTGCTGGTGCCGCTGCGGTTGACCAGGGTCGACGCGCGTCAGGACCCGGCAGACGTACCCGAGATCCTCCGTCCGCTCGTCGTTCCCGTCGTGGCCGACGGTGGCGGCCGGAGCCCGGCGACCGGCCCGAACAGCCTGGAGGCGTTCCGCGCGCAGCTCGCCGAACTCGACGACGGGACACGCGGGGAGCACCTGCTGGACCTGGTACGACGACAGGTGGCGGAGGTCCTCGGCCACGACCGGGCCGACGTGGTGGACCCGAAGCGCCCGTTCCAGGATCTCGGCTTCGACTCCCTGCTCGCCGTCGAGCTGCGTAACCGACTGCAGGCCGCGACCGGGCTACCGCTACCGGCCACCCTTGGCTTCGACCACCCCACGCCGCAGACCGTCGTCGACCACCTGGCGGAGAGCCTGCTCTCCCGCCCCGAGGGCGATCCGGGGGAGCAGGCCCTGACCGGTCTCGACGCGGTGGCCCGGGCGCTGACGAAGCTGGGCGACGAGGACATCCGCCGGGTCGTGGTGCGTCGACGGCTCGCCGAACTGCTGGCCACGGTGGCCGGCGCCGAACCCGACCTCGCCAACGGTGGCGGCACCGGGGCCGGCGTCGACGACGGTCACGACGACACCGCTCTGGTCGAGCGGCTGAGCGGCGCGTCGGACGAGGACCTTTTGGCGTTCATCGATGAGCAGATCTGACCGGCGGAGGGCCGACACATGACCGCCACCGCGAACCGGATGCGCGAATACCTCCAGCGGATGACCGTGGAGCTGCACGGGGCGCGGCAACGGCTGCGCCACCTGGAGCAGCAGGCGAGAGAGCCGATCGCGATCGTCGGCATGAGCTGCCGGCTGCCGGGTGGGGTGAGCACCCCGGAACAGCTGTGGCACCTGGTCGACTCCGGCACCGACGCCATCTCCCCCTTCCCCACCGACCGGGGCTGGGACCTGGCGGCCCTCTACGACCCGGACCCGAACCGACGGGGCACCGTCTACTCCCGTGAGGCCGGGTTCCTGCACGACTGCGCCGGCTTCGACCCGGAGTTCTTCGGGCTGAGCCCACGCGAGGCGCTCGCCATGGACCCGCAGCAGCGCCTGCTGCTGGAGACCTCCTGGGAGGCGATCGAGGAGGCCGGAATCGAACCGACCTCCGTGCGCGGCTCCCGGACGGGTGTCTACCTCGGCGTGATGTACCACGACTACGGCGAACGGCTGCGGGAGATCCCCGAGGGGATGGAAGGCTACCTGGTCAACGGCAGCGCGGGCAGCATCGCCTCCGGCCGCGTCGCGTACACCCTCGGGCTGGAGGGGCCGGCGGTCACCGTGGACACCGCCTGCTCGTCCTCGCTGGTCGCGACCCACCTGGCCGTCCAGGCACTGCGTCGACAGGAGTGCGACCTCGCCCTGGCCGGTGGCGCCACCGTACTGGCCACTCCGCGCATGCTGATCGACTTCGCCCGGCTGCGCGGCCTCGCCCCCGACGGCCGGTGCAAGGCGTTCGCCGAGGCCGCCGACGGCACGAGTTTCGCCGACGGGGTGGGCGTGGTGCTGCTGGAGCGGCTCTCCGACGCGGTCGAGCGGGGCCACCGGGTGCTCGCGGTGATCCGGGGCACGGCGGTCAACCAGGACGGGACCACCAACGGCCTGACCGCCCCCAGTGGCCGCGCACAGCAGCGCGTCATCCAGCGGGCCCTCGCCGACGCGGACCTGGGGCCGGACCAGATCGACGCGGTCGAGGCGCACGGCACCGGCACCCGGCTCGGCGACCCGATCGAGGCCCAGGCGTTGCTCGCCACGTACGGGACGAGCCACCCGGCCGACCGCCCGCTCCGCCTCGGCTCGCTGAAGTCCAACATCGGTCACACCCAGGCCGCCGCGGGCGTGGCGGGCCTGATGAAGATGGTGCTCGCCATGCGGCACGGCCGACTGCCGAGGACCCTGCACGTCGACCAGCCGAGCAGCCGGGTGGACTGGTCCGCGGGGCACGTGTCGCTGCTGACCGACCCGGTCACCTGGCCACGGCTGCCCGGGACGCCCCGACGCGCCGCCGTCTCGTCGTTCGGGGCCAGCGGCACCAACGCCCACCTGGTCCTGGAGGAGGAACCGGAGACCCCGGTCGCGGTCGAGACGCGGCCCGCCCCGGAGACCGCCTGGACGGTCTCCGGTCGATCCGACGCCGCGCTACGCCCAGGCGCACGGCTGCACGAGCAGGTGAGCGTGCGCGGCAGCGTCCCCGTCACCGCCCGTGCCCGCGCCCTGGCCCGCGCCCGATCGCCCTTCGCGCACCGGGCCGTCGTGCTCGGCCGCTCCGAGGACGAACTCCTCGACGGCCTCGCGGCCCTGGCCGACGGCGGTGGCCTCCCCGACCGGCTCGTCGACCGGCCGGACGTCGACCTCGCCGTCGAACGTACGGCCGACGGGAAGCGGAAGGTCTGTCTGCTCTTCACCGGTCAGGGCAGCCAGTACGCGGGCGCCGGCCGGCAGCTCCACGACTCCTACCCGGACTTCGCCGAGGCGCTCGACGACGTCGTCGCGGCCTTCGAGCCCCATCTGGAGCAGTCGCTCCGGGACGTCATGTTCGCCGCGCCCGGCACCACGCGGGCGATGCTGCTGGACCGCACCGAGTACACGCAGCCCGCGCTGTTCGCCCTCGGGGTGGCGCTGGCCCGGCCTCCTCGACCGCTTGGGGGACTGCGACCCCACGCGCTGCTCGGCCACTCCGGTGGGGAACTGGCCGCCCATGTCGCCGGGGTCTTCACCCTCGACGACGCTGCAGCGCTGGTGGCGGCCCGGGGCCGGCTCATGCGGCAACTGCCCGAGGGCGGTGCGATGGTCGCGATCGGCGCCAGCGAGGAGGAGATCGTGGCGACGCTGGCCGGCCGGGAGACCCGGCTGGCCCTCGCCGCGGTCAACGGTCCCACGGCCACCGTCGTCTCCGGCGACGAGGAAGCCGTCCTGGAACTGGCCGGGATCTGGCGGGACCGGGGACGCCGGACGAAACGACTGAACGTCCGCCACGCCTTCCACTCGCCACACCTGGACGCGATCCTGGCCCCGTTCGAGGCGGCCGCACGCGAGGTCGGCTACCGCAGCCCCACCGTCGCGGTGGTCTCCAACGTGACCGGCGCGTACGCCGGCGACGAACTGGCCACCCCGGACTACTGGGTCCGGCACGTACGCCAGCCGGTGCGTTTCCACGACGGCCTGCGATCGGTGGCCGACGCGGGTGTCGACCTCTTCCTGGAACTCGGACCGGGCGGTCCGCTCAGCGCCATGGCCCGGGAGGCGCTGCCCGACGCCGTGGCGCTGCCCCTGCTGCGTCGGGACCGGGACGAGGTGTCGACCACCTGTCGGGCCGTGGCCACGGCGTACGTGCACGGCGCCGGCGTCGAACTGGCCGCGCTCCACGGCGACGGTCCGGTCATCGCCGACGGCCTGCCCACCTACCCGTTCCAACGCACCCGGTTCTGGTTGGCGGAGCCACCGCCGGCCCCGGTCCAGCCGGCCGAGGTGGGGATGGACCCGGCGGCGCACCCGCTGCTGGCTGCCGCGACCGACCTGCCGGACGCCGAGGGGACGGTCAGCACGGGTCTACTGCGGGTACGCGACCATCCCTGGCTGGCCGACCACACGGTGGCGGGGCGGATCGTGCTGCCGGGCACGGCGTTGCTGGACCTCGCCAGCGCCGGCCGCGCCCGGATCGTCGAACTCACCCACCAGGCTCCGCTGGTGCTGCCGCCCGAAGGGGCGGTCAAGGTCCGGGTCCGGCTCGGTGCCGCCGACCACGCCGGCCTGCGTACCGTCCGGATCGACTCGTGCCCGACAACCGGCACGAGCGGTTGGACCAGGCACGCTACGGCGGTCGTGGCCGAGCCGTCCCCGGACCCGTCGGGCGAGCCGGTGGGCGGCGACCTCGGCGGGGCGTGGCCGCCCGTCGGTGCCGTCCCGGTCGACATGACCGGCGCGTACGAGGAACTCGCCGCCGGGATCGGCTACGGGCCGGCCTTCCACGGACTACACGGGGTCTGGCGGCGCGCGGACGAACTCTTCGCCGAGGTGACGTTGCCGGACGGGCTGTCCGCGGTCGGATGGCACGTCGCCCACCCGGCGCTGCTCGACGCGATGCTGCATCCGATCGCCGTGAGCGAGCACGTCACGGAAGCTGCCGGCCGGCTCCCGTTCTCCTGGGCCGAGGTACGCCTGACCGGCGGCGGGACGAGCACGCTGCGGGTCCGGATCGCGCCGGCCGGTCCTGACTCCGTCACCGTCACGGCCGCCGACCCGGACGGCCGGGTCGTGCTCTCCGCCGACCAGCTCACCCTGCGCAGGGTGGACCCGGCGCAGTTGGCCAGCGACCGGACGGACCCGTCGCTGCACCGGGTGGAGTGGACTCCGGCGACCACGGACGGCGCTGCCGAGACCCGCTGGAGCGTCGTCGGCGGAGCACCGGCCCTACGGGACGCGGCACCGGGCGGGGCGTACCCGGACCTCTTCGCCGACGGTGACGACGCGCCGTGCGTCGTGGTGGAGATCGTCGGCGAGGGCAGCCTCCCGCAGGCGGCCCACCAGGTCGGGCACCGGGCTCTCACGCTGGTCCAGCGGTGGCTCGTCGAGGAGACCGGCGACCGCCGCCTGGTCGTGCTCACCCACGGCGCCGTCGACACGGGGCACGGCCTGACCGACCCGGCCGCCGCTGTGGCCTGGGGGCTGGTCCGGGCCGCCCAGACGGAGCACCCGGGCCGCTTCGTCCTGGTGGACCTGGACGACGACGACCGGTCCCGCCGGGCGTTGTCCCGGATCCTGGCCGACGACATCGGCCAGGTCGCCATCCGGTCGGGCGTCGCCCATGTGCCGCGACTCGTCCCGGTCACCGTCGCGGCCGCCGACGAGCCCTGGGACCCCGACGGCACCGTCCTGATCACCGGCGGCACCGGAGCGCTCGGCCGCGCGGTGGCCCGCCACGTCGTCCAGCGGCATGGCGTACGGCACCTGCTCCTCGCCGGCCGGCAGGGCCGGGAAGCGCCGGGCGTCGCCGAACTCGTCGAGACGCTCACCGCGGACGGGACCACCGTCGAGGTGGCCTCCTGCGACGTGACCGACCGGGCGGCGGTCGAACGGCTGCTGACGGCCGTACCGGCGGACCGGCCGGTCGTCGCGGTCGTGCACGCCGCCGGGGTACTCGCCGACGCCGTGGTCAGCGCGCAGGACGGCGACCGCCTCGACGCGGTGCTGGCGCCGAAGGTCGACGCCGCCGTACACCTGCACGACCTCACCCGGGATCTGCCACTGGCCAGGTTCGTGCTCTTCTCCTCGGCCGCCGGTGTGCTCGGCAGCGCCGGCCAGGCCGCGTACGCCTCGGCCAACGCCTTCCTGGACGCACTGGCGAGCTGGCGCCGCAGCCGGGGACTTCCGGCCGTGTCCCTCGCCTGGGGCCCCTGGGAGTCCGGCATGGCGGCCACCCTCGACCAGCGGAGCGTCGCGCGGCTACGCATCGCGGAATCCTGCCCTTGCGCCAGGAGGAGGCGCTCGACCTCCTCGACCTGGCCCTGCGCTCTCGCGGGCCGGACGCCGTCCTGCTACCCCTGCGACTCGACCCGGCCGACGGTCGGGCCGCTGCGCCGGGCACGCCCCGGCCCCTGCCCGACGCGGAGCGGCGCCGGGACGCCACCGGCCAGCCCACCGGGCGGCGGTTCCGGCCGACCCCGGTTCGGGCTGGTCGAGCGACTGGCGCACGCGCCCCGATCCGAACGGCTCTCCACCCTCCAGAAGCTGGTCCGCGCCGAGACGGCAGGCGTCCTCGGCCATCCCGACGCCGGCGAGCAGCTGGACCAGAACTTCCACGCCCTGGGCTTCGACTCGCTCACCGCCATCGAGTTCCGCAACCGGCTCAACCAGGCCACCGGCGTCCGGCTGCCGGCAACGCTGATCTTCGACTATCCGACCTTGGCCGCGCTCGCGGAGCATCTGGAGAGCGAGCTGCCCCGCGCCCCGGAACCGGGCGTCACCGACGTCGCCGGGGTCCTGGACGTCCTCGACGCGGTACGCCGCAACCTCGCGACCTCCCTCACCGACGGGGAATCGCGTGCCCGCGTGGCGGAGAGCCTGCGCACCCTGCTTGCCGACCTGGCGGAGCCGGCCGCTGTGCCCGGTGACGAGACGCGCGACGCCGGGTCGGTCCGAGACCGACTGCGGTCCGCCTCCGACGACGAACTGTTCCAACTTCTCGACAGCGATTTCCGTACACACTGACGATCCCAGGGGAAGCGCCGTGACTGCCAACAACGAAGAAAAGCTGCGTGAGTACCTTCGCCGTGCCCTGGCGGACCTGCACGAGGCGAGGGCACAGGTGCACCGGTTGACCGAAGAGGCACACGAGCCGGTGGCGATCGTGGGAATGGGCTGCCGTTTTCCGGGTGGGGTGGAAACGCCCGAACAGTTGTGGGAGCTTGTCGCCTCCGGAACCGACGCGATCTCCCCGTTCCCGACGGACCGACACTGGGACGTCGACGGCATCTTCGATCCCGAGCCGGGCCGTGCCGGGCGGACGTATTGCCGGGAGGGTGGGTTCCTGGTCGATGCGCCGGGTTTCGATGCGGGGTTTTTTGGTGTGTCGCCGCGTGAGGCTGTGGCGATGGATCCGCAGCAGCGGTTGTTGTTGGAGGTGTCGTGGGAGGCGTTGGAGCGGGCGGGTTTTGATCCGCTGGCGTTGCGCGGGAGCCGTACCGGTGTCTACGCGGGCGTGATGCACCACGACTACGGCCTGAACCATTCCTTCGACGAGGAGACCGGGGGCTTTCTCGGCATCGGCACGGCGGGCAGTGTCGTTTCTGGTCGGGTGTCTTATGTGTTGGGTTTGGAGGGGCCGGCGGTGACGGTGGACACGGCGTGTTCGTCGTCGTTGGTGGCGTTGCATCTGGCGGTGCAGGCGTTGCGGTCTGGCGAGTGTGATGTGGCGTTGGCTGGTGGGGTGACGGTGATGGCCACGCCGGGGATTTTTGTGGAGTTTTCGCGGCAGGGTGGGTTGGCCGTGGATGGTCGGTGTAAGGCGTATTCGGATTCGGCTGATGGTACGGGTTGGTCCGAGGGTGTGGGTGTGTTGGTGGTGCAGCGGTTGTCGGATGCGGTGGCTGCTGGTCGTCGGGTGTTGGCGGTGGTGCGGGGTTCGGCGGTTAATCAGGATGGTGCGTCGAATGGTTTGACGGCGCCGAGTGGTCCGTCGCAGCAGCGGGTGATTCGGGCGGCGTTGGCGTCTGCGCGTTTGTCGGTGGGTGATGTGGATGTGGTGGAGGGGCATGGGACGGGGACGCGGTTGGGGGATCCGATTGAGGCGCAGGCGTTGTTGGCGACGTATGGGTGTCGTGGTGGTGGTCGGTCTTTGTTGTTGGGGTCGGTGAAGTCGAATATTGGTCATGCTCAGGCTGCTGCGGGGGTGGCTGGGGTGGTGAAGATGGTGTTGGCGATGGAGCGTGGGGTGGTGCCGGCTTCGTTGCATGTGGGTGTGCCGTCTTCGCATGTGGATTGGTCGTCGGGTGCGGTGGAGGTGGTGGGGGAGGCGTGTGCGTGGCCGGAGACGGGTCGGCCGCGTCGGGCGGCGGTGTCGTCGTTCGGGGTTAGTGGTACGAACGCGCACGTGATTTTGGAGCAGGCTCCGGTTGCGGATGCCGCTTCTTTTGTTGTGGTTCCGGTGTCTGTTGCGTCGGGCGCCGATTCTTCTGGTGGTGTGGCTCCGGTGTCGGATGTCTCGGACGCTGGTTCTTCTTCTGTTGCTGTGCCGTGGGTGTTGTCGGCGCGGTCGGAGTGGGGTTTGCGGGCGGCGGCGGGTCGTTTGGAGGCGGCGCTTTCTGGTCCGCTTTCGGGTTCGGGTTCTGGTTCTGGTGCTGTTTCGGGTGTGGATGTGGGGTGGTCGTTGGGGGGTCGTTCGGTGTTTGGGTGGCGTGGGGTGTCGTTGTCGGGTGTGGGTGGGTTGGGTGTGTTGGCGGGGGGTGGTGTGGGTTCTGGGGTGGTGGTGGGTTCGGGGCGTGTGGCGTCGGGTGGTGTGGTGTTTGTGTTTCCGGGTCAGGGGGCGCAGTGGGTGGGGATGGCTCGGGGTTTGTTGGCGGAGTCGGAGGTGTTTTCGGAGGCGTTTGATGAGGTTGGTGGGGTGGTGCAGGGGTTGGTGGATTGGCCGGTGCGGGCGACGGCGTGTGGTGAGTCGGGTGGGGGTCATTTGGGGCGGGTTGATGTGGTGCAGCCGTTGTCGTTTGTGGTGATGGTGGCGTTGGCGGGGTTGTGGCGTTCGTGGGGTGTGGTGCCGCACGGGTGGGTGGGTCATTCGCAGGGGGAGATCGCGGCGGCGGTGGTGTCGGGGGCGTTGTCGGTGGAGGAGGGTGCGCGGGTGGTGGTGGGTCGGTCGCGTGTGATTGGGGCGCGGTTGGCGGGTGGTGGGGCGATGGTGTCGGTGGGGGCGTCGGTGGGTGTGGTGGAGGGGTTGTTGGGGGGTTTGGGGGGTGGTTTGGAGGTGGCGGTGGTTAATGGTCCGGGGCAGGTGGTGGTGGCGGGGGATGTGGGTGGGGTGGAGGGGTTGTTGGTGCGGTGTGGGGAGGTGGGGGTTCGGGCGCGGTTGTTGCCGGTGGGTTATGGGTCGCATTGTGGGTTGGTGGATGTGGTGCGGGATGAGTTGCTCAGTGTGTTGGGGGAGGTTCGTGCGGGTGAGTCGGTGATTCCGTTTTATTCGTCTGTGGATGTGGGTGTGGTGGATGGTGGGGTTTTGGATGGGGGGTATTGGTTTAGGAATTTGCGGTTGCGGGTGCGTTTTGGGGAGGTGGTGCGTCGGTTGGTGGGTGATGGGTTTTCGTCGTTTGTGGAGGTGTCGGCGCATCCGGTGTTGGTGGGGGCGATTGAGGATGTGTGGGGGGAGGTGGGGGGTGGTGTGGGGTCGTGTGTGGTGGGTTCGTTGCGTCGGGGGGATGGTGGTTTGGGGCGGATGGTGGTGAGTGCGGCTGAGGGTTGGGTGCGGGGTTTGCCGGTGCAGTGGCGGCGGGTTCCTGTTCTTGGGGGTGGGCGTCAGGTGGGGTTGCCGACGTATCCGTTCCAGCACGACCGGTACTGGCTCGCCCCCACCACGCCGGCGACCGACCCCCGACCACAGCAGGACGACCTCCGCTACCGCGTACGTTGGCAGCCGGTCCGCATGGAACGGACCGCGCGCCTCACCGGACGCTGGGTCCTGTTGCTGCCCGATCGCCTCCCTGCTACGGACCGGGACATCGCCGACCGGGTGGCACGGACGATGGCGAACGCCGGCGCCGACGTGGACGAGATCGTCGTCGACGCGACGACCGTCTCCGGTGAATCGCTGGAGGCGTCTCTGGTCGGGGCGGCCGGGGTACTCTCCGCGCTCGCGCTCGTCGAGGAGGAGCACCCCGAGTTTCCGATCCTGCCGGTCGGGCTGGCCGCGACCCTGACCCTGTTGCGGTCCCTCGCGGTGGCAGGTGCCCCGCTCTGGACCCTGACGCGGAACGCCGTCGCGGCGCTACCGGGCGAGGTGCCCCACTTGGCCGGCGCGCAGGTGTGGGCCCTGGGCCGGGTCGCCGCCCTGGAACTCCCGAGCCCGTGGGGCGGGCTGATCGACCTCCCGACGGAACCGAACCAGCAGGTCCTGAAGCGCCTCGTGGGCGTCCTGGCGCAGAACGCCGAGGACCAGGTCGCGGTGCGGAACCCCGCCGCTTACGGCCGCCGGCTGGTACCGGCTCCCGCCGTACGCGAAGAGTCGAGCTGGCAGCCGCAGGGCACGGTGGTGGTCGTCGGCGACACCGGCGCTCCGGAGATCGAACGGATGATCCACCGGCTGCGCGACGAAGGCGTGGAGGTGGTCGACGCCGACCGGGACACCCTCGGCACGGTACTGGCCGAGCACGCGTCGATCACGGTCGTTGTCGCCCCGCCCGCTGTTCCCGTCGCGCCACTGGCCGAGACGACGCTGGCCGGCTTCGCCGCCACCGTCGAGGCCAAGACCGGAGACGCTAGATGGCTGGAGCGCCTGCCGGACACTCCGGCCCTCCAGGCGGTGATCCTCTTCTCCTCGGTGTCCGGGGTGTGGGGAGGCGTCGGGCAGGCCGGATACGCCGCCGGCTGCGCGTACCTGGACGCGTTGGCCGAGCGTCTCCGAGCGGGGGGAGTGTCCGCGACGTCCATCGCCTGGACGCCGTGGGAGGGGACATCCGGTGCCGATGTCGTGTCCCGTGGCGGCGTGGTGCCGCTGGACGCGGAGCGGGCACTCGACGTCCTCTTCCGGGCCCTTCGCAGCGGCCGCAGCGAGACAGTGATCGCGGACATCGACTGGGACTTGTTCCTGCCCTCCTTCACCATGGCGCGTCCGACCGTGCTGTTCGACGAGATACCCGAGGTACGCCAACTGCGGGAGGCGGGAGCGGAACGGCCGGAGACCCCGCGCGTCGACTCCGCGTTCAGCCGCTCGCTGATCGGGCTCGCCCCGGCGGATCAGCGCCGGATGGTCGACGACCTCCTCGCCACGCACATCGCCGCCGTGCTGGGGGAGTCCTCGTTCGCCGTCGACGCGGAACGTGCCTTCCGGGACATCGGCTTCACCTCCGTCTCCGCCGTGGACCTGCGGAACCGGCTCGGCGCGGCGACCGGCCTCACCCTGCCCGCATCGTTGGTCTTCGACTACCCGAACCCGCAGGCGCTGGTGGACTACCTTCTCGCCGAACTGACGAACCAGAGTGCCGAACAGGAAGACGTACGACCCACCGAGAAGGTCGACGAGCCGATCGCGATCGTGGGGATGGGTTGTCGTTTTCCGGGTGGGGTTTCCTCGCCGGAGGATTTGTGGGATGTGGTGGCGTCGGGGGTGGACGCGGTGTCGCCGTTTCCGGTGGATCGTGGTTGGGATCTGGAGTCGTTGTTCGACGGGGATCCGGATCGGGCGGGTACGACGTACTGCCGGGAGGGTGGGTTCCTGGACGATGTGGCGGGTTTCGATGCGGGGTTTTTTGGTGTGTCGCCGCGTGAGGCTGTGGCGATGGATCCGCAGCAGCGGTTGTTGTTGGAGGTGTCGTGGGAGGCGTTGGAACGAGCCGGCCACGACCCGCGTGAGCTGCGTGGCAGCCGTACCGGCGTCTACATGGGCACCAATGGGCAACATTACCTGCCGTTGCTCCGTGACAGTGAAGAAGACTTCGACGGCTATTTCGGCACCGGCAACTCGGCCAGTCTGATGTCCGGCCGGATCTCCTATGTGTTGGGTTTGGAGGGGCCGGCGGTGACGGTGGACACGGCGTGTTCGTCGTCCTTGGTGGCGTTGCATCTGGCGGTGCAGGCGCTCCGCTCCGGGGAGTGCGACCTGGCACTCGTCGGTGGCGCGACGGTGATGGCCACGCCGGATGTCCTCACGGAGTTCTCGCGTCAGCGGGCGTTGTCTGCGGATGGTCGGTGTAAGGCGTTCTCGGATGCGGCTGATGGTTTTGGTGCGTCTGAGGGTGTGGGTGTGTTGGTGGTGCAGCGGTTGTCGGATGCGGTGGCTGCTGGTCGTCGGGTGTTGGCGGTGGTGCGGGGTTCGGCGGTTAATCAGGATGGTGCGTCGAATGGTTTGACGGCGCCGAGTGGTCCGTCGCAGCAGCGGGTGATTCGGGCGGCGTTGGCGTCTGCGCGTTTGTCGGTGGGTGATGTGGATGTGGTGGAGGGGCATGGGACGGGGACGCGGTTGGGGGATCCGATTGAGGCGCAGGCGTTGTTGGCGACGTATGGGCGTCGTGGTGGTGGTTGGCCGTTGTTGTTGGGGTCGGTGAAGTCGAATATTGGTCATGCTCAGGCTGCTGCGGGGGTGGCTGGGGTGGTGAAGATGGTGTTGGCGATGGAGCGTGGGGTGGTGCCGGCTTCGTTGCATGTGGGTGTGCCGTCTTCGCATGTGGATTGGTCGTCGGGTGCGGTGGAGGTGGTGGGGGAGGCGTGTGCGTGGCCGGAGACGGGTCGGCCGCGTCGGGCAGCGGTTTCCTCTTTCGGCATGAGTGGCACGAACGCGCACGTGATTTTGGAACACGTGGCGACGGAGCAGCCTGCGGCGGATCCGGAGCCTTCCGTTTCGGTGGGGGATTCGGATTCGGTGGTGCCGTGGGTGTTGTCGGCGCGGTCGGAGTGGGGTTTGCGGGCGGCGGCGGGTCGTTTGGAGGCGGCGCTTTCTGGTCCGCTTTCGGGTTCGGGTTCTGGTTCTGGTGCTGTTTCGGGTGTGGATGTGGGGTGGTCGTTGGGGGGTCGTTCGGTGTTTGGGTGGCGTGGGGTGTCGTTGTCGGGTGTGGGTGGGTTGGGTGTGTTGGCGGGGGGTGGTGTGGGTTCTGGGGTGGTGGTGGGTTCGGGGCGTGTGGCGTCGGGTGGTGTGGTGTTTGTGTTTCCGGGTCAGGGGGCGCAGTGGGTGGGGATGGCTCGGGGTTTGTTGGCGGAGTCGGAGGTGTTTTCGGAGGCGTTTGATGAGGTTGGTGGGGTGGTGCAGGGGTTGGTGGATTGGCCGGTGCGGGCGACGGCGTGTGGTGAGTCGGGTGGGGGTGATTTGGGGCGGGTTGATGTGGTGCAGCCGTTGTCGTTTGTGGTGATGGTGGCGTTGGCGGGGTTGTGGCGTTCGTGGGGTGTGGTGCCGCAGGCGGTGGTGGGTCATTCGCAGGGGGAGATCGCGGCGGCGGTGGTGTCGGGGGCGTGGTCGGTGGAGGAGGGTGCGCGGGTGGTGGTGGGTCGGTCGCGTGTGAGTGGGGCGCGGTTGGCGGGTGGTGGGGCGATGGTGTCGGTGGGGGCGTCGGTGGGTGTGGTGGAGGGGTTGTTGGGGGGTTTGGGGGGTGGTTTGGAGGTGGCGGTGGTTAATGGTCCGGGGCAGGTGGTGGTGGCGGGGGATGTGGGTGGGGTGGAGGGGCTGTTGGTGCGGTGTGGGGAGGTGGGGGTTCGGGCGCGGTTGTTGCCGGTGGGTTATGGGTCGCATTGTGGGTTGGTGGATGTGGTGCGGGATGAGTTGCTCAGTGTGTTGGGGGAGGTTCGTGCGGGTGAGTCGGTGATTCCGTTTTATTCGTCTGTGGATGTGGGTGTGGTGGATGGTGGGGTTTTGGATGGGGGGTATTGGTTTAGGAATTTGCGGTTGCGGGTGCGTTTTGGGGAGGTGGTGCGTCGGTTGGTGGGTGATGGGTTTTCGTCGTTTGTGGAGGTGTCGGCGCATCCGGTGTTGGTGGGGGCGATTGAGGATGTGTTGGGGGAGGTGGGGGGTGGTGTGGGGTCGTGTGTGGTGGGTTCGTTGCGTCGGGGGGATGGTGGTTTGGGGCGGATGGTGGTGAGTGCGGCTGAGGGTTGGGTGCGGGGTTTGCCGGTGCAGTGGCGGCGGGTTCCTGTTCTTGGGGGTGGGCGGCAGGTGGGGTTGCCGACGTATCCGTTCCAGCACGACCGGTACTGGTACACGGGGCCGTCTCGGCGGGGTGACCTGACGTCGGCCGGACTGGCGGAGGCGAACCATCCGTTGCTGGCCGCCGCCGTCGACCTCCCCGACGACCACGGTCTGGTGTTCACCGGCCGGCTGTCGCGAGCGAGCGTTCCCTGGCTGGCCGACCACGCCCTGCTCGGCGTGTCCGTCCTACCGGGCACCGCCTTCGTCGAGATGGCGCTCTGGGCGGGCCGCCGGGCGGGGTTCGGGCAGCTCGAGGAGTTGACCCTGACCACACCGCTGCCGCTACCGGAGAGCGGCGCGCAGCTGCTCGTCCGCATCGACACGGTCGACGGATCCGGCGACCGTACGATCACCTTCCACTCCCGCGTGCCGGGCGACGACGGCTCCGAACGATGGACGAAGCACGCCCAGGGCACCCTCGTCACCCCGACCGGTTCCGCCCGCGACCAGGCCGAGTGGAAGTATCCGGACGGCCCCGACCTGTCCGTCGAGGAGTTCTACACCCGACTGGCCGAGCGGGGATACCACTACGGTCCGGTCTTCCGTGGCCTACGTGGTGTCCGTCGTGCCGGCGAGGACGTCTTCGCCGAGGTCGCGCTCCCGCAGGAAGCCGACGGATCCCGGTTCGGTCTCCACCCTGCCCTGTTGGACGCGGCGGTCCAGGCGATGGGCCTCGGCGGGTTCTTCCCGGACGACGGGCAGATCCGGGTTCCGTTCTCGGTGCGGGGGGTACGGCTGCACACCACCGGGGTCGAGCGGTTGCGGGTCCGGGTGTCCCGCTCGGCGGAGGACGCGGTGCGTGTCGACTGCGTCGACGAGCAGGGACGTCCGGTGTGCGAGATCGACTCGTTGGTCGTCCGGGCTATCGACACTGACCAACTTGTCGAGGACGCCCGTACGCCGGTCGGCGAGCTCCTGTACCGGGTCGACTGGCCGCTGCTCACCGTCGGTCCGGCACAGCCGCCCAAGCACTGCGCCGTCGTCGGCGACGACCCGTACGGGCTGGCCGCTGTTCTCGGCGACCAGGGCGTGACCTGCGACGTACACCCGGACGTAGCCGCGTTCACCATCCGGAGCGTGACAATGCCGGATGTCGTCGTCGCCACCCTGCCCGCCTCGACGGACCCAGACGTTCCCGCCGTACGGGACGTGGCGAACCGTGCCCTCGACCTGGCCCAGTGGTGGCTGTCCGTCGCCACGGACGCGGAAGCGGCCCGGCTCGTGGTGGTGACCAGCGGTGCCGTCGCCACCCAGCGGGGCGAGCCCCTCCGGGACCCCGCTGCGGCGGCGGCCTGGGGCCTGCTGCGGAGCGCGCAGGCGGAGGATCCGGGCCGGCTCGTCCTGCTCGACGTGGCCGGACAGCGGCCCGACGGCGCGGCCCTGCTGGCGGCCTTGGCCAGCGGCAAGCCGCAGCTCGCCCTGCGGGACGGGAACCTGCGCGTGCCGCGCCTGACCCGTACGGAGACCGGCGACGCGCTCCTGCCGCCCGCCGGCACGTCAGCCTGGCGGTTGGCCGTCGGGGAGAACGCGACCCTGGCGGACCTGTGCCTCGAGCCCGCCGACACCGCCACCGTGTCACTGCTGCCGGGACAGGTCAGGATCGCGGTACGCGCCGCCGGACTCATCTTCCGCGACACCCTCATCGCGCTCGGTGTCTATCCCGACCAGGCGGCCATGGGCGCGGAAGGCGCCGGTGTGATCGTCGAGGTCGGGCCGGAGGTGGCAGGGCTCGCCGTCGGGGACCGTGTCTTCGGGCTCTGGGACCGAGCGCTCGCCACCCACGTGGTCGTCGACCATCGCACCGTCGTGGCCATGCCGTCGGGGTGGTCGTTCGCCGAGGCGGCCACGGTACCCGCCGTCTTCCTCAGTGCCTACTACGCGCTGAAGCATCTGGCTCGGGCCGTTCCGGGCCAGTCGATCCTGGTCCACGCGGCGGCCGGCGGCGTGGGCATGGCCGCGCTGCAACTCGCCCGACACCTCGGTCTTGAGGTGTACGGGACCGCGAGTCCGGGCAAGTGGGACGTCCTGCGGGACCAGGGCTTCGATGACCGGCACATCGCGAACTCGCGGACGCTCGACTTCGCCGACCGGTTCCTCGACGCGAGCGGCGGACGTGGTGTCGACATCGTGCTCAACTCCCTGGCGGGCGGATTCGTCGATGCCTCCCTGCGACTCCTGCCGCGCGGCGGCCGGTTCCTCGAACTGGGCAAGACCGACGTTCGGGACGCCGATCGGATCGCTGCCGAACAACCCGGCGTCACCTACCGGGCGTTCGAACTCATGGAGGCGGGTCCGGACCTGCTCGGCGAGATGCTGCGTGAACTGCTGGTGCTGTTCGACACCGGTGTGCTGCGTCCTCTGCCGCTGTTCGCCCACGACATCCGGCACGCGCGCGACGCCTTCCGTACCCTCAGCCAGGGCCGGCACGTGGGCAAGCTCGTCCTCACCATGCCGGCGACCATCGATCCCGGCGGCACCGTGATGATCACCGGTGGGACGGGCAACGTCGGCGGCGTACTGGCCCGACACCTGGTGGAGCGCGTACGGCGTTACGGCACCTGTCGCTCGTCCAGCCGGCAGGGCCCGGCAGCCCCCGGCGTGGACGACCTGGTGGCCGAACTCGCCGACCTGGGCGCCACGGTGACCGTCCACGCGGGTGACGTCGCAGATCGGGCCGAGGTGGAGAGGCTCGTGGCAGCCGTGCCCGCCGAGCATCCGCTGACCGCGGTCGTGCACGCGGCGGGGACGCTGGACGACGGGATGATTCCCTCGCTCGACCAGGAGCAGGTCGGCAGAGTACTACGACCAAAGGCCGACGGCGCCCTGTACCTGCACGAACTCACCCGTGGCTCGGCCCTTTCGGCCTTCGTCCTGTTCTCCTCGGTCGCCGCGGTGCTCGGTGGCCCAGGTCAGGGCAGCTACGCGGCGGCCAACGGATTCCTCGACGCCTTCGCCCAGAACCGGAGCGCGGCCGGGCTGCCCACCGTGTCGCTGTCCTGGGGGCTGCTCGCGGGCGCCGCTCGGATGACGGCACACGTGGACCAGGACGCGCTGCGCCGCCGGATGAGCAGGGGCGGTATCCTGCCGCTGTCCGGTCGTGACCTGACCGCTCTGTTCGACGCGGCGCTCGCGGGCACGGAAGCCCATCAGGTGCCGGTCCGCATCGATCCGTCGGCGATTCCGGACGATGCCGGGGTCTCTCCACTCCTGCGCGGTCTGGCCGCAGGGCGGCCGGCCCGTGCCGTCGCCTCCGAGCCCGTCGACGTCCGGTCCCTTGTCGAGCGTCTGACCGGAATGCCGGAGGAGGCGCAGCAGACCCTGCTGGAGAACCTGGTCCGGACGCACGCGGCAGCCGTGCTCGGCTACGACGGCCCCGACGCCATCCAGGGCGACACCGCCTTCATGGAGATCGGCGTCGACTCGCTGGCCGCGGTCGACGTGCGCAACCGACTCGCGGCAGCCACCGGGTTGCGGCTCGCCGCCAGCACCGACTTCGACCATCCGACACCCGTCGTACTGGCCGGACACCTGCGCGCCCAGCTCGGTCTGGAGACCCGGACGGTGCCTCTCGTCGGGGAGTTGGAGCGGCTGACCGAGGCCCTCGGGTCGACGTCGCTGGTCGACATCGACCCCGACGACCGCCGGGAGATCGCAGCCCGGTTCACCGCGCTCCATGCCCGCTGGCTGGAGATGCAGCAGGCCGAGAAGCCGGCGAAGGACACCGAACTGACCGTCGACGACATCGACGCCGCTGACGACGACGCGATCTTCGCCTATCTGGACGACCGACTCAGCGATTCGTGAGCGACCCATTTGGGGTCGTGACGCACCGGACGATGGGGTGGGAAATGGCAGACGAGCAGAAACTGCGCGAGTACCTGAAGCGCAGCACGCGGGAACTGCACCAGACGACCGAGCGCCTTCGAGAACTCGAAGAACGGGCGTACGAGCCGATCGCCATCGTGGGGATGGGTTGCCGTTTTCCGGGTGGGGTTTCCTCGCCGGAGGATTTGTGGGATGTGGTGGCGTCGGGGGTGGACGCGGTGTCGCCGTTTCCGGTGGATCGTGGTTGGGATCTGGAGTCGTTGTTCGACGGGGATCCGGATCGGGCGGGTACGACGTACTGCCGGGAGGGTGGCTTCCTGGACGATGTGGCCGGTTTCGATGCCGGGTTCTTTGGTGTGTCCCCGCGTGAGGCTGTGGCGATGGATCCGCAGCAGCGGTTGTTGTTGGAGGTGTCGTGGGAGGCGTTGGAGCGGGCGGGTTTTGATCCGCTGGCGTTGCGCGGCAGCCGCACCGGCGTCTACGTCGGCGCATGGCACGGCGGGTACGCCGACGACATCGCCGAACCGTCCGCCGAACTGGAGGCTCAACTTCTGACCGGCGGAGTGGTCAGCTTCACCTCGGGTCGTATCTCCTATGTGTTGGGTTTGGAAGGGCCGGCGGTGACGGTGGACACGGCGTGTTCGTCGTCGTTGGTGGCGTTGCATCTGGCGGTTCAGGCACTCCGGTCCGGGGAGTGCGACCTGGCGTTGGCCGGGGCCGCCACGATCATGGCGACGCCGGAACTCTTCGTCCGCTTCTCGCGTCAGCGGGCGTTGTCTGCGGATGGGCGTTGTAAGGCGTTCTCGGATGCGGCTGATGGTTTTGGTGCGTCTGAGGGTGTGGGTGTGTTGGTGGTGCAGCGGTTGTCGGATGCGGTGGCTGCTGGTCGTCGGGTGTTGGCGGTGGTGCGGGGTTCGGCGGTTAATCAGGATGGTGCGTCGAATGGTTTGACGGCGCCGAGTGGTCCGTCGCAGCAGCGGGTGATTCGGGCGGCGTTGGCGTCTGCGCGTTTGTCGGTGGGTGATGTGGATGTGGTGGAGGGGCATGGGACGGGGACGCGGTTGGGGGATCCGATTGAGGCGCAGGCGTTGTTGGCGACGTATGGGCGTCGTGGTGGTGGTCGGTCTTTGTTGTTGGGGTCGGTGAAGTCGAATATTGGTCATGCTCAGGCTGCTGCGGGGGTGGCTGGGGTGGTGAAGATGGTGTTGGCGATAGAGCGTGGGGTGGTGCCGGCTTCGTTGCATGTGGGTGTGCCGTCTTCGCATGTGGATTGGTCGTCGGGTGCGGTGGAGGTGGTGGGGGAGGCGTGTGCGTGGCCGGAGACGGGCCGGCCGCGTCGGGCGGCGGTGTCGTCGTTCGGGGTTAGCGGTACGAACGCGCACGTGATTCTGGAGCAGGCCCCGGTTGCGGATGCCGCTTCTTCTGGTGGTGTGGCTCCGGTATCGGCTTTTGCGGACGCCGATTCTTCTTCTGTTTCCGTGCCGTGGGTGTTGTCGGCGCGGTCGGAGTGGGGTTTGCGGGCGGCGGCGGGTCGTTTGGAGGCGGCGCTTTCTGGTCCGCTTTCGGGTTCGGGTTCGGGTTCTGGTTCTGGTGCTGTTTCGGGTGTGGATGTGGGGTGGTCGTTGGGGGGTCGTTCGGTGTTTGGGTGGCGTGGGGTGTCGTTGTCGGGTGTGGGTGGGTTGGGTGTGTTGGCGGGGGGTGGTGTGGGTTCTGGGGTGGTGGTGGGTTCGGGGCGTGTGGCGTCGGGTGGTGTGGTGTTTGTGTTTCCGGGTCAGGGGGCGCAGTGGGTGGGGATGGCTCGGGGTTTGTTGGCGGAGTCGGAGGTGTTTTCGGAGGCGTTTGATGAGGTTGGTGGGGTGGTGCAGGGGTTGGTGGATTGGCCGGTGCGGGCGACGGCGTGTGGTGAGTCGGGTGGGGGTGATTTGGGGCGGGTTGATGTGGTGCAGCCGTTGTCGTTTGTGGTGATGGTGGCGTTGGCGGGGTTGTGGCGTTCGTGGGGTGTGGTGCCGCACGGGTGGGTGGGTCATTCGCAGGGGGAGATCGCGGCGGCGGTGGTGTCGGGGGCGTTGTCGGTGGAGGAGGGTGCGCGGGTGGTGGTGGGTCGGTCGCGTGTGATTGGGGCGCGGTTGGCGGGTGGTGGGGCGATGGTGTCGGTGGGGGCGTCGGTGGGTGTGGTGGAGGGGTTGTTGGGGGGTTTGGGGGGTGGTTTGGAGGTGGCGGTGGTTAATGGTCCGGGGCAGGTGGTGGTGGCGGGGGATGTGGGGTGGGGTGGAGGGGTTGTTGGTGCGTGTGGGGAGGTGGGGGTTCGGGCGCGGTTGTTGCGGGTGGGTTATGGGTCGCATTGTGGGTTGGTGGATGTGGTGCGGGATGAGTTGCTCAGTGTGTTGGGGGAGGTTCGTGCGGGTGAGTCGGTGATTCCGTTTTATTCGTCTGTGGATGTGGGTGTGGTGGATGGTGGGGTTTTGGATGGGGGGTATTGGTTTAGGAATTTGCGGTTGCGGGTGCGTTTTGGGCAGGTGGTGCGTGCGGTTGGTGGGTGGATGGGTGTTTCGTCGTTTGTGGAGGTGTCGGCGCATCCGGTGTTGGTGGGGGCGATTGAGGATGTGTTGGGGGAGGTGGGGGGTGGTGTGGGATCGTGTGTGGTGGGTTCGTTGCGTCGGGGGCCCTGGTGGATGGAGCGGATGGTGGTGAGTGCGGCTGAGGGTTGGGTGCGGGGTTTGCCGGTGCAGTGGCGGCGGGTTCCTGTTCTTGGGGGTGGCCGTCAGGTGGGGTTGCCGACGTATCCGTTCCAGCACGACCGGTACTGGCTCGCTCCTGCTCCTGCTTCTCGCACCCGAGTGGAGACCGACGCGACGGTGGCCGGTGGTGTGGGCTGGCGGTATCGGGTGGGGTGGAAGGCTCTGCCGGTCCCGACGCCGGGTCGTCTGCACGGTCGTTGGCTCGTCGTCCACGGTCATGTCACCGGCGGTGTCGACCATCTTTCCGGTGTCGTCGCCGACATCCTGACCCGGCACGGTGCCACCACCGAACACCTCACCATCGACGACCTGGATCAGCCGGACCTGGCGGCGCTGGCGGACGGGCTCGACGGCGCCGCCGGGCTGGTGTCACTGCTCGACGCGGCCGGCCTGTTGGTCCTGACGCAGGCGGCTGCCTCCACCCCCGGTACCCGGCTGTGGGCGGTGACCAGCGGCGCCGTCGCGGTTTCCCCGACCGAGAGCCCGAGCGTCACCGGGGCGCAGGTGTGGGGCCTCGGCCGGTGCCTGGCCCTGGAACTGCCGAAGCTCTGGGATGGCCTGGTGGACCTACCTGCCGCCGAACTCGACGACCGCACTGGCGGCCGACTGGCGTCGGTGCTGGCCGGGAAGTCCGGTGAGGACCAGGTGGCGTTGCGGTCCGCAGGCGCGTTCGCCCGGCGGCTCCTGCCGATGGCCTCCGGTGGGGGAGCCGCATACCGTCCCCGGGGAACCGTGCTGGTCACCGGCGGTCTCGGCGTCCTCGGCGGACACCTGGCCCGGTGGCTGGCGGACAACGGAGCGCACGACCTGGTCCTCACCGGGCGGCGGGGCGAGGCCACGCCCGGCGCCGGTGAACTGGCCGCCGACCTCCGGCGACGCGGTGTCGAGGTGACGATTGCCGCCTGCGACGTCGCCGACCGTGAGGCGCTGGCCGCCCTGCTGGAGGCGCACCGCCGAGTCTTCCACGCCGCCGGAGTGGCGCACTCCCGGCCCGCCCTGGACACCGGCGTCGATCTGCTCGAGCAGGTGCTGGTCGGGAAGGTACGCGGCGCCTCGTACCTCGACGAGTTGACCCGACCGCTGGACCTGGACGCGTTCGTGCTCTACGCCTCCGGCGCCGGTGTCTGGGGCAGCGGCGGGCAGAGCGCGTACGCCGCCGCCAACGCCGCCCTGGACGCGCTCGCCGAACAGCGCAGGTCAGCCGGACTGCCGGCCACCTCGATCGCCTGGGGACTGTGGGCCGGAGCCGGCATGGCCGGCGAGGAGGGCACCGGCTACCTCGAGGACCTCGGCGTCCGACCGATGGACCCGGAGGCGGCCCTCGCCGCGCTGGCTGAGGCGGTCGGTGGCCGGGCGGCCTGCGTGACGGTGGCGGACATCGACTGGACCCGGTTCGCTCCTCGCTTCACCGTCTTCCGGCCGAGCCCGCTGTTGGCCGACCTTCCTGGCCTGCCGCAGACCGTGACCACGCCGGACAGCGACGAGTCCGACTTCACCGCCCGGCTCGTCAGGGCCACCCCGGACGAGCGTCGCGAACTGCTTCTCGATCTGGTGTGCTCCTTCGCCGCCATGGTGCTCGGGCACTCCGGACCGGAGGCGGTGGACGTCGACGTCGCCCTACGCGACCTCGGCTTCGGCTCGGCCACCGCGGTCGACTTCGCCAACCGGCTCGGTGCCCGGATCGGCGTCAAGCTGCCGGCGACCCTGGTCTTCGACCATCCGACCGCAGCCGCCGTGGCCACCTATCTGGAGGAGCGTCTCGCCCCGGAACAGGCAGGGCGGGACCCGGAGGAGGACCGGGTCCGACGTCTGTTGCAGGCCGTACCCCTGACCCGGCCTGCGGGAGTCCGGCCTTCTCGACCAACTGCTGGCGCTCGCTGGCGACCGGCCGGGATCCTCGGTGGCGGTGGGCAGCACCGGAGTGACCCCGCCCGCCGGACCCGGTGCGTCGGAGGGAACCGCCTCGGCGGACGACCTGACGACCTGGATGCCGAGGCCCTGATCTCCCTGGCGATGCGACAGTCCGACCGCTAGTCGACCCGCCGACTCTCCGGCGTAGGCGAGGAGACCTGGATCATGACGACGACCTCTCCCGACCGACTGCTCGAGGCGCTCCGGTCCGCGCTCAAGGAAGGCGATCGCCTCCGCAGTCAGCTCCGGCAGATGACCGAGGCGCAGACGGAACCGATCGCGATCATCGGCATGGCCTGCCGCTACCCCGGCGGCGCGGACACGCCCGACGAGCTGTGGAACGTCGTGGCCGCCGGCCGGGACGCGGTCGGTCCGTTCCCGACCGACCGGGGATGGGACCTCGACCGCATCTGCCATCCCGATCCGGACGTACCGGGCACGACCTACTGCCGGGAGGGCGGGTTCGTCTACGACGCGGCCGAGTTCGACGCTGCCTTCTTCGGTATCTCGCCCCGGGAGGCGACCGCCATGGACCCGCAGCAACGCCTGTTGCTGGAGGTCTCCTGGGAAGCGTTGGAGGATGCGGCGCTGGACCCGCTCTCCGTGCGTGGCACCCGCACCGGCGTCTTCGTGGGCGCGGCCCACCAGGACTACGTCACCGAAGCCGACCAGGTACCCGAGGGGACCGAGGGCTATCTGCTCACCGGTACCACCGACGCGGTGCTGTCCGGCCGTCTGTCGTACGTGTTCGGGTTGGAGGGCCCGGCGGTGACCGTGGCGACGGCCTGCTCGTCGTCCCTGGTGGCGCTGCATCTCGCCGTGCAGTCCCTGCGGCGGGGTGAGTGCGGCATGGCGTTGGCCGGCGGCGTGTCGGTCTCGGTGACCCCCGCCGCGTTCGTGGAGTTCGCCCGGCAGCGTGGCCTGGCGCCGGACGGGCGCTGCAAGTCCTTCGCCGACGCGGCCGACGGGACGGGGTGGGCCGAGGGAGTGGGCGTGGTCGTCCTGGAACCCCTCACCGTCGCCCTGCGTCACAACCGGCGTGTGCTGGCGGTGGTGCGCGGATCCGCGGGTGAACCAGGACGGCGCCAGAACGGTCTCACCGCGCCGAACGGTCTGGCGCACGAGAAGGTGATCCGCGCCGCGCTGGCCGATGCCCGCCTCGGTGCCGAGCAGGTCGACGCGGTCGAGGCGCACGGTACCGGTACCCGGCTCGGCGACCCGATCGAGGCCGAGGCGCTGCTGGCCACCTACGGGCAGGGGCGACCGGAGGGACGACCGCTCTGGCTCGGCTCGGTGAAGTCGAACATCGGCCACGCGCAGGCGGCGGCCGGTATCGGCGGTGTCATCAAGATGGTGCAGGCGATGCGGCACGGGGTGCTGCCGAAGACGCTGCACGTCGACGCGCCCAGCCGGCACGTGGCGTGGTCCTCCGGTCAGGTCCGGCTACTGACCGAGACGGTGCCCTGGCCAGCGGGGGGAGAGCCCCGTCGGGCCGGGGTGTCCGCGTTCGGGGTGAGCGGCACCAACGCCCACGTGATCCTCGAACACCTCCCGCCCGAGGAGCGGACCGGACCGGATACGCCGGAGCGGGAGCGGACGGCGTGCCGGGGCTACCGGTCGTGCCCTGGCTCCTGTCGGCCCGCTCCGAGTCGCGTGCGGGCGCAGGCCGCGCGCTGGCGCGCCCAGCTCGACCGGGCCGATCCCCCACGCCTGGTCGACGTGGGATTCTCTCTGGCGACCACGCGGGCCCCGCTGTCGCACCGGTCGGTGCTGCTCTGCGGGGACCCGGCCGAGTTGCTCGACGCGGTCGCCGAGGGCCGTGAACATCCGGCGGTGGTGCGGGGAACCCCGGAGCGGACGGACCGTCTCGGCTTCCTCTTCACCGGTCAGGGAGCGCAGCGCGCCGGCATGGCGCGGGAGCTCTACGCGTCCCTGCCCGTGTTCACCCAGGCGTTCGACGAGGTCGTCGACCTGCTCGACGGGCACCTCGACCGTCCGCTGAAGACGGTGCTGTTCGCCGAGGCCGGTACCGCCTCCGTCGAGCTGCTCGACCGGACCGGTCACGCGCAGCCGGCACTCTTCGCGGTCGAGGTAGCGCTCTTCCGGACCCTGGAGACGTGGGGGCTGCGCCCGTCGGTCGTGTTGGGGCACTCGCTGGGGGAGTTGGCGGCCGCGTACGCCGCCGGAGTCCTCGACCTCGCCGACGCCTGCGCCCTGGTCGCGGCGCGGGGGCGGCTGATGCAGGCGCTGCCGGAGGTGGGGGCGATGGCCGCGGTCGAGGCGACCGAGGAGGAACTGCGCGACCTGCTGGCGCGGTGCGACGGCGAGGTGTCGTTGGCGGCGGTCAACGGGCCCGGTTCCACGGTCGTCTCCGGAACGGCCACGGCCGTCGACGAGGTGGTCACCCGGCTCGTCGCGCTCGGCCGGCGGACCCGTGCGCTGAACGTCAGCCACGCCTTCCACTCCGCCTGCATGGACGACGCGTTGGCCGAGCTACGCGAGGTGGCCGCCGCGATCACCTACCACCCGCCCCGGATTCCGGTCGCCTCCAACATCCTCGGCCGGCTGGTCACGGGTCCGGAACTCGGCACCGCCGACTACTGGGTCCGGCACGCGCGCCAGACCGTCCGCTTCGACGCCTGCGTGCGGGCGGCGCACCGCCGTGGCGTGCGGACGTTCGTGGAGCTGGGACCGGACCCGGTGCTCGCCGGCATGGCCGCCCGGTGCCTGACCGATCCGCAGGTGTCGTTCACCCCGGCCCTGCGGCGGGACCGGTCCGAGTGCGGCCAGCTGATGCACGCCGTGGCCACCGCGTACGTCCGGGGAGCGGCGGTGGACTGGCCCCGGGTGTTCGACGGCACCGCCGCCCGGCGGGTCGAGCTGCCGACGTACCCCTTCCAGCGCCGTCGCTACTGGCTCGGTCGTGCGGGCGCCGCCGGTCACGCGGTGCTGGCGGAGGCGCTGCCGCTGGCCGGTTCCGACGAGACGGTGGTCACCGGCCGGCTGTCGCTGGCGGCGTTGCCGTGGCTGGCCGACCACGTCGTGGCCGGGAGGATCCTCTTTCCCGGCACCGGCTTCGTGGACCTGGCGCTGCACGCCGGCGGACGGGTGGGCTACCCGCGGCTGCGGGACCTGACGCTGCACGCCCCGCTGGTGCTGGACCCGGCGCAGACGGTACGGGTCCAGGTGCGGATCACTCCAGGCGCGGGAGGGCAGGACGGCGCGGCGGTGGCCGTCTACGCCCGGGCCGACGAGGACGGGTGGACGTGTCACGCCTCGGGCGGTCTGGAGTCGCGCGCGTCGGCGGAGTTCGACCTGCGCCGGTGGCCGCCGCCGGACGCGGTGCCGGTGGACATCACCGGGTTGTACGGGGCGCTGGCGGAGCGGGGGTACGACTTCGGCGCGGCCTTCCGGGGTCTGCGCGCCGCCTGGCGGCGCGGCGACGAACTGTTCGGCGAGGTGGTCCTGCCGGAGCCGGCCAGCGTGGACGCCCGACGGTACGCGCTGCATCCCGCGCTGCTGGACGGTGCGCTGCACACGGTCGGTGCCGCCGCCCCGTCCGGTGCCGCCGCCCCGTCGGAGGCGGCGCGCCCGTTGCTGCTGCCGTTCGCCTGGTCCGCGTGCAGCTGCCAGCCGCCGGGCGCGTCGGGCCTGCGGGTGCGGATCGACACGTCCGTACCCGGGTCGATCTCGGTGCAGCTCGCCGACCTGGCGGGGGACCCTGTCGCGGCGGCGGAGTCGTTGGTGCTGCGTCCGGCGTCCGGAGACCGGGTCGGGGTGACGGGGGGCACCAGCGAGCATGATGACGCGCTGTTCGAGCTCGACTGGGCGACGACGACGGCCGTGGGGCCCACGCCGGTCGCCGGGGAGTGGATGGTGCTCGGTGCGGGAGCCGGGACCGGCACGGACCTTCAGCCGACCGGTCCGGTCGGTACGGGACTCGCCGGGGCGGGCGTGCCGGTGCGTCCGCTGCCGGACCTCGCCGAAGCCACCGGGACGCCGCCGCTGGTGCTGCTGGACTGCGTCGGAGAGCCGGGGGCGGCGACGCCGCAGCGGGTACGGGCCACGCTGGCCCGGGCGCTGGCCGTGGTACGCCGGTGGCTCGTCGAACCGCGTTGGTCGGGCTCGCGGCTAATGGTGGTGACGGCCGGGGCGGTCGCCGCCGGCTGCGACGAGGACGTGTCGGACCTGGCCGGCGCCGCCGTCTGGGGTCTGCTGCGGTCGGCACAGGCCGAACATCCGGGCCGGTTCACCCTGGTCGACGTCGACCGGACGCCGCAGTCGTGGGCCCTGCTGCCCACGCTGGTCGGGCACCCGGAGACGCAGTTCGCGCTCCGGGCGGGGCAGCTCCGGGTGCCGCGACTGGTCCGGCTGGCCGGTTCGGCGGAGCCCGCCGCCGGACCGCTGTTCGACGTCGCCGGCACGGTGCTGGTGACCGGTGGTACCGGCACGCTCGGTGCCCTGGTGGCCCGACACCTGGTGGCCGCGCACGGGATACGGCGACTGGTCCTGGTCAGTCGGCGTGGGTCCCGGGCACCCGGGGCCGACGAACTGGTGGCGGAGCTGTCCGCCGCCGGGCCCGCCGTGGAGGTGGTGGCGGCAGACGTGGCCGAGCGGGACGAGGTGGCGCGGGTTCTCGCCGCCGTGGACCGGGCCGGGCCGCTGACCGGGGTGGTCCACACCGCCGGCGTACTCGACGACGGGACGGTGCTGACGCTGACGCCGCAGCGCCTGGAGCGGGTGCTGCGGGCGAAGGCCGACGCGGCCTGGCACCTGCACGAACTCACCCGGGACCGGCCGTCGACCGCGTTCGTGACGTTCTCCTCGGCGGCCGGGCTGCTCGGCAACGCCGGGCAGGGGAACTACGCGGCGGCGAACACGTTCCTCGACGCGCTGGTGGCGCACCGCCGGAGCCTCGGGCTGGCCGGTGTCTCCGTGGCGTGGGGCCGATGGGAGCGGACCAGCGCGATGACCGCGGGCCTGGGCGCCGTCGAACTGGCCCGGCAGGCCCGTGACGGCTTCCGGCCGCTCTCGGACGAACAGGGGTTGGCGCTGTTCGACGCGGCCGTCGCCGCGGGTCGACCACTGGTGGCGGCGCTGCCGATGCGGGTGACCGCGCTGCGCGACGAAACCGGGACGGTACCGCCGATCCTCACCCGGCTGGCCCCGCCGTCCCCGGCCGTCGTCGCCCCGGCGGCCGACGAGGGCGGACGTTCCGGGAACCTCGACCTGGCCGGTCTGGACCCGGCGGCCCGCCGGCGGGCCCTGCTGGACCTGGTCCGTGGCCGTACCGCGGTGGTCCTGGGACACCACGCCGCCGAGGAGGTCGAGGTGGACCGTCCGTTCCTGGAGGTCGGCTTCGACTCGTTGATGGCCACCCAGTTGCGTAACGCGCTCGCCGCGGCGACCGGTTGGCAGTTGCCGAGCACCGTGGTCTTCGACCAGCCCACCCCGCGTGAACTCGCCGAGTACCTGGACGAGCTGGGTCCCCCCGTCTCCCGCGCCGGTGCCACCGGAGGATCCGCCGGGGCGGTCGGGCCGACCGGCGAAGACAGCATCGGTGTGCTCTTCCGGCGGGCGGTCCGGGACGGCCGGCGGGACCAGGGGTTCGACCTGCTGCACGCGGCGGCGGCCCTGCGCCCGCAGTTCGACGAGGCGTCGGAGTTGGCCGGGGCACCCGAGCCGGTGCGGCTCGCCGACGGGCCCGGTGCGATTCGGTTGGCCTGCGTGCCGGCGCCGATGGGCATGGGCGGCGCCCACCAGTACGCGCGGTTCGCCGAGCGGTTCCGTGCCGTGCGGCCGGTGCTGGCCGTACCGATGCCCGGCTTCTCCGCCAAGGAACCGCTGCCGGCCTCGCCGGAGGCGGCGGTGGAGGTGCTCGCCGGGCAGTTGCGCCCGTTGGCCGAGAGCGGACCGTTGGTGCTGGTCGGCTACTCCTCCGGTGGTGTCTTCGCCAACGCTGCGGCCCACCGGCTGGAGCAGCTCGGGTGCCGGGTGGCGGGGCTGGTCCTGCTGGACACCTACCAGCCCGACACCACGGCCATCGCCAACTTCATCTCCCCGATGCTCGACGGCCTCTTCGAACGCGAGGGGTCGTTCGGCCCGTTCACCACCGCCCGGCTCACCGGCATGGCCCGGTACGCGCGGCTGCTGGACCGCTGCGCCGTCGGAGAGCCGGACGTACCGGTGCTGTTCGTCCGGCCGGGAAAGCTGTTCGTGCTCGACGGGCAGCCGCAGCCGGACGACGACACCTGGCGGGCCTCCTGGCGACGGATGGACACCGTGCGGGAGGTTCCCGGGAACCACTTCACGATGCTGGAGGACGAGGTGGCGGCGACCGCCGAGGTGGTCGAGAGCTGGATCGCCGGACTGCGGTGAGCCACGAACCGCAGGCGCGGTGGATGGCCGGGCGCGATGGATGGGCCGGGAACGGTGGAAGGCCGGGGGCGGTCGTGCGAGCCGGGGCGTCACCCGGCCCAGGCGCGCACGACCTCGATCACCCGGTCGACGTGGGCGGTGCCCAGGTGCGGGCCGATCGGCAGGCTGAGCACCTCGTCGGCCAGCCGCTCGGCCCGGGGCAGGCCGCCGGGCGGCAGGGGCGTCGAGGCGTACGCGCCGGAACGGTGCACCGGCACCGGGTAGTGGACCAGCGTGTCGATTCCGGCCCGGGCCAGGTGCCGGCGTAGGTCCTCCCGGCGGGCCGCCCGGACCACGAACAGGTGCCAGGCCGGATCGGTGTCCCGCGGCGGTTGCGGAAGCCGGATCCCGGGGCACCCGGCGAGCCCGGTCAGGTACCGCTGGGCCACCGCCGCCCGCCGTCGGTTCCAGCGGTCCAGGTGGGGCAGCTTGACCCGCAGCACCGCCGCCTGGATCTCGTCGAGCCGTGAGTTGCGGCCCTGCATCTCGTGCTCGTACTTGCGGGCCGAACCGTAGTTGCGCAGCAGCCTTACCCGGGCGGCGAGTTGCGGGTCGTCGGTGACGACCGCGCCACCGTCGCCGAACGCGCCCAGGTTCTTGCCCGGATAGAAACTGAACGCGACGACACCGGGCGCGGCTCCGATCCGCCGGCCCCGGTACCGGGCGCCGACGGCCTGTGCGGCGTCCTCCACGACGTGCAGACCGTGCCGGTCGGCGACGTCGTGGAGCGCGTCCAGGTCGGCCGGCTCCCCGTACAGGTGGACCGGCAGGATCGCCCTGGTACGTGGTGTGATCGCCGCCTCGACGAGTTCGGCGGCGATGGTGGGCCGGTGCGCGTCCGGCTCGACCGGCACCGGGGTCGCACCGGTGGCGGTGACCGCCAGCCAGGAGGCGACGAAGGTGTGTGACGGGACGACCACCTCGTCACCCGGCCCGATGCCGAGACCGCGCAGGGCCAGTTCCAGGGCGTCACAGCCACTGTTGACCGCGACGCAGTATCCGGATCCGCAGTAGGCGGCGAACTCCGCCTCGAAGGCCTCGATCTCCGGGCCGAGCAGGTACCAGCCGGAGGCGAGCACCCGGCGACAGGCCGCGTCGATCTCGTCGCGCAGCTCGTGGTAGGCCGCTCCGACGTCGAGAAAGGGCACCGTCGGGGTGGTGGCGGACAACGCGTCAGCGGAGGAAGCCACGAGCGTCACCCCACCCGTCGGCCCGGTCGGTGGTGAGCTGGTTCAACCGGGCCGTGACGGCCTGGTCGAACCCGTCCATGAAGTACTCGTCCCCGGGCTGGGCCGCGATCCGCCGGCCGCTGGCGACGAAGTTCCGGACCACCTCGGCCAGGGAGGTGTCCGGACCGATCCGGCCGGCGATGTACCGGTCGGCACCGGCCAGGTCCGGGAAGCCGGCCTCACGGTAGAGGTAGACGTCGCCGCGCAGGTCCACCTGCACCGCGATCTGCGGATGCGCGGACGGGCGCATGGTCTCCGGCCGGATCCGGATCATCTCCGCGTCCATGCCCATGCGCATGGACTCCAGCGCGTACCCGAAGTCGATGCTCAGCGTGGGCGCCCGGTCGAGGGCCCGCGCCTCGAATCTCCCGAGCGAGTCGCGCAGTTCGGCGCGTTCGTCGGGGGAGAGCGCGCCGTCCGGTCGGCTGCTGTAGTCCTCGCGTACGTTGAGGAAGTCGATCGGACGGTCGGGTGCGGCCTCGTTGAGGTCGGCGATGAAGTCGACCAGGTCGAGCAGGCGGGCCGCCCGACCGGGCAGGACCAGGTAGGTCATCCCCAGCCGGACCGGGCTGCCGCGTTCGGCCCGGAGCTTCTGGAAGTGCCGCAGGTTGGCGCGGACCCGCTCGAACGCCTTGCGTTTCCCCGTGGTCGCCTCGTACTCCTCGTCGTCGAGGCCGTAGAGCGACACCCGGACGGCGTGCAGGTCCCACAGGCCGGGTTGGTGCCGCAGCGTCTGGTCGGTCAGCGCGAACGCGTTGGTGTAGATGGTGACCCGCTGTCCCCGTGCGGCGGCCCGGCTCGCCAGCGTCCCGACCTTCGGGTTGGTCAGCGGCTCCAGCCCGCCGGAGAGGTACGTGGCGTCCGGATTGTCCCGGGGCAGCTCGTCGATGACGGACGCGAGCAGGGCGGTGCCGCTGTCCAGCAGGGACGCCTCGTAGCGCGCCCCGGTCACCCGGACACAGAAGTGGCAGCGGAACATGCAGGTCAACCCGGGGTAGAGGCCGACGATCCGGGGGAAGACCGGCTCATGCCGCAGCGCGGCCTCCACCGCGCACCTGCGTTCCAGCGGCAGGACCGTGTTGCGCCAGTACTTGCCGGCCGGGCCGCTCTCCACGGCCGTGCGCAGCTCGGGCACCTGGGAAAAGATGTCCAGCAGCCGGCGGAACGCGGGCCGGTCGACCCGCAGTTCGTCGCGGGCCTGCTCCAGCAGGGTGAACGGTCGGTTGCCGAAGATCACGGCCAGCCGGACGAGCGGAGCGGCGACCGTCGCGGCGTCGGGTTCGGTCAGGCCGACGACCGCCGTCAACCGGTGACGGAGATCGTCGGTCGCCGCGGTGAGGTCAGCGTGCGGTCGCGTGCAGGTCGTGATCGACGAGCTGAGTGCGGAGGTCCGGGGTCCCATTCGCCTTGTCCGTTTCTGTGGAGTCGTCCCGCTGGCGTGACTCGGGGTGGCGCGGCGGCGTGGAGCGCAACTGCTGACATCGACGGGTGATCTCCGGACCGTGGGACACGGCGAGCCGCACGATGTTGCACACCCGGCGGACGTCCTCCTGGGAGACCGTCGGCCCGGTGGGCAGCGCCATGACGCGTCCGGCCAGCCGCTCGGTGTGCGGCAGGGACACCCGTGGCCCCGAGCGGTAGGGCTGCTGCTGGTGGACCGGAGGGGAGAAGTAGGGCTGTGCCACCACGTTCTCGCTGCGGAGCAGGGTGATCAGCAGGTCCCGGTGCAGGCCGGCGACCGCCGGGTCGATCTCCACCACCACGTACTGGTAGTTGTGGCGTTCCTCCGGGTCGAAGGTGATCGTCTGCAGCCCGGGCAGCCGGGCGAGTTCGGCCCGGTACAGCTCGTAGGTCCGCTGGTTGTGTGCCACGACCTGCTCGAAGGCGTCCAGGGAGGTCAGTCCCATGGCGGCGGAGGCCTCGCTCATCTTGGCGTTGGTCCCGCCCCCCGGGTTGTCGGCGACGAGCCCGAACCCGAAGTTGTGCAGGGCGCGGACCCGGGCGGCGAGGCCGTCGTCGTCGGTGACGATCGCGCCGCCCTCGAAGGAGTTCACGACCTTGGTGGCGTGGAAGCTGAAGACCTCGGCGGTGCCGAAACCGCCGATCGGCCGCCCCTTGGCCGTGCACCCGAAGGCGTGGGCGGCGTCGAAGAAGAGAGGGATGGTGTGCTCGTCGGCGATGCGCTGCAGCTCCTCCACGGCGCAGGGACGCCCGAACAGGTGCACGCCGACGATGGCGGAGGGTCGGGGGGTGATCGCGGCCCGGACCCGCTCGGGGTCGAGACAACCGGTGCGCGGGTCGAGGTCGCAGAACACCGGCCGCAGGCCCAGCCACTGCGCGGCGTGCGCGGTGGCGGCGAAGGTCATGGAGGGTACGATCACCTCGCCGGTCAGTTCGGTGGCCCGCATCAGCAGTTGCAGGGCGACCGTGGCGTTGCAGGTGGCCAGACAGTGGCGGACCCCGACCCGGTCGGCGATCCGGTCCTCGAACTCCCGGGTCAGCGGCCCCTGGTTGGTCAGCCACTGGTTGTCCAACGCCCATGACAGCCGGTCGAAGAACCGGGCCCGGTCCACGGCGCCGGGCCGCCCGACGTGCAGGGTCTGGAGAAAGGCTTCCCGGCCGCCGAAGAGGGCCAGGTCGTCGATGTTGCGCTTCACGGCGCTGCCTCCGAAGGGCTCGTTGCCAGCCGTTGACGGTGTCGGCCACGTCGCCGGACCGGCCACGTCGGGTACCCGCCGGGCTCAACTGGCCTCCCGGGGGGCAACGCCGACGAACAGGCCGCGACCGGACGGCCCACCCGGCAGGTACTCGACGGGCAGACCCGCCCGGACGAAGGCGCTCTCGTACTCGTGCCGGTGGAACAGGGTGATCAGGTGGGTGTCGGTGAAGTGCCGGGGGCCGTTGCGGGCGTCCGCGACGACGAAGTGGACCTCCATCCGGGTCGCCCTGCCCACGCGGGTCGAGTGGGAGAGCCGCACCACCGATCGGGCCTCGCCGTGGACGGCGTCGGCGCTGACCCAGCCGTCGTGGAAGCTCTCCGGGAACCACCAGGGCTCCACCACGACGACGCCACCGGGGTCGAGATGTCGGGCGAAGGATGCCAGGGCCGCGTCCAGGTCAGCGGTGGTGGGCAGGTAGCCGATCGAGCTGAACATGCACACGACCGCGCCGAAGCGCCGGTCCAGTCGGAAGTCGCGCATGTCGCCCTGGTGCAGCGGGGTGTCGGGCAGCCGCCGGCGGGCCACCGCGATCATGTCGGGTGCGAGTTCCAGCCCCTCGACCTGGCTGAACTCCTTGGCGAAATCGTGCGCGTGCGTACCGGTCCCGCAGGCGACGTCCAGGAGCGTGTCCGCCCCGGGGTTGCGGGCCCGGATCAGCTGGGCCACCTCGGTGGCCTCCGTGGCGTAGTCCTTGCCGCGGCCCTGGTAGAAGAGGTCGTAGACCGCCGCGTGGTCGGACTCGTACATGTCGTTGGCACCCCCAGAGTCGATCAAGGTCAGCGCGCTGGCCCGGTGGTCCGGTCGGTTCCGCGGTGCTGGGCGGTCAGCAGTTCCAGCTGCGGTACCAGGGCGGCCGGGCTCGGCTCGGCCAGCCTGCACGGCGGACGGGCCGCGGCGGCCTGCGCGAAGGACGGCTCGGTCAGGGTCCGCTCCACCGCCTCGCGCACCCTGTCCGTGGTCAACTCCGCTGGCGGGACGAACACTCCGGCGCCCAACTTCTCGACGGCCCGTGCCTTGACCGGCGCGTCCCAGAGTTCGGCGACCATCACCTGCGGCACGCCGTAGTTCACCGCCGTGGCGTACGTGCCCGCGCCGCCGTGGTGCACGATCGACGAGCAGGTCGGCAGGAGTACGTGCATGGGTACGAAGTCGACCAGCCGGACGTTCTCCGGCAGCCGGCCCAGCTCCTCCCGTTGGGCGGTGTCGAGGGTCGCCACGAGCTCGATGTCCAGGTCGGCGAGCCCGTTCACCAGGTCGGCCACGGAGACCCCGTCACCGCCGAGCACCTCCCGGGCCGACACTCCGAGCGTCAGGCAGACCCGGGGCCGCCGTGGTGGCGTCCGCAGCCAGTCGGGGACCACCGACCGGCCGTTGTACGGCACGTACCGCATGCCGAGGGTGGGCAGGCCGGTCGGCAGGCGCAGACTCGGCGGGGTGGGGTCCACGGTCCACTGGCCGACGGTCACCTCCTCCGCGAAGGTGCAGCCGTACCGGGCCAGGGTCCAGGTGAGCCACTCGGCGAGCGGGTCCTCCCGCCGGGCCGGGTGCTCCTGTTCCTGGAGGGCCAGGAACTTCCGGCGCGCGCTGCCCACCACGTCGGGGCACCACAGGACCCGGGCGTGTGCGGCACCGCTGGCCCGTGCCGCGACCGGGCCGGCGTAGGTGGTGGGCTCCCACAGGACGAGGTCCGGTCGCCACGACCGGGCGAAGGAGACCATGTCGTCGATCATCGCGTCGTTGTTGACCACGGCGTAGTAGAAGGCGGTGAGCAGGGTGTCCAGGCCCAGGGCGTCCTCCCAGTCGAAGGCGCCGGTGCGGGCCTCGTGGAACTGGAAGGCCGGGTGGGTGGGACGGGGTTCCCCGGCCATCTGGATCCTGGTCTGCACGATGAGGTGGTCGGTGCCGACCGGTACGGCGGTGAGCCCGGATTCGGTGATGGTCTCGGCCAGCGCCGGTTGGCTTGCCACCCGCACCTCGTGGCCGGCCGACCGGAGCGCCCACGCCAGCGGCACCAGACCGTGGTAGTGCGTGTTGTGCGCGAACGAGGTCAGCAGCACGCGCATCGTCGTCACTCCTTCCGGGCGTGGTCAGGCGCTGATCGGCACGGCGAGAGGGCCACGGGTGACCGACGTCCGTCGGGGCCGTAGGACGGTGCCGGTACGCGGCCGGGGCAGGCGTTCGGCCAGGGCGCGCAGCCCCGCCTCGGCCTGCGCGGTGACCAGCGGTGCCACCGGGGCGGTGTGCAGGTCGCCCCGCAGGGCCAGCGGTGCGGCGGTCACCTCGCGGCGCAGGTCGAAGCGGTCCGGATCGGCGTACCGTCGCGGATCCCGGCCGGTGGCCCCGACGAGGGCGACGACGTGGGCGCCGGCGGGTAGTTCCCGCCCGGCCAGGAGGGTCTCGCGGTGGGTGACCCGGGCCTCGACCTGGATGGGCGGGTCCAGCCGCAGGGTCTCCCGGACGACGTCGGCGGCCAGTTCGGGGGCACCGCGCACGAGGCTCCACTGGTCCGGTTCGGCGGCCAGCGCGAGTCTCGCGTTGGCGATCAGGTTGACCGCCGCCGGTACCGCGATCACGGCCAGCAGGAGGGCGACGGCCCCGCGGTCCGCGTCGGCGTGGGGCATCCGGTCGAGTAGCGCCGTGAGGTCGACGAGGGCTGCCTGCGCGGCCCGTACGACGGACAGTTGCTGGGCGGTCAGCAGGCTGTCCGGTATCCGCGCCAGGTCGCGGCAGGTGCGGGCGAACGGGTCGTGCTGGTGGTCCGGTAGCCCGAGCTGACCGGCCGTCACCGTGGTGACCGCCGGCCAGGGCAAGTCGGCGACCAGGTCGAACCGGTCGGTCAGACGCCTCGAGCACCTTGCGGTGCGTCGATTCCAGATCGGCCGACCGGGCATGGATCGCGGCCGGTCCCAGCCACGGCTCCCAGACCGGTCGCAGTCGGGCGTGGTCCGTCCGCTCCCAGCCGAGCGGGGTGCCGCTCGAAAGGGCAGCACCTGCGGTTCGGCCGGGGTGCCGTCGTACCTGGCCATGCCGAACGACGGGTCAGTCAGGACCGTTGGCCGCCACGTCGTGTCGGCGGTCACCCAACTGCCGACCGGACTCTGGTACAGCGGGCCGCGTCGCCGGACGAGATCGTGGTAGGGGTACGGGTCGTCGTGGTGCCCGCGGAGCAGGAGGGCGTACGCGTCCCCGTTGGCGCCGTGCAGCCATTGCAGACCTCGGGCCGTCAACAGGTGCTGGCCCAACCGGCTGTCGTCGGCTGACTCGGGAGGTGTTCGCAGAGGTGGCGGCGACAGTACGGGAGACCCACCCTGCTCGTCACTCGTCATCACATTTCTCCCGCAGTCCTCTTGCGCCGGTGAATCTGTCGGTCACCCGGGGCGGTGGGGGGCTCCGGACTTGTGGCAGCAGATCCGGTCGGTTCGCTGCACGAAGCGTCAATGGGCGAGCTAATTTGATCACAATCGATGCCTGGATATTCGCTTAGTGTGCTGCGCGGGCGTCGTCGCGTCAAGTGGAAGATCCAGCCCGCAGGGCTTGGGGTCGGGGCGGCATCGCCTTCGGCGGTCGCGGCATGGTCCTGGCGGTGCGCTTCGGAGGGCTTCGGGTCGATCGTGCCCGCTGTCGGCGAACCCCTGGTGCGGCAACGCCTTACGCCTTGCCGGCGATCCGGTCAGTCTGGTGTGGACGAAAGTCTCTGAGCGATCGACTTCGATGGAAATTTATCGAGATGTAACAAGCCGGTTATTGCATCATGGTTTCCGGAGCGTCGTGCCGATGGCCAACGTCGATGCGTGTCGGTGCCGTGCGTCATCGCTGACATGATCTCGTAATTATTAACGCGGCGGTGGGTGGGGAGAAGGCCGGGCTGCTAGTCTTGGTCGATGCGAGGAGTCCTGCTTGCTGGTGGCACGGGATCCCGTTTGTGGCCGATCACCCAGGCGGTGTCCAAACAGCTCATGCCGGTCTTCGACAAACCGATGATCTATTATCCGCTGTCCACCCTGATCATGGCTGGCGTGCGGGAGATAATGGTCGTCACCACGCCGGAGGACCAGCCGCAATTCACCCGGCTGCTCGGCGACGGGCAGCAGTGGGGCCTGTCCCTGTCCTACGGGGTGCAGCCTCGCCCCGAGGGCATCGCGCAGGCCTTCGTCATCGCCCGGGATTTCCTGGACGGAGGGCCGGCGGCCCTCATCCTCGGCGACAACATCTTCCACGGCGTGGGGCTCGGTCGGAAGCTGCGGGGGCACACCAACCCCGAGGGTGGGGAGATCTTCGGCTATCCGGTGGCCGACCCCTCCGCGTACGGCGTCGTGGAGTTCGACGAGTCGGGGCGGGTCCTCTCCATCGAGGAGAAGCCCACCCGGCCGAAGTCGCGCTACGTGGTGCCGGGCCTCTACTTCTACGACGCCGACGTGGTGGAGATCGCGAGCCAGCTCAAGCCGAGCGACCGCGGCGAGTTGGAGATCACCGCGGTCAACAACGAGTACCTGCGTCGTGGCCAGTTGACGCTCACCCTGCTCGACCGGGGTACGGCGTGGCTGGACACCGGGACGTTCGGCGACCTGGTCCAGGCGGGGGAGTACGTACGGGTGATCGAGGAACGGCAGGGCTTCAAGATCGGCTGTGTGGAGGAGGCCGCCTGGCGGGCCGGTTTCCTCAGCGACGACGAGCTGCGCGAACTGGCCGTTCCGCTGCTGCGCACGGCATACGGCGAGTACCTGCTGCGGTTGCTCGACTGGAAGGGGGAGAGTTCCGCGTGAGGATTCGGTCCCTGTCCATCGACGGAGCGTGGGAGGTGACCCCGCGCCAGCACGGCGACCCCCGTGGCGTCTTCCTGGAGTGGTACCGCTTCGACCTGCTGGCGCACGGGGTGGGGCATCCGCTCCGGTTCGGCCAGGCCAACCTCTCGGTGTCCGCCCGGGGGGTCATCCGGGGCATCCACTTCACCGACGTGCCGCCCGGACAGGCGAAGTACGTGACCTGTGTGCGGGGAGCGGTCCTGGACGTGGTGGTGGACGTACGCGTGGGATCGCCGACCTTCGGTCGGTGGGAGGCGGTACGACTCGACGACACCGAGCGCCGTGCCGTCTACCTGGCCGAGGGACTCGGCCACGGGTTCTGTGCGTTGACCGACGATGCGACGGTGACGTACCTCTGCTCGACGACGCACGACCCGCAGGCGGAGCGACAGTTGCACCCCCTGGACCCGATGCTGGGCATCGAGTGGCCGGACGGGCCACGGTTGCTGTCGGCGCGGGACGAGAACGCCCCCGACCTGGGCCAACTACGCAACGAGGGCGTCCTACCGACCTACCAGGCGTGCGTCGAGTACGTCGAATCCCTGCGCTCCGTCCACCCGGAGCGACCCGGGGAGACCGGTCGCCAGGGGTCCGTTCCGGTCGCCGGGCCCCCGGCGCGGACCTCGGCTTCCTGGCTCACCCCCGACCGTCGGGCGTGAGTGCGTGTCCGTCGGCTGCCGGCGCGGGGACGGGCTGGACCTTCAACGGCTCCCACCAGGCGCGGTTGTTCCGGTACCAGTCGACCGTGTCGGCCAGCCCCTCGGCGAAGCTGACCCGTGGCGTGTACCCCAGCTCCCTGGAGATCTTGGATATGTCGAGGCTGTAGCGGAGGTCGTGCCCCGGACGGTCGGCGACCCGGCGTACGGAGAGCTCGTCGGCGCCACAGAGGTCGAGCAGGTGAGCGGTGAGGTCGGCGTTGCTCAACTCCGTGCCACCGCCGATGTGGTAGACCTCTCCGGGCACGCCCCCGGTGGCGACCAGGTCGATGCCGTGGCAGTGGTCGTCGACGTGCAGCCAGTCACGCTGGTTGCGGCCGTCTCCGTAGAGCGGCACCGGCAGCCCGTCCAACAGGTTGGTGGTGAACAGCGGGATGAGCTTCTCGGGATACTGGTACGGGCCGTAGTTGTTGGAGCAGCGGGTGACACAGACCGGCAGCCCGTGGGTGCGGTGGAAGGCCAGCGCCAGCAGGTCGGACCCGGCCTTGCTGGCGGCGTACGGCGAGTTCGGGGCCAGGGGCTGTTCCTCGGTCCAGGATCCCTCCTCGATGGAGCCGTACACCTCGTCGGTCGACACGTGGACGAACCGTTCGACGCCCGCCCGTACCGCGGCGTCGAGGAGGGTGTGCGTGCCCTGCACGTTCGTGCGTACGAAGGCGTCGGCGGCGGCGATCGACCGGTCGACGTGCGATTCGGCGGCGAAGTGCACGACCAGGTCGACCCCGCGCATCAGGTTCTCCACCAGCTCCCGGTCGCAGACGTCACCCTGCGTGAACGTCAGGTCCGGGTGGTGCGCGACCGGCGCCAGATTCGCGAGGTTGCCGGCGTACGTGAGTTTGTCGAGGACGATCGTCTGGGCCCCGTGCCACCGCTGGTACGCGCCGGCAAGCAGTTGTCGCACGAAGTGGGAGCCGATGAATCCCGCGCCACCGGTCACCAGGACGCGCATGGACGCACCACCTCTCTCGACTGACGCGCTCATCGGCATAGGGCAAAAATCTCATACCGCCCCGGATGCTGTCGATCCTGTCAGATCGGGCCAAGACCGTCAAGTGTGTCAATATGATGCCGAGTGTCGCGCAGTGGAGGGTGCGATGGCCGAGCTACCGGCCGGGGCCTCGTCGGGCAGCGCGCAGGCGCACGGCCGGCGCGCCAACCGGCGTAGTTACCACGACGGCGCGCTGGTCGACGGGTACGTCGACGACCCGTACCACCGGGTCCGCCGGGCGGTCGCGGCCCGGCTGATGGTCGACGACGTCCTCGGGGGAGGGCCGGTACTGGAACTGGGATGCGGTCCGTGCAGCATGCTCGACCCGGCGGAGTTGCCCGTGCCGCTCGTGGTGGCGGACATGGCGGAGGCCGCGTTGGGCGCGGCCCGGGCCGCCGCCGGTCAGGCGCTGCCGGTCTGTCTGGACGCCACCCGCGGCCTGCCGTTTCGCGCCGGCAGCTTCGCCGGGCTGCTGACCGGTGAGCTGATCGAGCACGTCTACGACCCGGTGGCGCTGCTGCGGGAGTGCCACCGGGTCCTCGCCCCGGGTGGGCTGCTGGTGCTCACCACCCCGAACCTGGCGACGGTCCAGGACCGGCTGGCGTTCCTCGCCGGGCGCGCGCCCCGCCAGGTGGATCC"
+        }
+    ]
+}

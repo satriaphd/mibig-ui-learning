@@ -1,0 +1,123 @@
+{
+    "personal": {
+        "submitter_name": "Keishi Ishida",
+        "submitter_institution": "Leipniz Institute for Natural Product Research and Infection Biology",
+        "submitter_email": "keishi.ishida@hki-jena.de"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000206",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:15911378",
+            "pubmed:14529449",
+            "pubmed:12384604",
+            "pubmed:12107551"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "AJ786382.1"
+                },
+                {
+                    "accession": "AJ786383.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "chartreusin",
+                "chem_synonyms": [
+                    "Chartreusin",
+                    "Lambdamycin",
+                    "Antibiotic X-465A",
+                    "Chartreusin, dihydrate",
+                    "6377-18-0",
+                    "NSC 5159",
+                    "UNII-HS0H395E3O",
+                    "X 465A",
+                    "BRN 0075649",
+                    "CHEBI:3580",
+                    "HS0H395E3O",
+                    "U-7257",
+                    "C32H32O14",
+                    "4-19-00-03078 (Beilstein Handbook Reference)",
+                    "SCHEMBL973723",
+                    "CHEMBL1554674",
+                    "PONPPNYZKHNPKZ-RYBWXQSLSA-N",
+                    "ZINC4097946",
+                    "CCG-208644",
+                    "Chartreusin from Streptomyces chartreusis",
+                    "NCGC00163668-01",
+                    "LS-52936",
+                    "C09181",
+                    "M01618",
+                    "[(2S,3R,4S,5R,6R)-3-[(2R,3R,4S,5S,6R)-3,5-dihydroxy-4-methoxy-6-methyl-tetrahydropyran-2-yl]oxy-4,5-dihydroxy-6-methyl-tetrahydropyran-2-yl]oxy-hydroxy-methyl-[?]dione",
+                    "10-{3-[2-(3,5-Dihydroxy-4-methoxy-6-methyl-tetrahydro-pyran-2-yl)-ethoxy]-4,5-dihydroxy-6-methyl-tetrahydro-pyran-2-yloxy}-6-hydroxy-1-methyl-benzo[h!chromeno[5,4,3-cde!chromene-5,12-dione",
+                    "1393-73-3",
+                    "1393-74-4",
+                    "1403-35-6",
+                    "59979-62-3",
+                    "Benzo(h)(1)benzopyrano(5,4,3-cde)(1)benzopyran-5,12-dione, 10-((6-deoxy-2-O-(6-deoxy-3-O-methyl-alpha-D-galactopyranosyl)-beta-D-galactopyranosyl)oxy)-6-hydroxy-1-methyl-",
+                    "Benzo(h)(1)benzopyrano(5,4,3-cde)(1)benzopyran-5,12-dione, 10-((6-deoxy-2-O-(6-deoxy-3-O-methyl-alpha-D-galactopyranosyl)-beta-D-galactopyranosyl)oxy)-6-hydroxy-1-methyl- (9CI)",
+                    ""
+                ],
+                "pubchem_id": 5281394,
+                "chemspider_id": 4444748,
+                "chem_act": [
+                    "Inhibitor",
+                    "Other"
+                ],
+                "other_chem_act": "Antitumor",
+                "chem_target": [
+                    "DNA",
+                    "topoisomeraseII"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 640.179,
+                "molecular_formula": "C32H32O14",
+                "chem_struct": "C[C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)OC2=CC=CC3=C2C4=C5C6=C(C=CC(=C6C(=O)O4)C)OC(=O)C5=C3O)O[C@@H]7[C@@H]([C@H]([C@H]([C@H](O7)C)O)OC)O)O)O"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_id": "CAH10175.1",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Loss of chartreusin production, production of resomycin C"
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Anthracycline",
+            "lin_cycl_pk": "Cyclic",
+            "pks_subclass": [
+                "Type II"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "pks_genes": [
+                "cah10161.1"
+            ],
+            "ketide_length": 10,
+            "cyclases": [
+                "CAH10155.1",
+                "CAH10156.1"
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

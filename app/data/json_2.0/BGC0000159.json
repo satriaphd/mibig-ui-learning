@@ -1,0 +1,408 @@
+{
+    "personal": {
+        "submitter_name": "Xiaohui Yan",
+        "submitter_institution": "The Scripps Research Institute",
+        "submitter_email": "xyan@scripps.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000159",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:16707708",
+            "pubmed:18708355",
+            "pubmed:19281218"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "EF990140.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "tautomycin",
+                "chem_synonyms": [
+                    "Tautomycin, Streptomyces spiroverticillatus",
+                    "109946-35-2",
+                    "3-Furanpropanoic acid, 2,5-dihydro-beta-hydroxy-4-methyl-2,5-dioxo-, (1R,2S,3R,6S,7S,10R)-10-(2S,3S,6R,8S,9R)-3,9-dimethyl-8-((3S)-3-methyl-4-oxopentyl)-1,7-dioxaspiro(5.5)undec-2-yl)-3,7-dihydroxy-2-methoxy-6-methyl-1-(1-methylethyl)-5-oxoundecyl ester, (betaR)-",
+                    "Tautomycin from Streptomyces spiroverticillatus",
+                    "AC1MHY64",
+                    "CHEMBL17130",
+                    "ZINC85593798",
+                    "LS-148610",
+                    "Tautomycin from Streptomyces spiroverticillatus, >=90% (HPLC)",
+                    "[(3R,4S,5R,8S,9S,12R)-12-[(3R,4S,6R,9S,10S)-3,9-dimethyl-4-[(3S)-3-methyl-4-oxopentyl]-5,11-dioxaspiro[5.5]undecan-10-yl]-5,9-dihydroxy-4-methoxy-2,8-dimethyl-7-oxotridecan-3-yl] (3R)-3-hydroxy-3-(4-methyl-2,5-dioxofuran-3-yl)propanoate",
+                    ""
+                ],
+                "pubchem_id": 3034761,
+                "chem_act": [
+                    "Inhibitor"
+                ],
+                "chem_target": [
+                    "ProteinPhosphatase"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "dialkylmaleic anhydride ",
+                        "moiety_subcluster": [
+                            "abw96543",
+                            "abw96544",
+                            "abw96545",
+                            "abw96546",
+                            "abw96547",
+                            "abw96548",
+                            "abw96550",
+                            "abw96551"
+                        ]
+                    }
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 766.45,
+                "molecular_formula": "C41H66O13",
+                "chem_struct": "C[C@@H]1CC[C@@]2(CC[C@@H]([C@@H](O2)[C@H](C)CC[C@@H]([C@H](C)C(=O)C[C@H]([C@@H]([C@@H](C(C)C)OC(=O)C[C@H](C3=C(C(=O)OC3=O)C)O)OC)O)O)C)O[C@H]1CC[C@H](C)C(=O)C"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "ttmA",
+                    "gene_startpos": 80486,
+                    "gene_endpos": 81607,
+                    "gene_id": "ABW96553",
+                    "gene_annotation": "acyl-CoA dehydrogenase",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "TTM-non-producing"
+                },
+                {
+                    "gene_name": "ttmJ",
+                    "gene_startpos": 43846,
+                    "gene_endpos": 76329,
+                    "gene_id": "ABW96542",
+                    "gene_annotation": "type I modular polyketide synthase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "TTM-non-producing"
+                },
+                {
+                    "gene_name": "ttmK",
+                    "gene_startpos": 76705,
+                    "gene_endpos": 78075,
+                    "gene_id": "ABW96543",
+                    "gene_annotation": "type B carboxylesterase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "TTM-non-producing"
+                },
+                {
+                    "gene_name": "ttmP",
+                    "gene_startpos": 86802,
+                    "gene_endpos": 88025,
+                    "gene_id": "ABW96548",
+                    "gene_annotation": "acyl-CoA transferases/carnitine",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "TTM-non-producing"
+                },
+                {
+                    "gene_name": "ttmR",
+                    "gene_startpos": 89450,
+                    "gene_endpos": 90853,
+                    "gene_id": "ABW96550",
+                    "gene_annotation": "MmgE/PrpD family protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "TTM-non-producing"
+                },
+                {
+                    "gene_name": "ttmS",
+                    "gene_startpos": 90850,
+                    "gene_endpos": 91674,
+                    "gene_id": "ABW96551",
+                    "gene_annotation": "cyclase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "TTM-non-producing"
+                },
+                {
+                    "gene_name": "ttmM",
+                    "gene_startpos": 83662,
+                    "gene_endpos": 84723,
+                    "gene_id": "ABW96545",
+                    "gene_annotation": "hydroxylase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Hydroxylation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "produces 3 TTM analogs"
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "starter_unit": "Isobutyryl-CoA",
+            "pks_te_type": "Type I",
+            "pks_release_type": "Unknown",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ABW96542",
+                    "pks_module": [
+                        {
+                            "module_nr": "0",
+                            "pks_domains": [
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Isobutyryl-CoA",
+                            "evidence_at_spec": "None",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "1",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methoxymalonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "2",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "3",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "4",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "5",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "6",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "ABW96541",
+                    "pks_module": [
+                        {
+                            "module_nr": "7",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "8",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "9",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "ABW96540",
+                    "pks_module": [
+                        {
+                            "module_nr": "10",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "11",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "12",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)",
+                                "Thioesterase"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

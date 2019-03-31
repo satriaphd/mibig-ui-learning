@@ -1,0 +1,357 @@
+{
+    "personal": {
+        "submitter_name": "David Widdick",
+        "submitter_institution": "John Innes Centre",
+        "submitter_email": "david.widdick@jic.ac.uk"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000503",
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": [
+            "pubmed:12642677",
+            "pubmed:21770392"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "AJ536588.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction",
+                "Other"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "Cinnamycin",
+                "chem_synonyms": [
+                    "SCHEMBL20477472",
+                    ""
+                ],
+                "pubchem_id": 135309121,
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_target": [
+                    "CellWall",
+                    "ethanolamine"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "hydroxyaspartate",
+                        "moiety_subcluster": [
+                            "cinx"
+                        ]
+                    },
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "lysinoalanine",
+                        "moiety_subcluster": [
+                            "cinorf7"
+                        ]
+                    }
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 438.157,
+                "molecular_formula": "C22H23ClN6O2",
+                "chem_struct": "CN1C=C2C(=N1)CCC(C(=O)N2C)N3CCC4=C(N(N=C4C3=O)CC5=CC=CC=C5)Cl"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "cinorf3",
+                    "gene_startpos": 1,
+                    "gene_endpos": 346,
+                    "gene_id": "CAD60516.1",
+                    "gene_annotation": "Cin orf3 protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cinorf4",
+                    "gene_startpos": 454,
+                    "gene_endpos": 1026,
+                    "gene_id": "CAD60517.1",
+                    "gene_annotation": "Cin orf4 protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cinorf7",
+                    "gene_startpos": 1109,
+                    "gene_endpos": 1198,
+                    "gene_id": "CAD60518.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cinorf7",
+                    "gene_startpos": 1267,
+                    "gene_endpos": 1626,
+                    "gene_id": "CAD60519.1",
+                    "gene_annotation": "Cin orf7 protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ],
+                    "mut_pheno": "cin-"
+                },
+                {
+                    "gene_name": "cinA",
+                    "gene_startpos": 1671,
+                    "gene_endpos": 1907,
+                    "gene_id": "CAD60520.1",
+                    "gene_annotation": "preprocinnamycin",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ],
+                    "mut_pheno": "cin-"
+                },
+                {
+                    "gene_name": "cinM",
+                    "gene_startpos": 2059,
+                    "gene_endpos": 5325,
+                    "gene_id": "CAD60521.1",
+                    "gene_annotation": "CinM protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "mut_pheno": "cin-"
+                },
+                {
+                    "gene_name": "cinX",
+                    "gene_startpos": 5340,
+                    "gene_endpos": 6317,
+                    "gene_id": "CAD60522.1",
+                    "gene_annotation": "CinX protein",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "mut_pheno": "deoxycinnamycin"
+                },
+                {
+                    "gene_name": "cinT",
+                    "gene_startpos": 6543,
+                    "gene_endpos": 7472,
+                    "gene_id": "CAD60523.1",
+                    "gene_annotation": "CinT protein",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": "cin-"
+                },
+                {
+                    "gene_name": "cinH",
+                    "gene_startpos": 7469,
+                    "gene_endpos": 8341,
+                    "gene_id": "CAD60524.1",
+                    "gene_annotation": "CinH protein",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": "cin-"
+                },
+                {
+                    "gene_name": "cinY",
+                    "gene_startpos": 8444,
+                    "gene_endpos": 9466,
+                    "gene_id": "CAD60525.1",
+                    "gene_annotation": "CinY protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cinZ",
+                    "gene_startpos": 9545,
+                    "gene_endpos": 10171,
+                    "gene_id": "CAD60526.1",
+                    "gene_annotation": "CinZ protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cinorf8",
+                    "gene_startpos": 10246,
+                    "gene_endpos": 10665,
+                    "gene_id": "CAD60527.1",
+                    "gene_annotation": "Cin orf8 protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cinorf9",
+                    "gene_startpos": 10758,
+                    "gene_endpos": 11078,
+                    "gene_id": "CAD60528.1",
+                    "gene_annotation": "Cin orf9 protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cinR",
+                    "gene_startpos": 11111,
+                    "gene_endpos": 11761,
+                    "gene_id": "CAD60529.1",
+                    "gene_annotation": "CinR protein",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": "cin-"
+                },
+                {
+                    "gene_name": "cinK",
+                    "gene_startpos": 11758,
+                    "gene_endpos": 12822,
+                    "gene_id": "CAD60530.1",
+                    "gene_annotation": "CinK protein",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": "cin-"
+                },
+                {
+                    "gene_name": "cinorf10",
+                    "gene_startpos": 13257,
+                    "gene_endpos": 13754,
+                    "gene_id": "CAD60531.1",
+                    "gene_annotation": "Cin orf10 protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cinorf11",
+                    "gene_startpos": 13754,
+                    "gene_endpos": 14944,
+                    "gene_id": "CAD60532.1",
+                    "gene_annotation": "Cin orf11 protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cinR1",
+                    "gene_startpos": 14375,
+                    "gene_endpos": 15160,
+                    "gene_id": "CAD60533.1",
+                    "gene_annotation": "CinR1 protein",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": "cin-"
+                },
+                {
+                    "gene_name": "cinorf12",
+                    "gene_startpos": 15381,
+                    "gene_endpos": 15872,
+                    "gene_id": "CAD60534.1",
+                    "gene_annotation": "Cin orf12 protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cinorf13",
+                    "gene_startpos": 15912,
+                    "gene_endpos": 16496,
+                    "gene_id": "CAD60535.1",
+                    "gene_annotation": "Cin orf13 protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "cinorf14",
+                    "gene_startpos": 16549,
+                    "gene_endpos": 17083,
+                    "gene_id": "CAD60536.1",
+                    "gene_annotation": "Cin orf14 protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                }
+            ]
+        },
+        "ripp": {
+            "ripp_subclass": "Lanthipeptide",
+            "lin_cycl_ripp": "Cyclic",
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "cina"
+                    ],
+                    "core_pept_aa": [
+                        "CRQSCSFGPFTFVCDGNTK"
+                    ],
+                    "lead_pept_len": 59,
+                    "foll_pept_len": -1,
+                    "peptidase": [],
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 1,
+                            "AA_pos_2": 18,
+                            "crosslink_type": "Thioether"
+                        },
+                        {
+                            "AA_pos_1": 4,
+                            "AA_pos_2": 14,
+                            "crosslink_type": "Thioether"
+                        },
+                        {
+                            "AA_pos_1": 5,
+                            "AA_pos_2": 11,
+                            "crosslink_type": "Thioether"
+                        },
+                        {
+                            "AA_pos_1": 6,
+                            "AA_pos_2": 19,
+                            "crosslink_type": "Other"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

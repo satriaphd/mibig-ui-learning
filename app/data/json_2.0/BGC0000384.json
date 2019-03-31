@@ -1,0 +1,170 @@
+{
+    "personal": {
+        "submitter_name": "Adam Jones",
+        "submitter_institution": "Fairfax, VA USA",
+        "submitter_email": "acj523@gmail.com"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000384",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:107586",
+            "pubmed:15366877",
+            "pubmed:20000453",
+            "pubmed:22314229",
+            "pubmed:13880125",
+            "pubmed:24839542",
+            "pubmed:23751865"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "AY588942.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "Lyngbyatoxin",
+                "chem_synonyms": [
+                    "lyngbyatoxin a",
+                    "Teleocidin A",
+                    "Teleocidin A 1",
+                    "70497-14-2",
+                    "UNII-SE69L721CS",
+                    "CCRIS 4044",
+                    "SE69L721CS",
+                    "Teleocidin A1",
+                    "(2s,5s)-9-[(3r)-3,7-Dimethylocta-1,6-Dien-3-Yl]-5-(Hydroxymethyl)-1-Methyl-2-(Propan-2-Yl)-1,2,4,5,6,8-Hexahydro-3h-[1,4]diazonino[7,6,5-Cd]indol-3-One",
+                    "3H-Pyrrolo(4,3,2-gh)-1,4-benzodiazonin-3-one, 1,2,4,5,6,8-hexahydro-9-(1-ethenyl-1,5-dimethyl-4-hexenyl)-5-(hydroxymethyl)-1-methyl-2-(1-methylethyl)-",
+                    "3H-Pyrrolo(4,3,2-gh)-1,4-benzodiazonin-3-one, 9-(1-ethenyl-1,5-dimethyl-4-hexenyl)-1,2,4,5,6,8-hexahydro-5-(hydroxymethyl)-1-methyl-2-(1-methylethyl)-",
+                    "Lyngbyatoxin-a",
+                    "teleocidin A-1",
+                    "AC1L3MMS",
+                    "ZINC31333229",
+                    "LS-139291",
+                    "UNII-27974YJ83L component KISDGNGREAJPQR-OICBGKIFSA-N",
+                    "(2S,5S)-9-((R)-3,7-dimethylocta-1,6-dien-3-yl)-5-(hydroxymethyl)-2-isopropyl-1-methyl-4,5,6,8-tetrahydro-1H-[1,4]diazonino[7,6,5-cd]indol-3(2H)-one",
+                    "56645-57-9",
+                    ""
+                ],
+                "pubchem_id": 91706,
+                "chebi_id": 80050,
+                "chemspider_id": 10472344,
+                "chem_act": [
+                    "Cytotoxic",
+                    "Other"
+                ],
+                "other_chem_act": "Tumor promoter, irritant, vesicant ",
+                "chem_target": [
+                    "ProteinkinaseC(activator)"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 437.304,
+                "molecular_formula": "C27H39N3O2",
+                "chem_struct": "CC(C)[C@H]1C(=O)N[C@@H](CC2=CNC3=C(C=CC(=C23)N1C)[C@](C)(CCC=C(C)C)C=C)CO"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "ltxA",
+                    "gene_id": "AAT12283",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Heterologous expression",
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "ltxB",
+                    "gene_id": "AAT12284",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Heterologous expression",
+                        "Activity assay",
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "ltxC",
+                    "gene_id": "AAT12285",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Heterologous expression",
+                        "Activity assay",
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "ltxD",
+                    "gene_id": "AAT12286",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Other",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ],
+            "operon": [
+                {
+                    "operon_genes": [
+                        "aat12283",
+                        "aat12284",
+                        "aat12285",
+                        "aat12286"
+                    ],
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AAT12283",
+                    "nrps_module": [
+                        {
+                            "module_nr": "2",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Tryptophan",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None"
+                        },
+                        {
+                            "module_nr": "1",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Valine",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "Other",
+                            "nrps_mod_doms": "Methylation"
+                        }
+                    ]
+                }
+            ],
+            "nrps_te_type": "None",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Reductive release"
+        }
+    },
+    "comments": "Only one condensation domain is present within AAT12283",
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

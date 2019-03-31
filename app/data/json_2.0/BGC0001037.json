@@ -1,0 +1,287 @@
+{
+    "personal": {
+        "submitter_name": "Philipp Wiemann, Nancy Keller",
+        "submitter_institution": "University of Wisconsin-Madison",
+        "submitter_email": "pwiemann@wisc.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001037",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:23488861",
+            "pubmed:24568283",
+            "pubmed:9177176"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "CM000176.1",
+                    "start_coord": 115218,
+                    "end_coord": 134016
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "pseurotin",
+                "chem_synonyms": [
+                    "Pseurotin A",
+                    "Pseurotin",
+                    "58523-30-1",
+                    "CHEBI:64535",
+                    "(5S,8S,9R)-8-benzoyl-2-[(1S,2S,3Z)-1,2-dihydroxyhex-3-en-1-yl]-9-hydroxy-8-methoxy-3-methyl-1-oxa-7-azaspiro[4.4]non-2-ene-4,6-dione",
+                    "MLS004257387",
+                    "CHEMBL253179",
+                    "SCHEMBL3373591",
+                    "MolPort-044-561-210",
+                    "ZINC13660217",
+                    "NCGC00380089-01",
+                    "SMR003082518",
+                    "NCGC00380089-01_C22H25NO8_1-Oxa-7-azaspiro[4.4]non-2-ene-4,6-dione, 8-benzoyl-2-[(1S,2S,3Z)-1,2-dihydroxy-3-hexen-1-yl]-9-hydroxy-8-methoxy-3-methyl-, (5S,8S,9R)-",
+                    ""
+                ],
+                "pubchem_id": 9845622,
+                "chem_act": [
+                    "Inhibitor"
+                ],
+                "chem_target": [
+                    "ImmunoglobulinE"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 431.158,
+                "molecular_formula": "C22H25NO8",
+                "chem_struct": "CC/C=C\\[C@@H]([C@@H](C1=C(C(=O)[C@@]2(O1)[C@H]([C@@](NC2=O)(C(=O)C3=CC=CC=C3)OC)O)C)O)O"
+            },
+            {
+                "compound": "azaspirene",
+                "chem_synonyms": [],
+                "chem_struct": "O[C@@H]([C@](N1)(O)CC2=CC=CC=C2)C3(OC(/C=C/C=C/CC)=C(C)C3=O)C1=O",
+                "molecular_formula": "C21H23NO5",
+                "mol_mass": 369.1576,
+                "mass_ion_type": "[M+H]+",
+                "chem_act": [
+                    "Inhibitor"
+                ],
+                "chem_target": [
+                    "Raf-1"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "psoB",
+                    "gene_startpos": 115218,
+                    "gene_endpos": 116555,
+                    "gene_id": "EAL85114.1",
+                    "gene_annotation": "alpha/beta hydrolase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Heterocyclization",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Other in vivo study",
+                        "Activity assay"
+                    ],
+                    "mut_pheno": "loss of pseurotin"
+                },
+                {
+                    "gene_name": "psoA",
+                    "gene_startpos": 117018,
+                    "gene_endpos": 129323,
+                    "gene_id": "EAL85113.2",
+                    "gene_annotation": "hybrid PKS-NRPS enzyme",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Other in vivo study",
+                        "Activity assay"
+                    ],
+                    "mut_pheno": "loss of pseurotin"
+                },
+                {
+                    "gene_name": "psoC",
+                    "gene_startpos": 129558,
+                    "gene_endpos": 130427,
+                    "gene_id": "EAL85112.1",
+                    "gene_annotation": "methyltransferase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "loss of pseurotin"
+                },
+                {
+                    "gene_name": "psoD",
+                    "gene_startpos": 130966,
+                    "gene_endpos": 132714,
+                    "gene_id": "EAL85111.2",
+                    "gene_annotation": "cytochrome P450 oxidoreductase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "loss of pseurotin"
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 132803,
+                    "gene_endpos": 134016,
+                    "gene_id": "EAL85110.1",
+                    "gene_annotation": "alpha/beta hydrolase, putative",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "no significant change in pseurotin production"
+                },
+                {
+                    "gene_name": "psoE",
+                    "gene_startpos": 134841,
+                    "gene_endpos": 135663,
+                    "gene_id": "EAL85109.1",
+                    "gene_annotation": "elongation factor B1 with glutathione activity",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "accumulation of deepoxy synerazol"
+                },
+                {
+                    "gene_name": "fapR",
+                    "gene_startpos": 93113,
+                    "gene_endpos": 95101,
+                    "gene_id": "EAL85124.1",
+                    "gene_annotation": "C6 transcription factor",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "loss of pseurotin and fumagillin production"
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 95277,
+                    "gene_endpos": 95807,
+                    "gene_id": "EAL85123.1",
+                    "gene_annotation": "conserved hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "no significant change in pseurotin production"
+                },
+                {
+                    "gene_name": "psoF",
+                    "gene_startpos": 96252,
+                    "gene_endpos": 98969,
+                    "gene_id": "EAL85122.1",
+                    "gene_annotation": "dual flavin monooxygenase / methyltransferase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Other in vivo study",
+                        "Activity assay"
+                    ],
+                    "mut_pheno": "accumulation of desmethyl pseurotin"
+                },
+                {
+                    "gene_name": "psoG",
+                    "gene_startpos": 99604,
+                    "gene_endpos": 100059,
+                    "gene_id": " EDP49164.1",
+                    "gene_annotation": "membrane bound oxygenase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Hydroxylation",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Other in vivo study",
+                        "Activity assay"
+                    ],
+                    "mut_pheno": "loss of pseurotin production"
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Polyene",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "starter_unit": "Propionyl-CoA",
+            "pks_genes": [],
+            "nr_iterations": 4,
+            "iterative_subtype": "Partially reducing",
+            "pks_te_type": "None",
+            "pks_release_type": "Other",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "EAL85113.2",
+                    "pks_module": [
+                        {
+                            "module_nr": "1",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Activity assay",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Iterated",
+                            "pks_evidence_skip_iter": "Activity assay"
+                        }
+                    ]
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Reductive release",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "EAL85113.2",
+                    "nrps_module": [
+                        {
+                            "module_nr": "2",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Phenylalanine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "Other",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

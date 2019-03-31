@@ -1,0 +1,295 @@
+{
+    "personal": {
+        "submitter_name": "Bradley S Moore",
+        "submitter_institution": "Scripps Institution of Oceanography",
+        "submitter_email": "smoraesmantovani@ucsd.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001028",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:12853152"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "AF204805.2"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Enzymatic assays"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "nostopeptolide A",
+                "chem_synonyms": [],
+                "chem_struct": "CCCC(=O)N[C@@H](C(C)C)C(=O)N[C@H]1COC(=O)[C@@H]2CCCN2C(=O)[C@@H](NC(=O)[C@@H](NC(=O)CNC(=O)[C@@H](NC(=O)CC(=O)[C@@H](NC(=O)[C@@H]3C[C@@H](CN3C1=O)C)CC(C)C)CC(C)C)CC(=O)N)CC4=CC=C(C=C4)O",
+                "molecular_formula": "C52H78N10O14",
+                "mol_mass": 1067.2343,
+                "mass_ion_type": "Other",
+                "chem_act": [
+                    "Unknown"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "nosA",
+                    "gene_startpos": 1370,
+                    "gene_endpos": 14509,
+                    "gene_id": "AAF15891.2",
+                    "gene_annotation": "NosA",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "nosB",
+                    "gene_startpos": 14506,
+                    "gene_endpos": 18240,
+                    "gene_id": "AAF15892.2",
+                    "gene_annotation": "NosB",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "nosC",
+                    "gene_startpos": 18312,
+                    "gene_endpos": 28265,
+                    "gene_id": "AAF17280.1",
+                    "gene_annotation": "NosC",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "nosD",
+                    "gene_startpos": 28262,
+                    "gene_endpos": 35614,
+                    "gene_id": "AAF17281.1",
+                    "gene_annotation": "NosD",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "nosE",
+                    "gene_startpos": 35820,
+                    "gene_endpos": 36617,
+                    "gene_id": "AAF17282.1",
+                    "gene_annotation": "unknown",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "nosE",
+                    "gene_startpos": 36665,
+                    "gene_endpos": 37771,
+                    "gene_id": "AAF17283.1",
+                    "gene_annotation": "NosE",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "nosF",
+                    "gene_startpos": 37811,
+                    "gene_endpos": 38632,
+                    "gene_id": "AAF17284.1",
+                    "gene_annotation": "NosF",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "nosG",
+                    "gene_startpos": 38734,
+                    "gene_endpos": 40725,
+                    "gene_id": "AAF17285.1",
+                    "gene_annotation": "NosG",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        },
+        "polyketide": {
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AAF15892.2",
+                    "pks_module": [
+                        {
+                            "module_nr": "5",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Cyclic depsipeptide",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Type I",
+            "nrps_thioesterase": [
+                "aaf17281.1"
+            ],
+            "nrps_release_type": "Macrolactonization",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AAF15891.2",
+                    "nrps_module": [
+                        {
+                            "module_nr": "1",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Isoleucine",
+                                "evidence_a_spec": "Activity assay",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "2",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Serine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "3",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Proline",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "4",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Leucine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "nrps_gene": "AAF17280.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "6",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Leucine",
+                                "evidence_a_spec": "Activity assay",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "7",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Glycine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "8",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Other",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false,
+                                "other_spec": "Asparigine"
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "nrps_gene": "AAF17281.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "10",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Proline",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "9",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Tyrosine",
+                                "evidence_a_spec": "Activity assay",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

@@ -1,0 +1,106 @@
+{
+    "personal": {
+        "submitter_name": "Antonio Ruzzini",
+        "submitter_institution": "Harvard Medical School",
+        "submitter_email": "antonio_ruzzini@hms.harvard.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000956",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:15066985",
+            "pubmed:16910643",
+            "pubmed:17653193",
+            "pubmed:18652473",
+            "pubmed:18768797",
+            "pubmed:21561099"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "AY192157.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "andrimid",
+                "chem_synonyms": [
+                    "Andrimid",
+                    "108868-95-7",
+                    "AC1LCT1S",
+                    "CHEMBL425874",
+                    "SCHEMBL3679336",
+                    "(2E,4E,6E)-N-[(1S)-3-[[(2S)-3-methyl-1-[(3R,4S)-4-methyl-2,5-dioxopyrrolidin-3-yl]-1-oxobutan-2-yl]amino]-3-oxo-1-phenylpropyl]octa-2,4,6-trienamide",
+                    ""
+                ],
+                "pubchem_id": 636857,
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_target": [
+                    "beta-subunitofacetyl-CoAcarboxylase"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 479.242,
+                "molecular_formula": "C27H33N3O5",
+                "chem_struct": "C/C=C/C=C/C=C/C(=O)N[C@@H](CC(=O)N[C@@H](C(C)C)C(=O)[C@H]1[C@@H](C(=O)NC1=O)C)C2=CC=CC=C2"
+            }
+        ],
+        "genes": {},
+        "polyketide": {
+            "pk_subclass": "Ansamycin",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Type II"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "pks_genes": [
+                "AAO39098.1"
+            ],
+            "ketide_length": 8
+        },
+        "nrp": {
+            "subclass": "Beta-lactam",
+            "lin_cycl_nrp": "Linear",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AdmI"
+                },
+                {
+                    "nrps_gene": "AdmJ"
+                },
+                {
+                    "nrps_gene": "AdmK"
+                },
+                {
+                    "nrps_gene": "AdmO"
+                },
+                {
+                    "nrps_gene": "AdmP"
+                },
+                {
+                    "nrps_gene": "AdmM"
+                }
+            ],
+            "nrps_te_type": "Type I",
+            "nrps_thioesterase": [
+                "admm"
+            ],
+            "nrps_release_type": "Hydrolysis"
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

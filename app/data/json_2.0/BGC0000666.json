@@ -1,0 +1,124 @@
+{
+    "personal": {
+        "submitter_name": "Changsheng Zhang",
+        "submitter_institution": "South China Sea Institute of Oceanology, Chinese Academy of Sciences",
+        "submitter_email": "czhang2006@gmail.com"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000666",
+        "biosyn_class": [
+            "Terpene"
+        ],
+        "publications": [
+            "pubmed:22591327",
+            "pubmed:23205935"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "JQ812811.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Enzymatic assays"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "xiamycin A",
+                "chem_synonyms": [
+                    "Xiamycin A",
+                    "hydroxy(dimethyl)[?]carboxylic acid",
+                    "XIAMYCIN",
+                    "CHEMBL1270030",
+                    "(3S,4S,4aR,13bS)-3-Hydroxy-4,13b-dimethyl-2,3,4,4a,5,6,8,13b-octahydro-1H-naphtho[2,1-b]carbazole-4-carboxylic acid",
+                    ""
+                ],
+                "pubchem_id": 38358410,
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 363.183,
+                "molecular_formula": "C23H25NO3",
+                "chem_struct": "C[C@]12CC[C@@H]([C@@]([C@@H]1CCC3=C2C=C4C5=CC=CC=C5NC4=C3)(C)C(=O)O)O"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "xiaH",
+                    "gene_id": "AFK78074.1",
+                    "gene_annotation": "terpene cyclase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "xiaI",
+                    "gene_id": "AFK78075.1",
+                    "gene_annotation": "oxidative terpene cyclase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "xiaK",
+                    "gene_id": "AFK78077.1",
+                    "gene_annotation": "C,N- and N,N dimerization",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Other",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "xiaM",
+                    "gene_id": "AFK78079.1",
+                    "gene_annotation": "carboxylase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Oxidation",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "xiaO",
+                    "gene_id": "AFK78081.1",
+                    "gene_annotation": "epoxidase",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay"
+                    ]
+                }
+            ]
+        },
+        "terpene": {
+            "terpene_subclass": "Other",
+            "terpene_c_len": "Sesquiterpene",
+            "terpene_precursor": "DMAPP",
+            "terpene_synth_cycl": [
+                "afk78070.1",
+                "afk78071.1",
+                "afk78072.1"
+            ],
+            "prenyl_transf": [
+                "afk78080.1",
+                "afk78082.1"
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

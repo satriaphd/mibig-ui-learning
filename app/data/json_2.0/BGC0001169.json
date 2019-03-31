@@ -1,0 +1,296 @@
+{
+    "personal": {
+        "submitter_name": "Changsheng Zhang",
+        "submitter_institution": "South China Sea Institute of Oceanology, Chinese Academy of Sciences",
+        "submitter_email": "czhang2006@gmail.com"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001169",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:24409990"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "KF874660.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "piericidin A1",
+                "chem_synonyms": [
+                    "Piericidin A",
+                    "Piericidin A1",
+                    "Shaoguanmycin B",
+                    "Piericidin",
+                    "Piericidine A",
+                    "SN 198E",
+                    "UNII-8VT513UJ9R",
+                    "BRN 1555726",
+                    "8VT513UJ9R",
+                    "CHEMBL272733",
+                    "2738-64-9",
+                    "4-Pyridinol, 2-(10-hydroxy-3,7,9,11-tetramethyl-2,5,7,11-tridecatetraenyl)-5,6-dimethoxy-3-methyl-, (R-(R*,R*-(all-E)))-",
+                    "2,6,9,11-Tridecatetraen-4-ol, 13-(4-hydroxy-5,6-dimethoxy-3-methyl-2-pyridyl)-3,5,7,11-tetramethyl-, (all-E)-(4R,5R)-",
+                    "2-[(2E,5E,7E,9R,10R,11E)-10-hydroxy-3,7,9,11-tetramethyltrideca-2,5,7,11-tetraenyl]-5,6-dimethoxy-3-methyl-1H-pyridin-4-one",
+                    "4-Pyridinol, 2-((2E,5E,7E,9R,10R,11E)-10-hydroxy-3,7,9,11-tetramethyl-2,5,7,11-tridecatetraenyl)-5,6-dimethoxy-3-methyl-",
+                    "AR 054",
+                    "(+)-piericidin A1",
+                    "AC1O5OI0",
+                    "MEGxm0_000313",
+                    "SCHEMBL18941698",
+                    "SCHEMBL19717606",
+                    "ACon0_001227",
+                    "ACon1_001455",
+                    "CHEBI:138511",
+                    "MolPort-001-739-591",
+                    "Piericidin A from microbial source",
+                    "5085-85-8",
+                    "BDBM50411905",
+                    "ZINC14655907",
+                    "AKOS027270001",
+                    "NCGC00180489-01",
+                    "2-(10-hydroxy-3,7,9,11-tetramethyl-2,4,7,11-tridecatetraenyl)-5,6-dimethoxy-3-methyl-4-pyridinol",
+                    "Piericidin A from Streptomyces mobaraensis",
+                    "LS-157163",
+                    "J-016753",
+                    "BRD-K73581776-001-01-6",
+                    "Piericidin A from microbial source, >95% (HPLC), DMSO solution",
+                    "Piericidin A from Streptomyces mobaraensis, >=90.0% (HPLC), liquid, green-yellow",
+                    "19855-42-6",
+                    "2,6,9,11-Tridecatetraen-4-ol, 13-(4-hydroxy-5,6-dimethoxy-3-methyl-2-pyridyl)-3,5,7,11-tetramethyl-, (all-E)-(4S,5S)-",
+                    "2-[(2E,5E,7E,11E)-10R-hydroxy-3,7,9R,11-tetramethyl-2,5,7,11-tridecatetraen-1-yl]-5,6-dimethoxy-3-methyl-4-pyridinol",
+                    "2-[(2E,5E,7E,9R,10R,11E)-10-hydroxy-3,7,9,11-tetramethyltrideca-2,5,7,11-tetraen-1-yl]-5,6-dimethoxy-3-methylpyridin-4-ol",
+                    "24467-35-4",
+                    ""
+                ],
+                "pubchem_id": 6437838,
+                "chem_act": [
+                    "Unknown"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 415.272,
+                "molecular_formula": "C25H37NO4",
+                "chem_struct": "C/C=C(\\C)/[C@@H]([C@H](C)/C=C(\\C)/C=C/C/C(=C/CC1=C(C(=O)C(=C(N1)OC)OC)C)/C)O"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "pieB1",
+                    "gene_id": "GI:570518041",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                },
+                {
+                    "gene_name": "pieB2",
+                    "gene_id": "GI:570518044",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "pieE",
+                    "gene_id": "GI:570518045",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Hydroxylation",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay"
+                    ]
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Polyene",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "pieA1",
+                    "pks_module": [
+                        {
+                            "module_nr": "1",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "0",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "pieA2",
+                    "pks_module": [
+                        {
+                            "module_nr": "2",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "3",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "pieA3",
+                    "pks_module": [
+                        {
+                            "module_nr": "4",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "pieA4",
+                    "pks_module": [
+                        {
+                            "module_nr": "5",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Enoylreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "pieA5",
+                    "pks_module": [
+                        {
+                            "module_nr": "6",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "None",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "pieA6",
+                    "pks_module": [
+                        {
+                            "module_nr": "7",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "8",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Methylmalonyl-CoA",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ],
+            "pks_te_type": "Unknown",
+            "pks_release_type": "Unknown"
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

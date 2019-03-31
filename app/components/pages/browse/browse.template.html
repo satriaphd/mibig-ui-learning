@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
 
     <div class="page-header">
         <h1>MIBiG Repository</h1>
@@ -20,7 +20,7 @@
             <tbody>
             <tr ng-repeat="row in $ctrl.bgcList">
                 <td>
-                    <a href="https://mibig.secondarymetabolites.org/repository/{{row.general_params.mibig_accession}}">{{row.general_params.mibig_accession}}</a>
+                    <a href="#!/detail/{{row.general_params.mibig_accession}}">{{row.general_params.mibig_accession}}</a>
                 </td>
                 <td>
                     {{row.general_params.loci.complete === 'complete'?'Full':'Partial'}}

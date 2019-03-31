@@ -1,0 +1,170 @@
+{
+    "personal": {
+        "submitter_name": "R. Cameron Coates",
+        "submitter_institution": "DOE Joint Genome Institute",
+        "submitter_email": "rccoates@lbl.gov"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001162",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:24475038"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "KF550302.1",
+                    "start_coord": 1,
+                    "end_coord": 9348
+                }
+            ],
+            "conn_comp_cluster": [
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "1-heptadecene",
+                "chem_synonyms": [
+                    "1-HEPTADECENE",
+                    "heptadec-1-ene",
+                    "6765-39-5",
+                    "HEPTADECENE",
+                    "Hexahydroaplotaxene",
+                    "UNII-P33057D09T",
+                    "NSC 77132",
+                    "ADOBXTDBFNCOBN-UHFFFAOYSA-N",
+                    "P33057D09T",
+                    "26266-05-7",
+                    "64743-02-8",
+                    "Alkenes, C>10 .alpha.-",
+                    "Alkenes, C>10 alpha-",
+                    "heptadecen",
+                    "alpha-Olefin wax",
+                    "EINECS 229-825-6",
+                    "EINECS 247-567-2",
+                    "EINECS 265-207-2",
+                    "alpha olefins (petroleum), C10 cut",
+                    "C>10 alpha-Alkenes",
+                    "Heptadecene (Related)",
+                    "1-Heptadecene, 97%",
+                    "1-Heptadecene, 98%",
+                    "AI3-36483",
+                    "AC1L2LWJ",
+                    "alpha olefins (petroleum), (C11-C12) cut",
+                    "alpha olefins (petroleum), (C11-C14) cut",
+                    "alpha olefins (petroleum), (C15-C20) cut",
+                    "alpha olefins (petroleum), (C18-C20) cut",
+                    "AC1Q2W2S",
+                    "ACMC-1B58L",
+                    "CHEBI:64502",
+                    "CTK1A2786",
+                    "NSC77132",
+                    "LMFA11000318",
+                    "MFCD00009000",
+                    "NSC-77132",
+                    "SBB008785",
+                    "ZINC59201194",
+                    "AKOS015912747",
+                    "AN-21270",
+                    "CC-04579",
+                    "KB-65151",
+                    "DB-055053",
+                    "TR-022717",
+                    "FT-0607874",
+                    "S0347",
+                    "C-28207",
+                    "I14-47310",
+                    "1616790-37-4",
+                    "67774-72-5",
+                    "67774-73-6",
+                    ""
+                ],
+                "pubchem_id": 23217,
+                "chem_act": [
+                    "Unknown"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 238.266,
+                "molecular_formula": "C17H34",
+                "chem_struct": "CCCCCCCCCCCCCCCC=C"
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "ahh34188.1",
+                        "ahh34189.1"
+                    ],
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ],
+            "gene": [
+                {
+                    "gene_name": "",
+                    "gene_startpos": 0,
+                    "gene_endpos": 2454,
+                    "gene_id": "AHH34188.1",
+                    "gene_annotation": "fatty acyl ACP ligase",
+                    "gene_function": "Activation / processing",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_startpos": 2464,
+                    "gene_endpos": 9348,
+                    "gene_id": "AHH34189.1",
+                    "gene_annotation": "polyketide synthase",
+                    "gene_function": "Activation / processing",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "starter_unit": "Malonyl-CoA",
+            "pks_te_type": "Type I",
+            "pks_release_type": "Other",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AHH34189.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "1",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)",
+                                "Sulfotransferase",
+                                "Thioesterase"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": [
+                                "Other"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

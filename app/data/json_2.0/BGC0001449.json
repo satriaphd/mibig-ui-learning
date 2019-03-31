@@ -1,0 +1,295 @@
+{
+    "personal": {
+        "submitter_name": "Li Li",
+        "submitter_institution": "College of Life Sciences, Fujian Normal University",
+        "submitter_email": "lili@fjnu.edu.cn"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001449",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide",
+            "Alkaloid"
+        ],
+        "publications": [
+            "pubmed:29373009",
+            "pubmed:16492566",
+            "pubmed:12465894"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "CP003004.1",
+                    "start_coord": 1175000,
+                    "end_coord": 1217500
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Enzymatic assays",
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "ucs1025a",
+                "chem_synonyms": [
+                    "CHEMBL3099733",
+                    "UCS-1025A",
+                    "BDBM50444911",
+                    "209126-31-8",
+                    ""
+                ],
+                "pubchem_id": 11710200,
+                "evidence_struct": [
+                    "NMR",
+                    "Mass spectrometry",
+                    "X-ray"
+                ],
+                "chem_act": [
+                    "Antibacterial",
+                    "Inhibitor"
+                ],
+                "chem_target": [
+                    "telomerase"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "2S,3S-methylproline",
+                        "moiety_subcluster": [
+                            "mycth_115957",
+                            "mycth_2303701"
+                        ]
+                    }
+                ],
+                "mol_mass": 359.173,
+                "molecular_formula": "C20H25NO5",
+                "chem_struct": "C[C@H]1C=C[C@H]2CCCC[C@@H]2[C@H]1C(=O)[C@H]3[C@H]4[C@@]5([C@@H](CCN5C3=O)C(=O)O4)O"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 1175898,
+                    "gene_endpos": 1176863,
+                    "gene_id": "AEO57479.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "gene_startpos": 1179001,
+                    "gene_endpos": 1180827,
+                    "gene_id": "AEO57480.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "ucsA",
+                    "gene_startpos": 1181825,
+                    "gene_endpos": 1194022,
+                    "gene_id": "AEO57481.1",
+                    "gene_annotation": "PKS-NRPSs",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                },
+                {
+                    "gene_name": "ucsB",
+                    "gene_startpos": 1195042,
+                    "gene_endpos": 1195934,
+                    "gene_id": "AEO57482.1",
+                    "gene_annotation": "methyltransferase-like protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "ucsF",
+                    "gene_startpos": 1197173,
+                    "gene_endpos": 1198357,
+                    "gene_id": "AEO57483.1",
+                    "gene_annotation": "2OG-Fe(II) oxygenase-like protein",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "ucsG",
+                    "gene_startpos": 1198891,
+                    "gene_endpos": 1199634,
+                    "gene_id": "AEO57484.1",
+                    "gene_annotation": "pyrroline-5-carboxylate reductase",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "ucsH",
+                    "gene_startpos": 1200562,
+                    "gene_endpos": 1201868,
+                    "gene_id": "AEO57485.1",
+                    "gene_annotation": "Diels\u2212Alderase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Other",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                },
+                {
+                    "gene_name": "ucsI",
+                    "gene_startpos": 1202910,
+                    "gene_endpos": 1204496,
+                    "gene_id": "AEO57486.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "ucsJ",
+                    "gene_startpos": 1204928,
+                    "gene_endpos": 1206041,
+                    "gene_id": "AEO57487.1",
+                    "gene_annotation": "short chain dehydrogenase/reductase (SDR)",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "ucsK",
+                    "gene_startpos": 1206613,
+                    "gene_endpos": 1208349,
+                    "gene_id": "AEO57488.1",
+                    "gene_annotation": "p450",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Carboxylation",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "ucsC",
+                    "gene_startpos": 1209400,
+                    "gene_endpos": 1210866,
+                    "gene_id": "AEO57489.1",
+                    "gene_annotation": "hydrolase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "ucsD",
+                    "gene_startpos": 1211983,
+                    "gene_endpos": 1213963,
+                    "gene_id": "AEO57490.1",
+                    "gene_annotation": "general substrate transporter",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "ucsL",
+                    "gene_startpos": 1215630,
+                    "gene_endpos": 1217022,
+                    "gene_id": "AEO57491.1",
+                    "gene_annotation": "enoylreductase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "pks_genes": [
+                "mycth_68164"
+            ],
+            "nr_iterations": 6,
+            "iterative_subtype": "Highly reducing",
+            "pks_te_type": "None",
+            "pks_release_type": "Claisen condensation",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AEO57481.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "1",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Dehydratase",
+                                "Ketoreductase"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "Inactive",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_mod_skip_iter": "Iterated",
+                            "pks_evidence_skip_iter": "Structure-based inference"
+                        }
+                    ]
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "None",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Reductive release",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AEO57481.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "2",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Other",
+                                "evidence_a_spec": "Feeding study",
+                                "epimerized": false,
+                                "other_spec": "3-Methylproline"
+                            },
+                            "cdom_subtype": "Starter",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        },
+        "alkaloid": {
+            "alkaloid_subclass": "Pyrrolizidine"
+        }
+    },
+    "comments": "Genetic and biochemical analysis revealed a a new strategy used by nature to construct heterocyclic alkaloid-like ring systems using assembly line logic.",
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

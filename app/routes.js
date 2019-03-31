@@ -32,6 +32,23 @@ App.config(
                 }],
             }
         })
+        // bgc detail page
+        .state('detail', {
+            url: '/detail/{bgcId}',
+            component: 'mibigDetail',
+            resolve: {
+                bgcAnnot: ['$http', '$transition$', function($http, $transition$) {                    
+                    return $http.get('data/json_2.0/' + $transition$.params().bgcId + '.json').then(function(response) {
+                        return response.data;
+                    })
+                }],
+                bgcSeq: ['$http', '$transition$', function($http, $transition$) {                    
+                    return $http.get('data/json_2.0/' + $transition$.params().bgcId + '.seq.json').then(function(response) {
+                        return response.data;
+                    })
+                }],
+            }
+        })
         // download page
         .state('download', {
             url: '/download',

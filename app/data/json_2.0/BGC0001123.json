@@ -1,0 +1,97 @@
+{
+    "personal": {
+        "submitter_name": "Yuta Tsunematsu",
+        "submitter_institution": "University of Shizuoka",
+        "submitter_email": "tsunematsu@u-shizuoka-ken.ac.jp"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001123",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:25302411"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "AP007154.1",
+                    "start_coord": 59595,
+                    "end_coord": 103337
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Enzymatic assays"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "aspirochlorine",
+                "chem_synonyms": [
+                    "Aspirochlorine",
+                    "CHEBI:68861",
+                    "CHEMBL470243",
+                    ""
+                ],
+                "pubchem_id": 44559211,
+                "chemspider_id": 23326711,
+                "chem_act": [
+                    "Antifungal",
+                    "Cytotoxic"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 359.964,
+                "molecular_formula": "C12H9ClN2O5S2",
+                "chem_struct": "CON1C(=O)[C@H]2NC(=O)[C@@]13[C@H](C4=CC(=C(C=C4O3)O)Cl)SS2"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "aclH",
+                    "gene_id": "AOR_1_34164, XP_001818590",
+                    "gene_annotation": "FAD-dependent halogenase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Halogenation",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay"
+                    ],
+                    "mut_pheno": "abolishment of aspirochlorine production"
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AOR_1_68164, XP_001818608",
+                    "nrps_module": [
+                        {
+                            "module_nr": "1",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Phenylalanine",
+                                "evidence_a_spec": "Activity assay"
+                            },
+                            "cdom_subtype": "Unknown",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Iterated",
+                            "nrps_evidence_skip_iter": "Sequence-based prediction"
+                        }
+                    ]
+                }
+            ],
+            "nrps_te_type": "None",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Other"
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

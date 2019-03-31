@@ -1,0 +1,129 @@
+{
+    "personal": {
+        "submitter_name": "Daniel Petras",
+        "submitter_institution": "TU Berlin / AK S\u00c3\u00bcssmuth",
+        "submitter_email": "daniel.petras@chem.tu-berlin.de"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000426",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:25118351"
+        ],
+        "loci": {
+            "complete": "incomplete",
+            "nucl_acc": [
+                {
+                    "accession": "KF318360.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "Sevadicin",
+                "chem_synonyms": [],
+                "chem_struct": "O=C(NC(C)C(NC(CC1=CNC2=C1C=CC=C2)C(O)=O)=O)C(N)CC3=CC=CC=C3",
+                "molecular_formula": "C23H26N4O4",
+                "mol_mass": 423.2026,
+                "mass_ion_type": "[M+H]+",
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "sevA",
+                    "gene_startpos": 1,
+                    "gene_endpos": 3243,
+                    "gene_id": "AGZ03650.1",
+                    "gene_annotation": "SevA",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "No production of sevadicin"
+                },
+                {
+                    "gene_name": "sevB",
+                    "gene_startpos": 3268,
+                    "gene_endpos": 11658,
+                    "gene_id": "AGZ03651.1",
+                    "gene_annotation": "SevB",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_te_type": "Type I",
+            "nrps_thioesterase": [
+                "agz03651.1"
+            ],
+            "nrps_release_type": "Hydrolysis",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AGZ03650.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "1",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Phenylalanine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": true
+                            },
+                            "cdom_subtype": "Unknown",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "nrps_gene": "AGZ03651.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "2",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Alanine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": true
+                            },
+                            "cdom_subtype": "DCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "3",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Tryptophan",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "DCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

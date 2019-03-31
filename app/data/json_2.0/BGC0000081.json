@@ -1,0 +1,114 @@
+{
+    "personal": {
+        "submitter_name": "Xiaohui Yan",
+        "submitter_institution": "The Scripps Research Institute",
+        "submitter_email": "xyan@scripps.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000081",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:23360970",
+            "pubmed:23633564",
+            "pubmed:23844627"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "JX679499.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "kedarcidin",
+                "chem_synonyms": [
+                    "NSC646276",
+                    "N-[chloro-(4,5-dihydroxy-4,6-dimethyl-tetrahydropyran-2-yl)oxy-[5-(dimethylamino)-4-hydroxy-6-methyl-tetrahydropyran-2-yl]oxy-oxo-[?]yl]-3-hydroxy-6-isopropoxy-7,8-dimethoxy-naphthalene-2-carboxamide",
+                    ""
+                ],
+                "pubchem_id": 6477354,
+                "chem_act": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "chem_target": [
+                    "DNA"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "beta-azatyrosine",
+                        "moiety_subcluster": []
+                    }
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 1029.366,
+                "molecular_formula": "C53H60ClN3O16",
+                "chem_struct": "CC1C(C(CC(O1)OC\\2COC(=O)C(CC3=NC(=C(C=C3)OC4C=C5C#C/C2=C\\C#CC6C5(C4OC7CC(C(C(O7)C)O)(C)O)O6)Cl)NC(=O)C8=C(C=C9C=C(C(=C(C9=C8)OC)OC)OC(C)C)O)O)N(C)C"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "kedY4",
+                    "gene_id": "AFV52190.1",
+                    "gene_annotation": "4-Methylideneimidazole-5-one (MIO)-containing aminomutases ",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Other",
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                },
+                {
+                    "gene_name": "kedE",
+                    "gene_id": "AFV52145.1",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Heterologous expression",
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "kedE10",
+                    "gene_id": "AFV52146.1",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Heterologous expression",
+                        "Other in vivo study"
+                    ]
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Enediyine",
+            "lin_cycl_pk": "Cyclic",
+            "pks_subclass": [
+                "Iterative type I",
+                "Enediyne type I"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "pks_genes": [
+                "kede"
+            ],
+            "nr_iterations": 7,
+            "iterative_subtype": "Partially reducing",
+            "iter_cycl_type": "Other",
+            "pks_te_type": "Type II",
+            "pks_thioesterase": [
+                "kede10"
+            ],
+            "pks_release_type": "Hydrolysis"
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

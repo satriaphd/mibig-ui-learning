@@ -1,0 +1,155 @@
+{
+    "personal": {
+        "submitter_name": "Muriel Viaud",
+        "submitter_institution": "INRA",
+        "submitter_email": "viaud@versailles.inra.fr"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001158",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:23308280"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "HE802545.1"
+                },
+                {
+                    "accession": "HE802546.1"
+                },
+                {
+                    "accession": "HE802547.1"
+                },
+                {
+                    "accession": "HE802548.1"
+                },
+                {
+                    "accession": "HE802549.1"
+                },
+                {
+                    "accession": "HE802550.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction",
+                "Other",
+                "Heterologous expression"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "bikaverin",
+                "chem_synonyms": [
+                    "Status: 404",
+                    "Code: PUGREST.NotFound",
+                    "Message: No synonyms found for the given CID(s)",
+                    ""
+                ],
+                "pubchem_id": 5281730,
+                "chem_act": [
+                    "Antibacterial",
+                    "Antifungal"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 382.069,
+                "molecular_formula": "C20H14O8",
+                "chem_struct": "CC1=CC(=CC2=C1C(=O)C3=C(O2)C(=C4C(=C3O)C(=O)C=C(C4=O)OC)O)OC"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "bik2",
+                    "gene_startpos": 1,
+                    "gene_endpos": 1569,
+                    "gene_id": "CCH26290.1",
+                    "gene_annotation": "putative FAD-dependent monooxygenase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "bik3",
+                    "gene_startpos": 1,
+                    "gene_endpos": 1459,
+                    "gene_id": "CCH26291.1",
+                    "gene_annotation": "putative O-methyltransferase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "bik4",
+                    "gene_startpos": 1,
+                    "gene_endpos": 981,
+                    "gene_id": "CCH26292.1",
+                    "gene_annotation": "putative NmrA-like protein",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "bik6",
+                    "gene_startpos": 1,
+                    "gene_endpos": 1819,
+                    "gene_id": "CCH26293.1",
+                    "gene_annotation": "putative MFS-type transporter",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "bik5",
+                    "gene_startpos": 1,
+                    "gene_endpos": 2234,
+                    "gene_id": "CCH26294.1",
+                    "gene_annotation": "putative Zn(II)2Cys6 transcription factor",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                },
+                {
+                    "gene_name": "bik1",
+                    "gene_startpos": 1,
+                    "gene_endpos": 6060,
+                    "gene_id": "CCH26295.1",
+                    "gene_annotation": "putative polyketide synthase",
+                    "gene_function": "Unknown",
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Cyclic",
+            "pks_subclass": [
+                "Iterative type I"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "pks_genes": [
+                "cch26295.1"
+            ],
+            "nr_iterations": 9,
+            "iterative_subtype": "Non-reducing",
+            "iter_cycl_type": "Other",
+            "pks_te_type": "Unknown",
+            "pks_release_type": "Unknown"
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

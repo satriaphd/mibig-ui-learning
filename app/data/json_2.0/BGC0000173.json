@@ -1,0 +1,324 @@
+{
+    "personal": {
+        "submitter_name": "Keishi Ishida",
+        "submitter_institution": "Leipniz Institute for Natural Product Research and Infection Biology",
+        "submitter_email": "keishi.ishida@hki-jena.de"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000173",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:22999884",
+            "pubmed:20237660",
+            "pubmed:4718704",
+            "pubmed:18510943",
+            "pubmed:10028245",
+            "pubmed:1276139"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "JX173632.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Knock-out studies",
+                "Gene expression correlated with compound production",
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "bongkrekic acid",
+                "chem_synonyms": [
+                    "Bonqkrekic acid",
+                    "BONGKREKIC ACID",
+                    "AC1NTHEW",
+                    "CHEMBL1968149",
+                    "60132-21-0",
+                    "NSC112904",
+                    "NSC-112904",
+                    "(2E,4Z,8Z,10E,14E,18E,20Z)-2,5,17-Trimethyl-6-methoxy-20-(carboxymethyl)docosane-2,4,8,10,14,18,20-heptaenedioic acid",
+                    "(2E,4Z,8Z,10E,14E,18E,20Z)-20-(carboxymethyl)-6-methoxy-2,5,17-trimethyldocosa-2,4,8,10,14,18,20-heptaenedioic acid",
+                    ""
+                ],
+                "pubchem_id": 5381207,
+                "chemspider_id": 4938689,
+                "chem_act": [
+                    "Cytotoxic",
+                    "Inhibitor"
+                ],
+                "chem_target": [
+                    "adeninenucleotidetranslocase"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 486.262,
+                "molecular_formula": "C28H38O7",
+                "chem_struct": "CC(C/C=C/CC/C=C/C=C\\CC(/C(=C\\C=C(/C)\\C(=O)O)/C)OC)/C=C/C(=C\\C(=O)O)/CC(=O)O"
+            },
+            {
+                "compound": "isobongkrekic acid",
+                "chem_synonyms": [],
+                "chem_struct": "C[C@@H](C/C=C/CC/C=C/C=C\\\\C[C@@H](OC)/C(C)=C\\\\C=C(C)/C)/C=C/C(CC(O)=O)=C/C(O)=O",
+                "molecular_formula": "C28H40O5",
+                "mol_mass": -1,
+                "mass_ion_type": "Other",
+                "chem_act": [
+                    "Cytotoxic",
+                    "Inhibitor"
+                ],
+                "chem_target": [
+                    "adeninenucleotidetranslocase"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_id": "AFN27480.1",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Loss of bangkrekic acid production"
+                },
+                {
+                    "gene_id": "AFN27475.1",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Carboxylation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Production of deoxybangkrekic acid"
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Polyene",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Modular type I"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AFN27480.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "0",
+                            "pks_domains": [
+                                "Acyltransferase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Sequence-based prediction",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "1",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "Beta-branching"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "2",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "3",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "4",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "5",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "D-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "6",
+                            "pks_domains": [
+                                "Ketosynthase"
+                            ],
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Skipped",
+                            "pks_evidence_skip_iter": "Sequence-based prediction"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AFN27481.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "6",
+                            "pks_domains": [
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "7",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "8",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AFN27482.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "8",
+                            "pks_domains": [
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "9",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "AFN27483.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "9",
+                            "pks_domains": [
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "10",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Ketoreductase",
+                                "Dehydratase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "kr_stereochem": "L-OH",
+                            "pks_mod_doms": [
+                                "None"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "11",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "pks_mod_doms": [
+                                "Beta-branching"
+                            ],
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ],
+            "pks_te_type": "None",
+            "pks_release_type": "Unknown"
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

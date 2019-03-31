@@ -1,0 +1,327 @@
+{
+    "personal": {
+        "submitter_name": "Paul D'Agostino",
+        "submitter_institution": "Technical University of Munich",
+        "submitter_email": "paulmdagostino@gmail.com"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001479",
+        "biosyn_class": [
+            "NRP"
+        ],
+        "publications": [
+            "pubmed:19482954",
+            "pubmed:21742508",
+            "pubmed:18954141",
+            "pubmed:17351042",
+            "pubmed:19780555",
+            "pubmed:19429608",
+            "pubmed:21742508",
+            "pubmed:19630972",
+            "pubmed:21501195",
+            "pubmed:21786790",
+            "pubmed:12388673",
+            "pubmed:1508978",
+            "pubmed:11926312",
+            "pubmed:8405307"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "CP001037.1",
+                    "start_coord": 3055744,
+                    "end_coord": 3062289
+                }
+            ],
+            "conn_comp_cluster": [
+                "Heterologous expression",
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "anabaenopeptin NZ 857",
+                "chem_synonyms": [
+                    "Anabaenopeptin NZ857",
+                    ""
+                ],
+                "pubchem_id": 133562467,
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ],
+                "chem_act": [
+                    "Inhibitor"
+                ],
+                "chem_target": [
+                    "Protease"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "Ureido bond",
+                        "moiety_subcluster": []
+                    }
+                ],
+                "mol_mass": 857.432,
+                "molecular_formula": "C45H59N7O10",
+                "chem_struct": "CC[C@@H](C)[C@H]1C(=O)NC(C(=O)N(CC(=O)N[C@H](C(=O)NCCCCC(C(=O)N1)NC(=O)N[C@@H](CC2=CC=CC=C2)C(=O)O)CCC3=CC=C(C=C3)O)C)CCC4=CC=C(C=C4)O"
+            },
+            {
+                "compound": "nostamide A",
+                "chem_synonyms": [],
+                "chem_struct": "O=C(NCCCC[C@@H](NC(N[C@@H](CC1=CC=CC=C1)C(O)=O)=O)C2=O)[C@H](CCC3=CC=C(O)C=C3)NC(CN(C)C([C@@H](NC([C@@H](N2)[C@@H](CC)C)=O)CCC4=CC=CC=C4)=O)=O",
+                "molecular_formula": "C45H59N7O9",
+                "mol_mass": 841.4374,
+                "mass_ion_type": "Other",
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ],
+                "chem_act": [
+                    "Inhibitor"
+                ],
+                "chem_target": [
+                    "Protease"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "Ureido bond",
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "hphB",
+                    "gene_startpos": 3052002,
+                    "gene_endpos": 3053093,
+                    "gene_id": "ACC81018.1",
+                    "gene_annotation": "isocitrate/isopropylmalate dehydrogenase",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "hphC",
+                    "gene_startpos": 3053077,
+                    "gene_endpos": 3054786,
+                    "gene_id": "ACC81019.1",
+                    "gene_annotation": "homoaconitate hydratase family protein",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "hphD",
+                    "gene_startpos": 3054973,
+                    "gene_endpos": 3055365,
+                    "gene_id": "ACC81020.1",
+                    "gene_annotation": "conserved hypothetical protein",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "aptA",
+                    "gene_startpos": 3055744,
+                    "gene_endpos": 3062289,
+                    "gene_id": "ACC81021.1",
+                    "gene_annotation": "non-ribosomal peptide synthetase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "aptB",
+                    "gene_startpos": 3062393,
+                    "gene_endpos": 3065623,
+                    "gene_id": "ACC81022.1",
+                    "gene_annotation": "non-ribosomal peptide synthetase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "aptC",
+                    "gene_startpos": 3065708,
+                    "gene_endpos": 3073444,
+                    "gene_id": "ACC81023.1",
+                    "gene_annotation": "non-ribosomal peptide synthetase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "aptD",
+                    "gene_startpos": 3073441,
+                    "gene_endpos": 3077661,
+                    "gene_id": "ACC81024.1",
+                    "gene_annotation": "non-ribosomal peptide synthetase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "hphA/aptE",
+                    "gene_startpos": 3077745,
+                    "gene_endpos": 3078923,
+                    "gene_id": "ACC81025.1",
+                    "gene_annotation": "pyruvate carboxyltransferase",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                },
+                {
+                    "gene_name": "aptF",
+                    "gene_startpos": 3079129,
+                    "gene_endpos": 3081156,
+                    "gene_id": "ACC81026.1",
+                    "gene_annotation": "ABC Transporter",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }
+            ]
+        },
+        "nrp": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Type I",
+            "nrps_thioesterase": [
+                "npun_rs12365",
+                "wp_012409018.1"
+            ],
+            "nrps_release_type": "Hydrolysis",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "ACC81021.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "0",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Phenylalanine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": "false"
+                            },
+                            "cdom_subtype": "Unknown",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither",
+                            "comments": ""
+                        },
+                        {
+                            "module_nr": "1",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Other",
+                                "evidence_a_spec": "Sequence-based prediction",
+                                "epimerized": "true",
+                                "other_spec": "D-lysine"
+                            },
+                            "cdom_subtype": "Dual",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither",
+                            "comments": ""
+                        }
+                    ]
+                },
+                {
+                    "nrps_gene": "ACC81022.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "2",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Isoleucine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "DCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither",
+                            "comments": ""
+                        }
+                    ]
+                },
+                {
+                    "nrps_gene": "ACC81023.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "4",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Other",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false,
+                                "other_spec": "N-methylglycine"
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither",
+                            "comments": ""
+                        },
+                        {
+                            "module_nr": "A3",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Other",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false,
+                                "other_spec": "Homophenylalanine"
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "Methylation",
+                            "nrps_mod_skip_iter": "Neither",
+                            "comments": ""
+                        },
+                        {
+                            "module_nr": "B3",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Homotyrosine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "Methylation",
+                            "nrps_mod_skip_iter": "Neither",
+                            "comments": ""
+                        }
+                    ]
+                },
+                {
+                    "nrps_gene": "ACC81024.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "5",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Homotyrosine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "LCL",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither",
+                            "comments": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

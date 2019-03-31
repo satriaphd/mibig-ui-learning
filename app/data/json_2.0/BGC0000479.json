@@ -1,0 +1,123 @@
+{
+    "personal": {
+        "submitter_name": "Mohamed Donia",
+        "submitter_institution": "Princeton University",
+        "submitter_email": "donia@princeton.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000479",
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": [
+            "pubmed:21513887"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "HQ655154.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Sequence-based prediction"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "prenylagaramide B",
+                "chem_synonyms": [
+                    "PRENYLAGARAMIDE B",
+                    "CHEMBL453406",
+                    ""
+                ],
+                "pubchem_id": 10629643,
+                "chem_act": [
+                    "Unknown"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 928.506,
+                "molecular_formula": "C49H68N8O10",
+                "chem_struct": "CC[C@H](C)[C@H]1C(=O)N[C@H](C(=O)N2CCC[C@H]2C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N3CCC[C@H]3C(=O)N1)CC4=CC=C(C=C4)O)CC(C)C)CC5=CC=C(C=C5)OCC=C(C)C)CC(=O)N"
+            },
+            {
+                "compound": "prenylagaramide C",
+                "chem_synonyms": [],
+                "chem_struct": "O=C([C@H]([C@H](CC)C)NC(CNC([C@@H](NC([C@H](CC1=CC=C(OC/C=C(C)/C)C=C1)NC([C@H](C)NC([C@@H](NC([C@@H]2CCCN23)=O)CCC(N)=O)=O)=O)=O)CC(C)C)=O)=O)N4[C@H](C(N[C@@H](CC(C)C)C3=O)=O)CCC4",
+                "molecular_formula": "C52H80N10O11",
+                "mol_mass": 1021.60972,
+                "mass_ion_type": "[M+H]+",
+                "chem_act": [
+                    "Unknown"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "aed99424.1",
+                        "aed99425.1",
+                        "aed99426.1",
+                        "aed99427.1",
+                        "aed99428.1",
+                        "aed99429.1",
+                        "aed99430.1",
+                        "aed99431.1",
+                        "aed99432.1",
+                        "aed99433.1",
+                        "aed99434.1",
+                        "aed99435.1",
+                        "aed99436.1",
+                        "aed99437.1",
+                        "aed99438.1",
+                        "aed99439.1",
+                        "aed99440.1",
+                        "aed99441.1",
+                        "aed99442.1",
+                        "aed99443.1",
+                        "aed99444.1",
+                        "aed99445.1",
+                        "aed99446.1"
+                    ],
+                    "evidence_operon": "Other"
+                }
+            ]
+        },
+        "ripp": {
+            "ripp_subclass": "Lanthipeptide",
+            "lin_cycl_ripp": "Cyclic",
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "aed99431.1"
+                    ],
+                    "core_pept_aa": [
+                        "QAYLGIPLP"
+                    ],
+                    "lead_pept_len": 34,
+                    "foll_pept_len": -1,
+                    "peptidase": []
+                },
+                {
+                    "gene_id": [
+                        "aed99432.1"
+                    ],
+                    "core_pept_aa": [
+                        "INPYLYP"
+                    ],
+                    "lead_pept_len": 34,
+                    "foll_pept_len": -1,
+                    "peptidase": []
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

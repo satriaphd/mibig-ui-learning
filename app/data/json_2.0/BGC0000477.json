@@ -1,0 +1,111 @@
+{
+    "personal": {
+        "submitter_name": "Mohamed Donia",
+        "submitter_institution": "Princeton University",
+        "submitter_email": "donia@princeton.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000477",
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": [
+            "pubmed:18425112"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "EU290742.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Heterologous expression"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "patellin 2 ",
+                "chem_synonyms": [
+                    "Patellin 2",
+                    ""
+                ],
+                "pubchem_id": 24762149,
+                "chem_act": [
+                    "Unknown"
+                ],
+                "chem_moieties": [
+                    {
+                        "moiety_subcluster": []
+                    }
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 732.424,
+                "molecular_formula": "C37H60N6O7S",
+                "chem_struct": "CC(C)C[C@H]1C2=N[C@H](CS2)C(=O)N[C@H](C(=O)N[C@H](C(=O)N3CCC[C@H]3C(=O)N[C@H](C(=O)N1)C(C)OC(C)(C)C=C)C(C)C)C(C)OC(C)(C)C=C"
+            },
+            {
+                "compound": "patellin 3",
+                "chem_synonyms": [
+                    "Patellin 3",
+                    ""
+                ],
+                "pubchem_id": 24762150,
+                "chem_act": [
+                    "Unknown"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 942.561,
+                "molecular_formula": "C48H78N8O9S",
+                "chem_struct": "C[C@H]([C@H]1C(=O)N[C@H](C(=O)N2CCC[C@H]2C(=O)N[C@H](C(=O)N3CCC[C@H]3C(=O)N[C@H](C(=O)N[C@H](C4=N[C@@H](CS4)C(=O)N1)CC(C)C)C(C)OC(C)(C)C=C)C(C)C)CC(C)C)OC(C)(C)C=C"
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "aca04487.1",
+                        "aca04488.1",
+                        "aca04489.1",
+                        "aca04490.1",
+                        "aca04491.1",
+                        "aca04492.1",
+                        "aca04493.1",
+                        "aca04494.1"
+                    ],
+                    "evidence_operon": "Other"
+                }
+            ]
+        },
+        "ripp": {
+            "ripp_subclass": "Cyanobactin",
+            "lin_cycl_ripp": "Cyclic",
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "aca04491.1"
+                    ],
+                    "core_pept_aa": [
+                        "TLPVPTLC",
+                        "TVPTLC"
+                    ],
+                    "lead_pept_len": 40,
+                    "foll_pept_len": -1,
+                    "cleavage_recogn_site": [
+                        "GVDAS",
+                        "SYD",
+                        "GVDAS",
+                        "SYDD"
+                    ],
+                    "peptidase": []
+                }
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}

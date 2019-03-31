@@ -1,0 +1,155 @@
+{
+    "personal": {
+        "submitter_name": "Keishi Ishida",
+        "submitter_institution": "Leipniz Institute for Natural Product Research and Infection Biology",
+        "submitter_email": "keishi.ishida@hki-jena.de"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000264",
+        "biosyn_class": [
+            "Polyketide"
+        ],
+        "publications": [
+            "pubmed:14982421",
+            "pubmed:17090047",
+            "pubmed:17914826",
+            "pubmed:19665022",
+            "pubmed:8150707",
+            "pubmed:812270",
+            "pubmed:12440735",
+            "pubmed:16580188"
+        ],
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "accession": "AJ585192.1"
+                }
+            ],
+            "conn_comp_cluster": [
+                "Heterologous expression"
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "resistomycin",
+                "chem_synonyms": [
+                    "Status: 404",
+                    "Code: PUGREST.NotFound",
+                    "Message: No synonyms found for the given CID(s)",
+                    ""
+                ],
+                "pubchem_id": 5282060,
+                "chemspider_id": 4445287,
+                "chem_act": [
+                    "Antibacterial",
+                    "Inhibitor",
+                    "Other"
+                ],
+                "other_chem_act": "A modulator of apoptosis",
+                "chem_target": [
+                    "HIV-1protease",
+                    "RNApolymerase",
+                    "DNApolymerase"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 376.095,
+                "molecular_formula": "C22H16O6",
+                "chem_struct": "CC1=CC(=C2C3=C4C(=CC(=C13)O)C(C(=O)C5=C(C=C(C(=C45)C2=O)O)O)(C)C)O"
+            },
+            {
+                "compound": "resistoflavin",
+                "chem_synonyms": [
+                    "Resistoflavine",
+                    "Resistoflavin",
+                    "29706-96-5",
+                    "BRN 2491848",
+                    "(-)-3,5,7,11b-Tetrahydroxy-1,1,9-trimethyl-2H-benzo(cd)pyrene-2,6,10(1H,11bH)-trione",
+                    "2H-Benzo(cd)pyrene-2,6,10(1H,11bH)-trione, 3,5,7,11b-tetrahydroxy-1,1,9-trimethyl-, (-)-",
+                    "AC1L54LK",
+                    "CTK8G2928",
+                    "ACM29706965",
+                    "LS-40095",
+                    "J-017609",
+                    ""
+                ],
+                "pubchem_id": 198084,
+                "chemspider_id": 171446,
+                "chem_act": [
+                    "Antibacterial",
+                    "Cytotoxic"
+                ],
+                "evidence_struct": [
+                    "Other"
+                ],
+                "mol_mass": 392.09,
+                "molecular_formula": "C22H16O7",
+                "chem_struct": "CC1=CC(=C2C3=C1C(=O)C=C4C3(C5=C(C2=O)C(=CC(=C5C(=O)C4(C)C)O)O)O)O"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_id": "CAE51172.1",
+                    "gene_annotation": "C-dimethyltransferse",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Methylation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Production of bisnorresistomycin"
+                },
+                {
+                    "gene_id": "CAE51171.1",
+                    "gene_annotation": "Cyclase containing zinc",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Produciton of tetracenomycins R1, R2, D3, D1"
+                },
+                {
+                    "gene_id": "CAE51181.1",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Produciton of RM80, SEK15"
+                },
+                {
+                    "gene_id": "CAE51184.1",
+                    "gene_annotation": "Resistomycin hydroxylase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Hydroxylation",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Other in vivo study",
+                        "Activity assay"
+                    ],
+                    "mut_pheno": "Production of only resistomycin"
+                }
+            ]
+        },
+        "polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Cyclic",
+            "pks_subclass": [
+                "Type II"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "pks_genes": [
+                "CAE51174.1"
+            ],
+            "ketide_length": 10,
+            "cyclases": [
+                "CAE51171.1",
+                "CAE51178.1",
+                "CAE51181.1"
+            ]
+        }
+    },
+    "created": "2019-03-28T16:15:46+01:00",
+    "modified": "2019-03-28T16:15:46+01:00"
+}
