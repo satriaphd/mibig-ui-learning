@@ -1,8 +1,8 @@
 {
     "metadata": {
         "mibig_accession": "BGC0000578",
-        "source_datetime": "2019-03-28T16:15:46+01:00",
-        "created": "2019-03-29T23:23:20+01:00",
+        "source_datetime": "2019-04-01T00:52:06+02:00",
+        "created": "2019-04-01T10:59:18+02:00",
         "pfam_version": "32.0"
     },
     "loci": [
@@ -101,24 +101,43 @@
                     "not_from_gbk": false,
                     "id": "SSGG_RS13895",
                     "annotation": "ABC transporter ATP-binding protein",
-                    "aa_seq": "MARVRPHRGVLARAGLLSLAGSGAGLAMPLMAKHAVDTFADGRSPAAPLVVLTALVLVGACLSAYGSYLMSRTGEGVVLRARDQLVGRIMRLKVPAVDRLTPGDLQSRVTSDTTLLRTVLSSGLVESFNSVLMLLGTLALMAYMDLTLLGVTLVVVVGIGAVTSLLMPRIQRAQLKAQESVGAMGAALDRVLQAFRTVKASGAEERETAAVAAAARHAHDRGVSVAKWASVTEVTMTMSIQLAFLAVLGVGGARVASGSLEISSLIAFLLYLFYLMGPIGGLVEGWTGLQSGLAAVRRIDEVESLPGEPAEKSGGLTKEGGGGPLGVTFQDVTFGYGDERAPAHQGVTFDVPAGGMVALVGPSGAGKSTVFSLLERFYDHEAGTITVGGRDIRDWPLAELRGSLAYVEQDAPVLAGTLRENLLFAAPDAEEKELTAAVARTRLDALVERLPEGLDTAVGHRGVTLSGGERQRIAIARALLRHPRLLLLDEVTSQLDAVNEQALRDVILELAERTTVLVIAHRLSTVRHADRIVVLEEGRVRTAGTHEELMAGDELYRELATTQLAADAR",
+                    "aa_seq": "MSAVAGTTAGAEQAGPGPGPGRPPESTERTGPDTSPDRTPPASSTSPPASGPSPLRLLLARVRPHRGVLARAGLLSLAGSGAGLAMPLMAKHAVDTFADGRSPAAPLVVLTALVLVGACLSAYGSYLMSRTGEGVVLRARDQLVGRIMRLKVPAVDRLTPGDLQSRVTSDTTLLRTVLSSGLVESFNSVLMLLGTLALMAYMDLTLLGVTLVVVVGIGAVTSLLMPRIQRAQLKAQESVGAMGAALDRVLQAFRTVKASGAEERETAAVAAAARHAHDRGVSVAKWASVTEVTMTMSIQLAFLAVLGVGGARVASGSLEISSLIAFLLYLFYLMGPIGGLVEGWTGLQSGLAAVRRIDEVESLPGEPAEKSGGLTKEGGGGPLGVTFQDVTFGYGDERAPAHQGVTFDVPAGGMVALVGPSGAGKSTVFSLLERFYDHEAGTITVGGRDIRDWPLAELRGSLAYVEQDAPVLAGTLRENLLFAAPDAEEKELTAAVARTRLDALVERLPEGLDTAVGHRGVTLSGGERQRIAIARALLRHPRLLLLDEVTSQLDAVNEQALRDVILELAERTTVLVIAHRLSTVRHADRIVVLEEGRVRTAGTHEELMAGDELYRELATTQLAADAR",
                     "translation_from_gbk": true,
+                    "name": "SSGG_RS13895",
                     "pfam_hits": [
                         {
                             "name": "ABC_membrane",
                             "model_start": 5,
                             "model_end": 273,
-                            "seq_start": 15,
-                            "seq_end": 278,
-                            "bitscore": 135.4
+                            "seq_start": 73,
+                            "seq_end": 336,
+                            "bitscore": 135.1
                         },
                         {
                             "name": "ABC_tran",
                             "model_start": 2,
                             "model_end": 137,
-                            "seq_start": 345,
-                            "seq_end": 493,
-                            "bitscore": 108.7
+                            "seq_start": 403,
+                            "seq_end": 551,
+                            "bitscore": 108.5
+                        }
+                    ]
+                },
+                {
+                    "name": "SSGG_RS13910",
+                    "start_pos": 4291216,
+                    "end_pos": 4292235,
+                    "strand": null,
+                    "not_from_gbk": true,
+                    "aa_seq": "APALDHHLIPAGDAPYFYADLASTAAELNDEPLPVAPGRARAELLLGRAHATGSRYHLTGYGGDEIFLGLPHVYQDLFHGNPFTAWSHLGGLRHQLGWPLLPTVKALLDRSAFPRWLAGAVTAAPQPVARTPLLSWGVRQSPPPWLTERATALIAEEFRAAAEQAEPIDPWRGRHVDIDGVRMGARQFQAMEDIGMTLGLPVAAPFYDDRILEATLAVRLPERISPWRYKPLLVEAMRGVVPDALLARTTKDHMASDEHQGLREHAPELAELWTGSRLAEQGLVDARHLLRLAAEPFSPVLAEHSISSTVAGETWLRTAENAWPTTESAPDTTPSEASL",
+                    "pfam_hits": [
+                        {
+                            "name": "Asn_synthase",
+                            "model_start": 109,
+                            "model_end": 334,
+                            "seq_start": 44,
+                            "seq_end": 298,
+                            "bitscore": 78.0
                         }
                     ]
                 }

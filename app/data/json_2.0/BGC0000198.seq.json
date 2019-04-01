@@ -1,8 +1,8 @@
 {
     "metadata": {
         "mibig_accession": "BGC0000198",
-        "source_datetime": "2019-03-28T16:15:46+01:00",
-        "created": "2019-03-29T23:05:58+01:00",
+        "source_datetime": "2019-04-01T00:52:06+02:00",
+        "created": "2019-04-01T10:57:42+02:00",
         "pfam_version": "32.0"
     },
     "loci": [
@@ -58,25 +58,18 @@
                     "strand": -1,
                     "not_from_gbk": false,
                     "id": "B033_RS0101515",
-                    "annotation": "MarR family transcriptional regulator",
-                    "aa_seq": "MAAMDIGAVGRTGDEDMRSVTGAPMGPGVALFRLIRHWARRAPQRTALETTGSSEDIRRVIVVDIIAATRESRQATVDVRAVAEALNIDRSVASRMVADAVQAGLVKRGVSMTDGRHAALELTDEGRSLVVAARQWQNNVFEAYTGDWDPADRRTFAALLVRFVEAATR",
+                    "annotation": "hypothetical protein",
+                    "aa_seq": "MRSVTGAPMGPGVALFRLIRHWARRAPQRTALETTGSSEDIRRVIVVDIIAATRESRQATVDVRAVAEALNIDRSVASRMVADAVQAGLVKRGVSMTDGRHAALELTDEGRSLVVAARQWQNNVFEAYTGDWDPADRRTFAALLVRFVEAATR",
                     "translation_from_gbk": true,
+                    "name": "B033_RS0101515",
                     "pfam_hits": [
-                        {
-                            "name": "HTH_27",
-                            "model_start": 48,
-                            "model_end": 60,
-                            "seq_start": 9,
-                            "seq_end": 20,
-                            "bitscore": -3.3
-                        },
                         {
                             "name": "MarR_2",
                             "model_start": 9,
                             "model_end": 61,
-                            "seq_start": 64,
-                            "seq_end": 116,
-                            "bitscore": 29.1
+                            "seq_start": 48,
+                            "seq_end": 100,
+                            "bitscore": 29.3
                         }
                     ]
                 },
@@ -142,25 +135,26 @@
                     "strand": -1,
                     "not_from_gbk": false,
                     "id": "B033_RS0101530",
-                    "annotation": "class I SAM-dependent methyltransferase",
-                    "aa_seq": "MTGTTTDGTASAYSARHADIYDFVHAARGRDWAAEADQTAALIREQRPAARSLLDVACGTGGHLRRFRDLFERVEGLELSDRMRELAARKLPGVPLHGADMRLFRLAEPVEAITCMCFSISYLPTVEDLRRAFGAMATNLVPGGVVVVEPWWFPENFIDGFVTASVAEEDGRVMTRMSHSVRADRQTNMTVRYTTADVDGIRDFTEYELLTLFTRDEYLSSFERAGITAQYHPGPPNGRGVFLGIRG",
+                    "annotation": "SAM-dependent methyltransferase",
+                    "aa_seq": "MYDFVHAARGRDWAAEADQTAALIREQRPAARSLLDVACGTGGHLRRFRDLFERVEGLELSDRMRELAARKLPGVPLHGADMRLFRLAEPVEAITCMCFSISYLPTVEDLRRAFGAMATNLVPGGVVVVEPWWFPENFIDGFVTASVAEEDGRVMTRMSHSVRADRQTNMTVRYTTADVDGIRDFTEYELLTLFTRDEYLSSFERAGITAQYHPGPPNGRGVFLGIRG",
                     "translation_from_gbk": true,
+                    "name": "B033_RS0101530",
                     "pfam_hits": [
                         {
                             "name": "Methyltransf_25",
                             "model_start": 2,
                             "model_end": 97,
-                            "seq_start": 54,
-                            "seq_end": 144,
-                            "bitscore": 37.5
+                            "seq_start": 35,
+                            "seq_end": 125,
+                            "bitscore": 37.8
                         },
                         {
                             "name": "Methyltransf_25",
                             "model_start": 43,
                             "model_end": 58,
-                            "seq_start": 186,
-                            "seq_end": 201,
-                            "bitscore": -2.8
+                            "seq_start": 167,
+                            "seq_end": 182,
+                            "bitscore": -2.6
                         }
                     ]
                 },
@@ -328,17 +322,18 @@
                     "strand": 1,
                     "not_from_gbk": false,
                     "id": "B033_RS0101575",
-                    "annotation": "PIG-L family deacetylase",
-                    "aa_seq": "MDLDLLADHELECALVVVAHPDDVDFAAAGTVARWTAAGATVVYCIVTDGEAGFVDAGAGRDARAATRRAEQRAAGRAVGVTDIRFLGYPDGELTPSLSLRRDICRVIRQVRPKRVLTHSPEMAWEMPVASHPDHRATGEAAFAAVYPDSRNPLAHHGLLTEENLAPWTVREVWTMGGPRSNHHPDVTDTFERKVAALRAHLSQVGEAEGLGERLRGRHVALGSQSGLPAGRLAERFLAALVG",
+                    "annotation": "GlcNAc-PI de-N-acetylase",
+                    "aa_seq": "MADHELECALVVVAHPDDVDFAAAGTVARWTAAGATVVYCIVTDGEAGFVDAGAGRDARAATRRAEQRAAGRAVGVTDIRFLGYPDGELTPSLSLRRDICRVIRQVRPKRVLTHSPEMAWEMPVASHPDHRATGEAAFAAVYPDSRNPLAHHGLLTEENLAPWTVREVWTMGGPRSNHHPDVTDTFERKVAALRAHLSQVGEAEGLGERLRGRHVALGSQSGLPAGRLAERFLAALVG",
                     "translation_from_gbk": true,
+                    "name": "B033_RS0101575",
                     "pfam_hits": [
                         {
                             "name": "PIG-L",
                             "model_start": 1,
                             "model_end": 130,
-                            "seq_start": 15,
-                            "seq_end": 145,
-                            "bitscore": 99.3
+                            "seq_start": 10,
+                            "seq_end": 140,
+                            "bitscore": 99.4
                         }
                     ]
                 },
@@ -417,16 +412,25 @@
                     "not_from_gbk": false,
                     "id": "B033_RS0101590",
                     "annotation": "hypothetical protein",
-                    "aa_seq": "MTSDTFYPAWGRFTKALRTGQAQAPLPPDDDQHLFRVNAVQEPDRVRRFMTAMDSHSTRMGEELANRIDWSGYQTVADLGGARGNLAAVIAKAHPHLKGICFDRPQSRPFFDEHIGRLGLTDRVVFEAGDFFSDDLPEVDVLIYGHVLHDWGPEARAGLLGRAYQRLRPGGALIIYDRMIDGSPEDLTRLFYSLTFMLASAGGSEYSVEECTDWLRSAGFERITSQAALNDHTIVVAHR",
+                    "aa_seq": "MTPQPIHERLMAYCGSKLLMSAVEVDLFTALAKEPATEEQLRRLLNLHPRFASHFLRALVALGVLQQDGDHYRNSPLADQFLDRTKPTSIVGFAEMTSDTFYPAWGRFTKALRTGQAQAPLPPDDDQHLFRVNAVQEPDRVRRFMTAMDSHSTRMGEELANRIDWSGYQTVADLGGARGNLAAVIAKAHPHLKGICFDRPQSRPFFDEHIGRLGLTDRVVFEAGDFFSDDLPEVDVLIYGHVLHDWGPEARAGLLGRAYQRLRPGGALIIYDRMIDGSPEDLTRLFYSLTFMLASAGGSEYSVEECTDWLRSAGFERITSQAALNDHTIVVAHR",
                     "translation_from_gbk": true,
+                    "name": "B033_RS0101590",
                     "pfam_hits": [
+                        {
+                            "name": "Dimerisation2",
+                            "model_start": 4,
+                            "model_end": 89,
+                            "seq_start": 8,
+                            "seq_end": 87,
+                            "bitscore": 42.0
+                        },
                         {
                             "name": "Methyltransf_2",
                             "model_start": 7,
                             "model_end": 210,
-                            "seq_start": 16,
-                            "seq_end": 221,
-                            "bitscore": 107.4
+                            "seq_start": 111,
+                            "seq_end": 316,
+                            "bitscore": 105.8
                         }
                     ]
                 },
@@ -632,25 +636,18 @@
                     "strand": -1,
                     "not_from_gbk": false,
                     "id": "B033_RS0101645",
-                    "annotation": "nuclear transport factor 2 family protein",
-                    "aa_seq": "MWRARPWPCPPWCCWAPREPSAEPRPGDLEREPRSASVCFMHRSDAALDPLQVVQRWHRAVNDRDIDRLLELAGPDIEVVGPRSTSRGRQVLADWLQRAGLSYVPCRWFTDGAERVVVEEQVTWRDVASGDLVDEKVVASCFRMSAGVVTCYSRHDDLASALDSAGLGEADQVEAPGAD",
+                    "annotation": "hypothetical protein",
+                    "aa_seq": "MDPLQVVQRWHRAVNDRDIDRLLELAGPDIEVVGPRSTSRGRQVLADWLQRAGLSYVPCRWFTDGAERVVVEEQVTWRDVASGDLVDEKVVASCFRMSAGVVTCYSRHDDLASALDSAGLGEADQVEAPGAD",
                     "translation_from_gbk": true,
+                    "name": "B033_RS0101645",
                     "pfam_hits": [
-                        {
-                            "name": "DUF4440",
-                            "model_start": 56,
-                            "model_end": 79,
-                            "seq_start": 21,
-                            "seq_end": 44,
-                            "bitscore": -3.3
-                        },
                         {
                             "name": "SnoaL_2",
                             "model_start": 1,
                             "model_end": 97,
-                            "seq_start": 54,
-                            "seq_end": 147,
-                            "bitscore": 31.5
+                            "seq_start": 7,
+                            "seq_end": 100,
+                            "bitscore": 32.7
                         }
                     ]
                 },
@@ -680,24 +677,25 @@
                     "strand": 1,
                     "not_from_gbk": false,
                     "id": "B033_RS0101655",
-                    "annotation": "cytochrome P450",
-                    "aa_seq": "MSIGTRTDLGDSFAPFTEQDMYPLYARARVEEPVFYTPALDAWVVTRYADVRDVLGNPKAFSLATVPDSLAMLSPEAYAELAKTFAEVPVSIREDAVDEARKRVRAPILRAFSDETVRDMQEFITGQVEQLIDRFADRGHAELMAELARQLPVRVKAPVIGIDPADIDEFVQGTYDFMELHSVAAQLPVELQVAKARRVVDYQRLLDSYAQRRSAEPRNDLFSELVAAMAPGSGPLTVPERKALVNAMTGLIAAGHFTTTAMVGTGIYHLLHRRDQWELLCRRPDLVDNAIEELARFDMPLRGLMRRTTKNVVVSGVELPPGTEVMVAYQSANRDETVFPRADELDISREPTDHFGYGFGSRSCVGAALGRSIFRTTLRSLSRRLPGLWLATDEVRYLPGLHVIVRELPVSW",
+                    "annotation": "hypothetical protein",
+                    "aa_seq": "MGDSFAPFTEQDMYPLYARARVEEPVFYTPALDAWVVTRYADVRDVLGNPKAFSLATVPDSLAMLSPEAYAELAKTFAEVPVSIREDAVDEARKRVRAPILRAFSDETVRDMQEFITGQVEQLIDRFADRGHAELMAELARQLPVRVKAPVIGIDPADIDEFVQGTYDFMELHSVAAQLPVELQVAKARRVVDYQRLLDSYAQRRSAEPRNDLFSELVAAMAPGSGPLTVPERKALVNAMTGLIAAGHFTTTAMVGTGIYHLLHRRDQWELLCRRPDLVDNAIEELARFDMPLRGLMRRTTKNVVVSGVELPPGTEVMVAYQSANRDETVFPRADELDISREPTDHFGYGFGSRSCVGAALGRSIFRTTLRSLSRRLPGLWLATDEVRYLPGLHVIVRELPVSW",
                     "translation_from_gbk": true,
+                    "name": "B033_RS0101655",
                     "pfam_hits": [
                         {
                             "name": "p450",
                             "model_start": 229,
                             "model_end": 294,
-                            "seq_start": 210,
-                            "seq_end": 275,
-                            "bitscore": 8.0
+                            "seq_start": 202,
+                            "seq_end": 267,
+                            "bitscore": 8.1
                         },
                         {
                             "name": "p450",
                             "model_start": 323,
                             "model_end": 426,
-                            "seq_start": 286,
-                            "seq_end": 378,
+                            "seq_start": 278,
+                            "seq_end": 370,
                             "bitscore": 49.6
                         }
                     ]
@@ -853,16 +851,17 @@
                     "not_from_gbk": false,
                     "id": "B033_RS0101690",
                     "annotation": "antibiotic biosynthesis monooxygenase",
-                    "aa_seq": "MSDSIFRILLRMEIRPDRCREFEQTWLKVGSAVTNDPGNLAQWLLRGHAEENVYYIVSDWVDEPSFRRFENSPEHVEHRAHLHPFRLTGTMVTMESVYRLGGAAAPVA",
+                    "aa_seq": "MFRILLRMEIRPDRCREFEQTWLKVGSAVTNDPGNLAQWLLRGHAEENVYYIVSDWVDEPSFRRFENSPEHVEHRAHLHPFRLTGTMVTMESVYRLGGAAAPVA",
                     "translation_from_gbk": true,
+                    "name": "B033_RS0101690",
                     "pfam_hits": [
                         {
                             "name": "ABM",
-                            "model_start": 3,
+                            "model_start": 1,
                             "model_end": 74,
-                            "seq_start": 7,
-                            "seq_end": 77,
-                            "bitscore": 36.0
+                            "seq_start": 1,
+                            "seq_end": 73,
+                            "bitscore": 37.9
                         }
                     ]
                 },
@@ -903,6 +902,24 @@
                             "seq_start": 2,
                             "seq_end": 279,
                             "bitscore": 303.3
+                        }
+                    ]
+                },
+                {
+                    "name": "B033_RS0101630",
+                    "start_pos": 26394,
+                    "end_pos": 26765,
+                    "strand": null,
+                    "not_from_gbk": true,
+                    "aa_seq": "MDAVLRATGTVAGLPVVAAAMDFRFLGGSLESAVGEMLTRAAEVALRTRSPFVIFSASGGARMREDALALMQMAKPRIRLVGSRPHPAGWRPSVSPGERSPAWTPMPTPATGSRPATTRCWRS",
+                    "pfam_hits": [
+                        {
+                            "name": "Carboxyl_trans",
+                            "model_start": 46,
+                            "model_end": 121,
+                            "seq_start": 2,
+                            "seq_end": 75,
+                            "bitscore": 35.7
                         }
                     ]
                 }

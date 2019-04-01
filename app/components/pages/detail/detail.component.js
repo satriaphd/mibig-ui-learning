@@ -2,7 +2,9 @@ App.component('mibigDetail', {
     templateUrl: 'components/pages/detail/detail.template.html',
     bindings: {
         bgcAnnot: '<',
-        bgcSeq: '<'
+        bgcSeq: '<',
+        seqSchema: '<',
+        annotSchema: '<',
     },
     controller: function() {
         var ctrl = this;
@@ -11,6 +13,22 @@ App.component('mibigDetail', {
             ctrl.title = ctrl.bgcAnnot.general_params.mibig_accession;
             if (ctrl.bgcAnnot.general_params.compounds.length > 0) {
                 ctrl.title += ": " + ctrl.bgcAnnot.general_params.compounds.map(x=>x.compound).join("/");
+            }
+            // set validator
+            ajv = new Ajv();
+            let validate_seq = ajv.compile(ctrl.seqSchema);
+            ctrl.error_seq = [];
+            if (!validate_seq(ctrl.bgcSeq)) {
+                validate_seq.errors.forEach(function(err) {
+                    ctrl.error_annot.push(err.dataPath + ": " + err.message);
+                });
+            }
+            let validate_annot = ajv.compile(ctrl.annotSchema);
+            ctrl.error_annot = [];
+            if (!validate_annot(ctrl.bgcAnnot)) {
+                validate_annot.errors.forEach(function(err) {
+                    ctrl.error_annot.push(err.dataPath + ": " + err.message);
+                });
             }
             // build arrower svgs
             ctrl.arrower_jsons = [];

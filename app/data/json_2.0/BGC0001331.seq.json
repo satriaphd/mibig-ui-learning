@@ -1,8 +1,8 @@
 {
     "metadata": {
         "mibig_accession": "BGC0001331",
-        "source_datetime": "2019-03-28T16:15:46+01:00",
-        "created": "2019-03-30T00:04:58+01:00",
+        "source_datetime": "2019-04-01T00:52:06+02:00",
+        "created": "2019-04-01T11:03:37+02:00",
         "pfam_version": "32.0"
     },
     "loci": [
@@ -49,33 +49,34 @@
                     "strand": 1,
                     "not_from_gbk": false,
                     "id": "F583_RS01000000127200",
-                    "annotation": "TetR/AcrR family transcriptional regulator",
-                    "aa_seq": "MPLSLRQRNRMAAIRAIQDTAMELFDSRGFHNVTIDDIAREAAVSPSTFYRYFGSKEGLFTVDPFAAVGADGFDEVFDLDDLPGTMTRLAASAGDGGPWRGMRYVLEEPAVRAAVYATMDAMVERIAAALADRGHGPVPARVLARTYIFGVYFSALEQWHDDGRTRPIGEYAREALEAIPTEQRAAGPSAGP",
+                    "annotation": "hypothetical protein",
+                    "aa_seq": "MELFDSRGFHNVTIDDIAREAAVSPSTFYRYFGSKEGLFTVDPFAAVGADGFDEVFDLDDLPGTMTRLAASAGDGGPWRGMRYVLEEPAVRAAVYATMDAMVERIAAALADRGHGPVPARVLARTYIFGVYFSALEQWHDDGRTRPIGEYAREALEAIPTEQRAAGPSAGP",
                     "translation_from_gbk": true,
+                    "name": "F583_RS01000000127200",
                     "pfam_hits": [
                         {
                             "name": "TetR_N",
-                            "model_start": 3,
+                            "model_start": 6,
                             "model_end": 44,
-                            "seq_start": 19,
-                            "seq_end": 60,
-                            "bitscore": 64.7
+                            "seq_start": 1,
+                            "seq_end": 39,
+                            "bitscore": 58.4
                         },
                         {
                             "name": "TetR_N",
                             "model_start": 18,
                             "model_end": 27,
-                            "seq_start": 85,
-                            "seq_end": 94,
-                            "bitscore": -2.7
+                            "seq_start": 64,
+                            "seq_end": 73,
+                            "bitscore": -2.5
                         },
                         {
                             "name": "TetR_C_14",
                             "model_start": 27,
                             "model_end": 106,
-                            "seq_start": 100,
-                            "seq_end": 178,
-                            "bitscore": 24.9
+                            "seq_start": 79,
+                            "seq_end": 157,
+                            "bitscore": 25.3
                         }
                     ]
                 },
@@ -556,18 +557,28 @@
                     "not_from_gbk": false,
                     "id": "F583_RS0124880",
                     "annotation": "hypothetical protein",
-                    "aa_seq": "MTDGCPPATDCSAYRRPVGAVTGPGPGESRFQRAQTSNPASATPPRNGNRRSRAAIPAGRRAGSGHCGRRRRTGRPTGHRARAESTSPERKFDRMATDNSCAVIGSGLFGILAVRELTRRGSVVDWYSSDPEPGGIWQPMPWGKTRESTELVNPGWCIAPEYRTKPTVTVQEFRTLLKAWSDERADLQQRRFLTQVDRVVEHDSHVGVTTPHGETPYAFVVVATGHYGAPRIPADWTGDNCYHASTLRDLSGIQPHQSVLVVGGGQSGVEVCEEIIEERPDIRLSWCTGRKVRLISRHSPLAMLGTCVRYSTRGEAPRGFVITKSPSTVPARCTIMPTRVLQVDGERVEFSDGSVEKYDHIIAATGYASPVGLDFPAADPGRTKGMRLSPHRRIAALNYDGDGCGGASMRCARKQAAATGRLFADLRGRSSSV",
+                    "aa_seq": "MATDNSCAVIGSGLFGILAVRELTRRGSVVDWYSSDPEPGGIWQPMPWGKTRESTELVNPGWCIAPEYRTKPTVTVQEFRTLLKAWSDERADLQQRRFLTQVDRVVEHDSHVGVTTPHGETPYAFVVVATGHYGAPRIPADWTGDNCYHASTLRDLSGIQPHQSVLVVGGGQSGVEVCEEIIEERPDIRLSWCTGRKVRLISRHSPLAMLGTCVRYSTRGEAPRGFVITKSPSTVPARCTIMPTRVLQVDGERVEFSDGSVEKYDHIIAATGYASPVGLDFPAADPGRTKGMRLSPHRRIAALNYDGDGCGGASMRCARKQAAATGRLFADLRGRSSSV",
                     "translation_from_gbk": true,
+                    "name": "F583_RS0124880",
                     "pfam_hits": [
                         {
                             "name": "Pyr_redox_3",
                             "model_start": 102,
                             "model_end": 271,
-                            "seq_start": 194,
-                            "seq_end": 371,
-                            "bitscore": 48.4
+                            "seq_start": 100,
+                            "seq_end": 277,
+                            "bitscore": 49.3
                         }
                     ]
+                },
+                {
+                    "name": "F583_RS0124875",
+                    "start_pos": 44342,
+                    "end_pos": 44587,
+                    "strand": null,
+                    "not_from_gbk": true,
+                    "aa_seq": "MLGGRLGGRYGGVGRNDRTRLAVRPGSRPGCDGFRSAVVSPRQDLMSAPVGTVIHRGRGLSLLRQGGGMPNNPSRADNHRS",
+                    "pfam_hits": []
                 }
             ]
         }

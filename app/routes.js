@@ -25,8 +25,8 @@ App.config(
             url: '/browse',
             component: 'mibigBrowse',
             resolve: {
-                bgcData: ['$http', function($http) {
-                    return $http.get('data/mibig_v1_4.json').then(function(response){
+                data: ['$http', function($http) {
+                    return $http.get('data/json_2.0.browse.json').then(function(response){
                         return response.data;
                     });
                 }],
@@ -44,6 +44,16 @@ App.config(
                 }],
                 bgcSeq: ['$http', '$transition$', function($http, $transition$) {                    
                     return $http.get('data/json_2.0/' + $transition$.params().bgcId + '.seq.json').then(function(response) {
+                        return response.data;
+                    })
+                }],
+                seqSchema: ['$http', function($http) {                    
+                    return $http.get('data/mibig_seq_schema.json').then(function(response) {
+                        return response.data;
+                    })
+                }],
+                annotSchema: ['$http', function($http) {                    
+                    return $http.get('data/mibig_annot_schema.json').then(function(response) {
                         return response.data;
                     })
                 }],

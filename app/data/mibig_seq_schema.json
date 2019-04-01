@@ -1,0 +1,136 @@
+{
+  "title": "MIBiG Sequence Information JSON",
+  "description": "Schema for storing Sequence-level information and annotations for MIBiG -- tl&dr; a JSON-ified BGC GBKs",
+  "type": "object",
+  "required": [
+    "metadata",
+    "loci"
+  ],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": [
+        "mibig_accession",
+        "pfam_version",
+        "source_datetime",
+        "created"
+      ],
+      "properties": {
+        "mibig_accession": {
+          "type": "string"
+        },
+        "pfam_version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+$"
+        },
+        "source_datetime": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "created": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "loci": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "nucl_acc",
+          "start_pos",
+          "end_pos",
+          "seq"
+        ],
+        "properties": {
+          "nucl_acc": {
+            "type": "string"
+          },
+          "start_pos": {
+            "type": "integer"
+          },
+          "end_pos": {
+            "type": "integer"
+          },
+          "seq": {
+            "type": "string"
+          },
+          "genes": {
+            "type": "array",
+            "required": [
+              "start_pos",
+              "end_pos",
+              "strand",
+              "aa_seq"
+            ],
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "start_pos": {
+                  "type": "integer"
+                },
+                "end_pos": {
+                  "type": "integer"
+                },
+                "strand": {
+                  "type": "integer",
+                  "enum": [
+                    -1,
+                    0,
+                    1
+                  ]
+                },
+                "not_from_gbk": {},
+                "translation_from_gbk": {},
+                "aa_seq": {
+                  "type": "string"
+                },
+                "pfam_hits": {
+                  "type": "array",
+                  "required": [
+                    "name",
+                    "bitscore",
+                    "seq_start",
+                    "seq_end",
+                    "model_start",
+                    "model_end"
+                  ],
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "bitscore": {
+                        "type": "number"
+                      },
+                      "seq_start": {
+                        "type": "integer"
+                      },
+                      "seq_end": {
+                        "type": "integer"
+                      },
+                      "model_start": {
+                        "type": "integer"
+                      },
+                      "model_end": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

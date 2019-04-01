@@ -38,17 +38,40 @@
                 <h3>Compound {{$index + 1}}: {{compound.compound}}</h3>
                 <div ng-if="compound.chem_struct">
                     <mibig-smiles smiles="{{compound.chem_struct}}"></mibig-smiles>
+                    <br />
                 </div>
-                <div ng-if="compound.pubchem_id">
+                <div>
+                    Molecular Formula: {{compound.molecular_formula}}
+                </div>
+                <div ng-if="compound.mol_mass">
+                    Mass: {{compound.mol_mass}} nz
+                </div>
+                <div>
+                    Evidences:
+                    <ul>
+                        <li ng-repeat="ev in compound.evidence_struct">
+                            {{ev}}
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    Synonyms:
+                    <ul>
+                        <li ng-repeat="syn in compound.chem_synonyms">
+                            {{syn}}
+                        </li>
+                    </ul>
+                </div>
+                <div>
                     PubChem: {{compound.pubchem_id}}
                 </div>
-                <div ng-if="compound.chebi_id">
+                <div>
                     ChEBI: {{compound.chebi_id}}
                 </div>
-                <div ng-if="compound.chembl_id">
+                <div>
                     ChEMBL: {{compound.chembl_id}}
                 </div>
-                <div ng-if="compound.chemspider_id">
+                <div>
                     ChemSpider: {{compound.chemspider_id}}
                 </div>
             </li>
@@ -56,8 +79,33 @@
     </div>
     <div ng-class="$ctrl.page==3? '':'hidden'">
         <h3>Annotation</h3>
+        <div ng-if="$ctrl.error_annot.length < 1">
+            <span style="color: green;">
+                Annotation JSON is validated.
+            </span>
+        </div>
+        <div ng-else>
+            <div ng-repeat="message in $ctrl.error_annot">
+                <span style="color: red;">
+                    {{message}}
+                </span>
+            </div>
+        </div>
         <json-formatter json="$ctrl.bgcAnnot" open="1"></json-formatter>
         <h3>Sequence</h3>
+        <div ng-if="$ctrl.error_seq.length < 1">
+                <span style="color: green;">
+                    Sequence JSON is validated.
+                </span>
+        </div>
+        <div ng-else>
+            <div ng-repeat="message in $ctrl.error_seq">
+                <span style="color: red;">
+                    {{message}}
+                </span>
+            </div>
+        </div>
+    
         <json-formatter json="$ctrl.bgcSeq" open="1"></json-formatter>
     </div>
 </div>

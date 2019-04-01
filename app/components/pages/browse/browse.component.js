@@ -1,19 +1,20 @@
 App.component('mibigBrowse', {
     templateUrl: 'components/pages/browse/browse.template.html',
     bindings: {
-        bgcData: '<',
+        data: '<',
     },
     controller: function() {
-        var ctrl = this;
+        let ctrl = this;
         ctrl.$onInit = function() {
-            ctrl.bgcList = [];
-            if (ctrl.bgcData.hasOwnProperty("bgcs")) {
-                for (var accession in ctrl.bgcData.bgcs) {
-                    if (ctrl.bgcData.bgcs.hasOwnProperty(accession)) {
-                        ctrl.bgcList.push(ctrl.bgcData.bgcs[accession]);
-                    }
+            ctrl.table_data = [];
+            for (let key in ctrl.data) {
+                row = {}
+                row.id = key;
+                for (let prop in ctrl.data[key]) {
+                    row[prop] = ctrl.data[key][prop];
                 }
-            }
+                ctrl.table_data.push(row);
+            };
         }
     }
 })

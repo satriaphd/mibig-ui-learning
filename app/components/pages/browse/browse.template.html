@@ -7,10 +7,10 @@
     <div class="row">
         This repository contains all complete and partial entries as of August 6th, 2018.
         <br />
-        <table st-table="$ctrl.bgcList" class="table table-striped">
+        <table st-table="$ctrl.table_data" class="table table-striped">
             <thead>
                 <tr>
-                    <th st-sort="general_params.mibig_accession" st-sort-default="true" st-skip-natural="true">MIBiG accession</th>
+                    <th st-sort="id" st-sort-default="true" st-skip-natural="true">MIBiG accession</th>
                     <th>Full/partial MIBiG info</th>
                     <th>Main product</th>
                     <th>Biosynthetic class</th>
@@ -18,29 +18,31 @@
                 </tr>
             </thead>
             <tbody>
-            <tr ng-repeat="row in $ctrl.bgcList">
+            <tr ng-repeat="row in $ctrl.table_data">
                 <td>
-                    <a href="#!/detail/{{row.general_params.mibig_accession}}">{{row.general_params.mibig_accession}}</a>
+                    <a href="#!/detail/{{row.id}}">{{row.id}}</a>
                 </td>
                 <td>
-                    {{row.general_params.loci.complete === 'complete'?'Full':'Partial'}}
+                    {{row.minimal? 'Partial':'Full'}}
                 </td>
                 <td>
                     <ul>
-                        <li ng-repeat="compound in row.general_params.compounds">
-                            {{compound.compound}}
+                        <li ng-repeat="compound in row.products">
+                            {{compound}}
                         </li>
                     </ul>
                 </td>
                 <td>
-                    {{row.general_params.biosyn_class.join('/')}}
+                    <ul>
+                        <li ng-repeat="class in row.classes">
+                            {{class}}
+                        </li>
+                    </ul>
                 </td>
                 <td>
                     <ul>
-                        <li ng-repeat="nucl in row.general_params.loci.nucl_acc">
-                            <a href="https://www.ncbi.nlm.nih.gov/nuccore/{{nucl.Accession}}">
-                                {{nucl.Accession}}
-                            </a>
+                        <li ng-repeat="acc in row.loci">
+                            {{acc}}
                         </li>
                     </ul>
                 </td>
